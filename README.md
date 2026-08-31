@@ -43,6 +43,33 @@ Direct API sweeps, not scraping:
 
 Roles that close are marked `closed` rather than deleted, so you can see what moved.
 
+## Automatic daily refresh
+
+A GitHub Action runs [`refresh.py`](refresh.py) every day at 16:00 UTC (9am Pacific)
+and commits any change. GitHub Pages redeploys on its own, so the live page stays
+current without anyone touching it.
+
+Each run:
+
+1. Sweeps all 124 boards in [`sources.json`](sources.json) concurrently
+2. Appends genuinely new early-career postings to the matching section, date-tagged
+3. Tags roles that fell off their board as `closed` rather than deleting them
+4. Rewrites the refreshed-on stamp and role count, and logs the diff to [CHANGELOG.md](CHANGELOG.md)
+
+Safeguards, because an automated editor loose in a curated file is a bad idea:
+
+- **Append and tag only.** It never rewrites or deletes a curated row, so hand-written
+  notes, bold callouts, and section prose survive every run.
+- **Absence has to be provable.** A role is only marked closed if its board was fully
+  enumerated on that run. Workday is search-only and Oracle, Apple, and Amazon are not
+  swept, so rows from those are never auto-closed. That is 182 of the current rows.
+- **It refuses to edit** if more than 40% of boards failed, so a network blip cannot
+  mass-close the page.
+- **New rows are capped** at 40 per run.
+
+Run it yourself with `python3 refresh.py --dry-run` to see the diff without writing,
+or trigger the Action manually from the Actions tab.
+
 ## Contributing
 
 Found a dead link or a role that belongs here? Open an issue. Pull requests welcome.
