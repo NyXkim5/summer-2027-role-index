@@ -129,6 +129,27 @@ Staffing agencies, job aggregators, and agency-side recruiting roles are filtere
   an authenticated session and scraping them is against LinkedIn's terms, so this
   repo does not touch them. Only the public job endpoint is used.
 
+## Get notified when listings change
+
+The daily job cuts a **GitHub Release** whenever the index actually changes. The
+release note carries the new total, what was added, what closed, and a per-section
+breakdown. Two ways to receive it:
+
+- **Email.** Click **Watch → Custom → Releases** at the top of this repo. GitHub
+  emails you on each release. Unsubscribe any time from the same menu.
+- **Feed reader.** Subscribe to
+  [`releases.atom`](https://github.com/NyXkim5/summer-2027-role-index/releases.atom).
+  No account needed.
+
+Starring the repo does **not** subscribe you, and that is deliberate. This repo does
+not collect, store, or email anyone's address. GitHub's terms prohibit harvesting
+user emails from the API for unsolicited mail, and a star is not consent to be
+contacted, so notifications are opt-in through GitHub's own Watch setting. If you
+want a real mailing list later, that needs a proper subscribe-and-confirm flow, not
+a scraped stargazer list.
+
+Releases only fire on days something changed, so a quiet week means a quiet inbox.
+
 ## Contributing
 
 Found a dead link or a role that belongs here? Open an issue. Pull requests welcome.

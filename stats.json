@@ -1,0 +1,26 @@
+{
+ "date": "2026-08-31",
+ "total": 495,
+ "added": 1,
+ "closed": 0,
+ "pruned": 0,
+ "sections": {
+  "Big-name programs": 56,
+  "Defense & national security": 38,
+  "Frontier tech, energy & space": 32,
+  "AI research & residencies": 14,
+  "Product management": 39,
+  "Business, strategy & operations": 77,
+  "Analyst, strategy & quant": 38,
+  "Engineering at notable product companies": 21,
+  "Full-time & new grad": 49,
+  "Recruiting events & career fairs": 13,
+  "Deep sweep": 100,
+  "Documented no-whiteboard companies": 13,
+  "Trackers & tooling": 5
+ },
+ "added_list": [
+  "Stripe \u2014 Software Engineer, Intern (San Francisco, Seattle, New York City)"
+ ],
+ "closed_list": []
+}

@@ -48,16 +48,74 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit if the page changed
+        id: commit
         if: ${{ inputs.dry_run != true }}
         run: |
-          if [ -z "$(git status --porcelain index.html CHANGELOG.md)" ]; then
+          if [ -z "$(git status --porcelain index.html CHANGELOG.md stats.json)" ]; then
             echo "nothing changed, no commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html CHANGELOG.md
+          git add index.html CHANGELOG.md stats.json
           git commit -m "Daily refresh $(date -u +%Y-%m-%d)
 
           $(head -2 summary.txt | tail -1)"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A release is the only consent-respecting way to notify people. Anyone who
+      # chooses Watch -> Custom -> Releases gets an email from GitHub, and the
+      # releases.atom feed works for everyone else. No email addresses are ever
+      # collected, stored, or contacted by this repo.
+      - name: Write release notes
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          python3 - <<'PY' > notes.md
+          import json, datetime
+          s = json.load(open("stats.json"))
+          d = datetime.date.fromisoformat(s["date"]).strftime("%-d %B %Y")
+          print(f"**{s['total']} roles listed** as of {d}.\n")
+          bits = []
+          if s["added"]:
+              bits.append(f"{s['added']} added")
+          if s["closed"]:
+              bits.append(f"{s['closed']} marked closed")
+          if s["pruned"]:
+              bits.append(f"{s['pruned']} stale wide-net rows trimmed")
+          if bits:
+              print("Today: " + ", ".join(bits) + ".\n")
+          if s.get("added_list"):
+              print("### New today\n")
+              for a in s["added_list"][:25]:
+                  print(f"- {a}")
+              if s["added"] > 25:
+                  print(f"- ...and {s['added'] - 25} more, see the page")
+              print()
+          if s.get("closed_list"):
+              print("### Closed\n")
+              for c in s["closed_list"][:15]:
+                  print(f"- {c}")
+              print()
+          print("### Where things stand\n")
+          print("| Section | Roles |")
+          print("|---|---|")
+          for k, v in s["sections"].items():
+              print(f"| {k} | {v} |")
+          print("\n[Browse and filter the full index](https://nyxkim5.github.io/summer-2027-role-index/)")
+          PY
+          cat notes.md
+
+      - name: Publish release
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="listings-$(date -u +%Y-%m-%d)"
+          TOTAL=$(python3 -c "import json;print(json.load(open('stats.json'))['total'])")
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "$TOTAL roles" --notes-file notes.md
+          else
+            gh release create "$TAG" --title "$TOTAL roles" --notes-file notes.md
+          fi

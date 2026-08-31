@@ -2,6 +2,18 @@
 
 ## 2026-08-31
 
+Added 1:
+
+- Stripe — Software Engineer, Intern (San Francisco, Seattle, New York City)
+
+## 2026-08-31
+
+Added 1:
+
+- Zipline — Commercial Strategy & Operations Intern (Spring 2027) (Austin, Texas, USA; Houston, Texas, USA;)
+
+## 2026-08-31
+
 Trimmed 20 stale wide-net rows.
 
 ## 2026-08-31

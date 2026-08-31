@@ -569,8 +569,20 @@ def main():
         html, count=1,
     )
 
+    # Per-section counts, for the release note and the README badge.
+    stats = {"date": today.isoformat(), "total": count,
+             "added": len(added), "closed": len(closed), "pruned": pruned,
+             "sections": {}, "added_list": added[:40], "closed_list": closed[:40]}
+    for chunk in html.split("<h2>")[1:]:
+        head = chunk.split("</h2>")[0].split('<span class="n">')[0]
+        name = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", head)).strip()
+        name = name.replace("&amp;", "&")
+        stats["sections"][name] = chunk.count('<tr><td class="co">')
+
     if not added and not closed and not pruned:
         print("no change")
+        if not args.dry_run:
+            json.dump(stats, open(os.path.join(HERE, "stats.json"), "w"), indent=1)
         return 0
 
     print(f"+{len(added)} new, {len(closed)} closed, {count} rows total")
@@ -583,6 +595,7 @@ def main():
         return 0
 
     open(INDEX, "w").write(html)
+    json.dump(stats, open(os.path.join(HERE, "stats.json"), "w"), indent=1)
     entry = [f"## {today:%Y-%m-%d}", ""]
     if added:
         entry += [f"Added {len(added)}:", ""] + [f"- {a}" for a in added] + [""]
