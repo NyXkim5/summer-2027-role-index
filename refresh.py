@@ -249,6 +249,131 @@ def sweep(sources):
     return jobs, live, ok, enumerated
 
 
+DEEP_SECTION = "<h2>Deep sweep"
+
+# LinkedIn's logged-out job search. This is the same endpoint a signed-out
+# browser gets, so no account, cookie, or credential is involved. It reaches a
+# population the GitHub trackers do not index at all: rotational programs,
+# leadership development programs, graduate analyst schemes, and IB summer
+# analyst classes, none of which are "software engineering internships".
+LI_QUERIES = [
+    "Summer 2027 Internship", "2027 Analyst Program", "2027 Rotational Program",
+    "2027 Leadership Development Program", "Summer 2027 Product Management",
+    "2027 Business Analyst Intern", "Emerging Talent 2027", "New Grad 2027",
+]
+# Staffing shops and contract mills repost aggressively; they are noise here.
+LI_BLOCKLIST = re.compile(
+    r"staffing|recruit(ing|ment) (agency|solutions)|consultanc|technologies llc"
+    r"|talent (solutions|group)|placement|robert half|insight global|teksystems"
+    r"|apex systems|aerotek|randstad|kforce|collabera|intepros|diverse lynx"
+    r"|mindlance|cybercoders|jobot|motion recruitment"
+    # Aggregators that repost other companies' jobs under their own name.
+    r"|jobright|zip ?recruiter|lensa|talentify|dice\b|joblist|hiring ?cafe",
+    re.I,
+)
+# Agency-side roles: recruiting *for* other firms, not a job at a real employer.
+LI_TITLE_BLOCK = re.compile(
+    r"recruit(ment|ing)? consultant|staffing (specialist|coordinator)"
+    r"|talent acquisition (intern|associate|coordinator)|headhunt",
+    re.I,
+)
+
+
+def linkedin_guest(pages=3):
+    """Public logged-out LinkedIn job cards from the last week."""
+    import urllib.parse
+    out = {}
+    for q in LI_QUERIES:
+        for start in range(0, pages * 10, 10):
+            qs = urllib.parse.urlencode({
+                "keywords": q, "location": "United States",
+                "f_TPR": "r604800", "start": start,
+            })
+            url = ("https://www.linkedin.com/jobs-guest/jobs/api/"
+                   "seeMoreJobPostings/search?" + qs)
+            try:
+                raw = subprocess.run(
+                    ["curl", "-s", "-m", str(TIMEOUT), "-A", UA, url],
+                    capture_output=True, text=True).stdout
+            except OSError:
+                continue
+            for card in re.findall(r"<li>(.*?)</li>", raw, re.S):
+                title = re.search(r'base-search-card__title">\s*(.*?)\s*</h3>', card, re.S)
+                co = re.search(r'base-search-card__subtitle">.*?>\s*(.*?)\s*</a>', card, re.S)
+                loc = re.search(r'job-search-card__location">\s*(.*?)\s*</span>', card, re.S)
+                link = re.search(r'href="(https://www\.linkedin\.com/jobs/view/[^?"]+)', card)
+                when = re.search(r'datetime="([\d-]+)"', card)
+                if not (title and link and co):
+                    continue
+                clean = lambda s: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()
+                company = clean(co.group(1))
+                if LI_BLOCKLIST.search(company):
+                    continue
+                if LI_TITLE_BLOCK.search(clean(title.group(1))):
+                    continue
+                out[link.group(1)] = {
+                    "date": when.group(1) if when else "",
+                    "title": clean(title.group(1)),
+                    "loc": clean(loc.group(1)) if loc else "",
+                    "url": link.group(1), "company": company, "via": "LinkedIn",
+                }
+    return list(out.values())
+
+
+# Community trackers beyond SimplifyJobs. Markdown pipe tables, one row per job.
+TRACKERS = [
+    ("vanshb03/Summer2027-Internships", "dev"),
+    ("sndsh404/summer-2027-internships", "main"),
+    ("ApplyGuy/2027-New-Grad-Jobs", "main"),
+    ("RiverStream85/quant-internships-2027", "main"),
+]
+
+
+def community_trackers():
+    """Rows from community-maintained markdown trackers."""
+    out, last_co = [], ""
+    for repo, branch in TRACKERS:
+        url = f"https://raw.githubusercontent.com/{repo}/{branch}/README.md"
+        try:
+            md = subprocess.run(["curl", "-s", "-m", str(TIMEOUT), "-A", UA, url],
+                                capture_output=True, text=True).stdout
+        except OSError:
+            continue
+        if "|" not in md:
+            continue
+        for line in md.splitlines():
+            if not line.startswith("| ") or "---" in line:
+                continue
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if len(cells) < 3:
+                continue
+            strip_md = lambda s: re.sub(r"\[|\]|\*\*|\*", "",
+                                        re.sub(r"\((https?://[^)]*)\)", "", s)).strip()
+            company = strip_md(cells[0])
+            if company in ("↳", "->", ""):
+                company = last_co
+            else:
+                last_co = company
+            title = strip_md(cells[1])
+            loc = strip_md(cells[2]) if len(cells) > 2 else ""
+            link = re.search(r"\((https?://[^)\s]+)", line)
+            if not link or not company or not title:
+                continue
+            href = link.group(1)
+            if "simplify.jobs" in href or "utm_source" in href:
+                href = href.split("?")[0]
+            out.append({"date": "", "title": title, "loc": loc, "url": href,
+                        "company": company, "via": f"tracker: {repo.split('/')[0]}"})
+    return out
+
+
+def norm_key(company, title):
+    """Loose identity for a posting, to catch the same job seen on two sources."""
+    c = re.sub(r"[^a-z0-9]", "", (company or "").lower())[:10]
+    t = re.sub(r"[^a-z0-9]", "", (title or "").lower())[:36]
+    return c + "|" + t
+
+
 def existing_rows(html):
     """(company, title, url, whole row) for every row in the page."""
     pat = re.compile(
@@ -296,7 +421,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--max-new", type=int, default=40,
-                    help="cap rows added in one run, so a board glitch cannot flood the page")
+                    help="cap curated-section rows added in one run")
+    ap.add_argument("--max-deep", type=int, default=60,
+                    help="cap wide-net rows added in one run")
+    ap.add_argument("--no-deep", action="store_true",
+                    help="skip LinkedIn and community trackers, boards only")
     args = ap.parse_args()
 
     today = datetime.date.today()
@@ -355,11 +484,40 @@ def main():
         print(f"capping {len(fresh)} new rows at {args.max_new}")
         fresh = fresh[:args.max_new]
 
+    # --- 2b. wide net: LinkedIn logged-out search and community trackers ----
+    # These land in their own section. They are unvetted by design, so they must
+    # never dilute the hand-curated sections above.
+    deep = []
+    if not args.no_deep and DEEP_SECTION in html:
+        known_keys = {norm_key(co, ti) for co, ti, _, _ in rows}
+        wide = linkedin_guest() + community_trackers()
+        print(f"wide net: {len(wide)} postings from LinkedIn and community trackers")
+        for j in wide:
+            t = j["title"]
+            if not EARLY.search(t) or SENIOR.search(t) or JUNK.search(t):
+                continue
+            if j["loc"] and not US.search(j["loc"]):
+                continue
+            if ids_in(j["url"]) & known_ids:
+                continue
+            key = norm_key(j["company"], t)
+            if key in known_keys:
+                continue
+            known_keys.add(key)
+            known_ids |= ids_in(j["url"])
+            deep.append(j)
+        deep.sort(key=lambda j: j["date"], reverse=True)
+        if len(deep) > args.max_deep:
+            print(f"capping {len(deep)} wide-net rows at {args.max_deep}")
+            deep = deep[:args.max_deep]
+
     added = []
     by_section = {}
     for j in fresh:
         co = pretty(j["company"])
         by_section.setdefault(route(co, j["title"]), []).append((co, j))
+    for j in deep:
+        by_section.setdefault(DEEP_SECTION, []).append((j["company"], j))
 
     for heading, items in by_section.items():
         if heading not in html:
@@ -367,10 +525,15 @@ def main():
         insert = html.index("</table></div>", html.index(heading))
         block = ""
         for co, j in items:
-            date_tag = datetime.date.fromisoformat(j["date"]).strftime("%-d %b")
+            tags = ""
+            if j.get("date"):
+                stamp_tag = datetime.date.fromisoformat(j["date"]).strftime("%-d %b")
+                tags += f' <span class="tag new">{stamp_tag}</span>'
+            if j.get("via"):
+                tags += f' <span class="tag">via {esc(j["via"])}</span>'
             loc = esc(j["loc"][:60]) or "See posting"
             block += (f'<tr><td class="co">{esc(co)}</td>'
-                      f'<td>{esc(j["title"])} <span class="tag new">{date_tag}</span></td>'
+                      f'<td>{esc(j["title"])}{tags}</td>'
                       f'<td class="loc">{loc}</td>'
                       f'<td><a href="{j["url"]}">Apply</a></td></tr>\n')
             added.append(f"{co} — {j['title']} ({j['loc'][:40]})")

@@ -51,7 +51,7 @@ current without anyone touching it.
 
 Each run:
 
-1. Sweeps all 124 boards in [`sources.json`](sources.json) concurrently
+1. Sweeps all 124 boards in [`sources.json`](sources.json) concurrently, plus LinkedIn's public job endpoint and four community trackers
 2. Appends genuinely new early-career postings to the matching section, date-tagged
 3. Tags roles that fell off their board as `closed` rather than deleting them
 4. Rewrites the refreshed-on stamp and role count, and logs the diff to [CHANGELOG.md](CHANGELOG.md)
@@ -69,6 +69,40 @@ Safeguards, because an automated editor loose in a curated file is a bad idea:
 
 Run it yourself with `python3 refresh.py --dry-run` to see the diff without writing,
 or trigger the Action manually from the Actions tab.
+
+## Going deeper than the mainstream trackers
+
+The big repos all read the same five categories from the same ATS boards. Three
+extra sources are wired in here, chosen because they were actually testable:
+
+**LinkedIn's logged-out job search.** The `jobs-guest` endpoint is what LinkedIn
+serves a signed-out visitor, so no account, cookie, or credential is involved.
+It reaches a population no "software engineering internship" tracker indexes:
+rotational programs, leadership development programs, graduate analyst schemes,
+and investment banking summer analyst classes. On a single 7-day pull, 191 postings
+came back and 161 were from companies that appear nowhere else in this index.
+
+**Four community trackers** beyond SimplifyJobs: vanshb03, sndsh404, ApplyGuy, and
+RiverStream85 (quant-specific). vanshb03 alone carried ~220 companies this index
+did not have.
+
+**Recruiting events and career fairs**, as curated links rather than a scraped feed.
+
+Everything from the first two lands in its own **Deep sweep** section, tagged with
+where it came from, and never mixes into the hand-checked sections above it.
+Staffing agencies, job aggregators, and agency-side recruiting roles are filtered out.
+
+### What is deliberately not automated
+
+- **Company recruiting-event pages.** Checked Jane Street, Citadel, Optiver, IMC,
+  SIG, Two Sigma, HRT, DRW, Jump, Palantir, and Anduril. Every one renders its event
+  dates in JavaScript, so a static fetch returns an empty shell. A scraper here would
+  break constantly, so the events section links to the pages instead.
+- **Handshake.** Where most schools actually post their fairs and employer info
+  sessions, but it needs your own .edu login. Not automatable from a public repo.
+- **LinkedIn recruiter feed posts.** The "DM me for a referral" posts. These require
+  an authenticated session and scraping them is against LinkedIn's terms, so this
+  repo does not touch them. Only the public job endpoint is used.
 
 ## Contributing
 
