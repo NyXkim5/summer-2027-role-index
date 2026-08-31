@@ -424,6 +424,8 @@ def main():
                     help="cap curated-section rows added in one run")
     ap.add_argument("--max-deep", type=int, default=60,
                     help="cap wide-net rows added in one run")
+    ap.add_argument("--deep-keep", type=int, default=150,
+                    help="max rows kept in the wide-net section; oldest are trimmed")
     ap.add_argument("--no-deep", action="store_true",
                     help="skip LinkedIn and community trackers, boards only")
     args = ap.parse_args()
@@ -539,6 +541,25 @@ def main():
             added.append(f"{co} — {j['title']} ({j['loc'][:40]})")
         html = html[:insert] + block + html[insert:]
 
+    # --- 2c. keep the wide net from growing without bound -------------------
+    # LinkedIn returns a rotating slice, so without a cap this section would
+    # gain rows every single day forever. These are auto-generated and unvetted,
+    # so trimming the oldest is safe. Curated sections are never trimmed.
+    pruned = 0
+    if DEEP_SECTION in html:
+        start = html.index(DEEP_SECTION)
+        end = html.index("</table></div>", start)
+        body = html[start:end]
+        deep_rows = re.findall(r'<tr><td class="co">.*?</tr>\n?', body)
+        if len(deep_rows) > args.deep_keep:
+            drop = deep_rows[:len(deep_rows) - args.deep_keep]
+            new_body = body
+            for row in drop:
+                new_body = new_body.replace(row, "", 1)
+            html = html[:start] + new_body + html[end:]
+            pruned = len(drop)
+            print(f"pruned {pruned} oldest wide-net rows, keeping {args.deep_keep}")
+
     # --- 3. rewrite the refreshed-on line -----------------------------------
     count = html.count('<tr><td class="co">')
     stamp = f"{today:%-d %b %Y}"
@@ -548,7 +569,7 @@ def main():
         html, count=1,
     )
 
-    if not added and not closed:
+    if not added and not closed and not pruned:
         print("no change")
         return 0
 
@@ -567,6 +588,8 @@ def main():
         entry += [f"Added {len(added)}:", ""] + [f"- {a}" for a in added] + [""]
     if closed:
         entry += [f"Closed {len(closed)}:", ""] + [f"- {c}" for c in closed] + [""]
+    if pruned:
+        entry += [f"Trimmed {pruned} stale wide-net rows.", ""]
     old = open(CHANGELOG).read() if os.path.exists(CHANGELOG) else "# Changelog\n"
     head, _, rest = old.partition("\n")
     open(CHANGELOG, "w").write(head + "\n\n" + "\n".join(entry) + rest)

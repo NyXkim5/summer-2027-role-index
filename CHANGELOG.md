@@ -2,6 +2,75 @@
 
 ## 2026-08-31
 
+Trimmed 20 stale wide-net rows.
+
+## 2026-08-31
+
+Added 60:
+
+- Grant Thornton (US) — Financial Due Diligence Intern - Summer 2027 (Charlotte, NC)
+- Grant Thornton (US) — Tax Intern - Summer 2027 (Reno, NV)
+- Phillips Edison &amp; Company — Customer Experience Intern (Summer 2027) (Cincinnati, OH)
+- RTX — Leadership Development Program – Human Resources (Starts June 2027) (Hybrid) (Arlington, VA)
+- Boeing — LGO/Tauber Leadership Development Program – University of Michigan (Seattle, WA)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- Trane Technologies — 2027 Information Technology Intern (Minneapolis, MN)
+- Ameriprise Financial Services, LLC — Advice and Wealth Management Products and Business Solutions Intern (Minneapolis, MN)
+- Bellwether — Analyst, Equity (Campus Analyst Class 2027) (El Segundo, CA)
+- Legend Biotech — Finance Management, Leadership Development Program (Somerset, NJ)
+- NASA Jet Propulsion Laboratory — Business Analyst (APX intern) (Pasadena, CA)
+- SAP — SAP iXp Intern - SAP Business Network Supplier Enablement &amp; Transformation Specialist (Pittsburgh, PA)
+- Liberty University — ADS Apprentice (Lynchburg, VA)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- AB InBev APAC — 2023 SET(Sales Execellent Trainee) Summer Intern 채용 (Test) (Tower, MN)
+- Elire — Summer 2027 Inside Technical Sales Internship (Minneapolis, MN)
+- MEADOW ELECTRICAL LIMITED — Summer Intern - Summer 2027 (Livermore, CA)
+- Electrical Reliability Services, Inc. — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- Wells Fargo — 2027 Quantitative Analytics Program - Applied Computational Intelligence (ACI Masters) - Early Careers (Charlotte, NC)
+- Elixirr — Graduate Analyst (Dallas, TX)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Moore Colson — Tax Intern (Summer 2028) (Atlanta, GA)
+- Consigli Construction Co., Inc. — Special Projects Intern (Summer 2027) (Milford, MA)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- Delta Air Lines — Intern, Reservations (Spring 2027) (Atlanta, GA)
+- LyondellBasell — 2027 Digital Technology Intern (Houston, TX)
+- Honeywell Aerospace — Intern (Bachelor's) - Fall Co-Op (Phoenix, AZ)
+- Enterprise — Summer 2027 Management Trainee Intern (Kansas City, MO)
+- Consigli Construction Co., Inc. — Safety Intern (Summer 2027) (Milford, MA)
+- General Mills — Research &amp; Development Food Scientist - Campus Recruiting (Minneapolis, MN)
+- General Mills — Research &amp; Development Scientist, Pet Food - Campus Recruiting (Minneapolis, MN)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Houston) (Houston, TX)
+- KKR — 2027 Summer Analyst Program - Actuarial (Des Moines) (Des Moines, IA)
+- Boeing — Boeing Summer 2027 Internship Program (Paid) - Global Real Estate and Facilities &amp; Property Management (Everett, WA)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- International — Finance/Accounting Leadership Development Program Associate (Lisle, IL)
+- TotalEnergies — TotalEnergies Trading Graduate Program (Houston, TX)
+- ExxonMobil — Business &amp; Commercial Early Career Full-Time Opportunities (Spring, TX)
+- Principal Financial Group — Leadership Development Program Associate (Des Moines, IA)
+- UNIQLO — UNIQLO Management Candidate (UMC) - New Grad (New York, NY)
+- Terex Corporation — 2027 Genie Leadership Development Program (Moses Lake, WA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+
+## 2026-08-31
+
 Added 60:
 
 - TD — 2027 Summer Analyst - Operations and Business Services (New York City) (New York, NY)

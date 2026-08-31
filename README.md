@@ -65,7 +65,10 @@ Safeguards, because an automated editor loose in a curated file is a bad idea:
   swept, so rows from those are never auto-closed. That is 182 of the current rows.
 - **It refuses to edit** if more than 40% of boards failed, so a network blip cannot
   mass-close the page.
-- **New rows are capped** at 40 per run.
+- **New rows are capped** at 40 per run for curated sections, 60 for the wide net.
+- **The wide net self-trims.** LinkedIn returns a rotating slice, so that section
+  would otherwise grow every day forever. It is held at 150 rows, oldest dropped
+  first. Only auto-generated rows are ever trimmed; curated rows are never removed.
 
 Run it yourself with `python3 refresh.py --dry-run` to see the diff without writing,
 or trigger the Action manually from the Actions tab.
