@@ -7,8 +7,10 @@
   "andurilindustries",
   "anthropic",
   "appian",
+  "archer",
   "asana",
   "astranis",
+  "atomicmachines",
   "attentive",
   "braze",
   "chime",
@@ -29,11 +31,13 @@
   "gusto",
   "imc",
   "instacart",
+  "ionq",
   "ixllearning",
   "janestreet",
   "kairospower",
   "klaviyo",
   "komodohealth",
+  "lucidmotors",
   "lyft",
   "marqeta",
   "mercury",
@@ -41,11 +45,14 @@
   "mongodb",
   "muonspace",
   "nerostechnologies",
+  "oklo",
   "okta",
   "pinterest",
   "planetlabs",
   "primerai",
+  "psiquantum",
   "reddit",
+  "redwoodmaterials",
   "relativity",
   "riotgames",
   "robinhood",
@@ -53,6 +60,7 @@
   "rocketlab",
   "samsara",
   "scaleai",
+  "scoutmotors",
   "slingshotaerospace",
   "spacex",
   "stripe",
@@ -84,6 +92,7 @@
   "notion",
   "openai",
   "openevidence",
+  "pathos",
   "perplexity",
   "physicalintelligence",
   "picogrid",
@@ -244,6 +253,102 @@
    "disney.wd5.myworkdayjobs.com",
    "disney",
    "disneycareerdc"
+  ],
+  [
+   "GE Aerospace",
+   "geaerospace.wd5.myworkdayjobs.com",
+   "geaerospace",
+   "ge_externalsite"
+  ],
+  [
+   "GE Vernova",
+   "gevernova.wd5.myworkdayjobs.com",
+   "gevernova",
+   "vernova_externalsite"
+  ],
+  [
+   "HNTB",
+   "hntb.wd5.myworkdayjobs.com",
+   "hntb",
+   "hntb_university_careers"
+  ],
+  [
+   "Parsons",
+   "parsons.wd5.myworkdayjobs.com",
+   "parsons",
+   "Search"
+  ],
+  [
+   "General Motors",
+   "generalmotors.wd5.myworkdayjobs.com",
+   "generalmotors",
+   "Careers_GM"
+  ],
+  [
+   "Stryker",
+   "stryker.wd1.myworkdayjobs.com",
+   "stryker",
+   "StrykerCareers"
+  ],
+  [
+   "Medtronic",
+   "medtronic.wd1.myworkdayjobs.com",
+   "medtronic",
+   "medtroniccareers"
+  ],
+  [
+   "Oshkosh",
+   "oshkoshcorporation.wd5.myworkdayjobs.com",
+   "oshkoshcorporation",
+   "Oshkosh"
+  ],
+  [
+   "Brunswick",
+   "brunswick.wd1.myworkdayjobs.com",
+   "brunswick",
+   "search"
+  ],
+  [
+   "Motorola Solutions",
+   "motorolasolutions.wd5.myworkdayjobs.com",
+   "motorolasolutions",
+   "Careers"
+  ],
+  [
+   "Teledyne FLIR",
+   "flir.wd1.myworkdayjobs.com",
+   "flir",
+   "flircareers"
+  ],
+  [
+   "Ciena",
+   "ciena.wd5.myworkdayjobs.com",
+   "ciena",
+   "Careers"
+  ],
+  [
+   "Caterpillar Solar Turbines",
+   "cat.wd5.myworkdayjobs.com",
+   "cat",
+   "SolarTurbines"
+  ],
+  [
+   "Ameren",
+   "ameren.wd1.myworkdayjobs.com",
+   "ameren",
+   "External"
+  ],
+  [
+   "Air Products",
+   "airproducts.wd5.myworkdayjobs.com",
+   "airproducts",
+   "AP0001"
+  ],
+  [
+   "Micron",
+   "micron.wd1.myworkdayjobs.com",
+   "micron",
+   "External"
   ]
  ]
 }

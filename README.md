@@ -43,6 +43,35 @@ Direct API sweeps, not scraping:
 
 Roles that close are marked `closed` rather than deleted, so you can see what moved.
 
+## Beyond software: all engineering disciplines
+
+Sources now cover **149 boards** including mechanical, aerospace, civil, hardware,
+chemical, and energy employers, not just software and finance. Filter chips added
+for **Mech / Aero**, **Civil / Struct**, **Chemical / Bio**, and **Energy / Nuclear**
+alongside the existing ones.
+
+Honest caveat on coverage: civil and chemical are still the thinnest tracks here.
+The large AEC firms (AECOM, Jacobs, Kiewit, Fluor, Stantec, WSP) do not expose an
+enumerable public job API the way Greenhouse and Ashby employers do, so they cannot
+be swept automatically. HNTB and Parsons are in. For civil specifically, your school's
+career centre and the ASCE job board will still beat this index.
+
+## Two sections for candidates, not just listings
+
+**Build something that gets you the interview.** Project briefs by track, from SWE
+and ML through mechanical, civil, hardware, chemical, and defense. Each one is
+chosen because it gives an interviewer somewhere to dig. The pattern behind all of
+them: ship the thing, then publish where it broke.
+
+**Getting seen.** Outreach and timing, ordered by how much each actually moves the
+odds. Apply inside 72 hours, find the university recruiter rather than the hiring
+manager, lead with the artifact instead of the resume, and make yourself findable in
+reverse. Includes what not to do, because mass-mailing recruiters at one company
+reads exactly as it is.
+
+Both sections are excluded from the role count and from field filters, but search
+still reaches them.
+
 ## Search and filters
 
 The page has a sticky filter bar with a live search box and chip filters for

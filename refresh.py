@@ -78,6 +78,9 @@ ROUTES = [
      r"palantir|anduril|booz|caci|leidos|northrop|rtx|raytheon|l3harris|lockheed"
      r"|general dynamics|shield ai|skydio|saronic|neros|true anomaly|castelion"
      r"|hadrian|vannevar|govini|epirus|boeing|sierra nevada", None),
+    ("<h2>Engineering at notable product companies</h2>", None,
+     r"civil engineer|structural engineer|geotechnical|transportation engineer"
+     r"|construction (engineer|management)|surveying|water resources|environmental engineer"),
     ("<h2>Frontier tech, energy &amp; space",
      r"spacex|zipline|rocket lab|kairos|base power|nuclear|astranis|planet"
      r"|relativity|firefly|stoke|muon|umbra|capella|impulse|varda|applied intuition"
@@ -422,6 +425,9 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--max-new", type=int, default=40,
                     help="cap curated-section rows added in one run")
+    ap.add_argument("--since-days", type=int, default=4,
+                    help="how far back a posting can be and still count as new; "
+                         "raise it once after adding boards to backfill their backlog")
     ap.add_argument("--max-deep", type=int, default=60,
                     help="cap wide-net rows added in one run")
     ap.add_argument("--deep-keep", type=int, default=150,
@@ -466,7 +472,7 @@ def main():
         closed.append(f"{co} — {title}")
 
     # --- 2. append genuinely new early-career postings ----------------------
-    cutoff = (today - datetime.timedelta(days=4)).isoformat()
+    cutoff = (today - datetime.timedelta(days=args.since_days)).isoformat()
     fresh = []
     for j in jobs:
         if not j["date"] or j["date"] < cutoff:
@@ -560,8 +566,21 @@ def main():
             pruned = len(drop)
             print(f"pruned {pruned} oldest wide-net rows, keeping {args.deep_keep}")
 
+    # Advice and reference sections carry rows too, but they are not roles and
+    # must not inflate the headline count.
+    # Excluded from the headline count: advice and reference sections, plus the
+    # wide net, which is unvetted leads rather than checked roles.
+    INFO_SECTION = re.compile(
+        r"Recruiting events|no-whiteboard|Trackers &|Build something|Getting seen|Deep sweep",
+        re.I)
+
     # --- 3. rewrite the refreshed-on line -----------------------------------
-    count = html.count('<tr><td class="co">')
+    count = 0
+    for chunk in html.split("<h2>")[1:]:
+        head = chunk.split("</h2>")[0]
+        if INFO_SECTION.search(re.sub(r"<[^>]+>", "", head)):
+            continue
+        count += chunk.count('<tr><td class="co">')
     stamp = f"{today:%-d %b %Y}"
     html = re.sub(
         r'<span id="refreshed">.*?</span>',
