@@ -73,8 +73,12 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         run: |
           python3 - <<'PY' > notes.md
-          import json, datetime
+          import json, datetime, html as _h
           s = json.load(open("stats.json"))
+          unesc = lambda x: _h.unescape(x)
+          s["added_list"] = [unesc(a) for a in s.get("added_list", [])]
+          s["closed_list"] = [unesc(c) for c in s.get("closed_list", [])]
+          s["sections"] = {unesc(k): v for k, v in s["sections"].items()}
           d = datetime.date.fromisoformat(s["date"]).strftime("%-d %B %Y")
           print(f"**{s['total']} roles listed** as of {d}.\n")
           bits = []
