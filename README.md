@@ -43,6 +43,28 @@ Direct API sweeps, not scraping:
 
 Roles that close are marked `closed` rather than deleted, so you can see what moved.
 
+## Search and filters
+
+The page has a sticky filter bar with a live search box and chip filters for
+**field** (Software, Data/AI/ML, Product/Design, Business/Ops, Finance, Quant,
+Hardware/EE, Mech/Aero, Policy/Legal), **term** (Summer 2027, Spring 2027,
+Fall 2026), **type** (internship vs new grad), and a **hide closed** toggle.
+Filters stack, each chip shows how many rows it matches, and the live count
+reads "126 of 462".
+
+Two things worth knowing:
+
+- **Field is inferred from the role title**, not declared by the employer. There is
+  no major field in any of these job feeds. A "Business Analyst, Data Platform"
+  can land under both Business and Data, which is usually what you want, but it
+  is a heuristic rather than ground truth.
+- **Filter state lives in the URL**, so a filtered view is a shareable link. Send
+  someone `#field=finance&type=intern` and they land on exactly that view.
+
+The UI derives every filter from row text at load time, so it knows nothing about
+the refresh script and the refresh script knows nothing about it. Rows added by
+tomorrow's automated run are filterable with no coordination between the two.
+
 ## Automatic daily refresh
 
 A GitHub Action runs [`refresh.py`](refresh.py) every day at 16:00 UTC (9am Pacific)
