@@ -1,5 +1,81 @@
 # Changelog
 
+## 2026-09-01
+
+Added 64:
+
+- Sierra — Intern, Agent Development (Winter 2027) (San Francisco, CA)
+- Sierra — APX (New Grad 2027) (San Francisco, CA)
+- Shield AI — Summer 2027 - Electrical Engineering Intern (Dallas, Texas)
+- Shield AI — Summer 2027 - Electrical Engineering Co-op (June 2027) (Dallas, Texas)
+- Starr — 2027 Starr Summer Intern - Chicago (Chicago, IL)
+- Allianz Life — Summer 2027 Actuarial Internship | Fully Onsite (Minneapolis, MN)
+- Starr — 2027 Starr Summer Intern - Atlanta (Atlanta, GA)
+- United Airlines — Intern - Menu Design (Summer 2027) (Chicago, IL)
+- Textron — 2027 Internship - Customer Accounts (Independence, KS) (Independence, KS)
+- Bank of America — Global Operations Summer Analyst Program - 2027 (Greater Phoenix Area)
+- United Airlines — Intern - Tech Ops Strategy &amp; Performance (Summer 2027) (Chicago, IL)
+- POET — Business Support Analyst Intern - Summer 2027 (Wichita, KS)
+- Wells Fargo — 2027 Corporate Risk Development Program Analyst (Core Risk) - Early Careers (Charlotte, NC)
+- AIG — 2027 Early Careers: Analyst, Technology – United States, Charlotte, NC &amp; Houston, TX (Charlotte, NC)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- AIG — 2027 Early Careers: Analyst, Finance– United States, New York, NY (New York, NY)
+- AIG — 2027 Early Careers: Analyst, Actuarial – United States, New York City (New York, NY)
+- Southern Glazer's Wine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- Eaton — Early Career Leadership Development Program: Accounting &amp; Finance (Beachwood, OH)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- American Express — Campus Graduate Masters Summer Internship Program - 2027 Product Management, Global Merchant &amp; Network Services - New York, NY (New York, NY)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- The Depository Trust &amp; Clearing Corporation (DTCC) — Business Systems Intern [2027 Intern Program] (Jersey City, NJ)
+- PwC — Market Information and Data Analytics (MIDA) - Business Analytics - Intern - Summer 2027 (New York, NY)
+- Plante Moran — 2027 Digital Transformation Services Consulting Intern (Grandview Heights, OH)
+- IBM — Federal Package Consulting Intern - Oracle 2027 (Herndon, VA)
+- IBM — Quote to Cash Intern 2027 (Armonk, NY)
+- AIG — 2027 Early Careers: Analyst, Underwriting – United States, Multiple Locations (New York, NY)
+- GlobalFoundries — Talent Accelerator Program (2027 New College Graduate) (Austin, TX)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Construction – Houston, TX (Houston, TX)
+- General Motors — 2027 Summer Intern - Global Workplace Safety (Warren, MI)
+- Macquarie Group — 2027 Macquarie Capital Graduate Program - Consumer, Gaming and Leisure (Los Angeles, CA)
+- PENNYMAC — Pennymac Corporate University Rotational Program (Fort Worth, TX)
+- Aurora Energy Research — 2027 Graduate Analyst Program (Austin) (Austin, TX)
+- General Motors — Entry-Level Finance Controllership Rotational Program (Warren, MI)
+- IGS Energy — Business Analyst Intern (Summer 2027) (Ohio, United States)
+- Workiva — Spring 2027 Intern - Business Systems (United States)
+- Smart Data Solutions — Implementation Analyst, Intern (Plano, TX)
+- Trane Technologies — 2027 Information Technology Intern (La Crosse, WI)
+- Safelite — Finance Global Early Career Professional (Columbus, OH)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- Applied Materials — Summer 2027 Supply Chain Buyer Intern- Bachelor's (Gloucester, MA) (Gloucester, MA)
+- MEADOW ELECTRICAL LIMITED — Summer Intern - Summer 2027 (San Carlos, CA)
+- Citi — Banking - Capital Markets, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+
+Closed 2:
+
+- Dedalus Labs — Growth Intern
+- Saronic — Junior Technical Writer, Composites
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-08-31
 
 Added 21:
