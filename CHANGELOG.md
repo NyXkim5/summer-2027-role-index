@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-09-02
+
+Added 65:
+
+- Roblox — [2027] Associate Product Designer, Early Career (San Mateo, CA, United States)
+- Roblox — [Summer 2027] Product Design Intern (San Mateo, CA, United States)
+- Roblox — [Summer 2027] Product Management Intern (San Mateo, CA, United States)
+- Applied Intuition — Cybersecurity Software Engineer - New Grad (December 2027) (Sunnyvale)
+- Applied Intuition — Forward Deployed Engineer - New Grad (December 2026) (Sunnyvale)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- D.A. Davidson Companies — Consumer Group, Investment Banking – Summer Analyst – 2028 Grads (Irvine, CA)
+- Plante Moran — 2027 Summer Real Estate Valuation Intern (Chicago, IL)
+- Truist — 2027 Truist Securities - Investment Banking - Summer Analyst Program (Internship) - Atlanta (Atlanta, GA)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Old Mission — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- Macquarie Group — 2027 Macquarie Capital Graduate Program - New York (New York City Metropolitan Area)
+- Women of the Vine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Sturgis, MI)
+- American Express — Campus Undergraduate Full-Time Associate - 2027 Digital Product Management, Enterprise Technology Services- New York, NY (New York, NY)
+- Liminal — Product Management Apprentice (Boston, MA)
+- Roblox — [Summer 2027] Product Management Intern (San Mateo, CA)
+- PepsiCo — 2027 Summer Intern: Technology Business Analyst &amp; Project Coordination (Plano, TX)
+- IAT Insurance Group — Business Analyst Internship (Kansas City, MO)
+- PepsiCo — 2027 Summer Intern: Technology Cyber Security (Plano, TX)
+- L3Harris Technologies — IT Business Analysis Intern (Rochester, NY)
+- GLC Advisors &amp; Co., LLC — Class of 2027 Full Time Analyst (Denver, CO)
+- Nutrien — Students and New Grad Opportunities - Corporate USA (South Deerfield, MA)
+- Lockton — Summer 2027 Internship - Minneapolis (Minneapolis, MN)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- PKF O'Connor Davies — Transaction Advisory Services Intern (Summer 2027) - New York City (New York, NY)
+- Lockton — Summer 2027 Internship - Kansas City (Kansas City, MO)
+- Knutson Construction Services — Safety Intern - Summer 2027 (Minneapolis, MN)
+- Knutson Construction Services — VDC Intern - Summer 2027 (Minneapolis, MN)
+- Alfa Laval — Career Pathways Program Associate (2027-2028 Cohort) (Kenosha, WI)
+- Johnson &amp; Johnson — 2027 MBA Finance Leadership Development Program (MBA FLDP) - Full Time (New Brunswick, NJ)
+- Textron — 2027 Entry Level - Sales Development Program (Wichita, KS)
+- IBM — Entry-Level Product Manager | Infrastructure Growth &amp; Innovation - Austin, TX - 2027 (Austin, TX)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- TD — 2027 Summer Internship Program - Commercial Banking (Mount Laurel, NJ)
+- PwC — Strategy&amp; Strategy Consulting Intern - Summer 2027 (Philadelphia, PA)
+- Textron — 2027 Internship - Information Technology (Business Analyst) (Wichita, KS)
+- Tencent — AI Business Analyst Intern (Palo Alto, CA)
+- US Foods — Intern – Data Advisory Analyst (Hybrid: Onsite &amp; Remote) (Rosemont, IL)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Aviation – United States, Chicago, IL (Chicago, IL)
+- CAS — CAS 2027 AI Workplace Productivity Summer Intern (Columbus, OH)
+- Rockwell Automation — Lifecycle Services Leadership Development Program: Professional Services - January 2027 Start (Cleveland, OH)
+- RTX — Leadership Development Program – Human Resources (Starts June 2027) (Hybrid) (Arlington, VA)
+- Grant Thornton (US) — Finance Transformation Intern - Summer 2027 (Charlotte, NC)
+- NASA Jet Propulsion Laboratory — Business Analyst (APX intern) (Pasadena, CA)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- TD — 2027 Early Talent Program - Global Technology &amp; Solutions (Intern Conversion) (Mount Laurel, NJ)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- Elixirr — Graduate Analyst (Dallas, TX)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Moore Colson — Tax Intern (Summer 2028) (Atlanta, GA)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Analyst - Healthcare (New York, NY)
+- Financial Technology Partners / FT Partners — 2027 January IBD Full Time Analyst (San Francisco) (San Francisco, CA)
+- Nordson Corporation — Finance Leadership Development Program (Westlake, OH)
+- RTX — Leadership Development Program - Business Development (Onsite ) (June 2027) (Arlington, VA)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- John Hancock — Summer Intern 2027 - Business Technology (Boston, MA)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- Delta Air Lines — Intern, Reservations (Spring 2027) (Atlanta, GA)
+- LyondellBasell — 2027 Digital Technology Intern (Houston, TX)
+- HNTB — Intern Planner - Summer 2027 (Overland Park, KS)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+
+Closed 10:
+
+- SpaceX — Apprentice Instrumentation Fitter - 2nd Shift 5 Aug
+- Astranis — Technical Project Management Intern (Fall 2026) 1 Jul
+- Base Power — Apprentice Electrician (Austin) 15 Jun
+- Anduril — Deployment Coordination Analyst
+- Roblox — Strategic Financial Analyst, Revenue
+- Cloudflare — Marketing Campaigns &amp; ABM Intern, Fall 2026
+- OpenAI — Account Associate, EMEA Aug 31
+- Abridge — Software Engineer, Early Career health AI Aug 26
+- Scale AI — ICML 2026 - University Recruiting 26 Jun
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-01
 
 Added 64:
