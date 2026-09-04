@@ -242,9 +242,28 @@ describe('row status', () => {
     expect(dismissBtn.getAttribute('aria-pressed')).toBe('false')
     expect(reloaded.tr.classList.contains('hidden')).toBe(false)
     const shown = countText()
-    // The dismissed row was always part of the denominator; only whether it
+    // The dismissed row was always part of the denominator. Only whether it
     // is counted as shown changes.
     expect(shown.total).toBe(hidden.total)
     expect(shown.shown).toBe(hidden.shown + 1)
+  })
+
+  it('keeps Hide dismissed pressed and the dismissed row hidden after Reset', () => {
+    clearStorage()
+    renderPage(null)
+    const target = firstRealRow(document)
+    globalThis.S27.Status.set(target, 'dismissed')
+
+    renderPage(null)
+    const dismissBtn = Array.from(document.querySelectorAll('.chip')).find(
+      (c) => c.textContent === 'Hide dismissed'
+    )
+    const reloaded = firstRealRow(document)
+    expect(reloaded.tr.classList.contains('hidden')).toBe(true)
+
+    document.getElementById('fclear').click()
+
+    expect(dismissBtn.getAttribute('aria-pressed')).toBe('true')
+    expect(reloaded.tr.classList.contains('hidden')).toBe(true)
   })
 })
