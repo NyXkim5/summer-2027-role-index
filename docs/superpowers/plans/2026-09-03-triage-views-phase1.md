@@ -1114,7 +1114,7 @@ The feature that makes the second visit different from the first.
 - Create: `app/status.js`
 - Create: `app/status.test.js`
 - Modify: `app/app.css`
-- Modify: `index.html` (add the script tag)
+- Modify: `index.html` (add `<script src="app/status.js"></script>` immediately before the `app/browse.js` tag)
 
 **Interfaces:**
 - Consumes: `S27.Store`, row records from `S27.RowIndex`.
@@ -1394,7 +1394,7 @@ Twenty seconds of input that collapses 528 rows to a readable set.
 - Create: `app/onboard.js`
 - Create: `app/onboard.test.js`
 - Modify: `app/app.css`
-- Modify: `index.html` (add the script tag)
+- Modify: `index.html` (add `<script src="app/onboard.js"></script>` immediately before the `app/browse.js` tag)
 
 **Interfaces:**
 - Consumes: `S27.Store.getProfile()` and `setProfile(p)`, `S27.RowIndex.FIELDS`, `TERMS`, `TYPES`.
@@ -1911,18 +1911,18 @@ In `index.html`, add a mount point immediately after the `<p class="sub">` line:
 <div id="triage"></div>
 ```
 
-Add the new script tags before `app/browse.js`, so the full list reads store,
-rowindex, match, status, onboard, today, boot, browse. The order is load
-bearing. `today.js` reads `RowIndex.FIELDS` at load time, and `browse.js` stays
-last because it walks the DOM immediately while `boot.js` waits for
-`DOMContentLoaded`.
+Tasks 6 and 7 already added the `status.js` and `onboard.js` tags. Add only the
+remaining two, immediately before `app/browse.js`:
 
 ```html
-<script src="app/status.js"></script>
-<script src="app/onboard.js"></script>
 <script src="app/today.js"></script>
 <script src="app/boot.js"></script>
 ```
+
+The full list must now read store, rowindex, match, status, onboard, today,
+boot, browse. The order is load bearing. `today.js` reads `RowIndex.FIELDS` at
+load time, and `browse.js` stays last because it walks the DOM immediately while
+`boot.js` waits for `DOMContentLoaded`. Verify the order before moving on.
 
 Create `app/boot.js`:
 
@@ -2219,7 +2219,7 @@ def test_board_token_returns_none_for_a_board_we_cannot_enumerate():
 - [ ] **Step 2: Run the tests**
 
 Run: `python3 -m pytest test_refresh.py -v`
-Expected: PASS, 15 tests. If one fails, `refresh.py` has drifted from the table
+Expected: PASS, 21 tests, which is the 4 from Task 9 plus 17 parametrized cases here. If one fails, `refresh.py` has drifted from the table
 above. Report which, and change the test to match the code. Do not change
 `refresh.py` in this task.
 
