@@ -40,6 +40,16 @@ describe('hard excludes', () => {
     const r = Match.score(row({ types: ['newgrad'] }), { types: ['intern', 'newgrad'] }, TODAY)
     expect(r.excluded).toBe(null)
   })
+
+  it('does not exclude a row that carries no type signal at all', () => {
+    const r = Match.score(row({ types: [], fields: ['swe'] }), { types: ['intern'], fields: ['swe'] }, TODAY)
+    expect(r.excluded).toBe(null)
+  })
+
+  it('scores nothing and excludes nothing when there is no profile yet', () => {
+    const r = Match.score(row({ fields: ['swe'] }), null, TODAY)
+    expect(r).toEqual({ score: 0, excluded: null, reasons: [] })
+  })
 })
 
 describe('ranking', () => {
@@ -62,6 +72,22 @@ describe('ranking', () => {
   it('adds nothing for a posting older than the freshness window', () => {
     const r = Match.score(row({ date: '2026-08-20', deep: true }), { fields: [] }, TODAY)
     expect(r.score).toBe(0)
+  })
+
+  it('counts a posting made exactly FRESH_DAYS ago as still fresh', () => {
+    const r = Match.score(row({ date: '2026-08-27', deep: true }), { fields: [] }, TODAY)
+    expect(r.score).toBe(2)
+  })
+
+  it('counts a posting one day past the window as no longer fresh', () => {
+    const r = Match.score(row({ date: '2026-08-26', deep: true }), { fields: [] }, TODAY)
+    expect(r.score).toBe(0)
+  })
+
+  it('does not treat a future dated row as fresh', () => {
+    const r = Match.score(row({ date: '2026-09-10', deep: true }), { fields: [] }, TODAY)
+    expect(r.score).toBe(0)
+    expect(Match.daysOld('2026-09-10', TODAY)).toBe(-7)
   })
 
   it('adds one point for a hand-checked section over the wide net', () => {
