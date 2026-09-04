@@ -72,6 +72,19 @@ describe('index.html', () => {
     ])
   })
 
+  it('places the triage mount before the filter bar in document order', () => {
+    // Presence alone passed while the order was wrong: browse.js used to
+    // anchor its insertBefore on .sub, which put the filter bar ahead of the
+    // (empty, not-yet-populated) #triage mount. Checking document order,
+    // not just that both elements exist, is what actually catches that.
+    const mount = document.getElementById('triage')
+    const bar = document.querySelector('.filters')
+    expect(mount).not.toBeNull()
+    expect(bar).not.toBeNull()
+    const position = mount.compareDocumentPosition(bar)
+    expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  })
+
   it('renders the filter bar with Field, Term, Type, and Status groups', () => {
     const labels = Array.from(document.querySelectorAll('.flabel')).map((el) => el.textContent)
     expect(labels).toEqual(expect.arrayContaining(['Field', 'Term', 'Type', 'Status']))

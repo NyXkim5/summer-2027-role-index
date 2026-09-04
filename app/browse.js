@@ -141,8 +141,13 @@
 
   bar.appendChild(openWrap);
 
+  // The triage mount sits directly after the subhead, so anchoring on it keeps
+  // the profile strip and the Today list above the filters. Fall back to the
+  // subhead when the mount is absent, which is how the older tests load.
   var sub = document.querySelector('.sub');
-  sub.parentNode.insertBefore(bar, sub.nextSibling);
+  var mount = document.getElementById('triage');
+  var anchor = mount || sub;
+  anchor.parentNode.insertBefore(bar, anchor.nextSibling);
 
   noResEl = document.createElement('p');
   noResEl.className = 'noresult hidden';
