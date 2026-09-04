@@ -31,6 +31,14 @@ describe('corrupt data', () => {
     expect(globalThis.localStorage.getItem(Store.BAK)).toBe('{not json')
     expect(Store.isDegraded()).toBe(true)
   })
+
+  it('backs up a record from an unknown schema version before discarding it', () => {
+    const old = JSON.stringify({ v: 99, status: { a: { s: 'applied' } } })
+    globalThis.localStorage.setItem(Store.KEY, old)
+    Store.reset()
+    expect(Store.load().status).toEqual({})
+    expect(globalThis.localStorage.getItem(Store.BAK)).toBe(old)
+  })
 })
 
 describe('migrate', () => {

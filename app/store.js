@@ -42,7 +42,16 @@
       return memory;
     }
     try {
-      memory = migrate(JSON.parse(raw));
+      var parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object' || parsed.v !== VERSION) {
+        // Never discard a reader's history without a copy. migrate() is
+        // about to drop this record because its schema version does not
+        // match, so back the raw string up first, the same as the corrupt
+        // JSON path below.
+        try { root.localStorage.setItem(BAK, raw); } catch (e2) {}
+        degraded = true;
+      }
+      memory = migrate(parsed);
     } catch (e) {
       // Never discard a reader's history without a copy. Keep the bad string
       // so it can be recovered by hand, then start clean.
