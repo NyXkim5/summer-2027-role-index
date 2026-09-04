@@ -1,5 +1,87 @@
 # Changelog
 
+## 2026-09-04
+
+Added 65:
+
+- Scale AI — Software Engineering Intern (Summer 2027) (San Francisco, CA)
+- Scale AI — Software Engineer - New Grad (San Francisco, CA)
+- Zipline — Aircraft Software Integration Intern (Spring 2027) (South San Francisco, California, USA)
+- SpaceX — New Graduate Engineer, Starship Components (Hawthorne, CA)
+- Skydio — Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 (San Mateo, California, United States)
+- CohnReznick — 2026 Transactional Advisory Services - TAS Summer 2026 Internship (Boston, NY)
+- BRG — 2027 Summer Associate (Intern) - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN (Nashville, TN)
+- BDO USA — Tax Intern Leadership Program (TILP) - Winter &amp; Summer 2028 (Dallas) (Dallas, TX)
+- Momentum — 2027 Launch Graduate Program: Procurement Analyst (Dallas, TX)
+- Southern Glazer's Wine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- RTX — Leadership Development Program - Contracts (June 2027) (Arlington, VA)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Midlothian, TX)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- Wipfli — Product Implementation Internship - Summer 2027 (Chicago, IL)
+- Casey's — Continuous Improvement Internship - Summer 2027 (Ankeny, IA)
+- Citi — Banking - Investment Banking, Full Time Analyst, Houston - US 2027 (Houston, TX)
+- MSI — Rotational Undergraduate Analyst - MSI (Boston, MA)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- Intel — Technical Sales - Intern, Graduate (Folsom, CA)
+- Citi — Banking - Financial Strategy Group, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- GLC Advisors &amp; Co., LLC — Class of 2027 Full Time Analyst (New York, NY)
+- United Airlines — Intern - Tech Ops Strategy &amp; Performance (Summer 2027) (Chicago, IL)
+- AIG — 2027 Early Careers: Analyst, Technology – United States, Charlotte, NC &amp; Houston, TX (Charlotte, NC)
+- Eaton — Early Career Leadership Development Program: Human Resources (Beachwood, OH)
+- Wells Fargo — 2027 Corporate Risk Development Program Analyst (Core Risk) - Early Careers (Charlotte, NC)
+- PwC — Market Information and Data Analytics (MIDA) - Business Analytics - Intern - Summer 2027 (New York, NY)
+- AIG — 2027 Early Careers: Analyst, Underwriting – United States, Multiple Locations (New York, NY)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Construction – Houston, TX (Houston, TX)
+- PENNYMAC — Pennymac Corporate University Rotational Program (Fort Worth, TX)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+
+Closed 7:
+
+- Skydio — Product Design Engineer Intern 19 Aug find
+- Appian — Product Manager, 2027 Graduates
+- Palantir — Operations Analyst, US Government Security
+- Base Power — Deployment Operations Associate, Partnerships Aug 28
+- Cloudflare — Research Engineer Intern (Fall 2026) 29 Jul
+- Cloudflare — Research Engineer Intern (Fall 2026) 28 Jul
+- Cloudflare — Research Engineer Intern (Fall 2026) 28 Jul
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-03
 
 Added 65:
