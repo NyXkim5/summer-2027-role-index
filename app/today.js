@@ -1,0 +1,133 @@
+;(function (root) {
+  'use strict';
+
+  var Match = root.S27.Match;
+  var Status = root.S27.Status;
+  var doc = root.document;
+
+  var CAP = 15;
+  // Below this many genuinely new rows the view backfills, because an almost
+  // empty Today reads as a broken page rather than a quiet day.
+  var MIN_FRESH = 5;
+
+  var FIELD_LABELS = {};
+  (root.S27.RowIndex.FIELDS || []).forEach(function (f) { FIELD_LABELS[f[0]] = f[1]; });
+
+  function pick(rows, profile, store, todayISO) {
+    var fresh = [];
+    var seen = [];
+
+    rows.forEach(function (r) {
+      if (r.info) return;
+      if (store.getStatus(r.key)) return;      // already handled
+      var m = Match.score(r, profile, todayISO);
+      if (m.excluded || m.score < Match.THRESHOLD) return;
+      var entry = { row: r, score: m.score, reasons: m.reasons };
+      if (store.isSeen(r.key)) seen.push(entry);
+      else fresh.push(entry);
+    });
+
+    var byScore = function (a, b) { return b.score - a.score; };
+    fresh.sort(byScore);
+    seen.sort(byScore);
+
+    var out = fresh.slice(0, CAP);
+    var backfill = out.length < MIN_FRESH ? seen.slice(0, CAP - out.length) : [];
+    return { fresh: out, backfill: backfill };
+  }
+
+  function reasonText(reasons) {
+    var parts = [];
+    reasons.forEach(function (r) {
+      if (r.t === 'fields') {
+        parts.push(r.v.map(function (k) { return FIELD_LABELS[k] || k; }).join(' and '));
+      } else if (r.t === 'fresh') {
+        parts.push(r.v === 0 ? 'posted today' : 'posted ' + r.v + (r.v === 1 ? ' day ago' : ' days ago'));
+      } else if (r.t === 'vetted') {
+        parts.push('hand-checked');
+      }
+    });
+    return parts.join(' · ');
+  }
+
+  function card(entry, onChange) {
+    var r = entry.row;
+    var el = doc.createElement('div');
+    el.className = 'tcard';
+
+    var head = doc.createElement('div');
+    head.className = 'tcard-head';
+    head.innerHTML = '<span class="tcard-co"></span><span class="tcard-title"></span>';
+    head.querySelector('.tcard-co').textContent = r.co;
+    head.querySelector('.tcard-title').textContent = r.title;
+    el.appendChild(head);
+
+    var meta = doc.createElement('div');
+    meta.className = 'tcard-meta';
+    meta.textContent = [r.loc, reasonText(entry.reasons)].filter(Boolean).join(' · ');
+    el.appendChild(meta);
+
+    var actions = doc.createElement('div');
+    actions.className = 'tcard-actions';
+    if (r.url) {
+      var a = doc.createElement('a');
+      a.className = 'tcard-apply';
+      a.href = r.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = 'Open';
+      actions.appendChild(a);
+    }
+    actions.appendChild(Status.controlsFor(r, onChange));
+    el.appendChild(actions);
+    return el;
+  }
+
+  function render(mount, rows, profile, todayISO) {
+    var store = root.S27.Store;
+    var picked = pick(rows, profile, store, todayISO);
+
+    var box = doc.createElement('section');
+    box.className = 'today';
+
+    function redraw() {
+      box.innerHTML = '';
+      var h = doc.createElement('h2');
+      h.className = 'today-h';
+      h.textContent = picked.fresh.length
+        ? picked.fresh.length + (picked.fresh.length === 1 ? ' role' : ' roles') + ' new for you'
+        : 'Nothing new for you today';
+      box.appendChild(h);
+
+      if (!picked.fresh.length && !picked.backfill.length) {
+        var p = doc.createElement('p');
+        p.className = 'today-empty';
+        p.textContent = 'Nothing new matched your profile. Browse the full index below, or widen your profile.';
+        box.appendChild(p);
+      }
+
+      picked.fresh.forEach(function (e) { box.appendChild(card(e, redraw)); });
+
+      if (picked.backfill.length) {
+        var h3 = doc.createElement('h3');
+        h3.className = 'today-sub';
+        h3.textContent = 'Also worth a look';
+        box.appendChild(h3);
+        picked.backfill.forEach(function (e) { box.appendChild(card(e, redraw)); });
+      }
+    }
+
+    redraw();
+    mount.appendChild(box);
+
+    // Marking seen after render, not on click, so a row a reader ignored today
+    // does not come back tomorrow pretending to be new.
+    picked.fresh.forEach(function (e) { store.markSeen(e.row.key); });
+    picked.backfill.forEach(function (e) { store.markSeen(e.row.key); });
+
+    return box;
+  }
+
+  root.S27 = root.S27 || {};
+  root.S27.Today = { pick: pick, render: render, CAP: CAP, MIN_FRESH: MIN_FRESH };
+})(typeof globalThis !== 'undefined' ? globalThis : window);

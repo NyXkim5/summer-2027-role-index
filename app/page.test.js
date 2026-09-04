@@ -66,6 +66,8 @@ describe('index.html', () => {
       'app/match.js',
       'app/status.js',
       'app/onboard.js',
+      'app/today.js',
+      'app/boot.js',
       'app/browse.js',
     ])
   })
