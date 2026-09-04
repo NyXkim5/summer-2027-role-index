@@ -18,17 +18,49 @@
     // recorded too. Today's stored day list reads this field.
     S.Store.setLastVisit(today);
 
-    var index = S.RowIndex.build(doc, today);
-    var profile = S.Store.getProfile();
+    var index = S.RowIndex.shared(doc, today);
 
+    var view = doc.createElement('div');
+    view.className = 'triage-view';
+    mount.appendChild(view);
+    render(view, index, today);
+  }
+
+  // Resolved at call time, not at start(), because browse.js runs at parse
+  // time and boot.js waits for DOMContentLoaded. Whichever wins, the click
+  // happens long after both have run.
+  function refreshBrowse() {
+    if (S.Browse && S.Browse.refresh) S.Browse.refresh();
+  }
+
+  function render(view, index, today) {
+    view.innerHTML = '';
+    var profile = S.Store.getProfile();
     if (!profile) {
-      S.Onboard.render(mount, function (p) {
-        mount.innerHTML = '';
-        if (S.Onboard.isComplete(p)) S.Today.render(mount, index.rows, p, today);
-      });
+      S.Onboard.render(view, function () { render(view, index, today); });
       return;
     }
-    if (S.Onboard.isComplete(profile)) S.Today.render(mount, index.rows, profile, today);
+    if (S.Onboard.isComplete(profile)) {
+      S.Today.render(view, index.rows, profile, today, refreshBrowse);
+    }
+    view.appendChild(editButton(view, index, today));
+  }
+
+  // The spec calls the profile strip editable later. Without this a reader who
+  // picked the wrong field, or skipped, could never reach it again.
+  function editButton(view, index, today) {
+    var b = doc.createElement('button');
+    b.type = 'button';
+    b.className = 'ob-edit';
+    b.textContent = 'Edit profile';
+    b.addEventListener('click', function () {
+      view.innerHTML = '';
+      S.Onboard.render(view, function () {
+        render(view, index, today);
+        refreshBrowse();
+      });
+    });
+    return b;
   }
 
   function banner(mount) {

@@ -88,3 +88,46 @@ describe('skipped profile', () => {
     expect(document.querySelectorAll('td.co').length).toBeGreaterThan(0)
   })
 })
+
+describe('editing the profile later', () => {
+  it('offers an edit control once a profile exists and reopens the strip prefilled', () => {
+    // The spec calls the strip editable later. boot rendered it only when no
+    // profile existed, so a reader who picked the wrong field was stuck.
+    loadApp('store.js').Store.setProfile({ fields: ['data'], term: null, types: [] })
+    boot()
+    expect(document.querySelector('#triage .onboard')).toBeNull()
+
+    const edit = document.querySelector('#triage .ob-edit')
+    expect(edit, 'no control reopens the profile strip').not.toBeNull()
+    edit.click()
+
+    const strip = document.querySelector('#triage .onboard')
+    expect(strip).not.toBeNull()
+    const pressed = Array.from(strip.querySelectorAll('.ob-group[data-group="fields"] button'))
+      .filter((b) => b.getAttribute('aria-pressed') === 'true')
+      .map((b) => b.dataset.val)
+    expect(pressed).toEqual(['data'])
+  })
+
+  it('saves the edited profile and re-renders Today', () => {
+    const S27 = loadApp('store.js')
+    S27.Store.setProfile({ fields: ['data'], term: null, types: [] })
+    const app = boot()
+    document.querySelector('#triage .ob-edit').click()
+
+    const strip = document.querySelector('#triage .onboard')
+    strip.querySelector('.ob-group[data-group="fields"] button[data-val="swe"]').click()
+    strip.querySelector('.ob-save').click()
+
+    expect(app.Store.getProfile().fields).toContain('swe')
+    expect(document.querySelector('#triage .today')).not.toBeNull()
+    expect(document.querySelector('#triage .onboard')).toBeNull()
+    expect(document.querySelector('#triage .ob-edit')).not.toBeNull()
+  })
+
+  it('offers the edit control to a reader who skipped, so skipping is not permanent', () => {
+    loadApp('store.js').Store.setProfile({ fields: [], term: null, types: [], skipped: true })
+    boot()
+    expect(document.querySelector('#triage .ob-edit')).not.toBeNull()
+  })
+})

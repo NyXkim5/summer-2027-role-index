@@ -213,10 +213,22 @@
     }
   }
 
+  // One index per document per day, whichever script asks for it first.
+  // browse.js runs at parse time and boot.js waits for DOMContentLoaded, so
+  // building separately gave the two views disjoint record objects for the
+  // same rows and a status set in one never reached the other.
+  var cache = null;
+
+  function shared(doc, todayISO) {
+    if (cache && cache.doc === doc && cache.day === todayISO) return cache.index;
+    cache = { doc: doc, day: todayISO, index: build(doc, todayISO) };
+    return cache.index;
+  }
+
   root.S27 = root.S27 || {};
   root.S27.RowIndex = {
     FIELDS: FIELDS, TERMS: TERMS, TYPES: TYPES,
-    slug: slug, normalizeUrl: normalizeUrl, keyFor: keyFor,
-    parseTagDate: parseTagDate, build: build
+    slug: slug, normalizeUrl: normalizeUrl, keyFor: keyFor, titleKey: titleKey,
+    parseTagDate: parseTagDate, build: build, shared: shared
   };
 })(typeof globalThis !== 'undefined' ? globalThis : window);

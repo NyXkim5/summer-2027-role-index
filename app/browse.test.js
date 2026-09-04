@@ -55,6 +55,24 @@ function renderPage(hash) {
   })
 }
 
+// Runs the page scripts the way a browser does over file://: browse.js
+// executes during parse, boot.js defers to DOMContentLoaded. jsdom reports the
+// document complete, so readyState is stubbed for the duration of the run and
+// the caller dispatches the event itself.
+function renderPageInLoadOrder() {
+  document.body.innerHTML = bodyHTML
+  history.replaceState(null, '', location.pathname)
+  delete globalThis.S27
+  Object.defineProperty(document, 'readyState', { get: () => 'loading', configurable: true })
+  try {
+    scriptPaths.forEach((p) => {
+      runInThisContext(readFileSync(p, 'utf8'), { filename: p })
+    })
+  } finally {
+    delete document.readyState
+  }
+}
+
 function countText() {
   const text = document.querySelector('#fcount').textContent
   const m = /^(\d+) of (\d+)$/.exec(text)
@@ -265,5 +283,113 @@ describe('row status', () => {
 
     expect(dismissBtn.getAttribute('aria-pressed')).toBe('true')
     expect(reloaded.tr.classList.contains('hidden')).toBe(true)
+  })
+})
+
+// Task 10 built two indexes: browse.js made one at parse time and boot.js made
+// another on DOMContentLoaded. The two held disjoint record objects for the
+// same rows, so a dismiss in Today left the table row unbadged and the count
+// unmoved. These drive the real page end to end, which is the only place the
+// split was visible.
+describe('Today and Browse over one index', () => {
+  afterEach(() => {
+    clearStorage()
+  })
+
+  it('badges and hides the table row when a Today card is dismissed', () => {
+    clearStorage()
+    renderPage(null)
+    globalThis.S27.Store.setProfile({ fields: ['swe'], term: null, types: [] })
+
+    renderPage(null)
+    const card = document.querySelector('#triage .tcard')
+    expect(card, 'no Today card rendered, so the profile did not take').not.toBeNull()
+    expect(document.querySelectorAll('table .tag.st').length).toBe(0)
+    const before = countText()
+
+    const dismiss = Array.from(card.querySelectorAll('.sbtn')).find((b) => b.dataset.val === 'dismissed')
+    expect(dismiss, 'no Not for me control on the card').not.toBeNull()
+    dismiss.click()
+
+    const badges = Array.from(document.querySelectorAll('table .tag.st'))
+    expect(badges.length, 'the table row carries no badge after the dismiss').toBe(1)
+    expect(badges[0].textContent).toBe('dismissed')
+    expect(badges[0].closest('tr').classList.contains('hidden')).toBe(true)
+    expect(countText().shown).toBe(before.shown - 1)
+  })
+
+  it('does not let boot.js build a second index of its own', () => {
+    // Reproduces the real browser order, which this harness otherwise cannot:
+    // browse.js runs at parse time, boot.js waits for DOMContentLoaded. Under
+    // that order the two used to hold disjoint record objects for the same
+    // rows.
+    clearStorage()
+    renderPageInLoadOrder()
+    const RI = globalThis.S27.RowIndex
+    const real = RI.build
+    let builds = 0
+    RI.build = function () { builds++; return real.apply(null, arguments) }
+
+    document.dispatchEvent(new Event('DOMContentLoaded'))
+
+    expect(document.querySelector('#triage')).not.toBeNull()
+    expect(builds, 'boot.js built its own index instead of using the shared one').toBe(0)
+    expect(globalThis.S27.Browse.index).toBe(RI.shared(document, new Date().toISOString().slice(0, 10)))
+  })
+
+  it('builds the shared index before any badge is written into a title cell', () => {
+    // Badges are appended to the title cell, so an index built afterwards
+    // reads titles like "...Internshipsdismissed". That changes the fallback
+    // key and orphans the reader's status. This asserts the hazard is real
+    // and that the index both views use is on the clean side of it.
+    clearStorage()
+    renderPage(null)
+    globalThis.S27.Status.set(firstRealRow(document), 'dismissed')
+
+    renderPageInLoadOrder()
+    document.dispatchEvent(new Event('DOMContentLoaded'))
+    expect(document.querySelectorAll('table .tag.st').length).toBe(1)
+
+    const badgeText = /(applied|saved|dismissed)$/
+    const today = new Date().toISOString().slice(0, 10)
+
+    // An index built now, after the badge landed, does read the badge text.
+    // That is what boot.js's own second index used to be.
+    const late = globalThis.S27.RowIndex.build(document, today)
+    expect(late.rows.some((r) => badgeText.test(r.title))).toBe(true)
+
+    const polluted = globalThis.S27.Browse.index.rows
+      .map((r) => r.title)
+      .filter((t) => badgeText.test(t))
+    expect(polluted, `titles carrying badge text: ${polluted.join(', ')}`).toEqual([])
+  })
+})
+
+describe('a row with no second cell', () => {
+  it('renders the filter bar instead of throwing at top level', () => {
+    // Eight rows on the page today have exactly two cells. One with a single
+    // cell would have thrown on td[1].appendChild and taken the whole filter
+    // bar down for the sake of one badge.
+    clearStorage()
+    document.body.innerHTML = [
+      '<p class="sub">sub</p>',
+      '<div id="triage"></div>',
+      '<h2>Software roles</h2>',
+      '<div class="wrap"><table>',
+      '<tr><td class="co">Acme</td></tr>',
+      '<tr><td class="co">Beta</td><td>Software Engineer Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://beta.example/1">Apply</a></td></tr>',
+      '</table></div>',
+    ].join('\n')
+    delete globalThis.S27
+    scriptPaths.forEach((p) => {
+      runInThisContext(readFileSync(p, 'utf8'), { filename: p })
+    })
+
+    globalThis.S27.Status.set(globalThis.S27.Browse.index.rows[0], 'saved')
+    globalThis.S27.Browse.refresh()
+
+    expect(document.querySelector('.filters')).not.toBeNull()
+    expect(document.querySelector('#fcount').textContent).toMatch(/^\d+ of \d+$/)
   })
 })

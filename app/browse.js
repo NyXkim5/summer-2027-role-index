@@ -4,7 +4,7 @@
   var RI = root.S27.RowIndex;
   var FIELDS = RI.FIELDS, TERMS = RI.TERMS, TYPES = RI.TYPES;
   var today = new Date().toISOString().slice(0, 10);
-  var index = RI.build(document, today);
+  var index = RI.shared(document, today);
   var sections = index.sections;
 
   // browse.js filters on the same records the triage views score, so a row can
@@ -17,10 +17,26 @@
       text: r.text, fields: r.fields, terms: r.terms, types: r.types,
       closed: r.closed, info: r.info, nocount: r.deep
     };
-    if (r.info) return;
-    var badge = root.S27.Status.badgeFor(r);
-    if (badge) r.tr.querySelectorAll('td')[1].appendChild(badge);
   });
+
+  // Repaintable, because Today can change a status after this script has run.
+  // The old badge is removed first so a row never carries two.
+  function paintBadges() {
+    index.rows.forEach(function (r) {
+      if (r.info) return;
+      var cells = r.tr.querySelectorAll('td');
+      // A row with a company cell and nothing after it would throw here and
+      // take the whole filter bar down with it, for the sake of one badge.
+      if (cells.length < 2) return;
+      var cell = cells[1];
+      var old = cell.querySelectorAll('.st');
+      for (var i = 0; i < old.length; i++) old[i].parentNode.removeChild(old[i]);
+      var badge = root.S27.Status.badgeFor(r);
+      if (badge) cell.appendChild(badge);
+    });
+  }
+
+  paintBadges();
 
   var state = { q: '', field: null, term: null, type: null, hideClosed: false, hideDismissed: true };
 
@@ -184,4 +200,12 @@
   });
   if (init.get('open')) { state.hideClosed = true; openBtn.setAttribute('aria-pressed', 'true'); }
   apply();
+
+  // Today marks a row applied or dismissed after this script has run. Without
+  // a way back in, the table below kept showing the row unbadged and the count
+  // never moved.
+  root.S27.Browse = {
+    index: index,
+    refresh: function () { paintBadges(); apply(); }
+  };
 })(typeof globalThis !== 'undefined' ? globalThis : window);
