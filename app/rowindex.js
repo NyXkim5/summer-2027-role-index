@@ -37,9 +37,21 @@
     return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   }
 
-  // Boards append tracking parameters and vary on trailing slash and on the
-  // www prefix, so the raw href is not a stable identity. Path case is kept
-  // because some boards route case sensitively.
+  // Campaign parameters a board or a tracker bolts on. They vary per visit and
+  // never identify a role, so they are stripped. Everything else in the query
+  // is kept, because some boards carry the job id there and nowhere else.
+  // Greenhouse under a company domain is the common case, with ?gh_jid=.
+  var TRACKING = { gh_src: 1, ref: 1, source: 1, trk: 1, src: 1 };
+
+  function isTracking(name) {
+    var n = String(name).toLowerCase();
+    return n.indexOf('utm_') === 0 || TRACKING[n] === 1;
+  }
+
+  // Boards vary on trailing slash and on the www prefix, so the raw href is
+  // not a stable identity. Path case is kept because some boards route case
+  // sensitively. Surviving query parameters are sorted, so two links that
+  // carry the same pair in a different order produce the same key.
   function normalizeUrl(u) {
     if (!u) return null;
     var a;
@@ -52,12 +64,26 @@
     if (a.protocol !== 'http:' && a.protocol !== 'https:') return null;
     var host = a.host.toLowerCase().replace(/^www\./, '');
     var path = a.pathname.replace(/\/+$/, '');
-    return host + path;
+    var kept = [];
+    a.searchParams.forEach(function (v, k) {
+      if (!isTracking(k)) kept.push([k, v]);
+    });
+    kept.sort(function (x, y) {
+      if (x[0] !== y[0]) return x[0] < y[0] ? -1 : 1;
+      if (x[1] === y[1]) return 0;
+      return x[1] < y[1] ? -1 : 1;
+    });
+    var query = kept.map(function (p) { return p[0] + '=' + p[1]; }).join('&');
+    return host + path + (query ? '?' + query : '');
+  }
+
+  function titleKey(co, title) {
+    return 't:' + slug(co) + '|' + slug(title);
   }
 
   function keyFor(url, co, title) {
     var n = normalizeUrl(url);
-    return n ? 'u:' + n : 't:' + slug(co) + '|' + slug(title);
+    return n ? 'u:' + n : titleKey(co, title);
   }
 
   // Date tags read "Sep 1" with no year. Anything that would land in the
@@ -149,7 +175,32 @@
       sections.push({ h2: h2, nodes: nodes, rows: secRows, info: info, deep: deep });
     }
 
+    resolveCollisions(rows);
     return { rows: rows, sections: sections };
+  }
+
+  // Many rows point at one careers page rather than at a job. Zipline lists 67
+  // roles that all link to zipline.com/open-roles, and no amount of query
+  // handling separates them, because there is no query. For those rows the URL
+  // is not an identity, so the whole group falls back to company and title.
+  //
+  // This runs over the finished index rather than inside keyFor, because a
+  // collision is a fact about the page and not about one row. keyFor stays a
+  // pure function of the arguments it is given.
+  function resolveCollisions(rows) {
+    var byKey = Object.create(null);
+    var i;
+    for (i = 0; i < rows.length; i++) {
+      if (!byKey[rows[i].key]) byKey[rows[i].key] = [];
+      byKey[rows[i].key].push(rows[i]);
+    }
+    for (var k in byKey) {
+      var group = byKey[k];
+      if (group.length < 2) continue;
+      for (i = 0; i < group.length; i++) {
+        group[i].key = titleKey(group[i].co, group[i].title);
+      }
+    }
   }
 
   root.S27 = root.S27 || {};

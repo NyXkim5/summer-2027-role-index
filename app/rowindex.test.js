@@ -27,6 +27,25 @@ describe('normalizeUrl', () => {
     expect(RowIndex.normalizeUrl('https://x.example/Job/AbC')).toBe('x.example/Job/AbC')
   })
 
+  it('keeps a query parameter that carries the job id', () => {
+    // Greenhouse under a company domain puts the whole identity in the query.
+    // Dropping it collapsed every such row onto one key.
+    const a = RowIndex.normalizeUrl('https://co.example/careers?gh_jid=100')
+    const b = RowIndex.normalizeUrl('https://co.example/careers?gh_jid=200')
+    expect(a).toBe('co.example/careers?gh_jid=100')
+    expect(a).not.toBe(b)
+  })
+
+  it('sorts surviving parameters so key generation does not depend on link order', () => {
+    expect(RowIndex.normalizeUrl('https://co.example/j?b=2&a=1'))
+      .toBe(RowIndex.normalizeUrl('https://co.example/j?a=1&b=2'))
+  })
+
+  it('strips only the tracking parameters and keeps the rest', () => {
+    expect(RowIndex.normalizeUrl('https://co.example/j?utm_medium=m&src=s&ref=r&trk=t&source=q&gh_src=g&id=9'))
+      .toBe('co.example/j?id=9')
+  })
+
   it('refuses a non http protocol so two mailto rows cannot share one key', () => {
     expect(RowIndex.normalizeUrl('mailto:jobs@co.com?subject=RoleA')).toBe(null)
     const a = RowIndex.keyFor('mailto:jobs@co.com?subject=RoleA', 'Co', 'Role A')
@@ -109,6 +128,39 @@ describe('build', () => {
     expect(rows[0].fields).toContain('swe')
     expect(rows[2].terms).toContain('sum27')
     expect(rows[1].types).toContain('newgrad')
+  })
+
+  it('gives every row its own key when many rows share one careers page', () => {
+    // Zipline lists 67 roles that all link to zipline.com/open-roles. Without
+    // the collision pass they collapse onto one key, and dismissing one role
+    // dismisses all 67.
+    document.body.innerHTML = [
+      '<h2>Robotics</h2>',
+      '<div class="wrap"><table>',
+      '<tr><td class="co">Zipline</td><td>Embedded Firmware Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
+      '<tr><td class="co">Zipline</td><td>SWE Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
+      '<tr><td class="co">Zipline</td><td>Hardware Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
+      '</table></div>',
+    ].join('\n')
+
+    const rows = RowIndex.build(document, TODAY).rows
+    const keys = rows.map((r) => r.key)
+    expect(new Set(keys).size).toBe(3)
+    expect(keys).toEqual([
+      't:zipline|embedded-firmware-intern',
+      't:zipline|swe-intern',
+      't:zipline|hardware-intern',
+    ])
+  })
+
+  it('leaves a row that owns its URL on the URL key', () => {
+    // The fallback must fire only on the colliding group. A row with its own
+    // link keeps the URL key, which is the one that survives a retitle.
+    const rows = RowIndex.build(doc, TODAY).rows
+    expect(rows[0].key).toBe('u:job-boards.greenhouse.io/andurilindustries/jobs/500')
   })
 
   it('groups rows under their section heading', () => {

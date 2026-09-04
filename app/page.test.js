@@ -112,6 +112,28 @@ describe('index.html', () => {
     expect(fieldGroup.querySelectorAll('.chip').length).toBeGreaterThan(0)
   })
 
+  it('never gives two roles with different company and title the same key', () => {
+    // The fixture page cannot show this. On the real page 67 Zipline rows all
+    // link to one careers page, so a single dismiss used to erase 13% of the
+    // index. A key may only be shared by rows that are the same role.
+    const RowIndex = globalThis.S27.RowIndex
+    const { rows } = RowIndex.build(document, new Date().toISOString().slice(0, 10))
+    expect(rows.length).toBeGreaterThan(300)
+
+    const groups = new Map()
+    rows.forEach((r) => {
+      if (!groups.has(r.key)) groups.set(r.key, [])
+      groups.get(r.key).push(r)
+    })
+
+    const bad = []
+    groups.forEach((group, key) => {
+      const distinct = new Set(group.map((r) => RowIndex.slug(r.co) + '|' + RowIndex.slug(r.title)))
+      if (distinct.size > 1) bad.push(`${key} claimed by ${group.length} rows`)
+    })
+    expect(bad, `keys shared by different roles: ${bad.join(', ')}`).toEqual([])
+  })
+
   it('never has a row that carries a td but no td.co', () => {
     // RowIndex.build() selects a row by the presence of td.co, not by the
     // presence of any td. Today every row that has a td also has a td.co,
