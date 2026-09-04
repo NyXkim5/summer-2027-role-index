@@ -143,7 +143,8 @@
 
   // The triage mount sits directly after the subhead, so anchoring on it keeps
   // the profile strip and the Today list above the filters. Fall back to the
-  // subhead when the mount is absent, which is how the older tests load.
+  // subhead when the mount is absent, since a reduced or future page is not
+  // guaranteed to carry it.
   var sub = document.querySelector('.sub');
   var mount = document.getElementById('triage');
   var anchor = mount || sub;
