@@ -72,7 +72,9 @@ describe('ranking', () => {
 
 describe('reasons', () => {
   it('names every rule that actually contributed and no others', () => {
-    const r = Match.score(row({ fields: ['swe'], date: '2026-09-02', deep: false }), { fields: ['swe'] }, TODAY)
+    // The row carries a field the profile did not ask for, so a reasons list
+    // built from the row rather than from the overlap is visibly wrong.
+    const r = Match.score(row({ fields: ['swe', 'business'], date: '2026-09-02', deep: false }), { fields: ['swe'] }, TODAY)
     expect(r.reasons).toEqual([
       { t: 'fields', v: ['swe'] },
       { t: 'fresh', v: 1 },
