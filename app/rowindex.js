@@ -196,10 +196,16 @@
     return { rows: rows, sections: sections };
   }
 
-  // Many rows point at one careers page rather than at a job. Zipline lists 67
-  // roles that all link to zipline.com/open-roles, and no amount of query
-  // handling separates them, because there is no query. For those rows the URL
-  // is not an identity, so the whole group falls back to company and title.
+  // Some rows point at one careers page rather than at a job. This pass finds
+  // every group of rows that normalize to one byte-identical href and drops
+  // the whole group back to company and title, because for those rows the URL
+  // says nothing about which role a row is.
+  //
+  // On the page as it stands that is Normal Computing, Wells Fargo, L3Harris,
+  // Kearney and Arrowstreet, 11 linked rows in all. Rows whose links differ
+  // only by a query parameter are never touched, because the query is kept
+  // and it already tells them apart. Every Zipline row carries its own
+  // ?gh_jid=, so none of them reach this pass.
   //
   // This runs over the finished index rather than inside keyFor, because a
   // collision is a fact about the page and not about one row. keyFor stays a

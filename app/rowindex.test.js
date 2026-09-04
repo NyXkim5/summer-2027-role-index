@@ -152,19 +152,19 @@ describe('build', () => {
     expect(rows[1].types).toContain('newgrad')
   })
 
-  it('gives every row its own key when many rows share one careers page', () => {
-    // Zipline lists 67 roles that all link to zipline.com/open-roles. Without
-    // the collision pass they collapse onto one key, and dismissing one role
-    // dismisses all 67.
+  it('gives every row its own key when several rows share one careers page', () => {
+    // Some rows link to a company careers page rather than to a job, so the
+    // same byte-identical href stands for several roles. Without the collision
+    // pass they collapse onto one key and dismissing one dismisses them all.
     document.body.innerHTML = [
       '<h2>Robotics</h2>',
       '<div class="wrap"><table>',
-      '<tr><td class="co">Zipline</td><td>Embedded Firmware Intern</td><td class="loc">CA</td>',
-      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
-      '<tr><td class="co">Zipline</td><td>SWE Intern</td><td class="loc">CA</td>',
-      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
-      '<tr><td class="co">Zipline</td><td>Hardware Intern</td><td class="loc">CA</td>',
-      '<td><a href="https://www.zipline.com/open-roles">Apply</a></td></tr>',
+      '<tr><td class="co">Skyward</td><td>Embedded Firmware Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.skyward.example/open-roles">Apply</a></td></tr>',
+      '<tr><td class="co">Skyward</td><td>SWE Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.skyward.example/open-roles">Apply</a></td></tr>',
+      '<tr><td class="co">Skyward</td><td>Hardware Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://www.skyward.example/open-roles">Apply</a></td></tr>',
       '</table></div>',
     ].join('\n')
 
@@ -172,9 +172,31 @@ describe('build', () => {
     const keys = rows.map((r) => r.key)
     expect(new Set(keys).size).toBe(3)
     expect(keys).toEqual([
-      't:zipline|embedded-firmware-intern',
-      't:zipline|swe-intern',
-      't:zipline|hardware-intern',
+      't:skyward|embedded-firmware-intern',
+      't:skyward|swe-intern',
+      't:skyward|hardware-intern',
+    ])
+  })
+
+  it('leaves rows that share a path but carry their own job id on the URL key', () => {
+    // The 71 Zipline rows on the real page all point at one Greenhouse board
+    // and each carries its own ?gh_jid=. The query is kept, so they are
+    // already distinct and the collision pass never sees them. Dropping them
+    // to company and title would lose the identity that survives a retitle.
+    document.body.innerHTML = [
+      '<h2>Robotics</h2>',
+      '<div class="wrap"><table>',
+      '<tr><td class="co">Zipline</td><td>Embedded Firmware Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://job-boards.greenhouse.io/zipline/jobs/1?gh_jid=1">Apply</a></td></tr>',
+      '<tr><td class="co">Zipline</td><td>SWE Intern</td><td class="loc">CA</td>',
+      '<td><a href="https://job-boards.greenhouse.io/zipline/jobs/2?gh_jid=2">Apply</a></td></tr>',
+      '</table></div>',
+    ].join('\n')
+
+    const keys = RowIndex.build(document, TODAY).rows.map((r) => r.key)
+    expect(keys).toEqual([
+      'u:job-boards.greenhouse.io/zipline/jobs/1?gh_jid=1',
+      'u:job-boards.greenhouse.io/zipline/jobs/2?gh_jid=2',
     ])
   })
 
