@@ -438,6 +438,29 @@ def rewrite_verified(html, today):
     )
 
 
+def prune_deep(html, keep):
+    """Trim the wide-net section to `keep` rows, dropping the oldest.
+
+    Rows are appended newest last, so the oldest sit at the top of the section
+    and the slice takes them off the front. Returns the new html and how many
+    rows went. This is the only operation in the file that deletes rows, so it
+    lives out here where a test can drive it against a fixture string.
+    """
+    if DEEP_SECTION not in html:
+        return html, 0
+    start = html.index(DEEP_SECTION)
+    end = html.index("</table></div>", start)
+    body = html[start:end]
+    deep_rows = re.findall(r'<tr><td class="co">.*?</tr>\n?', body)
+    if len(deep_rows) <= keep:
+        return html, 0
+    drop = deep_rows[:len(deep_rows) - keep]
+    new_body = body
+    for row in drop:
+        new_body = new_body.replace(row, "", 1)
+    return html[:start] + new_body + html[end:], len(drop)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -569,20 +592,9 @@ def main():
     # LinkedIn returns a rotating slice, so without a cap this section would
     # gain rows every single day forever. These are auto-generated and unvetted,
     # so trimming the oldest is safe. Curated sections are never trimmed.
-    pruned = 0
-    if DEEP_SECTION in html:
-        start = html.index(DEEP_SECTION)
-        end = html.index("</table></div>", start)
-        body = html[start:end]
-        deep_rows = re.findall(r'<tr><td class="co">.*?</tr>\n?', body)
-        if len(deep_rows) > args.deep_keep:
-            drop = deep_rows[:len(deep_rows) - args.deep_keep]
-            new_body = body
-            for row in drop:
-                new_body = new_body.replace(row, "", 1)
-            html = html[:start] + new_body + html[end:]
-            pruned = len(drop)
-            print(f"pruned {pruned} oldest wide-net rows, keeping {args.deep_keep}")
+    html, pruned = prune_deep(html, args.deep_keep)
+    if pruned:
+        print(f"pruned {pruned} oldest wide-net rows, keeping {args.deep_keep}")
 
     # Advice and reference sections carry rows too, but they are not roles and
     # must not inflate the headline count.

@@ -29,5 +29,9 @@ jobs:
           python-version: "3.12"
       - run: pip install pytest
       - run: python3 -m pytest test_refresh.py -v
-      - name: Dry run against the real page
-        run: python3 refresh.py --dry-run --no-deep
+      # No live dry run here. It took two minutes, hit 148 third-party boards,
+      # and refresh.py fails the run when fewer than 60% answer, so CI went red
+      # during someone else's outage. It also passed --no-deep, which skipped
+      # the prune, the one operation that deletes rows. The prune is covered by
+      # pytest against a fixture page instead. The daily refresh workflow is
+      # where the real boards get hit.

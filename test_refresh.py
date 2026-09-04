@@ -120,3 +120,73 @@ def test_board_token_reads_a_lever_url():
 
 def test_board_token_returns_none_for_a_board_we_cannot_enumerate():
     assert refresh.board_token("https://citi.wd5.myworkdayjobs.com/en-US/2/job/x") is None
+
+
+# ---- the wide-net prune -------------------------------------------------
+# This is the only operation in refresh.py that deletes rows, and it does it by
+# string replacement on the published page. CI used to run a live dry run with
+# --no-deep, which never reached this code at all.
+
+def deep_page(count):
+    """A page with a Deep sweep section holding `count` rows, oldest first."""
+    rows = "".join(
+        f'<tr><td class="co">Co{i}</td><td>Role {i}</td>'
+        f'<td class="loc">CA</td><td><a href="https://x/{i}">Apply</a></td></tr>\n'
+        for i in range(count)
+    )
+    return (
+        '<h2>Defense &amp; national security</h2>\n'
+        '<div class="wrap"><table>\n'
+        '<tr><td class="co">Anduril</td><td>Keep me</td>'
+        '<td class="loc">CA</td><td><a href="https://a/1">Apply</a></td></tr>\n'
+        '</table></div>\n'
+        '<h2>Deep sweep <span class="n">wide net</span></h2>\n'
+        '<div class="wrap"><table>\n'
+        "<tr><th>Company</th><th>Role</th></tr>\n"
+        + rows +
+        '</table></div>\n'
+        "<h2>Trackers &amp; tooling</h2>\n"
+        '<div class="wrap"><table>\n'
+        '<tr><td class="co">SimplifyJobs</td><td>Tracker</td>'
+        '<td class="loc">GitHub</td><td><a href="https://g/1">Open</a></td></tr>\n'
+        "</table></div>\n"
+    )
+
+
+def test_prune_drops_the_oldest_rows_and_keeps_the_newest():
+    out, pruned = refresh.prune_deep(deep_page(10), 4)
+    assert pruned == 6
+    for i in range(6):
+        assert f"Role {i}<" not in out
+    for i in range(6, 10):
+        assert f"Role {i}<" in out
+    assert out.count('<tr><td class="co">Co') == 4
+
+
+def test_prune_leaves_a_section_under_the_limit_untouched():
+    page = deep_page(4)
+    out, pruned = refresh.prune_deep(page, 4)
+    assert pruned == 0
+    assert out == page
+
+
+def test_prune_keeps_the_surrounding_markup_intact():
+    out, _ = refresh.prune_deep(deep_page(10), 4)
+    assert '<h2>Deep sweep <span class="n">wide net</span></h2>' in out
+    assert out.count('<div class="wrap"><table>') == 3
+    assert out.count("</table></div>") == 3
+    assert "<tr><th>Company</th><th>Role</th></tr>" in out
+
+
+def test_prune_never_touches_a_curated_section():
+    out, _ = refresh.prune_deep(deep_page(10), 4)
+    assert '<h2>Defense &amp; national security</h2>' in out
+    assert "Anduril" in out and "Keep me" in out
+    assert "SimplifyJobs" in out
+
+
+def test_prune_leaves_a_page_with_no_deep_section_alone():
+    page = "<h2>Defense</h2>\n<div class=\"wrap\"><table>\n</table></div>\n"
+    out, pruned = refresh.prune_deep(page, 4)
+    assert pruned == 0
+    assert out == page
