@@ -636,7 +636,7 @@ The single DOM walk. It turns every `<tr>` on the page into a record the other m
 
 **Interfaces:**
 - Consumes: `document`.
-- Produces: `window.S27.RowIndex` with `build(doc, todayISO)` returning `{ rows, sections }`. Each row is `{ tr, key, co, title, loc, url, date, fields, terms, types, closed, deep, info, section }`. Each section is `{ h2, nodes, rows, info, deep }`. Also produces `FIELDS`, `TERMS`, `TYPES` as arrays of `[key, label, regex]`, plus `slug(s)`, `normalizeUrl(u)`, `keyFor(url, co, title)`, and `parseTagDate(text, todayISO)`.
+- Produces: `window.S27.RowIndex` with `build(doc, todayISO)` returning `{ rows, sections }`. Each row is `{ tr, key, co, title, loc, url, date, text, fields, terms, types, closed, deep, info, section }`, where `text` is the row's whole text content lowercased and whitespace collapsed. Task 5 consumes `text` for its search filter. Each section is `{ h2, nodes, rows, info, deep }`. Also produces `FIELDS`, `TERMS`, `TYPES` as arrays of `[key, label, regex]`, plus `slug(s)`, `normalizeUrl(u)`, `keyFor(url, co, title)`, and `parseTagDate(text, todayISO)`.
 
 - [ ] **Step 1: Create the fixture page**
 
