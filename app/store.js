@@ -11,8 +11,15 @@
   // Storage access throws outright in some private browsing modes, so every
   // call site has to tolerate failure. When it does we keep the session in
   // memory and the UI tells the reader their marks will not persist.
+  //
+  // Two different things go wrong here and they need two different sentences.
+  // Blocked means the browser refuses to read or write at all. Reset means the
+  // stored record could not be read, so it was copied aside and the session
+  // started clean. Telling a reader their browser is broken when their data
+  // was the problem is a lie about their own machine.
   var memory = null;
-  var degraded = false;
+  var blocked = false;
+  var wasReset = false;
 
   function today() {
     return new Date().toISOString().slice(0, 10);
@@ -45,7 +52,7 @@
     try {
       raw = root.localStorage.getItem(KEY);
     } catch (e) {
-      degraded = true;
+      blocked = true;
     }
     if (!raw) {
       memory = blank();
@@ -55,18 +62,18 @@
       var parsed = JSON.parse(raw);
       if (!readable(parsed)) {
         // Never discard a reader's history without a copy. migrate() is
-        // about to drop this record because its schema version does not
-        // match, so back the raw string up first, the same as the corrupt
-        // JSON path below.
+        // about to drop this record because no version this build knows
+        // wrote it, so back the raw string up first, the same as the
+        // corrupt JSON path below.
         try { root.localStorage.setItem(BAK, raw); } catch (e2) {}
-        degraded = true;
+        wasReset = true;
       }
       memory = migrate(parsed);
     } catch (e) {
       // Never discard a reader's history without a copy. Keep the bad string
       // so it can be recovered by hand, then start clean.
       try { root.localStorage.setItem(BAK, raw); } catch (e2) {}
-      degraded = true;
+      wasReset = true;
       memory = blank();
     }
     return memory;
@@ -78,7 +85,7 @@
       root.localStorage.setItem(KEY, JSON.stringify(memory));
       return true;
     } catch (e) {
-      degraded = true;
+      blocked = true;
       return false;
     }
   }
@@ -139,15 +146,24 @@
     return { fresh: p.fresh, back: p.back };
   }
 
+  // Blocked wins over reset, because a browser that will not write makes the
+  // reset moot. Null means storage is working.
+  function degradedReason() {
+    if (blocked) return 'blocked';
+    if (wasReset) return 'reset';
+    return null;
+  }
+
   function isDegraded() {
-    return degraded;
+    return degradedReason() !== null;
   }
 
   // Drops the in-memory copy so the next load re-reads storage. Tests use this
   // to simulate a fresh page load.
   function reset() {
     memory = null;
-    degraded = false;
+    blocked = false;
+    wasReset = false;
   }
 
   root.S27 = root.S27 || {};
@@ -159,6 +175,6 @@
     setProfile: setProfile, getProfile: getProfile,
     setLastVisit: setLastVisit, getLastVisit: getLastVisit,
     setPicks: setPicks, getPicks: getPicks,
-    isDegraded: isDegraded, reset: reset
+    isDegraded: isDegraded, degradedReason: degradedReason, reset: reset
   };
 })(typeof globalThis !== 'undefined' ? globalThis : window);

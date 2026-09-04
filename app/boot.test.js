@@ -46,6 +46,20 @@ describe('storage blocked', () => {
   })
 })
 
+describe('stored data that will not parse', () => {
+  it('says the page started fresh rather than blaming the browser', () => {
+    // The spec lists these as two conditions. A reader whose saved state
+    // failed to parse was told their browser was broken.
+    globalThis.localStorage.setItem('s27.v1', '{not json')
+    boot()
+    const banner = document.querySelector('.degraded')
+    expect(banner).not.toBeNull()
+    expect(banner.textContent).not.toContain('blocking local storage')
+    expect(banner.textContent).toContain('started fresh')
+    expect(banner.textContent).toContain('s27.v1.bak')
+  })
+})
+
 describe('no stored profile', () => {
   it('renders the onboarding strip into #triage', () => {
     boot()

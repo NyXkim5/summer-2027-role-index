@@ -30,6 +30,9 @@ describe('corrupt data', () => {
     expect(d.status).toEqual({})
     expect(globalThis.localStorage.getItem(Store.BAK)).toBe('{not json')
     expect(Store.isDegraded()).toBe(true)
+    // Corrupt data is not a blocked browser. The banner says something
+    // different for each, so the two conditions must stay apart.
+    expect(Store.degradedReason()).toBe('reset')
   })
 
   it('backs up a record from an unknown schema version before discarding it', () => {
@@ -72,6 +75,13 @@ describe('degraded storage', () => {
     Store.setStatus('k', 'saved', { co: 'A', title: 'B', loc: 'C', url: 'd' })
     expect(Store.getStatus('k').s).toBe('saved')
     expect(Store.isDegraded()).toBe(true)
+    expect(Store.degradedReason()).toBe('blocked')
+  })
+
+  it('reports nothing wrong when storage works', () => {
+    expect(Store.degradedReason()).toBe(null)
+    Store.setStatus('k', 'saved', { co: 'A', title: 'B', loc: 'C', url: 'd' })
+    expect(Store.degradedReason()).toBe(null)
   })
 })
 

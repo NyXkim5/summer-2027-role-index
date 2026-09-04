@@ -8,10 +8,11 @@
     var mount = doc.getElementById('triage');
     if (!mount) return;
 
-    // Touch storage before asking whether it worked. isDegraded only knows
-    // after a real read has been attempted.
+    // Touch storage before asking whether it worked. The reason is only
+    // known after a real read has been attempted.
     S.Store.load();
-    if (S.Store.isDegraded()) banner(mount);
+    var reason = S.Store.degradedReason();
+    if (reason) banner(mount, reason);
 
     var today = new Date().toISOString().slice(0, 10);
     // Recorded before anything can return early, so the first visit is
@@ -63,10 +64,15 @@
     return b;
   }
 
-  function banner(mount) {
+  var MESSAGES = {
+    blocked: 'This browser is blocking local storage, so what you mark here will not be remembered.',
+    reset: 'Your saved marks could not be read, so this page started fresh. The old copy is kept under s27.v1.bak in case you want it back.'
+  };
+
+  function banner(mount, reason) {
     var p = doc.createElement('p');
-    p.className = 'degraded';
-    p.textContent = 'This browser is blocking local storage, so what you mark here will not be remembered.';
+    p.className = 'degraded degraded-' + reason;
+    p.textContent = MESSAGES[reason];
     mount.appendChild(p);
   }
 
