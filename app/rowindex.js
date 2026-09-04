@@ -52,6 +52,11 @@
   // not a stable identity. Path case is kept because some boards route case
   // sensitively. Surviving query parameters are sorted, so two links that
   // carry the same pair in a different order produce the same key.
+  //
+  // searchParams hands back decoded names and values, so they are escaped
+  // again on the way out. A value carrying an encoded & or = would otherwise
+  // rebuild itself as two parameters and collide with a link that really has
+  // two.
   function normalizeUrl(u) {
     if (!u) return null;
     var a;
@@ -73,7 +78,9 @@
       if (x[1] === y[1]) return 0;
       return x[1] < y[1] ? -1 : 1;
     });
-    var query = kept.map(function (p) { return p[0] + '=' + p[1]; }).join('&');
+    var query = kept.map(function (p) {
+      return encodeURIComponent(p[0]) + '=' + encodeURIComponent(p[1]);
+    }).join('&');
     return host + path + (query ? '?' + query : '');
   }
 

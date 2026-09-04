@@ -46,6 +46,14 @@ describe('normalizeUrl', () => {
       .toBe('co.example/j?id=9')
   })
 
+  it('escapes the separators so an encoded pair cannot pose as two parameters', () => {
+    // searchParams decodes before the parts are joined back up. Joining them
+    // raw let one parameter carrying an encoded & and = rebuild itself as two
+    // parameters, and two different links landed on one key.
+    expect(RowIndex.normalizeUrl('https://co.example/j?a=b%26c%3Dd'))
+      .not.toBe(RowIndex.normalizeUrl('https://co.example/j?a=b&c=d'))
+  })
+
   it('refuses a non http protocol so two mailto rows cannot share one key', () => {
     expect(RowIndex.normalizeUrl('mailto:jobs@co.com?subject=RoleA')).toBe(null)
     const a = RowIndex.keyFor('mailto:jobs@co.com?subject=RoleA', 'Co', 'Role A')
