@@ -112,6 +112,18 @@ describe('index.html', () => {
     expect(fieldGroup.querySelectorAll('.chip').length).toBeGreaterThan(0)
   })
 
+  it('parses the date on every tag the page actually carries', () => {
+    // refresh.py writes "3 Sep". The client used to accept only "Sep 3", so
+    // 280 of the 436 tags on this page failed to parse and freshness scoring
+    // silently ranked new rows below old ones.
+    const RowIndex = globalThis.S27.RowIndex
+    const today = new Date().toISOString().slice(0, 10)
+    const tags = Array.from(document.querySelectorAll('.tag.new')).map((el) => el.textContent.trim())
+    expect(tags.length).toBeGreaterThan(100)
+    const unparsed = tags.filter((t) => RowIndex.parseTagDate(t, today) === null)
+    expect(unparsed, `date tags the client cannot read: ${[...new Set(unparsed)].join(', ')}`).toEqual([])
+  })
+
   it('never gives two roles with different company and title the same key', () => {
     // The fixture page cannot show this. On the real page 67 Zipline rows all
     // link to one careers page, so a single dismiss used to erase 13% of the

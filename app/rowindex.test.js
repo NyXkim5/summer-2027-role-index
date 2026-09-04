@@ -70,8 +70,22 @@ describe('parseTagDate', () => {
     expect(RowIndex.parseTagDate('Sep 1', TODAY)).toBe('2026-09-01')
   })
 
+  it('reads the day-first tag that refresh.py writes', () => {
+    // refresh.py emits strftime("%-d %b"). Every tag it has ever written is
+    // day first, and the client used to reject all of them, which zeroed
+    // freshness scoring.
+    expect(RowIndex.parseTagDate('3 Sep', TODAY)).toBe('2026-09-03')
+    expect(RowIndex.parseTagDate('31 Aug', TODAY)).toBe('2026-08-31')
+  })
+
   it('rolls back a year when the tag would otherwise land in the future', () => {
     expect(RowIndex.parseTagDate('Dec 20', TODAY)).toBe('2025-12-20')
+    expect(RowIndex.parseTagDate('20 Dec', TODAY)).toBe('2025-12-20')
+  })
+
+  it('still rejects an impossible day written day first', () => {
+    expect(RowIndex.parseTagDate('31 Sep', TODAY)).toBe(null)
+    expect(RowIndex.parseTagDate('29 Feb', TODAY)).toBe(null)
   })
 
   it('returns null for text that is not a date tag', () => {

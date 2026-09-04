@@ -94,11 +94,21 @@
   }
 
   function parseTagDate(text, todayISO) {
-    var m = /^([A-Za-z]{3})\s+(\d{1,2})$/.exec(String(text || '').trim());
-    if (!m) return null;
-    var mi = MONTHS.indexOf(m[1].toLowerCase());
+    var t = String(text || '').trim();
+    // refresh.py writes the tag day first, as "3 Sep". Rows added by hand
+    // before that carry "Sep 3". Both are the same tag, so both parse.
+    var mon = null;
+    var dayText = null;
+    var m = /^([A-Za-z]{3})\s+(\d{1,2})$/.exec(t);
+    if (m) { mon = m[1]; dayText = m[2]; }
+    else {
+      m = /^(\d{1,2})\s+([A-Za-z]{3})$/.exec(t);
+      if (m) { mon = m[2]; dayText = m[1]; }
+    }
+    if (!mon) return null;
+    var mi = MONTHS.indexOf(mon.toLowerCase());
     if (mi === -1) return null;
-    var day = parseInt(m[2], 10);
+    var day = parseInt(dayText, 10);
     var year = parseInt(todayISO.slice(0, 4), 10);
     var iso = pad(year) + '-' + pad2(mi + 1) + '-' + pad2(day);
     if (iso > todayISO) {

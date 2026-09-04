@@ -1,4 +1,6 @@
 import datetime
+import pathlib
+import re
 
 import pytest
 
@@ -73,6 +75,39 @@ def test_routing_falls_back_rather_than_dropping_an_unrecognised_row():
 def test_norm_key_ignores_case_and_punctuation_so_a_retitled_row_is_not_duplicated():
     assert refresh.norm_key("Anduril", "Flight Software Engineer") == \
            refresh.norm_key("anduril", "Flight  Software  Engineer!")
+
+
+def test_norm_key_still_separates_two_different_postings():
+    """Equality alone would pass for a norm_key that returned a constant."""
+    assert refresh.norm_key("Anduril", "Flight Software Engineer") != \
+           refresh.norm_key("Anduril", "Mission Autonomy Engineer")
+    assert refresh.norm_key("Anduril", "Flight Software Engineer") != \
+           refresh.norm_key("Palantir", "Flight Software Engineer")
+
+
+def _row_tag_date_formats():
+    """The date formats refresh.py stamps into a row tag, read from its source.
+
+    Read rather than imported because both live inline in main(), which cannot
+    run without the network.
+    """
+    src = pathlib.Path(refresh.__file__).read_text(encoding="utf-8")
+    new_tag = re.search(r'stamp_tag = .*strftime\("([^"]+)"\)', src)
+    closed_tag = re.search(r"closed \{today:([^}]+)\}", src)
+    assert new_tag, "no new-row date tag format found in refresh.py"
+    assert closed_tag, "no closed-row date tag format found in refresh.py"
+    return new_tag.group(1), closed_tag.group(1)
+
+
+def test_row_date_tags_are_written_day_first():
+    """app/rowindex.js parseTagDate reads these tags out of the page.
+
+    Pinning the format on this side too means changing the Python fails a test
+    here instead of silently zeroing freshness scoring in the browser.
+    """
+    day = datetime.date(2026, 9, 3)
+    for fmt in _row_tag_date_formats():
+        assert day.strftime(fmt) == "3 Sep"
 
 
 def test_board_token_reads_a_greenhouse_url():
