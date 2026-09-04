@@ -65,6 +65,7 @@ describe('index.html', () => {
       'app/rowindex.js',
       'app/match.js',
       'app/status.js',
+      'app/onboard.js',
       'app/browse.js',
     ])
   })
