@@ -124,10 +124,14 @@ describe('index.html', () => {
     expect(unparsed, `date tags the client cannot read: ${[...new Set(unparsed)].join(', ')}`).toEqual([])
   })
 
-  it('never gives two roles with different company and title the same key', () => {
-    // The fixture page cannot show this. On the real page 67 Zipline rows all
-    // link to one careers page, so a single dismiss used to erase 13% of the
-    // index. A key may only be shared by rows that are the same role.
+  it('never gives two different rows the same key', () => {
+    // The fixture page cannot show this. On the real page several companies
+    // list many roles behind one careers link, so a single dismiss used to
+    // erase every one of them. A key may only be shared by rows a reader
+    // cannot tell apart, which is why the criterion is the whole <tr> and not
+    // company and title. Company and title is what the fallback key is built
+    // from, so asking it whether a t: group is one role is asking the key
+    // about itself, and the answer is always yes.
     const RowIndex = globalThis.S27.RowIndex
     const { rows } = RowIndex.build(document, new Date().toISOString().slice(0, 10))
     expect(rows.length).toBeGreaterThan(300)
@@ -140,10 +144,10 @@ describe('index.html', () => {
 
     const bad = []
     groups.forEach((group, key) => {
-      const distinct = new Set(group.map((r) => RowIndex.slug(r.co) + '|' + RowIndex.slug(r.title)))
+      const distinct = new Set(group.map((r) => r.tr.outerHTML))
       if (distinct.size > 1) bad.push(`${key} claimed by ${group.length} rows`)
     })
-    expect(bad, `keys shared by different roles: ${bad.join(', ')}`).toEqual([])
+    expect(bad, `keys shared by rows that differ: ${bad.join(', ')}`).toEqual([])
   })
 
   it('never has a row that carries a td but no td.co', () => {
