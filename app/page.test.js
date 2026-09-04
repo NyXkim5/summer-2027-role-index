@@ -17,6 +17,8 @@ const ROOT = resolve(HERE, '..')
 const INDEX_PATH = resolve(ROOT, 'index.html')
 
 describe('index.html', () => {
+  let scriptSrcs
+
   beforeAll(() => {
     const html = readFileSync(INDEX_PATH, 'utf8')
 
@@ -26,7 +28,7 @@ describe('index.html', () => {
     const parsedDoc = parsed.window.document
 
     const scriptEls = Array.from(parsedDoc.querySelectorAll('script[src]'))
-    const scriptSrcs = scriptEls.map((el) => el.getAttribute('src'))
+    scriptSrcs = scriptEls.map((el) => el.getAttribute('src'))
     const styleHref = parsedDoc.querySelector('link[rel="stylesheet"]')?.getAttribute('href')
 
     expect(scriptSrcs.length, 'index.html declares no script[src] tags').toBeGreaterThan(0)
@@ -50,6 +52,20 @@ describe('index.html', () => {
     scriptPaths.forEach((p) => {
       runInThisContext(readFileSync(p, 'utf8'), { filename: p })
     })
+  })
+
+  it('loads its scripts in dependency order, with browse last', () => {
+    // Discovered from the HTML above, not hardcoded there. Hardcoded only
+    // here, as the expected value, because load order is exactly what this
+    // task's contract requires and a passing count/chip check cannot prove
+    // it: browse.js is still self-contained today, so it renders fine even
+    // loaded first. Task 5 wires it onto RowIndex, making order load-bearing.
+    expect(scriptSrcs).toEqual([
+      'app/store.js',
+      'app/rowindex.js',
+      'app/match.js',
+      'app/browse.js',
+    ])
   })
 
   it('renders the filter bar with Field, Term, Type, and Status groups', () => {
