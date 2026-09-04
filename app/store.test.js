@@ -12,7 +12,7 @@ beforeEach(() => {
 describe('load', () => {
   it('returns a blank record when storage is empty', () => {
     const d = Store.load()
-    expect(d).toEqual({ v: 1, profile: null, lastVisit: null, seen: {}, status: {} })
+    expect(d).toEqual({ v: 2, profile: null, lastVisit: null, seen: {}, status: {}, picks: null })
   })
 
   it('reads back what a previous session saved', () => {
@@ -43,9 +43,19 @@ describe('corrupt data', () => {
 
 describe('migrate', () => {
   it('keeps a record written by the current schema version', () => {
-    const out = Store.migrate({ v: 1, profile: { fields: ['swe'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: {} })
+    const out = Store.migrate({ v: 2, profile: { fields: ['swe'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: {}, picks: null })
     expect(out.profile).toEqual({ fields: ['swe'] })
     expect(out.seen).toEqual({ a: '2026-09-01' })
+  })
+
+  it('reads a version 1 record forward instead of wiping the reader history', () => {
+    // Version 2 only added picks. Discarding a version 1 record would throw
+    // away every status a reader had recorded before this build shipped.
+    const out = Store.migrate({ v: 1, profile: { fields: ['data'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: { k: { s: 'applied' } } })
+    expect(out.v).toBe(2)
+    expect(out.profile).toEqual({ fields: ['data'] })
+    expect(out.status).toEqual({ k: { s: 'applied' } })
+    expect(out.picks).toBe(null)
   })
 
   it('drops a record from an unknown schema version rather than trusting it', () => {
@@ -70,6 +80,19 @@ describe('setStatus', () => {
     Store.setStatus('k', 'dismissed', { co: 'A', title: 'B', loc: 'C', url: 'd' })
     Store.setStatus('k', null)
     expect(Store.getStatus('k')).toBe(null)
+  })
+})
+
+describe('picks', () => {
+  it('reads back the list stored for that day and nothing from another day', () => {
+    Store.setPicks('2026-09-03', ['a', 'b'], ['c'])
+    Store.reset()
+    expect(Store.getPicks('2026-09-03')).toEqual({ fresh: ['a', 'b'], back: ['c'] })
+    expect(Store.getPicks('2026-09-04')).toBe(null)
+  })
+
+  it('returns null when nothing was ever stored', () => {
+    expect(Store.getPicks('2026-09-03')).toBe(null)
   })
 })
 

@@ -83,9 +83,47 @@
     return el;
   }
 
-  function render(mount, rows, profile, todayISO) {
-    var store = root.S27.Store;
+  // Rebuilds a stored short list from its keys. A key with no row left on the
+  // page is dropped, because a later refresh can prune the row away. A key the
+  // reader has since acted on is dropped too, so a handled card leaves the
+  // list on the next load.
+  function restore(rows, keys, profile, store, todayISO) {
+    var byKey = {};
+    rows.forEach(function (r) { if (!byKey[r.key]) byKey[r.key] = r; });
+    var out = [];
+    keys.forEach(function (k) {
+      var r = byKey[k];
+      if (!r || store.getStatus(k)) return;
+      var m = Match.score(r, profile, todayISO);
+      out.push({ row: r, score: m.score, reasons: m.reasons });
+    });
+    return out;
+  }
+
+  function keysOf(list) {
+    return list.map(function (e) { return e.row.key; });
+  }
+
+  // The day's list is picked once and then persisted. Picking on every render
+  // burned the queue a page load at a time, because rendering marks rows seen
+  // and pick() routes seen rows out of the fresh list. Eight reloads emptied a
+  // 90 row pool with no overlap and no way back.
+  function listFor(rows, profile, store, todayISO) {
+    var stored = store.getPicks(todayISO);
+    if (stored) {
+      return {
+        fresh: restore(rows, stored.fresh, profile, store, todayISO),
+        backfill: restore(rows, stored.back, profile, store, todayISO)
+      };
+    }
     var picked = pick(rows, profile, store, todayISO);
+    store.setPicks(todayISO, keysOf(picked.fresh), keysOf(picked.backfill));
+    return picked;
+  }
+
+  function render(mount, rows, profile, todayISO, onChange) {
+    var store = root.S27.Store;
+    var picked = listFor(rows, profile, store, todayISO);
 
     var box = doc.createElement('section');
     box.className = 'today';
@@ -106,15 +144,20 @@
         box.appendChild(p);
       }
 
-      picked.fresh.forEach(function (e) { box.appendChild(card(e, redraw)); });
+      picked.fresh.forEach(function (e) { box.appendChild(card(e, handleChange)); });
 
       if (picked.backfill.length) {
         var h3 = doc.createElement('h3');
         h3.className = 'today-sub';
         h3.textContent = 'Also worth a look';
         box.appendChild(h3);
-        picked.backfill.forEach(function (e) { box.appendChild(card(e, redraw)); });
+        picked.backfill.forEach(function (e) { box.appendChild(card(e, handleChange)); });
       }
+    }
+
+    function handleChange() {
+      redraw();
+      if (onChange) onChange();
     }
 
     redraw();
@@ -129,5 +172,8 @@
   }
 
   root.S27 = root.S27 || {};
-  root.S27.Today = { pick: pick, render: render, CAP: CAP, MIN_FRESH: MIN_FRESH };
+  root.S27.Today = {
+    pick: pick, restore: restore, listFor: listFor, render: render,
+    CAP: CAP, MIN_FRESH: MIN_FRESH
+  };
 })(typeof globalThis !== 'undefined' ? globalThis : window);

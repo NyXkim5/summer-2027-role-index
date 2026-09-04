@@ -14,6 +14,10 @@
     if (S.Store.isDegraded()) banner(mount);
 
     var today = new Date().toISOString().slice(0, 10);
+    // Recorded before anything can return early, so the first visit is
+    // recorded too. Today's stored day list reads this field.
+    S.Store.setLastVisit(today);
+
     var index = S.RowIndex.build(doc, today);
     var profile = S.Store.getProfile();
 
@@ -25,7 +29,6 @@
       return;
     }
     if (S.Onboard.isComplete(profile)) S.Today.render(mount, index.rows, profile, today);
-    S.Store.setLastVisit(today);
   }
 
   function banner(mount) {

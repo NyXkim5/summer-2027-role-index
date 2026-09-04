@@ -3,7 +3,10 @@
 
   var KEY = 's27.v1';
   var BAK = 's27.v1.bak';
-  var VERSION = 1;
+  var VERSION = 2;
+  // Every version this build knows how to read. A record from anything else
+  // is backed up and discarded rather than half trusted.
+  var READABLE = [1, 2];
 
   // Storage access throws outright in some private browsing modes, so every
   // call site has to tolerate failure. When it does we keep the session in
@@ -16,16 +19,23 @@
   }
 
   function blank() {
-    return { v: VERSION, profile: null, lastVisit: null, seen: {}, status: {} };
+    return { v: VERSION, profile: null, lastVisit: null, seen: {}, status: {}, picks: null };
   }
 
+  function readable(data) {
+    return !!data && typeof data === 'object' && READABLE.indexOf(data.v) !== -1;
+  }
+
+  // Version 2 added picks. A version 1 record carries everything else, so it
+  // is read forward rather than thrown away.
   function migrate(data) {
     var out = blank();
-    if (!data || typeof data !== 'object' || data.v !== VERSION) return out;
+    if (!readable(data)) return out;
     out.profile = data.profile || null;
     out.lastVisit = data.lastVisit || null;
     out.seen = data.seen && typeof data.seen === 'object' ? data.seen : {};
     out.status = data.status && typeof data.status === 'object' ? data.status : {};
+    out.picks = data.picks && typeof data.picks === 'object' ? data.picks : null;
     return out;
   }
 
@@ -43,7 +53,7 @@
     }
     try {
       var parsed = JSON.parse(raw);
-      if (!parsed || typeof parsed !== 'object' || parsed.v !== VERSION) {
+      if (!readable(parsed)) {
         // Never discard a reader's history without a copy. migrate() is
         // about to drop this record because its schema version does not
         // match, so back the raw string up first, the same as the corrupt
@@ -113,6 +123,22 @@
     return load().lastVisit;
   }
 
+  // The short list a reader was shown on a given day. Today renders the stored
+  // set again on a reload instead of picking a new one, because picking again
+  // burns through the queue a page load at a time.
+  function setPicks(dateISO, freshKeys, backKeys) {
+    var d = load();
+    d.picks = { date: dateISO, fresh: freshKeys, back: backKeys };
+    save();
+  }
+
+  function getPicks(dateISO) {
+    var p = load().picks;
+    if (!p || p.date !== dateISO) return null;
+    if (!Array.isArray(p.fresh) || !Array.isArray(p.back)) return null;
+    return { fresh: p.fresh, back: p.back };
+  }
+
   function isDegraded() {
     return degraded;
   }
@@ -132,6 +158,7 @@
     markSeen: markSeen, isSeen: isSeen,
     setProfile: setProfile, getProfile: getProfile,
     setLastVisit: setLastVisit, getLastVisit: getLastVisit,
+    setPicks: setPicks, getPicks: getPicks,
     isDegraded: isDegraded, reset: reset
   };
 })(typeof globalThis !== 'undefined' ? globalThis : window);

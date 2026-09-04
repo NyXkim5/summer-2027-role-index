@@ -97,4 +97,58 @@ describe('render', () => {
     const el = S27.Today.render(document.getElementById('m'), [], PROFILE, TODAY)
     expect(el.textContent).toContain('Nothing new')
   })
+
+  it('shows the same list again on a reload instead of burning through the queue', () => {
+    // Eight loads in one day used to consume the whole eligible pool with zero
+    // overlap, because render marks rows seen and pick routes seen rows out of
+    // fresh. Two open tabs did the same. There is no way to undo it.
+    const rows = []
+    for (let i = 0; i < 90; i++) rows.push(row({ key: 'k' + i }))
+
+    const seenAcross = []
+    let first = null
+    for (let load = 0; load < 8; load++) {
+      document.body.innerHTML = '<div id="m"></div>'
+      // A reload is a fresh script run against the same localStorage.
+      S27 = loadApp('store.js', 'rowindex.js', 'match.js', 'status.js', 'today.js')
+      const el = S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY)
+      const shown = Array.from(el.querySelectorAll('.tcard-title')).length
+      const titles = Array.from(el.querySelectorAll('.tcard-co')).length
+      expect(shown).toBe(titles)
+      const keys = S27.Store.getPicks(TODAY).fresh
+      if (first === null) first = keys
+      else expect(keys).toEqual(first)
+      seenAcross.push(shown)
+    }
+    expect(first.length).toBe(15)
+    expect(seenAcross).toEqual([15, 15, 15, 15, 15, 15, 15, 15])
+  })
+
+  it('drops a card the reader has since handled from the stored day list', () => {
+    const rows = [row({ key: 'a' }), row({ key: 'b' })]
+    S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY)
+    S27.Status.set(rows[0], 'dismissed')
+
+    document.body.innerHTML = '<div id="m"></div>'
+    S27 = loadApp('store.js', 'rowindex.js', 'match.js', 'status.js', 'today.js')
+    const el = S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY)
+    const shown = Array.from(el.querySelectorAll('.tcard-title')).map((n) => n.textContent)
+    expect(shown.length).toBe(1)
+  })
+
+  it('picks a new list once the stored one belongs to an earlier day', () => {
+    const rows = []
+    for (let i = 0; i < 40; i++) rows.push(row({ key: 'k' + i }))
+    S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY)
+    const dayOne = S27.Store.getPicks(TODAY).fresh
+
+    const TOMORROW = '2026-09-04'
+    document.body.innerHTML = '<div id="m"></div>'
+    S27 = loadApp('store.js', 'rowindex.js', 'match.js', 'status.js', 'today.js')
+    S27.Today.render(document.getElementById('m'), rows, PROFILE, TOMORROW)
+    const dayTwo = S27.Store.getPicks(TOMORROW).fresh
+
+    expect(dayTwo.length).toBe(15)
+    expect(dayTwo.filter((k) => dayOne.indexOf(k) !== -1)).toEqual([])
+  })
 })

@@ -52,6 +52,14 @@ describe('no stored profile', () => {
     expect(document.querySelector('#triage .onboard')).not.toBeNull()
     expect(document.querySelector('#triage .today')).toBeNull()
   })
+
+  it('records the visit on the first load, before any profile exists', () => {
+    // start() used to return before setLastVisit whenever the strip rendered,
+    // so the field was never written on visit one.
+    const S27 = boot()
+    expect(document.querySelector('#triage .onboard')).not.toBeNull()
+    expect(S27.Store.getLastVisit()).not.toBeNull()
+  })
 })
 
 describe('complete stored profile', () => {
