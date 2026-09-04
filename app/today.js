@@ -87,6 +87,10 @@
   // page is dropped, because a later refresh can prune the row away. A key the
   // reader has since acted on is dropped too, so a handled card leaves the
   // list on the next load.
+  //
+  // The rows are scored again rather than replayed from stored reasons, so the
+  // meta line stays true to today's date. listFor only calls this for the
+  // profile that picked the list, so nothing here can be an excluded row.
   function restore(rows, keys, profile, store, todayISO) {
     var byKey = {};
     rows.forEach(function (r) { if (!byKey[r.key]) byKey[r.key] = r; });
@@ -108,8 +112,15 @@
   // burned the queue a page load at a time, because rendering marks rows seen
   // and pick() routes seen rows out of the fresh list. Eight reloads emptied a
   // 90 row pool with no overlap and no way back.
+  //
+  // A stored list belongs to the profile that picked it. Replaying it for an
+  // edited profile handed the reader back the same cards, hard excluded and
+  // scoring zero, with the match reasons gone from the meta line. A reader
+  // edits because the old rules were wrong, so an edit picks again. Same
+  // profile and same day still means the same cards.
   function listFor(rows, profile, store, todayISO) {
-    var stored = store.getPicks(todayISO);
+    var fp = Match.profileKey(profile);
+    var stored = store.getPicks(todayISO, fp);
     if (stored) {
       return {
         fresh: restore(rows, stored.fresh, profile, store, todayISO),
@@ -117,7 +128,7 @@
       };
     }
     var picked = pick(rows, profile, store, todayISO);
-    store.setPicks(todayISO, keysOf(picked.fresh), keysOf(picked.backfill));
+    store.setPicks(todayISO, fp, keysOf(picked.fresh), keysOf(picked.backfill));
     return picked;
   }
 

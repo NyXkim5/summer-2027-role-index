@@ -67,10 +67,25 @@
     return { score: n, excluded: null, reasons: reasons };
   }
 
+  // A short string that stands for everything score() reads off a profile. Two
+  // profiles that rank every row the same way produce the same string, so a
+  // caller can tell a real edit from a no-op. The parts are sorted, because
+  // neither the order a reader tapped the chips nor the key order of the
+  // stored object changes what the profile means.
+  //
+  // This lives next to score() on purpose. A new scoring dimension has to be
+  // added to both or the fingerprint stops standing for the ranking.
+  function profileKey(profile) {
+    if (!profile) return '';
+    var fields = (profile.fields || []).slice().sort().join(',');
+    var types = (profile.types || []).slice().sort().join(',');
+    return 'f:' + fields + '|t:' + (profile.term || '') + '|l:' + types;
+  }
+
   root.S27 = root.S27 || {};
   root.S27.Match = {
     THRESHOLD: THRESHOLD, W_FIELD: W_FIELD, W_FRESH: W_FRESH,
     W_VETTED: W_VETTED, FRESH_DAYS: FRESH_DAYS,
-    daysOld: daysOld, score: score
+    daysOld: daysOld, score: score, profileKey: profileKey
   };
 })(typeof globalThis !== 'undefined' ? globalThis : window);

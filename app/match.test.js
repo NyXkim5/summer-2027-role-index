@@ -131,3 +131,38 @@ describe('threshold', () => {
     expect(Match.THRESHOLD).toBe(3)
   })
 })
+
+describe('profileKey', () => {
+  it('gives two profiles with the same content one key, whatever the order', () => {
+    // Chip order and object key order are both accidents of how the profile
+    // was built. Either one leaking into the key would repick the day's list
+    // on a load that changed nothing.
+    const a = { fields: ['swe', 'data'], term: 'sum27', types: ['intern', 'newgrad'] }
+    const b = { types: ['newgrad', 'intern'], term: 'sum27', fields: ['data', 'swe'] }
+    expect(Match.profileKey(b)).toBe(Match.profileKey(a))
+  })
+
+  it('gives a different key to every profile that ranks rows differently', () => {
+    const base = { fields: ['swe'], term: 'sum27', types: ['intern'] }
+    const keys = [
+      base,
+      { fields: ['civil'], term: 'sum27', types: ['intern'] },
+      { fields: ['swe'], term: 'fall26', types: ['intern'] },
+      { fields: ['swe'], term: 'sum27', types: ['newgrad'] },
+      { fields: ['swe', 'data'], term: 'sum27', types: ['intern'] },
+      { fields: [], term: null, types: [] },
+    ].map((p) => Match.profileKey(p))
+    expect(new Set(keys).size).toBe(keys.length)
+  })
+
+  it('does not confuse an added field with a renamed one', () => {
+    // A key built by concatenating the parts with no separator would read
+    // these two as the same profile.
+    expect(Match.profileKey({ fields: ['swe'], term: null, types: [] }))
+      .not.toBe(Match.profileKey({ fields: [], term: 'swe', types: [] }))
+  })
+
+  it('handles a missing profile rather than throwing', () => {
+    expect(Match.profileKey(null)).toBe('')
+  })
+})

@@ -12,7 +12,7 @@ beforeEach(() => {
 describe('load', () => {
   it('returns a blank record when storage is empty', () => {
     const d = Store.load()
-    expect(d).toEqual({ v: 2, profile: null, lastVisit: null, seen: {}, status: {}, picks: null })
+    expect(d).toEqual({ v: 3, profile: null, lastVisit: null, seen: {}, status: {}, picks: null })
   })
 
   it('reads back what a previous session saved', () => {
@@ -46,7 +46,7 @@ describe('corrupt data', () => {
 
 describe('migrate', () => {
   it('keeps a record written by the current schema version', () => {
-    const out = Store.migrate({ v: 2, profile: { fields: ['swe'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: {}, picks: null })
+    const out = Store.migrate({ v: 3, profile: { fields: ['swe'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: {}, picks: null })
     expect(out.profile).toEqual({ fields: ['swe'] })
     expect(out.seen).toEqual({ a: '2026-09-01' })
   })
@@ -55,10 +55,25 @@ describe('migrate', () => {
     // Version 2 only added picks. Discarding a version 1 record would throw
     // away every status a reader had recorded before this build shipped.
     const out = Store.migrate({ v: 1, profile: { fields: ['data'] }, lastVisit: '2026-09-01', seen: { a: '2026-09-01' }, status: { k: { s: 'applied' } } })
-    expect(out.v).toBe(2)
+    expect(out.v).toBe(3)
     expect(out.profile).toEqual({ fields: ['data'] })
     expect(out.status).toEqual({ k: { s: 'applied' } })
     expect(out.picks).toBe(null)
+  })
+
+  it('reads a version 2 record forward and treats its unfingerprinted picks as stale', () => {
+    // Version 3 only added the profile fingerprint inside picks. A version 2
+    // reader keeps every mark. Their stored day list has no fingerprint, so it
+    // no longer matches and the list is picked again once.
+    const out = Store.migrate({
+      v: 2, profile: { fields: ['data'] }, lastVisit: '2026-09-01', seen: {},
+      status: { k: { s: 'saved' } }, picks: { date: '2026-09-01', fresh: ['a'], back: [] },
+    })
+    expect(out.v).toBe(3)
+    expect(out.status).toEqual({ k: { s: 'saved' } })
+    globalThis.localStorage.setItem(Store.KEY, JSON.stringify(out))
+    Store.reset()
+    expect(Store.getPicks('2026-09-01', 'f:data|t:|l:')).toBe(null)
   })
 
   it('drops a record from an unknown schema version rather than trusting it', () => {
@@ -95,14 +110,24 @@ describe('setStatus', () => {
 
 describe('picks', () => {
   it('reads back the list stored for that day and nothing from another day', () => {
-    Store.setPicks('2026-09-03', ['a', 'b'], ['c'])
+    Store.setPicks('2026-09-03', 'fp', ['a', 'b'], ['c'])
     Store.reset()
-    expect(Store.getPicks('2026-09-03')).toEqual({ fresh: ['a', 'b'], back: ['c'] })
-    expect(Store.getPicks('2026-09-04')).toBe(null)
+    expect(Store.getPicks('2026-09-03', 'fp')).toEqual({ fresh: ['a', 'b'], back: ['c'] })
+    expect(Store.getPicks('2026-09-04', 'fp')).toBe(null)
+  })
+
+  it('withholds the list from a profile other than the one that picked it', () => {
+    // A list picked for one profile is not an answer to another. Handing it
+    // over meant an edited profile got the old cards back, all of them now
+    // hard excluded and scoring zero.
+    Store.setPicks('2026-09-03', 'f:swe|t:sum27|l:intern', ['a'], [])
+    Store.reset()
+    expect(Store.getPicks('2026-09-03', 'f:civil|t:fall26|l:newgrad')).toBe(null)
+    expect(Store.getPicks('2026-09-03', 'f:swe|t:sum27|l:intern')).toEqual({ fresh: ['a'], back: [] })
   })
 
   it('returns null when nothing was ever stored', () => {
-    expect(Store.getPicks('2026-09-03')).toBe(null)
+    expect(Store.getPicks('2026-09-03', 'fp')).toBe(null)
   })
 })
 

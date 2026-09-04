@@ -3,10 +3,10 @@
 
   var KEY = 's27.v1';
   var BAK = 's27.v1.bak';
-  var VERSION = 2;
+  var VERSION = 3;
   // Every version this build knows how to read. A record from anything else
   // is backed up and discarded rather than half trusted.
-  var READABLE = [1, 2];
+  var READABLE = [1, 2, 3];
 
   // Storage access throws outright in some private browsing modes, so every
   // call site has to tolerate failure. When it does we keep the session in
@@ -33,8 +33,12 @@
     return !!data && typeof data === 'object' && READABLE.indexOf(data.v) !== -1;
   }
 
-  // Version 2 added picks. A version 1 record carries everything else, so it
-  // is read forward rather than thrown away.
+  // Version 2 added picks. Version 3 added the profile fingerprint inside
+  // picks. Older records carry everything else, so they are read forward
+  // rather than thrown away. A version 1 or 2 picks block has no fingerprint,
+  // so getPicks treats it as stale and the day's list is picked again. That
+  // costs one reader one day of list stability and keeps every applied,
+  // saved and dismissed mark they have.
   function migrate(data) {
     var out = blank();
     if (!readable(data)) return out;
@@ -133,15 +137,19 @@
   // The short list a reader was shown on a given day. Today renders the stored
   // set again on a reload instead of picking a new one, because picking again
   // burns through the queue a page load at a time.
-  function setPicks(dateISO, freshKeys, backKeys) {
+  //
+  // A list belongs to one day and to one profile. The fingerprint is an opaque
+  // string here. Its only job is to say whether the profile that picked this
+  // list is still the reader's profile.
+  function setPicks(dateISO, fingerprint, freshKeys, backKeys) {
     var d = load();
-    d.picks = { date: dateISO, fresh: freshKeys, back: backKeys };
+    d.picks = { date: dateISO, fp: fingerprint, fresh: freshKeys, back: backKeys };
     save();
   }
 
-  function getPicks(dateISO) {
+  function getPicks(dateISO, fingerprint) {
     var p = load().picks;
-    if (!p || p.date !== dateISO) return null;
+    if (!p || p.date !== dateISO || p.fp !== fingerprint) return null;
     if (!Array.isArray(p.fresh) || !Array.isArray(p.back)) return null;
     return { fresh: p.fresh, back: p.back };
   }

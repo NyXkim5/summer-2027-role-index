@@ -4,6 +4,13 @@ import { loadApp, clearStorage } from './test-helpers.js'
 let S27
 const TODAY = '2026-09-03'
 const PROFILE = { fields: ['swe'], term: 'sum27', types: ['intern'] }
+// Shares no field, no term and no type with PROFILE, so a row that matches
+// one is hard excluded by the other.
+const OTHER = { fields: ['civil'], term: 'fall26', types: ['newgrad'] }
+// The stored day list is keyed by the day and by the profile fingerprint.
+function fp(profile) {
+  return S27.Match.profileKey(profile || PROFILE)
+}
 
 function row(over) {
   return Object.assign({
@@ -12,6 +19,14 @@ function row(over) {
     fields: ['swe'], terms: ['sum27'], types: ['intern'],
     closed: false, deep: false, info: false,
   }, over)
+}
+
+function civilRow(over) {
+  return row(Object.assign({ fields: ['civil'], terms: ['fall26'], types: ['newgrad'] }, over))
+}
+
+function keysOf(list) {
+  return list.map((e) => e.row.key)
 }
 
 beforeEach(() => {
@@ -115,7 +130,7 @@ describe('render', () => {
       const shown = Array.from(el.querySelectorAll('.tcard-title')).length
       const titles = Array.from(el.querySelectorAll('.tcard-co')).length
       expect(shown).toBe(titles)
-      const keys = S27.Store.getPicks(TODAY).fresh
+      const keys = S27.Store.getPicks(TODAY, fp()).fresh
       if (first === null) first = keys
       else expect(keys).toEqual(first)
       seenAcross.push(shown)
@@ -136,19 +151,73 @@ describe('render', () => {
     expect(shown.length).toBe(1)
   })
 
+  it('shows the same cards again on a reload when the profile has not changed', () => {
+    // The point of storing the day's list. This pins the rendered cards, not
+    // just the stored keys, because a reader judges the page by what is on it.
+    const rows = []
+    for (let i = 0; i < 40; i++) rows.push(row({ key: 'k' + i, title: 'Software Engineer Intern ' + i }))
+    const textOf = (el) => Array.from(el.querySelectorAll('.tcard')).map((c) => c.textContent)
+
+    const first = textOf(S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY))
+    document.body.innerHTML = '<div id="m"></div>'
+    S27 = loadApp('store.js', 'rowindex.js', 'match.js', 'status.js', 'today.js')
+    const second = textOf(S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY))
+
+    expect(first.length).toBe(15)
+    expect(second).toEqual(first)
+  })
+
   it('picks a new list once the stored one belongs to an earlier day', () => {
     const rows = []
     for (let i = 0; i < 40; i++) rows.push(row({ key: 'k' + i }))
     S27.Today.render(document.getElementById('m'), rows, PROFILE, TODAY)
-    const dayOne = S27.Store.getPicks(TODAY).fresh
+    const dayOne = S27.Store.getPicks(TODAY, fp()).fresh
 
     const TOMORROW = '2026-09-04'
     document.body.innerHTML = '<div id="m"></div>'
     S27 = loadApp('store.js', 'rowindex.js', 'match.js', 'status.js', 'today.js')
     S27.Today.render(document.getElementById('m'), rows, PROFILE, TOMORROW)
-    const dayTwo = S27.Store.getPicks(TOMORROW).fresh
+    const dayTwo = S27.Store.getPicks(TOMORROW, fp()).fresh
 
     expect(dayTwo.length).toBe(15)
     expect(dayTwo.filter((k) => dayOne.indexOf(k) !== -1)).toEqual([])
+  })
+})
+
+describe('listFor', () => {
+  it('picks a new list when the profile changed, even on the same day', () => {
+    // The stored list belongs to the profile that picked it. Replaying it for
+    // an edited profile handed the reader the same cards back, every one now
+    // hard excluded and scoring zero.
+    const rows = []
+    for (let i = 0; i < 20; i++) rows.push(row({ key: 's' + i }))
+    for (let i = 0; i < 20; i++) rows.push(civilRow({ key: 'c' + i }))
+
+    const first = keysOf(S27.Today.listFor(rows, PROFILE, S27.Store, TODAY).fresh)
+    const second = keysOf(S27.Today.listFor(rows, OTHER, S27.Store, TODAY).fresh)
+
+    expect(first.length).toBe(15)
+    expect(second.length).toBe(15)
+    expect(first.every((k) => k[0] === 's')).toBe(true)
+    expect(second.every((k) => k[0] === 'c')).toBe(true)
+  })
+
+  it('holds the day list when the same profile is written in a different order', () => {
+    // The fingerprint is built from sorted content, so neither key order nor
+    // the order a reader tapped the chips can make one profile look like two.
+    // Rendering between the two calls is what gives this test teeth: render
+    // marks its rows seen, so a fingerprint that disagreed with itself would
+    // hand back the next fifteen rows instead of the same fifteen.
+    const multi = { fields: ['swe', 'data'], term: 'sum27', types: ['intern'] }
+    const reordered = { types: ['intern'], term: 'sum27', fields: ['data', 'swe'] }
+    const rows = []
+    for (let i = 0; i < 40; i++) rows.push(row({ key: 'k' + i }))
+
+    S27.Today.render(document.getElementById('m'), rows, multi, TODAY)
+    const first = keysOf(S27.Today.listFor(rows, multi, S27.Store, TODAY).fresh)
+    const second = keysOf(S27.Today.listFor(rows, reordered, S27.Store, TODAY).fresh)
+
+    expect(first.length).toBe(15)
+    expect(second).toEqual(first)
   })
 })

@@ -11,15 +11,54 @@ import { loadApp, clearStorage } from './test-helpers.js'
 // failing here rather than being masked by another script's side effect.
 const BOOT_FILES = ['store.js', 'rowindex.js', 'match.js', 'status.js', 'onboard.js', 'today.js', 'boot.js']
 
+// Two disjoint sets of rows. The first three match a software, Summer 2027,
+// internship profile and nothing else. The last three match a civil, Fall
+// 2026, new grad profile and nothing else. A profile edit that moves from one
+// to the other must move the rendered list with it.
 const PAGE = [
   '<p class="sub">sub</p>',
   '<div id="triage"></div>',
-  '<h2>Software roles</h2>',
+  '<h2>Open roles</h2>',
   '<div class="wrap"><table>',
   '<tr><td class="co">Acme</td><td>Software Engineer Intern</td><td class="loc">Remote</td>',
   '<td><a href="https://acme.example/1">Apply</a></td></tr>',
+  '<tr><td class="co">Borealis</td><td>Software Engineer Intern, Summer 2027</td><td class="loc">Remote</td>',
+  '<td><a href="https://borealis.example/1">Apply</a></td></tr>',
+  '<tr><td class="co">Cedar</td><td>Backend Engineer Intern, Summer 2027</td><td class="loc">Remote</td>',
+  '<td><a href="https://cedar.example/1">Apply</a></td></tr>',
+  '<tr><td class="co">Delta</td><td>Structural Engineer, New Grad, Fall 2026</td><td class="loc">Austin, TX</td>',
+  '<td><a href="https://delta.example/1">Apply</a></td></tr>',
+  '<tr><td class="co">Everest</td><td>Structural Analysis Engineer, New Grad, Fall 2026</td><td class="loc">Austin, TX</td>',
+  '<td><a href="https://everest.example/1">Apply</a></td></tr>',
+  '<tr><td class="co">Foxglove</td><td>Geotechnical Engineer, New Grad, Fall 2026</td><td class="loc">Austin, TX</td>',
+  '<td><a href="https://foxglove.example/1">Apply</a></td></tr>',
   '</table></div>',
 ].join('\n')
+
+const SOFTWARE = { fields: ['swe'], term: 'sum27', types: ['intern'] }
+const CIVIL = { fields: ['civil'], term: 'fall26', types: ['newgrad'] }
+
+// Drives the profile strip to an exact target rather than to a delta, so the
+// test reads as the profile the reader ends up with.
+function setStripTo(S27, profile) {
+  const strip = document.querySelector('#triage .onboard')
+  const press = (group, val, want) => {
+    const b = strip.querySelector(`.ob-group[data-group="${group}"] button[data-val="${val}"]`)
+    if (!b) return
+    if ((b.getAttribute('aria-pressed') === 'true') !== want) b.click()
+  }
+  S27.RowIndex.FIELDS.forEach((f) => press('fields', f[0], profile.fields.includes(f[0])))
+  S27.RowIndex.TERMS.forEach((t) => press('term', t[0], profile.term === t[0]))
+  S27.RowIndex.TYPES.forEach((t) => press('types', t[0], profile.types.includes(t[0])))
+  strip.querySelector('.ob-save').click()
+}
+
+function shownCards() {
+  return Array.from(document.querySelectorAll('#triage .tcard')).map((el) => ({
+    co: el.querySelector('.tcard-co').textContent,
+    meta: el.querySelector('.tcard-meta').textContent,
+  }))
+}
 
 function boot() {
   return loadApp(...BOOT_FILES)
@@ -123,20 +162,32 @@ describe('editing the profile later', () => {
     expect(pressed).toEqual(['data'])
   })
 
-  it('saves the edited profile and re-renders Today', () => {
-    const S27 = loadApp('store.js')
-    S27.Store.setProfile({ fields: ['data'], term: null, types: [] })
+  it('picks a new list for the edited profile instead of replaying the old one', () => {
+    // The day's picks are stored so a same-day reload is stable. That store
+    // used to be replayed for any profile, so a reader who edited theirs got
+    // the same cards back, every one of them now hard excluded and scoring
+    // zero, with the match reasons stripped out of the meta line. The reader
+    // edits precisely because they chose wrong, so an unchanged list is the
+    // one answer that cannot be right.
+    loadApp('store.js').Store.setProfile(SOFTWARE)
     const app = boot()
+
+    const before = shownCards()
+    expect(before.map((c) => c.co).sort()).toEqual(['Acme', 'Borealis', 'Cedar'])
+
     document.querySelector('#triage .ob-edit').click()
+    setStripTo(app, CIVIL)
 
-    const strip = document.querySelector('#triage .onboard')
-    strip.querySelector('.ob-group[data-group="fields"] button[data-val="swe"]').click()
-    strip.querySelector('.ob-save').click()
-
-    expect(app.Store.getProfile().fields).toContain('swe')
+    expect(app.Store.getProfile()).toMatchObject(CIVIL)
     expect(document.querySelector('#triage .today')).not.toBeNull()
     expect(document.querySelector('#triage .onboard')).toBeNull()
     expect(document.querySelector('#triage .ob-edit')).not.toBeNull()
+
+    const after = shownCards()
+    expect(after.map((c) => c.co).sort()).toEqual(['Delta', 'Everest', 'Foxglove'])
+    // Nothing from the old profile survives, and every card explains itself.
+    expect(after.filter((c) => before.some((b) => b.co === c.co))).toEqual([])
+    after.forEach((c) => expect(c.meta).toContain('Civil / Struct'))
   })
 
   it('offers the edit control to a reader who skipped, so skipping is not permanent', () => {
