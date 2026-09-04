@@ -420,6 +420,24 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
+def verified_line(today):
+    """The date the links in the page were last re-requested."""
+    return f"{today:%-d %b %Y}"
+
+
+def rewrite_verified(html, today):
+    """Keep the verification date in the subhead honest.
+
+    The sentence around it is fixed copy. Only the date moves, so the page
+    cannot claim a check it did not run.
+    """
+    return re.sub(
+        r'<span id="verified">.*?</span>',
+        f'<span id="verified">{verified_line(today)}</span>',
+        html, count=1,
+    )
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -587,6 +605,7 @@ def main():
         f'<span id="refreshed">{stamp}, {count} roles</span>',
         html, count=1,
     )
+    html = rewrite_verified(html, today)
 
     # Per-section counts, for the release note and the README badge.
     stats = {"date": today.isoformat(), "total": count,
