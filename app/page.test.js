@@ -64,6 +64,7 @@ describe('index.html', () => {
       'app/store.js',
       'app/rowindex.js',
       'app/match.js',
+      'app/status.js',
       'app/browse.js',
     ])
   })
@@ -93,5 +94,24 @@ describe('index.html', () => {
     )
     expect(fieldGroup).toBeTruthy()
     expect(fieldGroup.querySelectorAll('.chip').length).toBeGreaterThan(0)
+  })
+
+  it('never has a row that carries a td but no td.co', () => {
+    // RowIndex.build() selects a row by the presence of td.co, not by the
+    // presence of any td. Today every row that has a td also has a td.co,
+    // so the two selectors agree. A hand edit could break that agreement:
+    // a row with a td and no td.co would then silently vanish from every
+    // filter, count, and badge, instead of failing loudly. This scans a
+    // fresh parse of the real file, not the live executed document, so it
+    // checks the markup as committed.
+    const raw = readFileSync(INDEX_PATH, 'utf8')
+    const fresh = new JSDOM(raw).window.document
+    const bad = Array.from(fresh.querySelectorAll('tr')).filter(
+      (tr) => tr.querySelector('td') && !tr.querySelector('td.co')
+    )
+    expect(
+      bad.length,
+      `row(s) with a td but no td.co: ${bad.map((tr) => tr.outerHTML.slice(0, 100)).join(' | ')}`
+    ).toBe(0)
   })
 })

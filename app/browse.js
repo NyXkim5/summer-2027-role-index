@@ -8,20 +8,27 @@
   var sections = index.sections;
 
   // browse.js filters on the same records the triage views score, so a row can
-  // never be classified one way here and another way there.
+  // never be classified one way here and another way there. Hanging the
+  // record itself off the row lets matches() reach S27.Status without a
+  // second index.
   index.rows.forEach(function (r) {
+    r.tr._row = r;
     r.tr._f = {
       text: r.text, fields: r.fields, terms: r.terms, types: r.types,
       closed: r.closed, info: r.info, nocount: r.deep
     };
+    if (r.info) return;
+    var badge = root.S27.Status.badgeFor(r);
+    if (badge) r.tr.querySelectorAll('td')[1].appendChild(badge);
   });
 
-  var state = { q: '', field: null, term: null, type: null, hideClosed: false };
+  var state = { q: '', field: null, term: null, type: null, hideClosed: false, hideDismissed: true };
 
   function matches(tr) {
     var f = tr._f;
     if (state.q && f.text.indexOf(state.q) === -1) return false;
     if (state.hideClosed && f.closed) return false;
+    if (state.hideDismissed && !f.info && root.S27.Status.current(tr._row) === 'dismissed') return false;
     if (f.info) return true;           // reference rows only respond to search
     if (state.field && f.fields.indexOf(state.field) === -1) return false;
     if (state.term && f.terms.indexOf(state.term) === -1) return false;
@@ -120,6 +127,18 @@
     apply();
   });
   openWrap.appendChild(openBtn);
+
+  var dismissBtn = root.document.createElement('button');
+  dismissBtn.className = 'chip'; dismissBtn.type = 'button';
+  dismissBtn.setAttribute('aria-pressed', 'true');
+  dismissBtn.textContent = 'Hide dismissed';
+  dismissBtn.addEventListener('click', function () {
+    state.hideDismissed = !state.hideDismissed;
+    dismissBtn.setAttribute('aria-pressed', String(state.hideDismissed));
+    apply();
+  });
+  openWrap.appendChild(dismissBtn);
+
   bar.appendChild(openWrap);
 
   var sub = document.querySelector('.sub');
@@ -138,9 +157,12 @@
     t = setTimeout(function () { state.q = input.value.trim().toLowerCase(); apply(); }, 120);
   });
   document.getElementById('fclear').addEventListener('click', function () {
-    state = { q: '', field: null, term: null, type: null, hideClosed: false };
+    state = { q: '', field: null, term: null, type: null, hideClosed: false, hideDismissed: true };
     input.value = '';
     bar.querySelectorAll('.chip').forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+    // Hide dismissed defaults on, unlike every other chip, so Reset restores
+    // that default instead of folding it into the generic all-off sweep.
+    dismissBtn.setAttribute('aria-pressed', 'true');
     apply();
   });
 

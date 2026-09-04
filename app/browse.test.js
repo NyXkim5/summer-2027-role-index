@@ -4,6 +4,7 @@ import { runInThisContext } from 'node:vm'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { JSDOM } from 'jsdom'
+import { clearStorage } from './test-helpers.js'
 
 // This is a behavioral test, not a unit test. It loads the real index.html
 // the same way app/page.test.js does, and then drives the rendered page:
@@ -178,5 +179,72 @@ describe('URL hash restore', () => {
     // pressed just because something else did.
     const other = chip('field', 'data')
     if (other) expect(other.getAttribute('aria-pressed')).toBe('false')
+  })
+})
+
+// Browse paints a status badge once, from S27.Store, when its script runs.
+// There is no live re-render on click here, so "marking a row" is done
+// through S27.Status directly (the same call a Task 7/8 control makes) and
+// then observed on the next renderPage(), which is exactly what a reload is:
+// a fresh document plus a fresh script run against the same localStorage.
+function firstRealRow(doc) {
+  const today = new Date().toISOString().slice(0, 10)
+  const idx = globalThis.S27.RowIndex.build(doc, today)
+  return idx.rows.find((r) => !r.info && !r.deep)
+}
+
+describe('row status', () => {
+  afterEach(() => {
+    clearStorage()
+  })
+
+  it('shows an applied badge for a row marked applied, and the badge survives a reload', () => {
+    clearStorage()
+    renderPage(null)
+    const before = firstRealRow(document)
+    expect(before.tr.querySelector('.tag.st')).toBeNull()
+
+    globalThis.S27.Status.set(before, 'applied')
+
+    renderPage(null)
+    const afterFirstReload = firstRealRow(document)
+    const badge = afterFirstReload.tr.querySelector('.tag.st')
+    expect(badge, 'no status badge rendered after marking the row applied').not.toBeNull()
+    expect(badge.textContent).toBe('applied')
+
+    // A second reload proves persistence, not a one-shot fluke of the first
+    // render right after the write.
+    renderPage(null)
+    const afterSecondReload = firstRealRow(document)
+    expect(afterSecondReload.tr.querySelector('.tag.st')?.textContent).toBe('applied')
+  })
+
+  it('hides a dismissed row while Hide dismissed is pressed, shows it again once released, and keeps the count right', () => {
+    clearStorage()
+    renderPage(null)
+    const target = firstRealRow(document)
+    globalThis.S27.Status.set(target, 'dismissed')
+
+    renderPage(null)
+    const dismissBtn = Array.from(document.querySelectorAll('.chip')).find(
+      (c) => c.textContent === 'Hide dismissed'
+    )
+    expect(dismissBtn, 'no Hide dismissed chip rendered').not.toBeNull()
+    // Hide dismissed defaults on, so the row starts hidden with no click.
+    expect(dismissBtn.getAttribute('aria-pressed')).toBe('true')
+
+    const reloaded = firstRealRow(document)
+    expect(reloaded.tr.classList.contains('hidden')).toBe(true)
+    const hidden = countText()
+
+    dismissBtn.click()
+
+    expect(dismissBtn.getAttribute('aria-pressed')).toBe('false')
+    expect(reloaded.tr.classList.contains('hidden')).toBe(false)
+    const shown = countText()
+    // The dismissed row was always part of the denominator; only whether it
+    // is counted as shown changes.
+    expect(shown.total).toBe(hidden.total)
+    expect(shown.shown).toBe(hidden.shown + 1)
   })
 })

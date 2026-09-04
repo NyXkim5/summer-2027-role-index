@@ -40,3 +40,12 @@ footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);color
 @media(min-width:641px){.fsearch input{font-size:.9rem}}
 @media(max-width:640px){.flabel{min-width:100%}}
 code{background:rgba(127,127,127,.12);padding:.1rem .3rem;border-radius:3px;font-size:.85em}
+/* --- row status --------------------------------------------------------- */
+.status{display:inline-flex;gap:.3rem;margin-left:.5rem;vertical-align:middle}
+.sbtn{font:inherit;font-size:.7rem;padding:.15rem .45rem;border:1px solid var(--line);border-radius:5px;background:var(--card);color:var(--mut);cursor:pointer}
+.sbtn:hover{color:var(--fg)}
+.sbtn[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+.tag.st{margin-left:.4rem;text-transform:uppercase;letter-spacing:.04em;font-size:.62rem}
+.tag.st-applied{background:rgba(34,139,84,.18)}
+.tag.st-saved{background:rgba(50,110,200,.18)}
+.tag.st-dismissed{background:rgba(127,127,127,.18)}
