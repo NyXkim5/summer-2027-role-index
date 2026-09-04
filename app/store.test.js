@@ -68,9 +68,12 @@ describe('setStatus', () => {
 describe('seen', () => {
   it('records the first date a row was shown and does not move it later', () => {
     Store.markSeen('k')
-    const first = Store.load().seen['k']
+    // Backdate the stored value so a missing guard would visibly overwrite it.
+    // Same-day clock granularity cannot show the difference on its own.
+    Store.load().seen['k'] = '2020-01-01'
+    Store.save()
     Store.markSeen('k')
-    expect(Store.load().seen['k']).toBe(first)
+    expect(Store.load().seen['k']).toBe('2020-01-01')
     expect(Store.isSeen('k')).toBe(true)
   })
 })
