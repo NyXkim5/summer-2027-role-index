@@ -26,6 +26,13 @@ describe('normalizeUrl', () => {
   it('keeps path case, because some boards route case sensitively', () => {
     expect(RowIndex.normalizeUrl('https://x.example/Job/AbC')).toBe('x.example/Job/AbC')
   })
+
+  it('refuses a non http protocol so two mailto rows cannot share one key', () => {
+    expect(RowIndex.normalizeUrl('mailto:jobs@co.com?subject=RoleA')).toBe(null)
+    const a = RowIndex.keyFor('mailto:jobs@co.com?subject=RoleA', 'Co', 'Role A')
+    const b = RowIndex.keyFor('mailto:jobs@co.com?subject=RoleB', 'Co', 'Role B')
+    expect(a).not.toBe(b)
+  })
 })
 
 describe('keyFor', () => {
@@ -50,6 +57,18 @@ describe('parseTagDate', () => {
 
   it('returns null for text that is not a date tag', () => {
     expect(RowIndex.parseTagDate('8 regional reqs', TODAY)).toBe(null)
+  })
+
+  it('returns null for a day that does not exist in that month', () => {
+    expect(RowIndex.parseTagDate('Sep 31', TODAY)).toBe(null)
+  })
+
+  it('returns null for 29 February in a year that is not a leap year', () => {
+    expect(RowIndex.parseTagDate('Feb 29', TODAY)).toBe(null)
+  })
+
+  it('returns null for three letters that are not a month', () => {
+    expect(RowIndex.parseTagDate('Xyz 12', TODAY)).toBe(null)
   })
 })
 

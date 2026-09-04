@@ -49,6 +49,7 @@
       return null;
     }
     if (a.host === 'placeholder.invalid') return null;
+    if (a.protocol !== 'http:' && a.protocol !== 'https:') return null;
     var host = a.host.toLowerCase().replace(/^www\./, '');
     var path = a.pathname.replace(/\/+$/, '');
     return host + path;
@@ -61,6 +62,11 @@
 
   // Date tags read "Sep 1" with no year. Anything that would land in the
   // future belongs to last year, since a board cannot post ahead of today.
+  function realDate(year, month, day) {
+    var dt = new Date(Date.UTC(year, month - 1, day));
+    return dt.getUTCFullYear() === year && dt.getUTCMonth() === month - 1 && dt.getUTCDate() === day;
+  }
+
   function parseTagDate(text, todayISO) {
     var m = /^([A-Za-z]{3})\s+(\d{1,2})$/.exec(String(text || '').trim());
     if (!m) return null;
@@ -70,8 +76,10 @@
     var year = parseInt(todayISO.slice(0, 4), 10);
     var iso = pad(year) + '-' + pad2(mi + 1) + '-' + pad2(day);
     if (iso > todayISO) {
-      iso = pad(year - 1) + '-' + pad2(mi + 1) + '-' + pad2(day);
+      year = year - 1;
+      iso = pad(year) + '-' + pad2(mi + 1) + '-' + pad2(day);
     }
+    if (!realDate(year, mi + 1, day)) return null;
     return iso;
   }
 
