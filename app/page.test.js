@@ -1,0 +1,171 @@
+import { beforeAll, describe, expect, it } from 'vitest'
+import { existsSync, readFileSync } from 'node:fs'
+import { runInThisContext } from 'node:vm'
+import { resolve, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { JSDOM } from 'jsdom'
+
+// This is an integration smoke test, not a unit test. It loads the actual
+// index.html from the repo root and proves the page it declares still comes
+// alive. A byte-diff of the extraction cannot catch a wrong src or href: that
+// produces a page that looks perfect in a diff and is silently dead in a
+// browser. So this test discovers what the page points at by parsing it,
+// the same way a browser would, instead of hardcoding the paths we expect.
+
+const HERE = dirname(fileURLToPath(import.meta.url))
+const ROOT = resolve(HERE, '..')
+const INDEX_PATH = resolve(ROOT, 'index.html')
+
+describe('index.html', () => {
+  let scriptSrcs
+
+  beforeAll(() => {
+    const html = readFileSync(INDEX_PATH, 'utf8')
+
+    // Parse without executing anything. This step only reads what the page
+    // declares: which scripts, in which order, and which stylesheet.
+    const parsed = new JSDOM(html)
+    const parsedDoc = parsed.window.document
+
+    const scriptEls = Array.from(parsedDoc.querySelectorAll('script[src]'))
+    scriptSrcs = scriptEls.map((el) => el.getAttribute('src'))
+    const styleHref = parsedDoc.querySelector('link[rel="stylesheet"]')?.getAttribute('href')
+
+    expect(scriptSrcs.length, 'index.html declares no script[src] tags').toBeGreaterThan(0)
+    expect(styleHref, 'index.html declares no stylesheet link').toBeTruthy()
+
+    // Every script src must resolve to a real file relative to the repo
+    // root, the same place a file:// browser would resolve it from.
+    const scriptPaths = scriptSrcs.map((src) => resolve(ROOT, src))
+    scriptPaths.forEach((p, i) => {
+      expect(existsSync(p), `script src "${scriptSrcs[i]}" does not resolve to a real file`).toBe(true)
+    })
+
+    const stylePath = resolve(ROOT, styleHref)
+    expect(existsSync(stylePath), `stylesheet href "${styleHref}" does not resolve to a real file`).toBe(true)
+
+    // Bring the real page markup into this test's live document, then run
+    // the scripts the page declares, in the order it declares them. This
+    // mirrors what a browser does over file://.
+    document.body.innerHTML = parsedDoc.body.innerHTML
+
+    scriptPaths.forEach((p) => {
+      runInThisContext(readFileSync(p, 'utf8'), { filename: p })
+    })
+  })
+
+  it('loads its scripts in dependency order, with browse last', () => {
+    // Discovered from the HTML above, not hardcoded there. Hardcoded only
+    // here, as the expected value, because load order is exactly what this
+    // task's contract requires and a passing count/chip check cannot prove
+    // it: browse.js is still self-contained today, so it renders fine even
+    // loaded first. Task 5 wires it onto RowIndex, making order load-bearing.
+    expect(scriptSrcs).toEqual([
+      'app/store.js',
+      'app/rowindex.js',
+      'app/match.js',
+      'app/status.js',
+      'app/onboard.js',
+      'app/today.js',
+      'app/boot.js',
+      'app/browse.js',
+    ])
+  })
+
+  it('places the triage mount before the filter bar in document order', () => {
+    // Presence alone passed while the order was wrong: browse.js used to
+    // anchor its insertBefore on .sub, which put the filter bar ahead of the
+    // (empty, not-yet-populated) #triage mount. Checking document order,
+    // not just that both elements exist, is what actually catches that.
+    const mount = document.getElementById('triage')
+    const bar = document.querySelector('.filters')
+    expect(mount).not.toBeNull()
+    expect(bar).not.toBeNull()
+    const position = mount.compareDocumentPosition(bar)
+    expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  })
+
+  it('renders the filter bar with Field, Term, Type, and Status groups', () => {
+    const labels = Array.from(document.querySelectorAll('.flabel')).map((el) => el.textContent)
+    expect(labels).toEqual(expect.arrayContaining(['Field', 'Term', 'Type', 'Status']))
+  })
+
+  it('renders the search input', () => {
+    expect(document.querySelector('#q')).not.toBeNull()
+  })
+
+  it('renders an N of M count with a plausible M', () => {
+    const text = document.querySelector('#fcount').textContent
+    const m = text.match(/^(\d+) of (\d+)$/)
+    expect(m, `#fcount text "${text}" is not in "N of M" form`).not.toBeNull()
+    const total = Number(m[2])
+    // The real page carries several hundred hand-checked rows. Zero, or a
+    // handful, means the scripts did not actually run against the page.
+    expect(total).toBeGreaterThan(300)
+  })
+
+  it('renders at least one Field chip', () => {
+    const fieldGroup = Array.from(document.querySelectorAll('.fgroup')).find(
+      (g) => g.querySelector('.flabel')?.textContent === 'Field'
+    )
+    expect(fieldGroup).toBeTruthy()
+    expect(fieldGroup.querySelectorAll('.chip').length).toBeGreaterThan(0)
+  })
+
+  it('parses the date on every tag the page actually carries', () => {
+    // refresh.py writes "3 Sep". The client used to accept only "Sep 3", so
+    // 280 of the 436 tags on this page failed to parse and freshness scoring
+    // silently ranked new rows below old ones.
+    const RowIndex = globalThis.S27.RowIndex
+    const today = new Date().toISOString().slice(0, 10)
+    const tags = Array.from(document.querySelectorAll('.tag.new')).map((el) => el.textContent.trim())
+    expect(tags.length).toBeGreaterThan(100)
+    const unparsed = tags.filter((t) => RowIndex.parseTagDate(t, today) === null)
+    expect(unparsed, `date tags the client cannot read: ${[...new Set(unparsed)].join(', ')}`).toEqual([])
+  })
+
+  it('never gives two different rows the same key', () => {
+    // The fixture page cannot show this. On the real page several companies
+    // list many roles behind one careers link, so a single dismiss used to
+    // erase every one of them. A key may only be shared by rows a reader
+    // cannot tell apart, which is why the criterion is the whole <tr> and not
+    // company and title. Company and title is what the fallback key is built
+    // from, so asking it whether a t: group is one role is asking the key
+    // about itself, and the answer is always yes.
+    const RowIndex = globalThis.S27.RowIndex
+    const { rows } = RowIndex.build(document, new Date().toISOString().slice(0, 10))
+    expect(rows.length).toBeGreaterThan(300)
+
+    const groups = new Map()
+    rows.forEach((r) => {
+      if (!groups.has(r.key)) groups.set(r.key, [])
+      groups.get(r.key).push(r)
+    })
+
+    const bad = []
+    groups.forEach((group, key) => {
+      const distinct = new Set(group.map((r) => r.tr.outerHTML))
+      if (distinct.size > 1) bad.push(`${key} claimed by ${group.length} rows`)
+    })
+    expect(bad, `keys shared by rows that differ: ${bad.join(', ')}`).toEqual([])
+  })
+
+  it('never has a row that carries a td but no td.co', () => {
+    // RowIndex.build() selects a row by the presence of td.co, not by the
+    // presence of any td. Today every row that has a td also has a td.co,
+    // so the two selectors agree. A hand edit could break that agreement:
+    // a row with a td and no td.co would then silently vanish from every
+    // filter, count, and badge, instead of failing loudly. This scans a
+    // fresh parse of the real file, not the live executed document, so it
+    // checks the markup as committed.
+    const raw = readFileSync(INDEX_PATH, 'utf8')
+    const fresh = new JSDOM(raw).window.document
+    const bad = Array.from(fresh.querySelectorAll('tr')).filter(
+      (tr) => tr.querySelector('td') && !tr.querySelector('td.co')
+    )
+    expect(
+      bad.length,
+      `row(s) with a td but no td.co: ${bad.map((tr) => tr.outerHTML.slice(0, 100)).join(' | ')}`
+    ).toBe(0)
+  })
+})

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches-ignore: []
+  pull_request:
+
+jobs:
+  client:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: python3 -m pytest test_refresh.py -v
+      # No live dry run here. It took two minutes, hit 148 third-party boards,
+      # and refresh.py fails the run when fewer than 60% answer, so CI went red
+      # during someone else's outage. It also passed --no-deep, which skipped
+      # the prune, the one operation that deletes rows. The prune is covered by
+      # pytest against a fixture page instead. The daily refresh workflow is
+      # where the real boards get hit.
