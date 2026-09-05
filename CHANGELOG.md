@@ -1,5 +1,80 @@
 # Changelog
 
+## 2026-09-05
+
+Added 63:
+
+- Skydio — Flight Test Intern - Summer 2027 (San Mateo, California, United States)
+- Skydio — Product Design Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Zipline — Aircraft Software Integration Intern (Summer 2027) (South San Francisco, California, USA)
+- Bank of America — Global Operations Summer Analyst Program - 2027 (Greater Phoenix Area)
+- Johnson Controls — Early Careers Development Programs (Multiple Disciplines) (Milwaukee, WI)
+- Sanofi — Manager Commercial Graduate Program Specialty Care (Cambridge, MA)
+- Whatnot — Category Associate - New Grad Business Program (Los Angeles, CA)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Spectrum — 2027 Summer Intern: Reporting and Program Coordinator (Greenwood Village, CO)
+- HNTB — Public Engagement Intern - Summer 2027 (Overland Park, KS)
+- Deutsche Bank — Deutsche Bank Graduate Program - Corporate Bank - New York 2027 (New York, NY)
+- Owens Corning — Global Information Services Internship (2027) (Toledo, OH)
+- Clearsulting — Campus Consulting Analyst (Cleveland, OH)
+- Westinghouse Electric Company — 2027 Summer Intern - Infrastructure &amp; Delivery and Process (Cranberry Township, PA)
+- Crown Equipment Corporation — Information Data Steward Co-op Spring 2027 (New Bremen, OH)
+- BMW Group — Intern, Scouting and Academia - Spring 2027 - Summer 2027 (Mountain View, CA)
+- Enterprise — Management Trainee Summer 2027 Internship (San Jose, CA)
+- Verisk — Risk Analyst | 2027 Summer Internship Program (Boston, MA)
+- Copper Run — Summer 2027 Buy-Side M&amp;A Investment Banking Internship - Cleveland (Cleveland, OH)
+- Truist — 2027 Truist Securities - Investment Banking - Summer Analyst Program (Internship) - Atlanta (Atlanta, GA)
+- The Foth Companies — Environmental Consulting Intern (Summer 2027) (Green Bay, WI)
+- Fenner, Melstrom &amp; Dooling, PLC — Accounting Intern - Summer 2027 (Birmingham, MI)
+- Alfa Laval — Career Pathways Program Associate (2027-2028 Cohort) (Kenosha, WI)
+- Plante Moran — 2027 Summer Real Estate Valuation Intern (Chicago, IL)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- F.N.B. Corporation — Summer 2027 FNB Advisory Businesses: Wealth Management, Private Banking &amp; Insurance Intern (Pittsburgh, PA)
+- Old Mission — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- Macquarie Group — 2027 Macquarie Capital Graduate Program - New York (New York City Metropolitan Area)
+- GLC Advisors &amp; Co., LLC — Class of 2027 Full Time Analyst (Denver, CO)
+- Women of the Vine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Elkhart, IN)
+- American Express — Campus Undergraduate Full-Time Associate - 2027 Digital Product Management, Enterprise Technology Services- New York, NY (New York, NY)
+- Liminal — Product Management Apprentice (Boston, MA)
+- Roblox — [Summer 2027] Product Management Intern (San Mateo, CA)
+- F.N.B. Corporation — Summer 2027 Systems Analyst Intern (Pittsburgh, PA)
+- PKF O'Connor Davies — Transaction Advisory Services Intern (Summer 2027) - Boston, MA (Boston, MA)
+- Allianz Life — Summer 2027 Actuarial Internship | Fully Onsite (Minneapolis, MN)
+- Starr — 2027 Starr Summer Intern - Atlanta (Atlanta, GA)
+- Textron — 2027 Internship - Customer Accounts (Independence, KS) (Independence, KS)
+- AIG — 2027 Early Careers: Analyst, Finance– United States, New York, NY (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Textron — 2027 Entry Level - Sales Development Program (Wichita, KS)
+- IBM — Entry-Level Product Manager | Infrastructure Growth &amp; Innovation - Austin, TX - 2027 (Austin, TX)
+- IBM — Quote to Cash Intern 2027 (Armonk, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- General Motors — 2027 Summer Intern - Global Workplace Safety (Warren, MI)
+- D.A. Davidson Companies — Class of 2028 Financial Institutions Group, Investment Banking - Summer Analyst (Chicago, IL)
+- Macquarie Group — 2027 Macquarie Capital Graduate Program - Consumer, Gaming and Leisure (Los Angeles, CA)
+- Aurora Energy Research — 2027 Graduate Analyst Program (Austin) (Austin, TX)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+
+Closed 2:
+
+- Skydio — Hardware Product Management Intern 19 Aug find
+- True Anomaly — Propulsion and Fluids Intern 18 Aug
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-04
 
 Added 65:
