@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-09-06
+
+Added 60:
+
+- Keurig Dr Pepper Inc. — Summer 2027 Intern - Field Sales Management (St. Paul, MN) (St Paul, MN)
+- CHA Consulting, Inc. — Corporate Services Internships - Summer 2027 (Boston, MA)
+- Intuit — Emerging Talent Event - Summer 2027: Technical Program Management Intern (Mountain View, CA)
+- Jewel-Osco — 2027 Summer Business Internship (Itasca, IL)
+- General Motors — 2027 Summer Intern – Manufacturing Supply Chain (Kansas City, KS)
+- POET — Logistics Intern - Summer 2027 (Wichita, KS)
+- Citi — Functions - Chief Operating Office, Full Time Analyst, Tampa - USA, 2027 (Tampa, FL)
+- GEICO — Leadership Development Program - Dallas - Summer 2027 (Richardson, TX)
+- Safelite — Digital Product Global Early Career Professional (Columbus, OH)
+- Arconic — Digital Solutions Intern (Pittsburgh, PA)
+- Arconic — Corporate IT Finance and Automation Applications Intern (Pittsburgh, PA)
+- Phillips 66 — 2027 University New Hire- Information Technology (Houston, TX)
+- Wells Fargo — 2027 Quantitative Analytics Program Capital Markets (Masters) - Early Careers (Charlotte, NC)
+- Phillips 66 — 2027 University New Hire-Lubricants (Houston, TX)
+- Aldridge Electric — Midwest Project Management Intern - Summer 2027 (Des Plaines, IL)
+- International Contractors, Inc. — Project Intern - Summer 2027 (Oakbrook Terrace, IL)
+- F.N.B. Corporation — Summer 2027 Application Analyst Intern (Pittsburgh, PA)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- Nutrien — Students and New Grad Opportunities - Corporate USA (South Deerfield, MA)
+- Lockton — Summer 2027 Internship - Minneapolis (Minneapolis, MN)
+- Starr — 2027 Starr Summer Intern - Chicago (Chicago, IL)
+- United Airlines — Intern - Menu Design (Summer 2027) (Chicago, IL)
+- Bayer — Regulatory Digital Transformation &amp; Data Co-Op (Indianola, PA)
+- The Lubrizol Corporation — Information Technology Co-op (Spring 2027) (Wickliffe, OH)
+- The Lubrizol Corporation — Information Technology Co-op (Summer 2027) (Wickliffe, OH)
+- TD — 2027 Summer Analyst - Operations and Business Services (New York City) (New York, NY)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Analyst - Secondary Capital Advisory (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- ASM — Software Engineering Intern (Spring 2027) ()
+- TikTok — Applied Scientist Intern, Business Integrity (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization GenAI (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization Technology (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Research Scientist Intern, E-commerce Recommendation LLM (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- Citi — Services Summer Analyst (2027, grad Dec 2027 – May 2028) 🛂 (New York, NY)
+- Aquatic Capital — Software Engineer Intern (Summer 2027) (Chicago, IL)
+
+Closed 1:
+
+- Rocket Lab — Integrated Operations Intern
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-05
 
 Added 63:
