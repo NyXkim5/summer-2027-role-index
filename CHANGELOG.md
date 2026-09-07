@@ -1,5 +1,77 @@
 # Changelog
 
+## 2026-09-07
+
+Added 61:
+
+- Dropbox — Software Engineering Intern (Summer 2027) (Remote - US: All locations)
+- CohnReznick — 2026 Transactional Advisory Services - TAS Summer 2026 Internship (Boston, NY)
+- Wells Fargo — 2027 Human Resources Development Program - Early Careers (Charlotte, NC)
+- Xcel Energy — Business Analyst Intern - TX, WI (Eau Claire, WI)
+- Grainger — GTG Intern - Business Systems Analyst (Chicago, IL)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- BDO USA — Tax Intern Leadership Program (TILP) - Winter &amp; Summer 2028 (Houston) (Houston, TX)
+- Southern Glazer's Wine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- ACCA Careers — GDI Business Analyst Intern - OVIP (Austin, TX)
+- BRG — 2027 Summer Associate (Intern) - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN (Nashville, TN)
+- Caterpillar Inc. — 2027 Summer Corporate Intern - Business Operations (Peoria, IL)
+- KeyBank — 2027 KeyBanc Capital Markets Full Time Analyst (Cleveland, OH)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Midlothian, TX)
+- Wipfli — Product Implementation Internship - Summer 2027 (Milwaukee, WI)
+- Spectrum — 2027 Summer Intern: Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Momentum — 2027 Launch Graduate Program: Procurement Analyst (Dallas, TX)
+- Ryan — Summer 2027 Tax Consulting Intern - Plano, TX (Plano, TX)
+- Copper Run — Summer 2027 Buy-Side M&amp;A Investment Banking Internship - Columbus (Columbus, OH)
+- Armanino — Summer 2027 Tax Intern (Salt Lake City) (Salt Lake City, UT)
+- MSI — Rotational Undergraduate Analyst - MSI (Boston, MA)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- Corteva Agriscience — Business Analyst Intern (Indianapolis, IN)
+- ACCA Careers — IT Business Analyst Intern (Spring 2027) (Greenville, SC)
+- Capital One — Business Analyst Intern - Summer 2027 (New York, NY)
+- Aegon — Financial Reporting Intern (Spring 2027) (United States)
+- NERA — NERA Summer Internship (Summer 2028 Grads) (Multiple Locations) (Boston, MA)
+- Cornerstone Advisors — 2027 Consultant Intern (19514) (Scottsdale, AZ)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- D.A. Davidson Companies — Consumer Group, Investment Banking – Summer Analyst – 2028 Grads (Irvine, CA)
+- Intel — Technical Sales - Intern, Graduate (Folsom, CA)
+- PepsiCo — 2027 Summer Intern: Technology Business Analyst &amp; Project Coordination (Plano, TX)
+- IAT Insurance Group — Business Analyst Internship (Kansas City, MO)
+- Citi — Banking - Financial Strategy Group, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- GLC Advisors &amp; Co., LLC — Class of 2027 Full Time Analyst (New York, NY)
+- PwC — Accelerated Solutions Consulting Intern - Summer 2027 (Minneapolis, MN)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- United Airlines — Intern - Tech Ops Strategy &amp; Performance (Summer 2027) (Chicago, IL)
+- Wells Fargo — 2027 Corporate Risk Development Program Analyst (Core Risk) - Early Careers (Charlotte, NC)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- TD — 2027 Summer Internship Program - Commercial Banking (Mount Laurel, NJ)
+- POET — Business Support Analyst Intern - Summer 2027 (Wichita, KS)
+- Tencent — AI Business Analyst Intern (Palo Alto, CA)
+- US Foods — Intern – Data Advisory Analyst (Hybrid: Onsite &amp; Remote) (Rosemont, IL)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Aviation – United States, Chicago, IL (Chicago, IL)
+- GlobalFoundries — Talent Accelerator Program (2027 New College Graduate) (Austin, TX)
+- AIG — 2027 Early Careers: Analyst, Underwriting – United States, Multiple Locations (New York, NY)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Construction – Houston, TX (Houston, TX)
+- Grant Thornton (US) — Finance Transformation Intern - Summer 2027 (Charlotte, NC)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+
+Closed 1:
+
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-06
 
 Added 60:
