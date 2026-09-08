@@ -1,5 +1,83 @@
 # Changelog
 
+## 2026-09-08
+
+Added 66:
+
+- Vercel — Software Engineering Intern - Summer '27 (Hybrid - San Francisco)
+- Vercel — Software Engineering Intern - Winter '27 (Hybrid - San Francisco)
+- Datadog — Software Engineering Intern (Summer) (Boston, Massachusetts, USA; New York, Ne)
+- Zipline — Real Estate Intern (Spring 2027) (South San Francisco, California, USA)
+- Zipline — Real Estate Intern (Summer 2027) (South San Francisco, California, USA)
+- Base Power — Business Operations Intern, Commercial Partnerships (Austin, TX)
+- Johnsonville — Digital Asset Management Internship - Summer 2027 (Sheboygan Falls, WI)
+- Gallagher — U.S. Internship - Risk Control (Rolling Meadows, IL)
+- Adobe — 2027 Intern - Solutions Consulting Analyst (New York, NY)
+- Johnsonville — Operations Internship - Summer 2027 (Sheboygan Falls, WI)
+- Hilton — 2027 Corporate Summer Internship - Global Distribution (Dallas, TX)
+- Bank of America — Global Operations Summer Analyst Program - 2027 (Greater Phoenix Area)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- Wells Fargo — 2027 Commercial Banking Early Career Development Program (Boston, MA)
+- Wells Fargo — 2027 Investment Banking Associate Program - Early Careers (Washington, DC)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- Kinder Morgan, Inc. — 2027 BOLT Intern - Transportation/Storage Services: Business Processes (Houston, TX)
+- Medpace — Entry-Level Business Analyst - Software Development (Cincinnati, OH)
+- Axon — Leadership Development Program 2027 (Sales) (Boston, MA)
+- GALLO — Finance and Accounting Leadership Development Program 2027 (Modesto, CA)
+- Sanofi — Manager Commercial Graduate Program Specialty Care (Cambridge, MA)
+- Sanofi — Manager Commercial Graduate Program Vaccines (Cambridge, MA)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Spectrum — 2027 Summer Intern: Reporting and Program Coordinator (Greenwood Village, CO)
+- HNTB — Public Engagement Intern - Summer 2027 (Overland Park, KS)
+- Deutsche Bank — Deutsche Bank Graduate Program - Corporate Bank - New York 2027 (New York, NY)
+- Owens Corning — Global Information Services Internship (2027) (Toledo, OH)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- BMW Group — Intern, Scouting and Academia - Spring 2027 - Summer 2027 (Mountain View, CA)
+- Enterprise — Management Trainee Summer 2027 Internship (San Jose, CA)
+- Copper Run — Summer 2027 Buy-Side M&amp;A Investment Banking Internship - Cleveland (Cleveland, OH)
+- Truist — 2027 Truist Securities - Investment Banking - Summer Analyst Program (Internship) - Atlanta (Atlanta, GA)
+- The Foth Companies — Environmental Consulting Intern (Summer 2027) (Green Bay, WI)
+- Alfa Laval — Career Pathways Program Associate (2027-2028 Cohort) (Kenosha, WI)
+- Citi — Banking - Investment Banking, Full Time Analyst, Houston - US 2027 (Houston, TX)
+- Plante Moran — 2027 Summer Real Estate Valuation Intern (Chicago, IL)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Macquarie Group — 2027 Macquarie Capital Graduate Program - New York (New York City Metropolitan Area)
+- GLC Advisors &amp; Co., LLC — Class of 2027 Full Time Analyst (Denver, CO)
+- Women of the Vine &amp; Spirits — 2027 NextGen Leadership Development Program | Dallas, TX (Dallas, TX)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Sturgis, MI)
+- American Express — Campus Undergraduate Full-Time Associate - 2027 Digital Product Management, Enterprise Technology Services- New York, NY (New York, NY)
+- PepsiCo — 2027 Summer Intern: Technology Cyber Security (Plano, TX)
+- L3Harris Technologies — IT Business Analysis Intern (Rochester, NY)
+- Old Mission — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+
+Closed 2:
+
+- Samsara — Entry Level Tech Sales - Benelux Market (work from the UK, Netherlands, Germany or France - Dutch speaking role) 13 Aug
+- Samsara — Entry Level Tech Sales - Benelux Market (Dutch speaking) 30 Jul
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-07
 
 Added 61:
