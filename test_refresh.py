@@ -190,3 +190,18 @@ def test_prune_leaves_a_page_with_no_deep_section_alone():
     out, pruned = refresh.prune_deep(page, 4)
     assert pruned == 0
     assert out == page
+
+
+# Franklin, LA is a real Saronic intern location that the index silently
+# dropped as non-US, because the state list was missing 18 states.
+@pytest.mark.parametrize("state", [
+    "AK", "AR", "DE", "HI", "ID", "KY", "LA", "ME", "MS",
+    "MT", "NE", "NH", "ND", "RI", "SD", "VT", "WV", "WY",
+])
+def test_us_filter_accepts_every_state(state):
+    assert refresh.US.search(f"Franklin, {state}")
+
+
+def test_us_filter_still_rejects_foreign_locations():
+    for loc in ["London, United Kingdom", "Toronto, Ontario", "Bengaluru, India"]:
+        assert not refresh.US.search(loc), loc

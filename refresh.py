@@ -51,9 +51,17 @@ JUNK = re.compile(
     r"|production associate|maintenance technician",
     re.I,
 )
+# All 50 states plus DC. The list used to hold 32, so a real US role in one of
+# the missing 18 was dropped as foreign. Saronic's Manufacturing Engineer Intern
+# in Franklin, LA is how that surfaced. Note the pre-existing tradeoff: a few of
+# these codes are also country codes (IN, DE, ID, MT), so a location written
+# "Berlin, DE" reads as Delaware. Boards in this index spell foreign countries
+# out, and dropping real US roles is the more expensive error.
 US = re.compile(
-    r"\b(USA|United States|Remote|AL|AZ|CA|CO|CT|DC|FL|GA|IL|IN|IA|KS|MA|MD|MI|MN|MO"
-    r"|NC|NJ|NM|NV|NY|OH|OK|OR|PA|SC|TN|TX|UT|VA|WA|WI)\b"
+    r"\b(USA|United States|Remote"
+    r"|AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN"
+    r"|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA"
+    r"|WV|WI|WY)\b"
     r"|New York|San Francisco|Seattle|Chicago|Austin|Boston|Atlanta|Denver|Dallas"
     r"|Houston|Phoenix|Charlotte|McLean|Arlington|Sunnyvale|Palo Alto|Mountain View"
     r"|Bellevue|Redmond|Cupertino|San Jose|Los Angeles",
@@ -410,7 +418,25 @@ def pretty(token):
                "normalcomputing": "Normal Computing", "flatironhealth": "Flatiron Health",
                "scaleai": "Scale AI", "openai": "OpenAI", "spacex": "SpaceX",
                "nvidia": "NVIDIA", "imc": "IMC Trading", "mongodb": "MongoDB",
-               "gitlab": "GitLab", "paypal": "PayPal", "paloalto": "Palo Alto Networks"}
+               "gitlab": "GitLab", "paypal": "PayPal", "paloalto": "Palo Alto Networks",
+               # Boards added 2026-09-10, where title-casing the slug reads wrong.
+               "machindustries": "Mach Industries", "generalmatter": "General Matter",
+               "chaosindustries": "Chaos Industries", "darkwolfsolutions": "Dark Wolf Solutions",
+               "accenturefederalservices": "Accenture Federal Services",
+               "idmeuniversityrecruiting": "ID.me", "charlesriverassociates": "Charles River Associates",
+               "dominodatalab": "Domino Data Lab", "doordashusa": "DoorDash",
+               "dvtrading": "DV Trading", "ennoblecare": "Ennoble Care",
+               "garnerhealth": "Garner Health", "lincolninternational": "Lincoln International",
+               "myfundedfutures": "MyFunded Futures", "netbrain": "NetBrain",
+               "newrelic": "New Relic", "pathai": "PathAI", "payit": "PayIt",
+               "preciselyusjobs": "Precisely", "selffinancial": "Self Financial",
+               "simplisafe": "SimpliSafe", "stepstone": "StepStone Group",
+               "torcrobotics": "Torc Robotics", "alarmcom": "Alarm.com",
+               "voloridgeinvestmentmanagement": "Voloridge", "belvederetrading": "Belvedere Trading",
+               "agatesoftware": "Agate Software", "morningconsult": "Morning Consult",
+               "alphasights": "AlphaSights", "blab": "B Lab", "kayak": "KAYAK",
+               "grvty": "GRVTY", "policyme": "PolicyMe", "clearedge": "ClearEdge",
+               "esri": "Esri", "pipe17": "Pipe17", "fivetran": "Fivetran"}
     if token in special:
         return special[token]
     return token.replace("-", " ").replace("_", " ").title()
