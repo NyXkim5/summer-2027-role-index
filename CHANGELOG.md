@@ -1,5 +1,117 @@
 # Changelog
 
+## 2026-09-14
+
+Added 94:
+
+- Schonfeld — 2027 Fundamental Equity COO Intern (New York, New York, United States)
+- Robinhood — Special Projects Intern (Summer 2027) (Menlo Park, CA)
+- Robinhood — Vendor Management Intern (Summer 2027) (New York, NY)
+- Figma — Brand Design Intern (Summer 2027) (San Francisco, CA)
+- Dark Wolf Solutions — Virginia Tech College Fair - Internship (Herndon, VA)
+- GRVTY — 2027 Intern & New Graduate Pipeline Opportunity (McLean, Virginia, United States)
+- Robinhood — Accounting Intern (Summer 2027) (New York, NY)
+- Robinhood — Brokerage Operations Intern (Summer 2027) (Chicago, IL)
+- Robinhood — Business Analyst Intern (Summer 2027) (Washington, DC)
+- Robinhood — Crypto Operations Intern (Summer 2027) (New York, NY)
+- Robinhood — Crypto Partnership Intern (Summer 2027) (New York, NY)
+- Robinhood — Fraud Operations Intern (Summer 2027) (Denver, CO)
+- Robinhood — Futures & Prediction Market Operations Intern (Summer 2027) (Chicago, IL)
+- Robinhood — Growth Marketing Intern (Summer 2027) (Menlo Park, CA)
+- Robinhood — People Partner Intern (Summer 2027) (New York, NY)
+- Base Power — Supply Chain Tooling Engineer Intern (Austin, TX)
+- Robinhood — Associate Product Manager (New Grad) (Menlo Park, CA; New York, NY)
+- Figma — Product Design Intern (2027) (San Francisco, CA • New York, NY)
+- Robinhood — Brokerage Risk Analyst Intern (Summer 2027) (Chicago, IL)
+- Robinhood — Investment Analyst Intern (Summer 2027) (Menlo Park, CA)
+- Robinhood — PeopleX Insights & Analytics Intern (Summer 2027) (Menlo Park, CA)
+- Figma — Data Science Intern (2027) (San Francisco, CA • New York, NY)
+- Base Power — Quantitative Developer Intern (Austin, TX)
+- Robinhood — Software Engineering Intern, Android (Summer 2027) (Menlo Park, CA; New York, NY)
+- Robinhood — Software Engineering Intern, Backend (Summer 2027) (Bellevue, WA; Menlo Park, CA; New York, )
+- Robinhood — Software Engineering Intern, iOS (Summer 2027) (Menlo Park, CA; New York, NY)
+- Robinhood — Software Engineering Intern, Web (Summer 2027) (Menlo Park, CA; New York, NY)
+- Okta — Developer Support Associate (New Grad) (Chicago, Illinois)
+- Figma — Software Engineer Intern (Summer 2027) (San Francisco, CA • New York, NY)
+- Base Power — Member Experience Intern (Austin, TX)
+- Base Power — Firmware Engineering Intern (Austin, TX)
+- Base Power — Software Engineering Intern (Austin, TX)
+- Rocket Lab — Mechanical Engineering Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Mechanical Engineering Intern Summer 2027 (Long Beach, CA)
+- BDO USA — Tax Intern, BDO Capital Advisors, ESOP Services - Summer 2027 (Multiple Locations) (San Diego, CA)
+- VMG Health — Summer Intern 2027 - Transaction Advisory Services (TAS) / Financial Due Diligence (Nashville, TN)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- WTW — Early Careers: Intern Conversion Only - Investment Analyst - 2027 (New York, NY)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (New Orleans, LA)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- Robinhood — Associate Product Manager (New Grad) (Menlo Park, CA)
+- Mariner Finance — Business Analyst/Project Coordinator Intern (Nottingham, MD)
+- Vylor — AI Business Analyst Intern (Johnston, IA)
+- Vylor — Business Analyst Intern (Johnston, IA)
+- Federal Reserve Bank of San Francisco — 2027 SF Fed Summer Internship - BUSINESS ANALYST Intern (San Francisco, CA)
+- TD — 2027 Summer Internship Program - Global Technology Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Immersion — Intern (Annapolis, MD)
+- Robinhood — Business Analyst Intern (Summer 2027) (Washington, DC)
+- nVent — Digital Leadership Development Program 2027 (St Louis Park, MN)
+- JPMorganChase — 2027 Asset &amp; Wealth Management Risk Full Time Analyst Program (Columbus, OH)
+- Citi — Banking - Corporate Banking, Full Time Analyst, San Francisco - USA, 2027 (San Francisco, CA)
+- Davenport &amp; Company LLC — 2027 Public Finance Summer Internship - Atlanta, GA (Atlanta, GA)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- TotalEnergies — 2027 Tax Graduate Program - JD Law Track (Houston, TX)
+- BAE Systems, Inc. — Finance Leadership Development Program - ES - Endicott, NY (Hybrid) (Endicott, NY)
+- CVS Health — Finance Leadership Development Program (Hartford, CT)
+- CNO Financial Group — Summer 2027 Reporting Analyst Intern 2027 - REMOTE from any US based location (Carmel, IN)
+- Delta Dental of Iowa — Technical Business Analyst Intern - Summer 2027 (Potential Insure Your Future) (Johnston, IA)
+- Brookfield — Intern, Business Analyst (New York, NY)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (New York Metro) (New York, NY)
+- The Bonadio Group — Dallas Spring 2027 &amp; Summer 2027 Accounting Internship (Dallas, TX)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- BioSpace — Manager Commercial Graduate Program Vaccines (Cambridge, MA)
+- Crowe — AI Functional Intern - WINTER 2027 (Los Angeles, CA)
+- HNI Corporation — Internship - IT Business Analyst Summer 2027 (Muscatine, IA)
+- KPMG Financial Reporting View (FRV) — Tax Intern, Property Tax | Multiple Locations Summer 2027 (Houston, TX)
+- KPMG Financial Reporting View (FRV) — Tax Intern, Business Tax Services - Korean Practice | Multiple Locations Summer 2027 (Los Angeles Metropolitan Area)
+- Whitestone Associates, Inc. — Environmental Intern (Warren, NJ)
+- PwC — Tampa - Tax - Intern - Summer 2027 (Tampa, FL)
+- Kinder Morgan, Inc. — 2027 BOLT Intern - Transportation/Storage Services: Business Processes (Houston, TX)
+- Cicero™, part of MGT — Business Analyst Intern (Summer 2027) (Salt Lake City, UT)
+- Eide Bailly — Banking Compliance Intern (Spring or Summer 2027) (Mankato, MN)
+- Alvarez &amp; Marsal — Intern, Restructuring Tax Services - Multiple Locations Summer 2027 (Atlanta, GA)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- FIS — Financial Analyst I, FIS University Program (Jacksonville, FL)
+- Southern Glazer's Wine &amp; Spirits — 2027 NextGen Leadership Development Program | Miramar, FL (Miramar, FL)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+
+Closed 8:
+
+- The Nuclear Company — Fall 2026 AI/ML Engineering Intern 7 Aug
+- Zoox — Contract Student Worker, Technical Program Manager
+- Cloudflare — Software Engineer Intern (Fall 2026) 20 Aug
+- Cloudflare — Software Engineer Intern (Fall 2026) 10 Aug
+- Cloudflare — Software Engineer Intern (Fall 2026) - Austin, TX 14 Jul
+- Robinhood — Customer Experience Associate (New Grad) 27 Aug
+- Sierra — Intern, Agent Development (Winter 2027) 1 Sep
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-13
 
 Added 60:
