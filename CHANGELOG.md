@@ -1,5 +1,91 @@
 # Changelog
 
+## 2026-09-16
+
+Added 73:
+
+- Twilio — Software Engineer Intern (January 12th start, 23 weeks) (Remote - India)
+- Rocket Lab — Manufacturing Engineering Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Manufacturing Engineering Intern Spring 2027 (Middle River, MD)
+- Rocket Lab — Manufacturing Engineering Intern Summer 2027 (Long Beach, CA)
+- Rocket Lab — Mechanical Engineering Intern Spring 2027 (Silver Spring, MD)
+- Rocket Lab — Mechanical Engineering Intern Summer 2027 (Silver Spring, MD)
+- Rocket Lab — RF Engineering Intern Summer 2027 (Long Beach, CA)
+- Zipline — Electrical Project Engineer Intern (Summer 2027) (South San Francisco, California, USA)
+- Rocket Lab — Propulsion Analyst Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Propulsion Analyst Intern Summer 2027 (Long Beach, CA)
+- Robinhood — Security Risk Management Intern (Summer 2027) (Menlo Park, CA)
+- Appian — University Talent Acquisition Specialist (McLean, Virginia)
+- Zipline — Commercial Marketplace Strategy and Operations Intern (Summer 2027) (South San Francisco, California, USA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- PwC — Houston - Tax - Intern - Summer 2028 - Destination CPA (Houston, TX)
+- Fifth Third Bank — Summer 2027 Commercial Middle Market Internship - Charlotte (Charlotte, NC)
+- Northrop Grumman — 2027 Intern - Survivability Engineer (San Diego, CA)
+- Citi — Banking, Investment Banking, Full Time Analyst, San Francisco Healthcare – USA, 2027 (San Francisco, CA)
+- Caterpillar Inc. — 2027 MIT LGO Accelerated Leadership Development Program (Decatur, IL)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- Crowe — Business Analyst Intern (Chicago, IL)
+- Ebara Elliott Energy — Business Analysis/Organizational Change Management Intern (Jeannette, PA)
+- Garmin — Business Analyst Intern (Olathe, KS)
+- Enterprise Mobility — Intern - IT Business Analyst (St Louis, MO)
+- Tencent — AI Business Analyst Intern (Palo Alto, CA)
+- Societe Generale — Research Associate (Campus) (New York, NY)
+- Old Mission — Floor Trader - 2027 Graduate Program (August Start) (Chicago, IL)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- Charles Schwab — 2027 Branch Financial Consulting Intern (Sarasota, FL)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- Macquarie Group — 2027 Macquarie Asset Management Graduate Program - Client Solutions Group, Wealth (New York City Metropolitan Area)
+- Macquarie Group — 2027 Financial Management Graduate Program (Jacksonville, FL)
+- Principal Financial Group — Leadership Development Program Associate (Des Moines, IA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- Mercury Systems — 2027 Information &amp; Engineering Systems Intern (Andover, MA)
+- Purvis, Gray &amp; Company, LLP ~ Certified Public Accountants — Summer 2027 Tax Internship (May - August 2027) - Orlando (Orlando, FL)
+- Purvis, Gray &amp; Company, LLP ~ Certified Public Accountants — Summer 2028 Tax Internship (May - August 2028) - Gainesville (Gainesville, FL)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Vylor — R&amp;D Business Requirements Analyst Intern (Johnston, IA)
+- Labcorp — Intern - IT Business Analyst (Durham, NC)
+- Johnson Financial Group — Wealth Fiduciary Summer Internship 2027 (Madison, WI)
+- PwC — San Diego - Tax - Intern - Summer 2028 - Destination CPA (San Diego, CA)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Analyst - Technology (Charlotte, NC)
+- BNP Paribas — 2027 – Full Time Analyst - Global Banking, Corporate Coverage (New York, NY)
+- Wells Fargo — 2027 Audit Analyst Development Program - Early Careers (Irving, TX)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- BioSpace — Manager Commercial Graduate Program Specialty Care (Cambridge, MA)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- KPMG US — Tax Intern, Property Tax | Multiple Locations Summer 2027 (Houston, TX)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+
+Closed 3:
+
+- Distyl AI — Executive Operations Associate, Office of the CEO Aug 28
+- Anduril — Software Engineer, Battlespace Awareness
+- Ionq — Research &amp; Development - Characterization Intern 14 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-15
 
 Added 97:
