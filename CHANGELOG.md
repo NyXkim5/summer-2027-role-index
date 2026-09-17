@@ -1,5 +1,100 @@
 # Changelog
 
+## 2026-09-17
+
+Added 81:
+
+- Rocket Lab — Supply Chain Intern Spring 2027 (Middle River, MD)
+- Rocket Lab — Supply Chain Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Supply Chain Intern Summer 2027 (Middle River, MD)
+- Rocket Lab — Talent Acquisition Intern Summer 2027 (Long Beach, CA)
+- Base Power — Accounting Intern (Austin, TX)
+- Base Power — Supply Chain Intern (Austin, TX)
+- Rocket Lab — Systems Engineering Intern Summer 2027 (Pasadena, CA)
+- Rocket Lab — Test Engineering Intern - Manufacturing Spring 2027 (Long Beach, CA)
+- Rocket Lab — Test Engineering Intern Spring 2027 (Stennis Space Center, MS)
+- Rocket Lab — Test Engineering Intern Summer 2027 (Stennis Space Center, MS)
+- Rocket Lab — Manufacturing Engineering Intern Summer 2027 (Middle River, MD)
+- Zipline — Technical Writer Intern (South San Francisco, California, USA)
+- Physical Intelligence — Mechatronics Intern (San Francisco)
+- Rocket Lab — Security Analyst Intern Spring 2027 (Middle River, MD)
+- Rocket Lab — Security Analyst Intern Spring 2027 (Wallops Island, VA)
+- Rocket Lab — Security Analyst Intern Spring 2027 (Albuquerque, NM)
+- Rocket Lab — Security Analyst Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Security Analyst Intern Summer 2027 (Middle River, MD)
+- Rocket Lab — Security Analyst Intern Summer 2027 (Wallops Island, VA)
+- Rocket Lab — Security Analyst Intern Summer 2027 (Long Beach, CA)
+- Rocket Lab — Security Analyst Intern Summer 2027 (Albuquerque, NM)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- BDO USA — Advisory Intern, Cyber, Compliance &amp; Assessment - Summer 2027 (Multiple Locations) (Minneapolis, MN)
+- BNP Paribas — 2027 – Full Time Analyst - Global Banking, Asset Finance &amp; Securitization (New York, NY)
+- Visa — Visa Leadership Associate Program (VLA), New College Graduate Rotational Program, 2027 (San Francisco, CA)
+- Amazon — Tax Leadership Development Program (TLDP) - 2027, TLDP (Arlington, VA)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Visa — Associate Product Manager (APM), New College Graduate Rotational Program, 2027 (Foster City, CA)
+- Propopia — Business Analyst Intern (United States)
+- GM Financial — Intern - Business Systems Analyst (Arlington, TX)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- SERVPRO — IT Business Analyst &amp; Project Management Intern - Summer 2027 (Gallatin, TN)
+- Citi — Banking - Corporate Banking, Full Time Analyst, San Francisco - USA, 2027 (San Francisco, CA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Atlanta, GA)
+- Spectrum Equity — Back-End Software Engineer Intern (Lindon, UT)
+- RWE — Finance Graduate Program (Chicago, IL)
+- RWE — Business Transformation &amp; Strategy Graduate Program (Chicago, IL)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- NOV — Software Engineering Intern (Houston, TX)
+- VMG Health — Summer Intern 2027 - Transaction Advisory Services (TAS) / Financial Due Diligence (Nashville, TN)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (New Orleans, LA)
+- Robinhood — Associate Product Manager (New Grad) (Menlo Park, CA)
+- Vylor — AI Business Analyst Intern (Johnston, IA)
+- Federal Reserve Bank of San Francisco — 2027 SF Fed Summer Internship - BUSINESS ANALYST Intern (San Francisco, CA)
+- TD — 2027 Summer Internship Program - Global Technology Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Immersion — Intern (Annapolis, MD)
+- nVent — Digital Leadership Development Program 2027 (St Louis Park, MN)
+- Davenport &amp; Company LLC — 2027 Public Finance Summer Internship - Atlanta, GA (Atlanta, GA)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- BAE Systems, Inc. — Finance Leadership Development Program - ES - Endicott, NY (Hybrid) (Endicott, NY)
+- CVS Health — Finance Leadership Development Program (Hartford, CT)
+- PTC — Business Rotational Leadership Development Program (RLDP) (Boston, MA)
+- CNO Financial Group — Summer 2027 Reporting Analyst Intern 2027 - REMOTE from any US based location (Carmel, IN)
+- Delta Dental of Iowa — Technical Business Analyst Intern - Summer 2027 (Potential Insure Your Future) (Johnston, IA)
+- Brookfield — Intern, Business Analyst (New York, NY)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (New York Metro) (New York, NY)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+
+Closed 4:
+
+- Anduril — Winter 2027 PCB Layout Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Test Automation Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Procurement/Buyer Co-op 15 Sep
+- Anduril — Winter 2027 Supply Chain Engineer Co-op 15 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-16
 
 Added 73:
