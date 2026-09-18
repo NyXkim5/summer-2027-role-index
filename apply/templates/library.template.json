@@ -1,0 +1,12 @@
+{
+  "_comments": {
+    "_about": "Copy this file to apply/user/library.json. The setup UI manages it for you, so you rarely edit it by hand. Each entry in resumes describes one uploaded PDF.",
+    "resumes": "List of resume entries. Normally empty until you upload PDFs through the Resumes tab.",
+    "resumes[].id": "Stable id assigned by serve.py when the PDF is uploaded.",
+    "resumes[].label": "Human name for this resume, for example 'ML research' or 'Backend SWE'.",
+    "resumes[].file": "Filename of the PDF inside apply/user/files/.",
+    "resumes[].tags": "List of lowercase keywords used to match this resume to a job description, for example [\"ml\", \"python\", \"research\"].",
+    "resumes[].added": "ISO 8601 timestamp of when the entry was created."
+  },
+  "resumes": []
+}
