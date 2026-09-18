@@ -476,12 +476,27 @@ def parse_multipart(body, ctype):
     return parts
 
 
+def sanitize_pdf_name(original_name):
+    """Keep the uploader's filename, made path-safe. Recruiters see this name
+    when the agent uploads the file to an ATS, so a hash here reads as spam."""
+    base = os.path.basename(original_name or "")
+    base = re.sub(r"[^A-Za-z0-9._ -]", "_", base).strip().strip(".")
+    if not base.lower().endswith(".pdf"):
+        base = (base or "resume") + ".pdf"
+    if base.lower() == ".pdf":
+        base = "resume.pdf"
+    return base[:120]
+
+
 def add_resume(data, original_name, label, tags):
-    """Save the PDF under a server-chosen name and append a library entry."""
+    """Save the PDF under files/<id>/<original-name> and append a library
+    entry. The id directory prevents collisions, the preserved filename is
+    what the ATS (and the recruiter) will see."""
     rid = secrets.token_hex(8)
-    files_dir = user_path("files")
+    safe_name = sanitize_pdf_name(original_name)
+    files_dir = user_path("files", rid)
     os.makedirs(files_dir, exist_ok=True)
-    dest = user_path("files", rid + ".pdf")
+    dest = user_path("files", rid, safe_name)
     with open(dest, "wb") as fh:
         fh.write(data)
         fh.flush()
@@ -489,7 +504,7 @@ def add_resume(data, original_name, label, tags):
     entry = {
         "id": rid,
         "label": label,
-        "file": f"files/{rid}.pdf",
+        "file": f"files/{rid}/{safe_name}",
         "tags": tags,
         "added": now_iso(),
         "original_name": original_name,
@@ -541,6 +556,10 @@ def delete_resume(rid):
         path = user_path(*file_rel.split("/"))
         if os.path.isfile(path):
             os.remove(path)
+        # New-style uploads live in a per-id directory. Remove it when empty.
+        parent = os.path.dirname(path)
+        if os.path.basename(parent) == rid and os.path.isdir(parent) and not os.listdir(parent):
+            os.rmdir(parent)
     write_user_json("library.json", library)
     return {"ok": True}
 

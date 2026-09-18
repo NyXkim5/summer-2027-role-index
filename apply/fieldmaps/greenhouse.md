@@ -185,6 +185,22 @@ then PUT the park notes and write the log line.
   block and a custom demographic survey. Fill the EEO block from the
   profile. Leave the custom survey empty and list it as pending.
 
+## Live-run lessons (2026-09-18, Anduril 4802146007)
+
+- The Country combobox silently dropped a `form_input` write. The verify
+  rule caught it. Fix: open the flyout and click the country option.
+- Education selects behaved exactly as the tables above say: type 3+
+  chars, wait, click the option, confirm the X-to-clear icon renders.
+  The X icon next to a select's value is the committed-selection signal.
+- A dropdown option list can render below the fold. Typing filters it,
+  then Enter commits the highlighted option. Verify after.
+- "How did you hear" had no job-board option on this board; `Other`
+  plus the specify box worked.
+- Question scope matters more than the fieldmap can encode: this board
+  asked a compound screener (experience AND able to start full time in
+  2026). Answer the compound fact truthfully even when it hurts, and
+  put a fit flag in the park notes.
+
 ## Sources
 
 - openapplier.com, "Greenhouse, Lever, Ashby: a form-filler's view"

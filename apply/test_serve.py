@@ -7,6 +7,7 @@ real apply/user/ directory.
 import http.client
 import json
 import os
+import re
 import shutil
 import socket
 import subprocess
@@ -304,10 +305,10 @@ def test_upload_resume(server, env):
     assert status == 200, entry
     assert entry["label"] == "SWE"
     assert entry["tags"] == ["swe", "backend"]
-    assert entry["file"].startswith("files/")
-    assert entry["file"].endswith(".pdf")
-    assert entry["file"] == f"files/{entry['id']}.pdf"
-    assert (env / "files" / f"{entry['id']}.pdf").read_bytes() == b"%PDF-1.4 fake"
+    # The original filename survives, sanitized, inside a per-id directory.
+    # A recruiter sees this name when the agent uploads to an ATS.
+    assert entry["file"] == f"files/{entry['id']}/JNK.pdf"
+    assert (env / "files" / entry["id"] / "JNK.pdf").read_bytes() == b"%PDF-1.4 fake"
     status, resp = call(server, "GET", "/api/library")
     assert status == 200
     assert [r["id"] for r in resp["resumes"]] == [entry["id"]]
@@ -316,13 +317,31 @@ def test_upload_resume(server, env):
 def test_upload_traversal_filename_stays_inside_user_dir(server, env, tmp_path):
     status, entry = upload(server, filename="../../evil.pdf")
     assert status == 200, entry
-    # The server picks the name. The client name is display metadata only.
-    assert entry["file"] == f"files/{entry['id']}.pdf"
+    # Path parts are stripped to a basename inside the per-id directory.
+    assert entry["file"] == f"files/{entry['id']}/evil.pdf"
     assert entry["original_name"] == "../../evil.pdf"
-    assert (env / "files" / f"{entry['id']}.pdf").exists()
-    assert not (tmp_path / "evil.pdf").exists()
-    written = {p.name for p in tmp_path.rglob("*") if p.is_file()}
-    assert "evil.pdf" not in written
+    assert (env / "files" / entry["id"] / "evil.pdf").exists()
+    # Nothing escaped the user dir: the only copy is the one under files/<id>/.
+    escaped = [
+        p for p in tmp_path.rglob("evil.pdf")
+        if (env / "files") not in p.parents
+    ]
+    assert escaped == []
+
+
+def test_upload_hostile_filename_sanitized(server, env):
+    status, entry = upload(server, filename="my résumé (v2)!.PDF")
+    assert status == 200, entry
+    name = entry["file"].rsplit("/", 1)[1]
+    assert name.lower().endswith(".pdf")
+    assert re.fullmatch(r"[A-Za-z0-9._ -]+", name), name
+    assert (env / "files" / entry["id"] / name).exists()
+
+
+def test_upload_extensionless_filename_gets_pdf(server):
+    status, entry = upload(server, filename="resume")
+    assert status == 200, entry
+    assert entry["file"].endswith("/resume.pdf")
 
 
 def test_upload_rejects_non_pdf(server, env):
@@ -378,11 +397,13 @@ def test_resume_update_missing_id(server):
 
 def test_resume_delete_removes_entry_and_file(server, env):
     _, entry = upload(server)
-    pdf = env / "files" / f"{entry['id']}.pdf"
+    pdf = env / entry["file"]
     assert pdf.exists()
     status, resp = call(server, "DELETE", f"/api/resumes/{entry['id']}")
     assert status == 200
     assert not pdf.exists()
+    # The per-id directory goes with it.
+    assert not (env / "files" / entry["id"]).exists()
     _, lib = call(server, "GET", "/api/library")
     assert lib == {"resumes": []}
 

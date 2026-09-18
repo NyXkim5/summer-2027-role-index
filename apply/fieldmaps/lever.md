@@ -181,6 +181,28 @@ knows where to look if the submit rejects.
 - Login wall. Rare, but internal or referral postings can require
   login. Mark `blocked` and stop.
 
+## Live-run lessons (2026-09-18, Palantir FDSE intern)
+
+- The resume parser is good. It filled name, email, phone, location,
+  current company, LinkedIn, and GitHub correctly from the PDF.
+  Upload-first is the right order. Verify anyway.
+- University can be a NATIVE select with a fixed vocabulary of
+  thousands of schools. `form_input` with the exact option text works,
+  but name variants matter: this list wanted
+  "University of California - Irvine" (dash), not the comma form. On a
+  mismatch error, read the option list from the error and match by
+  meaning.
+- CHECK THE POSTING COUNTRY before answering work-authorization or
+  sponsorship. The profile's answers are scoped to the user's home
+  country. A foreign posting (this one was Paris) inverts them. That
+  ambiguity means leave the radios unanswered and park with a note.
+- Some postings require a recorded VIDEO response. Human-only. List it
+  in `fields_pending` and move on.
+- Privacy/data-processing consent radios are agreements. The human
+  clicks those, never the agent.
+- Huge option lists can leave the viewport rendering blank after
+  interaction. Trust `find` and `read_page` over screenshots there.
+
 ## Sources
 
 - openapplier.com, "Greenhouse, Lever, Ashby: a form-filler's view"

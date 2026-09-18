@@ -206,6 +206,21 @@ A park that fails this check is written as `blocked` with a note
 instead. A false `parked` is worse than a `blocked`, because you would
 review and submit an incomplete application.
 
+### Cross-ATS lessons from live runs
+
+- Resume filenames matter. The server stores uploads as
+  `files/<id>/<your-filename>.pdf` so the ATS (and the recruiter) sees
+  the name you gave the file, not a hash. Name your PDFs like a human:
+  `JNK_CV.pdf`, not `resume_final_v3 (2).pdf`.
+- Consent controls (privacy, SMS, terms) are agreements. The agent
+  never clicks them. They land in `fields_pending` for you.
+- Foreign postings invert US-scoped profile answers (work auth,
+  sponsorship). The agent leaves those unanswered and flags the
+  country in the notes.
+- If the harness blocks a programmatic form write, the agent falls
+  back to real clicks and keystrokes on the located element. Same
+  goal, different tool. It never bypasses a denial for a different goal.
+
 ## Privacy model
 
 Everything personal lives under `apply/user/`, and `apply/user/` is

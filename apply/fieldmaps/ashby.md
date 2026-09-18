@@ -200,6 +200,28 @@ to submit cleanly for the human.
 - Login wall. Some orgs require an Ashby account for internal
   postings. Mark `blocked` and stop.
 
+## Live-run lessons (2026-09-18, Base Power SWE intern)
+
+- Ashby has its own "Autofill from resume" banner. It parsed name,
+  email, and LinkedIn correctly. Phone still needed a manual fill.
+- Location typeahead: `form_input` the city name triggers the
+  suggestion list properly, then click the suggestion. Verified
+  committed value reads "City, State, Country".
+- Sponsorship questions here are NOT Yes/No. They offer detailed
+  status options ("I am a U.S. citizen or permanent resident", OPT,
+  STEM OPT, H-1B transfer, CPT...). Pick the option that states the
+  user's factual status, not a yes/no mapping.
+- Yes/No screeners render as toggle BUTTONS, not radios. Click the
+  button, confirm it goes dark.
+- Work-term availability checkboxes are factual when the user's target
+  term is known (Summer 2027 here). Check only what is known.
+- Education can be plain text inputs plus a date picker. A programmatic
+  date write ("06/2028") may not commit through the picker widget. Set
+  it, then flag it for human eyeball in the park notes.
+- SMS/text-message consent radios are agreements. Human-only.
+- The viewport sometimes renders blank mid-form while the DOM stays
+  healthy. Trust `find` and `read_page` over screenshots there.
+
 ## Sources
 
 - openapplier.com, "Greenhouse, Lever, Ashby: a form-filler's view"
