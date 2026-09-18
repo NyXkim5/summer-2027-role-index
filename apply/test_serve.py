@@ -22,6 +22,7 @@ import serve
 SERVE_PY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "serve.py")
 
 GH_BOARD = "https://boards.greenhouse.io/acme/jobs/4001234"
+GH_JOB_BOARDS = "https://job-boards.greenhouse.io/acme/jobs/4001234"
 GH_REFERRAL = "https://Boards.Greenhouse.io/acme/jobs/4001234/?gh_src=abc12&utm_source=linkedin"
 GH_EMBED = "https://www.acme.com/careers/apply?gh_jid=4001234&utm_campaign=x"
 LEVER_UUID = "8a7b6c5d-1234-4abc-9def-0123456789ab"
@@ -141,6 +142,19 @@ def test_profile_falls_back_to_template(server, tmp_path, monkeypatch):
     assert resp == {"name": "Template"}
 
 
+def test_profile_fallback_serves_shipped_template(server, monkeypatch):
+    # Point TEMPLATE_DIR back at the real templates dir. A fresh clone
+    # with no profile.json must see the new screener keys over the API.
+    monkeypatch.setattr(
+        serve, "TEMPLATE_DIR", os.path.join(os.path.dirname(SERVE_PY), "templates")
+    )
+    status, resp = call(server, "GET", "/api/profile")
+    assert status == 200
+    for key in NEW_PROFILE_KEYS:
+        assert key in resp, key
+    assert "address" in resp
+
+
 def test_profile_falls_back_to_default_without_template(server, tmp_path, monkeypatch):
     monkeypatch.setattr(serve, "TEMPLATE_DIR", str(tmp_path / "no-templates"))
     status, resp = call(server, "GET", "/api/profile")
@@ -159,6 +173,100 @@ def test_profile_put_then_get(server, env):
     assert status == 200
     assert resp == profile
     assert (env / "profile.json").exists()
+
+
+NEW_PROFILE_KEYS = (
+    "requires_sponsorship_now", "requires_sponsorship_future",
+    "willing_to_relocate", "willing_onsite", "willing_travel_pct",
+    "start_availability", "desired_compensation", "drivers_license",
+)
+STREET_KEYS = ("street", "city", "state", "zip")
+
+
+def test_profile_accepts_screener_fields_round_trip(server):
+    profile = {
+        "name": "Jay",
+        "requires_sponsorship_now": "No",
+        "requires_sponsorship_future": "Yes",
+        "willing_to_relocate": "Yes",
+        "willing_onsite": "Yes",
+        "willing_travel_pct": "25",
+        "start_availability": "June 2027",
+        "desired_compensation": "market rate",
+        "drivers_license": "Yes",
+        "veteran_status": "decline",
+        "address": {
+            "single_line": "1 Main St, Boston, MA 02110",
+            "structured": {
+                "street": "1 Main St",
+                "city": "Boston",
+                "state": "MA",
+                "zip": "02110",
+            },
+        },
+    }
+    status, resp = call(server, "PUT", "/api/profile", body=profile)
+    assert status == 200
+    assert resp == profile
+    status, resp = call(server, "GET", "/api/profile")
+    assert status == 200
+    assert resp == profile
+
+
+def test_profile_accepts_flat_address(server):
+    # Hand-written profiles may skip the "structured" nesting.
+    profile = {"address": {"single_line": "Boston, MA", "city": "Boston", "state": "MA"}}
+    status, resp = call(server, "PUT", "/api/profile", body=profile)
+    assert status == 200
+    assert resp == profile
+
+
+def test_profile_rejects_bad_address(server):
+    for bad in (
+        "1 Main St",
+        {"country": "US"},
+        {"city": 7},
+        {"structured": "1 Main St"},
+        {"structured": {"country": "US"}},
+        {"structured": {"zip": 2110}},
+    ):
+        status, resp = call(server, "PUT", "/api/profile", body={"address": bad})
+        assert status == 400, f"address={bad!r} accepted"
+        assert "address" in resp["error"]
+
+
+def test_profile_default_contains_screener_fields(server):
+    # No user profile and no template: the built-in default must still
+    # carry every field the fieldmaps read.
+    status, resp = call(server, "GET", "/api/profile")
+    assert status == 200
+    for key in NEW_PROFILE_KEYS:
+        assert resp[key] == "", key
+    assert resp["requires_sponsorship"] == ""
+    assert resp["address"] == {
+        "single_line": "",
+        "structured": {k: "" for k in STREET_KEYS},
+    }
+
+
+def test_profile_template_contains_screener_fields():
+    # The shipped template is the fallback GET /api/profile serves. It
+    # must carry the new keys so a fresh clone sees them in the UI.
+    path = os.path.join(os.path.dirname(SERVE_PY), "templates", "profile.template.json")
+    with open(path, encoding="utf-8") as fh:
+        template = json.load(fh)
+    for key in NEW_PROFILE_KEYS:
+        assert key in template, key
+    assert isinstance(template.get("address"), dict)
+    assert "single_line" in template["address"]
+    for key in STREET_KEYS:
+        assert key in template["address"]["structured"], key
+    # Every non-comment template field must pass PUT validation, so a
+    # user who saves the template as-is never gets a 400.
+    body = {k: v for k, v in template.items() if not k.startswith("_")}
+    for key in body:
+        assert key in serve.PROFILE_FIELDS or key in ("custom", "address"), key
+    serve._validate_address(template["address"])
 
 
 def test_profile_rejects_unknown_field(server):
@@ -293,6 +401,21 @@ def test_detect_greenhouse_board():
     assert key == "greenhouse:acme:4001234"
 
 
+def test_detect_greenhouse_job_boards_host():
+    # Greenhouse serves both boards.greenhouse.io and
+    # job-boards.greenhouse.io. Same job, same key.
+    ats, key = serve.detect_ats(serve.canonical_url(GH_JOB_BOARDS))
+    assert ats == "greenhouse"
+    assert key == "greenhouse:acme:4001234"
+
+
+def test_detect_greenhouse_job_boards_eu_host():
+    url = "https://job-boards.eu.greenhouse.io/acme/jobs/4001234"
+    ats, key = serve.detect_ats(serve.canonical_url(url))
+    assert ats == "greenhouse"
+    assert key == "greenhouse:acme:4001234"
+
+
 def test_detect_greenhouse_gh_jid_embed():
     ats, key = serve.detect_ats(serve.canonical_url(GH_EMBED))
     assert ats == "greenhouse"
@@ -361,6 +484,14 @@ def test_queue_dedupes_referral_links(server):
     assert status == 200
     assert resp["added"] == []
     assert resp["rejected"] == [{"url": GH_REFERRAL, "reason": "duplicate"}]
+
+
+def test_queue_dedupes_job_boards_against_boards_host(server):
+    queue_one(server, GH_BOARD)
+    status, resp = call(server, "POST", "/api/queue", body={"urls": [GH_JOB_BOARDS]})
+    assert status == 200
+    assert resp["added"] == []
+    assert resp["rejected"][0]["reason"] == "duplicate"
 
 
 def test_queue_dedupes_gh_jid_against_board_form(server):

@@ -36,10 +36,30 @@ MAX_UPLOAD = 10 * 1024 * 1024
 PROFILE_FIELDS = (
     "name", "email", "phone", "location", "school", "degree", "major",
     "grade_level", "gpa", "grad_date", "linkedin", "github", "portfolio",
-    "work_authorization", "requires_sponsorship", "veteran_status",
-    "disability_status", "gender", "race_ethnicity",
+    # Sponsorship is two answers because forms phrase it two ways:
+    # current-role scope and now-or-in-the-future scope. They differ
+    # for e.g. F-1 CPT students. requires_sponsorship stays for old
+    # profile.json files.
+    "work_authorization", "requires_sponsorship",
+    "requires_sponsorship_now", "requires_sponsorship_future",
+    # High-frequency screener facts. Stored once, typed per ATS.
+    "willing_to_relocate", "willing_onsite", "willing_travel_pct",
+    "start_availability", "desired_compensation", "drivers_license",
+    # EEO fields hold one canonical value ("decline" allowed). The
+    # fieldmaps translate it to each ATS's own decline wording.
+    "veteran_status", "disability_status", "gender", "race_ethnicity",
 )
+# Greenhouse usually wants one single-line location. Lever and Ashby
+# often want structured street/city/state/zip. Carry both forms. The
+# template nests the parts under "structured". Flat parts are accepted
+# too so hand-written profiles keep working.
+STREET_FIELDS = ("street", "city", "state", "zip")
+ADDRESS_FIELDS = ("single_line", "structured") + STREET_FIELDS
 DEFAULT_PROFILE = {field: "" for field in PROFILE_FIELDS}
+DEFAULT_PROFILE["address"] = {
+    "single_line": "",
+    "structured": {field: "" for field in STREET_FIELDS},
+}
 DEFAULT_PROFILE["custom"] = {}
 
 # Legal status moves. Terminal statuses map to an empty set and change
@@ -177,6 +197,29 @@ def load_log():
 # ---------------------------------------------------------------------------
 # Profile
 
+def _validate_address(value):
+    if not isinstance(value, dict):
+        raise ApiError(400, "address must be an object")
+    unknown = set(value) - set(ADDRESS_FIELDS)
+    if unknown:
+        raise ApiError(400, f"unknown address fields: {', '.join(sorted(unknown))}")
+    for ak, av in value.items():
+        if ak == "structured":
+            if not isinstance(av, dict):
+                raise ApiError(400, "address.structured must be an object")
+            bad = set(av) - set(STREET_FIELDS)
+            if bad:
+                raise ApiError(
+                    400,
+                    f"unknown address.structured fields: {', '.join(sorted(bad))}",
+                )
+            for sk, sv in av.items():
+                if not isinstance(sv, str):
+                    raise ApiError(400, f"address.structured.{sk} must be a string")
+        elif not isinstance(av, str):
+            raise ApiError(400, f"address.{ak} must be a string")
+
+
 def save_profile(body):
     if not isinstance(body, dict):
         raise ApiError(400, "profile must be a JSON object")
@@ -187,6 +230,8 @@ def save_profile(body):
             for ck, cv in value.items():
                 if not isinstance(ck, str) or not isinstance(cv, str):
                     raise ApiError(400, "custom entries must be strings")
+        elif key == "address":
+            _validate_address(value)
         elif key in PROFILE_FIELDS:
             if value is not None and not isinstance(value, (str, bool)):
                 raise ApiError(400, f"field must be a string: {key}")

@@ -73,8 +73,9 @@ All JSON. Errors return `{"error": "message"}` with 4xx/5xx.
 
 Queue item statuses: `queued → parked → submitted`, plus terminal
 `skipped`, `blocked`, `unsupported`. The agent writes `parked`,
-`blocked`, `unsupported`; the human marks `submitted` or `skipped` in
-the UI.
+`blocked`, `unsupported`, and may write `skipped` with a note when a
+listing fails the ghost-listing check (stale, no req id, no other live
+postings). The human marks `submitted` or `skipped` in the UI.
 
 ## Profile schema (template)
 

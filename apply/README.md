@@ -25,23 +25,53 @@ network. The copy step is optional. The server falls back to the
 templates when `apply/user/` files are absent, and the UI creates them
 on first save.
 
+If you hand-edit a copied profile, keeping the `_comments` block on
+disk is fine. The UI drops it on save. A raw `PUT /api/profile` that
+still includes `_comments` gets a 400, so strip it before scripting
+against the API.
+
 ## The three tabs
 
 - **Resumes.** Upload resume PDFs. Give each one a short label and a
   set of tags, for example `ml, python, research`. Tags drive resume
   matching, so tag by what the resume emphasizes.
-- **Profile.** Factual fields only: contact info, school, links, work
-  authorization, and optional EEO answers. Every EEO field accepts
-  `decline` to pick the decline-to-answer option on forms. The
-  `custom` map holds anything else, for example clearance or
-  languages. See the comments in `apply/templates/profile.template.json`.
+- **Profile.** Factual fields only: contact info, address, school,
+  links, work authorization, screener answers, and optional EEO
+  answers. Every EEO field accepts the canonical value `decline`, and
+  the fieldmaps translate it into each ATS's own wording. The `custom`
+  map holds anything else, for example clearance or languages. See the
+  comments in `apply/templates/profile.template.json` and the field
+  notes below.
 - **Queue.** Paste job URLs, one or many. The server dedupes them,
   detects the ATS, and tracks status. You also use this tab to mark
   parked items `submitted` or `skipped` after you review them.
 
 Statuses: `queued` then `parked` then `submitted`, plus terminal
 `skipped`, `blocked`, and `unsupported`. The agent writes `parked`,
-`blocked`, and `unsupported`. Only you mark `submitted` or `skipped`.
+`blocked`, and `unsupported`, plus `skipped` when the ghost-listing
+check fails. Only you mark `submitted`, and only you mark `skipped`
+on items you reviewed yourself.
+
+### Profile fields worth knowing
+
+- **Sponsorship is two answers, not one.** Forms phrase it two ways.
+  `requires_sponsorship_now` answers current-role questions like "Do
+  you require sponsorship for this role?". `requires_sponsorship_future`
+  answers the "now or in the future" phrasing. These can differ. An
+  F-1 student on CPT often answers No now and Yes in the future. The
+  legacy `requires_sponsorship` field remains as a fallback when a
+  scoped field is empty.
+- **Address carries both shapes.** `address.single_line` for Greenhouse
+  style one-line location fields. `address.structured` with street,
+  city, state, and zip for Lever and Ashby style split fields.
+- **High-frequency screeners have dedicated fields.**
+  `willing_to_relocate`, `willing_onsite`, `willing_travel_pct`,
+  `start_availability`, `desired_compensation`, and `drivers_license`.
+  Fill them once and the agent answers those screeners everywhere.
+  Leave `desired_compensation` empty to never volunteer a number.
+- **EEO answers are canonical.** Store `decline` once. The fieldmaps
+  translate it per ATS: "Decline to self-identify" on Greenhouse, "I
+  do not wish to answer" on Lever, "Prefer not to say" on Ashby.
 
 ## Working the queue
 
@@ -51,20 +81,25 @@ With the server running and Claude Code connected to Chrome, say:
 
 The agent reads your profile, library, queue, and log, then handles
 each queued item using the matching playbook in `apply/fieldmaps/`.
-For each item it fetches the job description, picks a resume, fills
-the form in your browser, uploads the PDF, and parks at the submit
-button. It then reports the batch: parked, blocked, unsupported.
+For each item it fetches the job description, runs the ghost-listing
+check, picks a resume, fills the form in your browser, uploads the
+PDF, and parks at the submit button. It then reports the batch:
+parked, blocked, unsupported, skipped.
 
 You can scope it too: "work the queue but only the Greenhouse items"
 or "apply to the Stripe one first".
 
 ### What the agent will do
 
+- Check each listing for staleness before filling. A stale or ghost
+  listing is marked `skipped` with a note, and you get told.
 - Fill factual fields from your profile and verify each one took.
 - Upload the resume it matched, or the one you pinned.
 - Answer screeners whose answers exist in your profile, including
-  work authorization and sponsorship.
-- Select `decline` on EEO questions when you set that.
+  work authorization, both sponsorship scopes, relocation, onsite,
+  travel, start date, compensation, and driver's license.
+- Pick the right decline option per ATS on EEO questions when you set
+  `decline`.
 - Ask you one question when resume matching is ambiguous.
 
 ### What the agent will not do
@@ -81,6 +116,22 @@ or "apply to the Stripe one first".
 ## Rules for the applying agent
 
 The fieldmaps reference these rules. They bind every run.
+
+### Ghost-listing check
+
+Run this on every item before picking a resume or filling anything.
+It is a cheap sanity screen that keeps dead reqs from wasting parked
+slots and your review time. From the posting page, check:
+
+1. The posted date is within about 30 days.
+2. A real requisition id is visible (job id in the URL or on the page).
+3. The company has other live postings on the same board.
+
+A listing that fails the check is stale or a ghost. Mark it `skipped`
+via `PUT /api/queue/<id>` with a note saying which check failed, write
+the log line with `event: "skipped"`, and tell the user in the batch
+report. Do not fill it. If the signals are mixed, for example an old
+post date but an active board, ask the user instead of deciding.
 
 ### Resume matching
 

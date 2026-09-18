@@ -282,16 +282,212 @@ describe('isTerminal', () => {
   })
 })
 
+describe('profile sections', () => {
+  it('flattens sections into PROFILE_FIELDS in order with unique keys', () => {
+    const keys = A.PROFILE_SECTIONS.flatMap((s) => s.fields.map((f) => f.key))
+    expect(A.PROFILE_FIELDS.map(([k]) => k)).toEqual(keys)
+    expect(new Set(keys).size).toBe(keys.length)
+  })
+
+  it('carries each screener fact as its own field, sponsorship as two answers', () => {
+    const keys = A.PROFILE_FIELDS.map(([k]) => k)
+    ;[
+      'requires_sponsorship_now', 'requires_sponsorship_future',
+      'willing_to_relocate', 'willing_onsite', 'willing_travel_pct',
+      'start_availability', 'desired_compensation', 'drivers_license',
+    ].forEach((k) => expect(keys, k).toContain(k))
+  })
+
+  it('distinguishes the two sponsorship scopes in the help text', () => {
+    const screeners = A.PROFILE_SECTIONS.find((s) => s.id === 'screeners')
+    const now = screeners.fields.find((f) => f.key === 'requires_sponsorship_now')
+    const future = screeners.fields.find((f) => f.key === 'requires_sponsorship_future')
+    expect(now.help).toMatch(/this role, today/)
+    expect(future.help).toMatch(/now or ever/)
+  })
+
+  it('carries both address forms, single line plus structured', () => {
+    const keys = A.PROFILE_FIELDS.map(([k]) => k)
+    ;['location', 'address_single_line', 'address_street', 'address_city',
+      'address_state', 'address_zip']
+      .forEach((k) => expect(keys, k).toContain(k))
+  })
+
+  it('drops the legacy single requires_sponsorship field', () => {
+    expect(A.PROFILE_FIELDS.map(([k]) => k)).not.toContain('requires_sponsorship')
+  })
+
+  it('offers a decline option on every EEO select', () => {
+    const eeo = A.PROFILE_SECTIONS.find((s) => s.id === 'eeo')
+    expect(eeo.fields.map((f) => f.key).sort()).toEqual(
+      ['disability_status', 'gender', 'race_ethnicity', 'veteran_status']
+    )
+    eeo.fields.forEach((f) => expect(f.options, f.key).toContain('decline'))
+  })
+
+  it('notes the per-ATS decline translation on the EEO section', () => {
+    const eeo = A.PROFILE_SECTIONS.find((s) => s.id === 'eeo')
+    expect(eeo.note).toMatch(/Decline to self-identify/)
+    expect(eeo.note).toMatch(/I do not wish to answer/)
+    expect(eeo.note).toMatch(/Prefer not to say/)
+  })
+})
+
+describe('optionLabel', () => {
+  it('dresses the canonical decline value for display', () => {
+    expect(A.optionLabel('decline')).toBe('Decline to answer')
+  })
+
+  it('passes every other value through untouched', () => {
+    expect(A.optionLabel('Yes')).toBe('Yes')
+    expect(A.optionLabel('')).toBe('')
+  })
+})
+
+describe('selectValues', () => {
+  const field = { key: 'gender', options: ['Male', 'Female', 'decline'] }
+
+  it('leads with a blank unset choice, then the canonical options', () => {
+    expect(A.selectValues(field, '')).toEqual(['', 'Male', 'Female', 'decline'])
+  })
+
+  it('appends a stored value the options do not cover so it stays selectable', () => {
+    expect(A.selectValues(field, 'Woman')).toEqual(['', 'Male', 'Female', 'decline', 'Woman'])
+  })
+
+  it('does not duplicate a stored value already in the options', () => {
+    expect(A.selectValues(field, 'Male')).toEqual(['', 'Male', 'Female', 'decline'])
+  })
+
+  it('treats whitespace as unset and missing options as an empty list', () => {
+    expect(A.selectValues(field, '  ')).toEqual(['', 'Male', 'Female', 'decline'])
+    expect(A.selectValues({ key: 'x' }, '')).toEqual([''])
+  })
+})
+
+describe('flattenAddress', () => {
+  it('reads the nested template shape into form values', () => {
+    const profile = {
+      address: {
+        single_line: '1 Main St, Boston, MA 02110',
+        structured: { street: '1 Main St', city: 'Boston', state: 'MA', zip: '02110' },
+      },
+    }
+    expect(A.flattenAddress(profile)).toEqual({
+      address_single_line: '1 Main St, Boston, MA 02110',
+      address_street: '1 Main St',
+      address_city: 'Boston',
+      address_state: 'MA',
+      address_zip: '02110',
+    })
+  })
+
+  it('accepts the flat parts hand-written profiles may use', () => {
+    const profile = { address: { single_line: 'Boston, MA', city: 'Boston', state: 'MA' } }
+    const flat = A.flattenAddress(profile)
+    expect(flat.address_single_line).toBe('Boston, MA')
+    expect(flat.address_city).toBe('Boston')
+    expect(flat.address_state).toBe('MA')
+    expect(flat.address_street).toBe('')
+  })
+
+  it('prefers the structured part over a flat duplicate', () => {
+    const profile = { address: { structured: { city: 'Boston' }, city: 'Cambridge' } }
+    expect(A.flattenAddress(profile).address_city).toBe('Boston')
+  })
+
+  it('returns empty strings for a missing or malformed address', () => {
+    const empty = {
+      address_single_line: '', address_street: '', address_city: '',
+      address_state: '', address_zip: '',
+    }
+    expect(A.flattenAddress(null)).toEqual(empty)
+    expect(A.flattenAddress({})).toEqual(empty)
+    expect(A.flattenAddress({ address: 'Boston' })).toEqual(empty)
+    expect(A.flattenAddress({ address: { structured: 'nope' } })).toEqual(empty)
+  })
+})
+
+describe('migrateProfile', () => {
+  it('seeds requires_sponsorship_future from the legacy single answer', () => {
+    const p = A.migrateProfile({ requires_sponsorship: 'Yes' })
+    expect(p.requires_sponsorship_future).toBe('Yes')
+    expect(p).not.toHaveProperty('requires_sponsorship')
+  })
+
+  it('never overwrites an explicit future answer', () => {
+    const p = A.migrateProfile({ requires_sponsorship: 'Yes', requires_sponsorship_future: 'No' })
+    expect(p.requires_sponsorship_future).toBe('No')
+  })
+
+  it('ignores a blank legacy value and always drops the key', () => {
+    const p = A.migrateProfile({ requires_sponsorship: '  ', name: 'Jay' })
+    expect(p).not.toHaveProperty('requires_sponsorship_future')
+    expect(p).not.toHaveProperty('requires_sponsorship')
+    expect(p.name).toBe('Jay')
+  })
+
+  it('handles a missing profile and leaves the input untouched', () => {
+    expect(A.migrateProfile(null)).toEqual({})
+    const original = { requires_sponsorship: 'Yes' }
+    A.migrateProfile(original)
+    expect(original.requires_sponsorship).toBe('Yes')
+  })
+})
+
 describe('buildProfile', () => {
+  const ADDRESS_KEYS = ['address_single_line', 'address_street', 'address_city',
+    'address_state', 'address_zip']
+
   it('carries every spec field, trimmed, defaulting absent ones to empty strings', () => {
     const p = A.buildProfile({ name: '  Jay Kim ', email: 'j@x.com' }, [])
     expect(p.name).toBe('Jay Kim')
     expect(p.email).toBe('j@x.com')
     A.PROFILE_FIELDS.forEach(([key]) => {
+      if (ADDRESS_KEYS.includes(key)) return
       expect(typeof p[key], key).toBe('string')
     })
     expect(p.gpa).toBe('')
     expect(p.custom).toEqual({})
+  })
+
+  it('serializes the new screener fields, trimmed', () => {
+    const p = A.buildProfile({
+      requires_sponsorship_now: ' No ',
+      requires_sponsorship_future: 'Yes',
+      willing_travel_pct: ' 25 ',
+    }, [])
+    expect(p.requires_sponsorship_now).toBe('No')
+    expect(p.requires_sponsorship_future).toBe('Yes')
+    expect(p.willing_travel_pct).toBe('25')
+  })
+
+  it('nests the address form keys into the shape serve.py stores', () => {
+    const p = A.buildProfile({
+      address_single_line: ' 1 Main St, Boston, MA 02110 ',
+      address_street: '1 Main St',
+      address_city: ' Boston ',
+      address_state: 'MA',
+      address_zip: '02110',
+    }, [])
+    expect(p.address).toEqual({
+      single_line: '1 Main St, Boston, MA 02110',
+      structured: { street: '1 Main St', city: 'Boston', state: 'MA', zip: '02110' },
+    })
+    ADDRESS_KEYS.forEach((k) => expect(p, k).not.toHaveProperty(k))
+  })
+
+  it('always carries a complete empty address so a save never drops the key', () => {
+    const p = A.buildProfile({}, [])
+    expect(p.address).toEqual({
+      single_line: '',
+      structured: { street: '', city: '', state: '', zip: '' },
+    })
+  })
+
+  it('never serializes the legacy requires_sponsorship key', () => {
+    const p = A.buildProfile({ requires_sponsorship: 'Yes' }, [])
+    expect(p).not.toHaveProperty('requires_sponsorship')
   })
 
   it('folds custom rows into the custom map and drops rows with a blank key', () => {
