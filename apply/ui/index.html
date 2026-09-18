@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Auto-apply setup</title>
+<link rel="stylesheet" href="/ui/apply.css">
+</head>
+<body>
+<div id="apply-root">
+
+<h1>Auto-apply setup</h1>
+<p class="sub">Local only. Everything you save here lives in <code>apply/user/</code> on your machine and never enters git. Claude fills the factual fields, uploads your resume, and parks each application at the submit button. You always click submit.</p>
+
+<p id="apply-msg" class="msg hidden"></p>
+<div id="ready" class="ready" aria-label="Setup readiness"></div>
+<div id="tabs" class="tabs" role="tablist"></div>
+
+<section id="panel-resumes" class="panel">
+  <h2>Resumes</h2>
+  <p class="note">Upload PDF variants and tag them. Tags pick the right resume per posting, so tag by what the variant leans into: swe, ml, defense, product.</p>
+  <form id="resume-form" class="rform">
+    <input type="file" id="r-file" accept="application/pdf,.pdf" aria-label="Resume PDF">
+    <input type="text" id="r-label" placeholder="Label, for example SWE general" aria-label="Label">
+    <input type="text" id="r-tags" placeholder="Tags, comma separated" aria-label="Tags">
+    <button type="submit" class="primary">Add resume</button>
+  </form>
+  <div id="resume-cards"></div>
+</section>
+
+<section id="panel-profile" class="panel hidden">
+  <h2>Profile</h2>
+  <p class="note">Factual fields only. Any field left empty is skipped and listed as pending, never guessed. EEO answers are optional and stored once in canonical wording. The agent translates them to each ATS's phrasing.</p>
+  <div id="profile-fields"></div>
+  <h3>Custom fields</h3>
+  <p class="note">Anything else applications keep asking for, like clearance or languages.</p>
+  <div id="custom-rows"></div>
+  <div class="actions">
+    <button type="button" id="custom-add">Add custom field</button>
+    <button type="button" id="profile-save" class="primary">Save profile</button>
+  </div>
+</section>
+
+<section id="panel-queue" class="panel hidden">
+  <h2>Queue</h2>
+  <p class="note">Paste job URLs, one per line. Greenhouse, Lever, and Ashby are supported. Anything else queues as unsupported for manual apply.</p>
+  <textarea id="q-urls" rows="5" placeholder="https://boards.greenhouse.io/..." aria-label="Job URLs"></textarea>
+  <div class="actions">
+    <button type="button" id="q-add" class="primary">Queue URLs</button>
+  </div>
+  <p id="q-summary" class="note" aria-live="polite"></p>
+  <div id="queue-list"></div>
+</section>
+
+</div>
+<script src="/ui/apply-ui.js"></script>
+</body>
+</html>
