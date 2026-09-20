@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-09-20
+
+Added 60:
+
+- BDO USA — Tax Intern, State and Local Tax - Summer 2027 (Atlanta) (Atlanta, GA)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Legend Biotech — Finance Management, Leadership Development Program (Somerset, NJ)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Seattle, WA)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- Brown Brothers Harriman — 2027 Technology Summer Internship (Boston, MA)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- BDO USA — Advisory Intern, Cyber, Compliance &amp; Assessment - Summer 2027 (Multiple Locations) (Minneapolis, MN)
+- BNP Paribas — 2027 – Full Time Analyst - Global Banking, Asset Finance &amp; Securitization (New York, NY)
+- Visa — Visa Leadership Associate Program (VLA), New College Graduate Rotational Program, 2027 (San Francisco, CA)
+- Amazon — Tax Leadership Development Program (TLDP) - 2027, TLDP (Arlington, VA)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Visa — Associate Product Manager (APM), New College Graduate Rotational Program, 2027 (Foster City, CA)
+- GM Financial — Intern - Business Systems Analyst (Arlington, TX)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Atlanta, GA)
+- RWE — Finance Graduate Program (Chicago, IL)
+- RWE — Business Transformation &amp; Strategy Graduate Program (Chicago, IL)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- NOV — Software Engineering Intern (Houston, TX)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Analyst – Specialty Finance (Charlotte, NC)
+- VMG Health — Summer Intern 2027 - Transaction Advisory Services (TAS) / Financial Due Diligence (Nashville, TN)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (New Orleans, LA)
+- Robinhood — Associate Product Manager (New Grad) (Menlo Park, CA)
+- Vylor — AI Business Analyst Intern (Johnston, IA)
+- Federal Reserve Bank of San Francisco — 2027 SF Fed Summer Internship - BUSINESS ANALYST Intern (San Francisco, CA)
+- TD — 2027 Summer Internship Program - Global Technology Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Immersion — Intern (Annapolis, MD)
+- JPMorganChase — 2027 Asset Management Investments Full Time Analyst Program (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+
+Closed 1:
+
+- Twilio — Software Engineer Intern (January 12th start, 23 weeks) 16 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-19
 
 Added 72:
