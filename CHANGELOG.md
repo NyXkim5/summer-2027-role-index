@@ -1,5 +1,85 @@
 # Changelog
 
+## 2026-09-21
+
+Added 69:
+
+- Rocket Lab — Thermal Engineering Intern Spring 2027 (Long Beach, CA)
+- Rocket Lab — Thermal Engineering Intern Summer 2027 (Long Beach, CA)
+- Zipline — Flight Test Engineer Intern (Spring 2027) (South San Francisco, California, USA)
+- Zipline — Flight Test Engineer Intern (Summer 2027) (South San Francisco, California, USA)
+- Mercury — Software Engineering Intern - Spring 2027 (San Francisco, CA, New York, NY, Portlan)
+- Figma — PhD Intern, Data Science (2027) (San Francisco, CA • New York, NY)
+- Anduril — Entry Level Systems Engineer, C2 Integration (Costa Mesa, California, United States)
+- Anduril — Entry Level Systems Engineer, C2 Networking (Costa Mesa, California, United States)
+- Anduril — New Grad Systems Engineer, C2 Integration (Costa Mesa, California, United States)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Atlanta) (Atlanta, GA)
+- D.A. Davidson Companies — 2027 Wealth Management Summer Internship Program (Bozeman, MT)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- Park Place Technologies — Business Analysis Intern - Summer 2027 (Highland Heights, OH)
+- WebstaurantStore — 2027 Technical Business Analyst Summer Internship (Lititz, PA)
+- Workiva — Spring 2027 Intern - Business Systems (United States)
+- Baker Tilly US — Summer 2027 Tax Credits &amp; Incentives Intern (Madison, WI)
+- KPMG Financial Reporting View (FRV) — Audit Intern, Korean Practice | Multiple Locations Summer 2027 (Los Angeles Metropolitan Area)
+- Wipfli — Audit Internship - Summer 2028 (South Portland, ME)
+- Financial Technology Partners / FT Partners — 2027 January IBD Full Time Analyst (San Francisco) (San Francisco, CA)
+- Nordson Corporation — Finance Leadership Development Program (Westlake, OH)
+- Waters Corporation — Operations Leadership Development Program (OLDP) Associate (Milpitas, CA)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- John Hancock — Summer Intern 2027 - Business Technology (Boston, MA)
+- Baker Tilly US — Summer 2027/Winter 2028 State &amp; Local Tax Internship (Greater Houston)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Pensacola, FL)
+- Bridgewater Bank — BSA Intern (St Louis Park, MN)
+- FIS — Intern, Consulting and Implementations, FIS University Program (Jacksonville, FL)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Premier Inc. — Advisory Services Intern (United States)
+- Spectrum Equity — Back-End Software Engineer Intern (Lindon, UT)
+- Prosperity Partners — M&amp;A Transaction Advisory Intern (Vienna, VA)
+- JEGI LEONIS — 2027 Summer Analyst - New York (New York, NY)
+- DENSO — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- Georgia-Pacific LLC — Georgia-Pacific Forestry Procurement Intern - Brunswick, GA (Summer 2027) (Brunswick, GA)
+- Elire — Summer 2027 AI Software Development Consulting Intern (Minneapolis, MN)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- Wells Fargo — 2027 Wealth &amp; Investment Management Analyst Program - Early Careers (St Louis, MO)
+- RTX — Leadership Development Program – Engineering, Software Discipline (Starts June 2027) (Arlington, VA)
+- Boeing — LGO/Tauber Leadership Development Program - Massachusetts Institute of Technology (Seattle, WA)
+- Dominion Energy — Intern - Business Technology Analyst (Cayce, SC)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Momentive — Summer 2027 Intern – Agriculture (Technology/R&amp;D) (Pearl River, NY)
+- National Reconnaissance Office (NRO) — Budget Analyst-Entry Level (Chantilly, VA)
+- Xcel Energy — Business Transformation Intern - MN, CO (Denver Metropolitan Area)
+- JPMorganChase — 2027 Marketing Leadership Development Program - Full-Time Analyst Opportunity (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+
+Closed 1:
+
+- Okta — Business Analyst Aug 26
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-20
 
 Added 60:
