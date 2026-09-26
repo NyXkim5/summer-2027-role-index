@@ -1,5 +1,82 @@
 # Changelog
 
+## 2026-09-26
+
+Added 66:
+
+- Saronic — Supply Chain Intern (Summer 2027) (Austin, TX)
+- True Anomaly — Apprentice Technician (Long Beach, CA)
+- Scoutmotors — Intern, Engineering (Novi, Michigan, United States)
+- DoorDash — Machine Learning Intern (PhD) - Summer 2027 (San Francisco, CA;  Sunnyvale, CA ; New )
+- DoorDash — Machine Learning Intern (Masters) - Summer 2027 (San Francisco, CA;  Sunnyvale, CA ; New )
+- Astranis — Electrical Integration Intern - Avionics (Winter 2027) (San Francisco)
+- Aprio — Aprio Summer 2027 Internship Application - Tax - Birmingham, AL (Birmingham, AL)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- Deutsche Bank — Deutsche Bank Graduate Program - Corporate Bank - New York 2027 (New York, NY)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Billerica, MA)
+- Macquarie Group — 2027 Commodities and Global Markets Graduate Program - Commodities, Structuring (Greater Houston)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Thermo Fisher Scientific — Digital Leadership Development Program (Waltham, MA)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- Spectrum — 2027 Summer Intern: Associate Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Crowe — MSFT AI Business Solutions Implementation Intern (Atlanta, GA)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- ACCA Careers — Forensic Accounting and Litigation Intern | Summer 2027 (Bakersfield, CA)
+- Wells Fargo — 2027 Wealth &amp; Investment Management Analyst Program - Early Careers (St Louis, MO)
+- Wells Fargo — 2027 Finance Analyst Rotational Program – Early Careers (Irving, TX)
+- Wells Fargo — 2027 Investment Banking Associate Program - Early Careers (Washington, DC)
+- ICF — 2027 Summer Intern, Business Analyst (Reston, VA; Remote) (Fairfax, VA)
+- Citizens — 2027 Investment Banking Summer Analyst (Baltimore, MD) (Baltimore, MD)
+- Baker Tilly US — Summer 2027 International Tax Intern (Portland, OR)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Collins Aerospace — Operations Software Engineering Intern (Summer 2027) (Burnsville, MN)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Eastdil Secured Savills — 2027 U.S. Summer Internship Program – M&amp;A/Corporate Advisory (San Francisco, CA)
+- KPMG US — Tax Intern, Business Tax Services - Korean Practice | Atlanta Summer 2027 (Atlanta, GA)
+- AIG — 2027 Early Careers: Analyst, Finance– United States, New York, NY (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (Houston, TX)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Merck KGaA, Darmstadt, Germany — Associate, GOglobal Graduate Program (Burlington, MA)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- MFS Investment Management — Investment Operations Business Analyst Co-op Spring 2027 (January - June) (Boston, MA)
+- TD — 2027 Summer Internship Program - Commercial Banking (Mount Laurel, NJ)
+- Deutsche Bank — Deutsche Bank Graduate Program - Investment Bank: Fixed Income &amp; Currencies - New York 2027 (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- PwC — Hartford - Tax - Intern - Summer 2028 - Destination CPA (Hartford, CT)
+- PwC — Stamford - Tax - Intern - Summer 2028 - Destination CPA (Stamford, CT)
+- Lockton — Reinsurance Broker Intern (Minneapolis Summer 2027) (Minneapolis, MN)
+- Enlighten — Summer 2027 Internship - Software Engineer (Hybrid) - 30267 (San Antonio, TX)
+- Momentive — Summer 2027 Intern - Hardcoats Application Development (Waterford, NY)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Analyst - Secondary Capital Advisory (New York, NY)
+- KPMG Financial Reporting View (FRV) — Advisory Intern, Customer &amp; Operations - State and Local Solutions | Multiple Locations Summer 2027 (Albany, New York Metropolitan Area)
+- D.A. Davidson Companies — 2027 Wealth Management Summer Internship Program (Bozeman, MT)
+- Civil &amp; Environmental Consultants, Inc. — Environmental Intern - Summer 2027 (Cleveland, OH)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Legend Biotech — Finance Management, Leadership Development Program (Somerset, NJ)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+
+Closed 1:
+
+- Astranis — Radiation Effects Engineer Intern (Fall 2026) 6 Jul
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-25
 
 Added 75:
