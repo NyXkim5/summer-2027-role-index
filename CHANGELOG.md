@@ -1,5 +1,81 @@
 # Changelog
 
+## 2026-09-28
+
+Added 64:
+
+- Schonfeld — Entry Level Quantitative Researcher (New York, New York, United States)
+- Lincoln International — 2027 Summer Analyst Intern, Valuations & Opinions Group (Atlanta, GA; Dallas, TX; New York, NY; S)
+- Muonspace — International Business Development Intern (Summer 2027) (Woodbridge, VA)
+- Dark Wolf Solutions — UCCS College Fair - Internship (Colorado Springs, CO)
+- Cencora — Java Web Applications &amp; Business Services Intern (Conshohocken, PA)
+- Insurance Advisory Partners — Investment Banking Summer Analyst | Summer 2027 (New York, NY)
+- Peraton — Summer 2027 Software Engineer Intern (Herndon, VA)
+- The Marzetti Company — Cloud Integration Engineering Intern - Summer 2027 (Columbus, OH)
+- Dow — 2026-2027 Campus Graduate – Accounting / Finance (Midland, MI)
+- Otis Elevator Co. — Sales &amp; CRM Technology Business Analyst Intern (Farmington, CT)
+- Xcel Energy — Business Analyst Intern - TX, WI (Eau Claire, WI)
+- Grainger — GTG Intern - Business Systems Analyst (Chicago, IL)
+- CGI — Business Analyst Intern – Summer Internship Program (Reno, NV)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Mercy — Mercy St. Louis NICU January 2027 Residency (St Louis, MO)
+- BDO USA — Tax Intern Leadership Program (TILP) - Winter &amp; Summer 2028 (Houston) (Houston, TX)
+- Promega Corporation — Scientific Applications Intern (Madison, WI)
+- BRG — 2027 Summer Associate (Intern) - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN (Nashville, TN)
+- Citi — Functions - Chief Operating Office, Full Time Analyst, Tampa - USA, 2027 (Tampa, FL)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- RTX — Leadership Development Program - Contracts (June 2027) (Arlington, VA)
+- Cencora — Intern,Technical Business Analyst / Product Owner (Carrollton, TX)
+- State Farm — Summer 2027 Intern - Agency Channel Performance - Business Analyst - Agency (Tempe, AZ)
+- Wipfli — Product Implementation Internship - Summer 2027 (Chicago, IL)
+- Carr, Riggs &amp; Ingram — Transaction Advisory Services Intern - Summer 2027 (Atlanta, GA) (Atlanta, GA)
+- Geon Performance Solutions — Commercial Leadership Development Rotational Program (Westlake, OH)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- Baker Tilly US — Summer 2027 International Tax Intern (Washington, DC)
+- Citi — Banking - Investment Banking, Full Time Analyst, Houston - US 2027 (Houston, TX)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- UBS — 2027 Summer Internship - Group Internal Consulting - NY/NJ (Weehawken, NJ)
+- D.A. Davidson Companies — Class of 2028 Financial Institutions Group, Investment Banking - Summer Analyst (Chicago, IL)
+- Geosyntec Consultants — Intern – Environmental Engineer or Geologist (Charlotte, NC)
+- WTW — Early Careers: Intern Conversion Only - Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (New York, NY)
+- General Motors — Entry-Level Finance Controllership Rotational Program (Warren, MI)
+- AIG — 2027 Early Careers: Analyst, Actuarial – United States, New York City (New York, NY)
+- Johnson &amp; Johnson — 2027 MBA Finance Leadership Development Program (MBA FLDP) - Full Time (New Brunswick, NJ)
+- KPMG Financial Reporting View (FRV) — Advisory Intern, Federal Technology Enablement Business Analyst | McLean Summer 2027 (McLean, VA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+
+Closed 2:
+
+- Astranis — Electrical Reliability Intern (Fall 2026) 22 Jun
+- Scoutmotors — Intern, Engineering 25 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-27
 
 Added 60:
