@@ -1,5 +1,86 @@
 # Changelog
 
+## 2026-09-29
+
+Added 66:
+
+- Nuro — Social Media Intern (Mountain View, California (HQ))
+- Lyft — Applied Scientist Intern (Summer 2027) (San Francisco, CA)
+- Dark Wolf Solutions — Creighton University College Fair - Internship (Omaha, NE)
+- Hermeus — Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027 (Los Angeles, CA)
+- Epic Games — Product Management Intern (Cary,North Carolina,United States)
+- SpaceX — New Graduate Engineer, Software (Starfall) (Hawthorne, CA)
+- Aprio — Aprio 2028 Internship Application - Tax/Audit - San Antonio, TX (San Antonio, TX)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Sacramento, CA)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- GALLO — Finance and Accounting Leadership Development Program 2027 (Modesto, CA)
+- Cencora — Intern, Business Analyst (Conshohocken, PA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (San Antonio, TX)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Summer 2027) (Texas City, TX)
+- Seven Corners, Inc. — Summer Business Analyst Intern (Carmel, IN)
+- Cencora — Java Web Applications &amp; Business Services Intern (United, PA)
+- ACCA Careers — Forensic Accounting and Litigation Intern | Summer 2027 (Bakersfield, CA)
+- Avient Corporation — Marketing Associate - 2027 Leadership Development Program (Avon Lake, OH)
+- Aprio — Aprio Summer 2027 Internship Application - Tax - Birmingham, AL (Birmingham, AL)
+- PwC — Deals - Capital Markets &amp; Accounting Advisory Services (CMAAS) Intern - Summer 2028 (Atlanta, GA)
+- Macquarie Group — 2027 Commodities and Global Markets Graduate Program - Commodities, Structuring (Greater Houston)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Billerica, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Corporate Bank - New York 2027 (New York, NY)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Weaver — Consulting Intern - Spring 2027 and Summer 2027 - Sacramento (Sacramento, CA)
+- BDO USA — Tax Intern, International Tax Services - Summer 2027 (Houston) (Houston, TX)
+- Wells Fargo — 2027 Wealth &amp; Investment Management Analyst Program - Early Careers (St Louis, MO)
+- Wells Fargo — 2027 Finance Analyst Rotational Program – Early Careers (Irving, TX)
+- Wells Fargo — 2027 Investment Banking Associate Program - Early Careers (Washington, DC)
+- ICF — 2027 Summer Intern, Business Analyst (Reston, VA; Remote) (Fairfax, VA)
+- PKF O'Connor Davies — Transaction Advisory Services Intern (Summer 2027) - Boston, MA (Boston, MA)
+- Baker Tilly US — Summer 2027 International Tax Intern (Portland, OR)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- AIG — 2027 Early Careers: Analyst, Finance– United States, New York, NY (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Merck KGaA, Darmstadt, Germany — Associate, GOglobal Graduate Program (Burlington, MA)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- MFS Investment Management — Investment Operations Business Analyst Co-op Spring 2027 (January - June) (Boston, MA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+
+Closed 5:
+
+- Applied Intuition — Electrical System Integration Engineer - New Grad 9 Sep
+- Anthropic — Safeguards Policy Analyst, Cyber Harms Aug 20
+- Mercury — Software Engineering Intern - Spring 2027 21 Sep
+- Robinhood — Business Analyst, New Grad Aug 21
+- Appian — Workplace Events Intern 17 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-09-28
 
 Added 64:
