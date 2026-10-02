@@ -1,5 +1,92 @@
 # Changelog
 
+## 2026-10-02
+
+Added 74:
+
+- Rocket Lab — Government Operations Intern Spring 2027 (Washington, DC)
+- Rocket Lab — Government Operations Intern Spring 2027 (Littleton, CO)
+- Rocket Lab — Government Operations Intern Summer 2027 (Littleton, CO)
+- Rocket Lab — Government Operations Intern Summer 2027 (Washington, DC)
+- Muonspace — People Operations Intern (Summer 2027) (Mountain View, CA)
+- Anduril — 2027 Supply Chain Intern (Costa Mesa, California, United States; F)
+- Harvey — Software Engineering Intern (Summer 2027) (New York)
+- Harvey — Software Engineer, New Grad (2027) (San Francisco)
+- Harvey — Software Engineer, New Grad (2027) (New York)
+- Harvey — Software Engineering Intern (Summer 2027) (San Francisco)
+- Anduril — 2027 Industrial Engineer Intern (Ashville, Ohio, United States; Costa Mes)
+- Muonspace — Electrical Engineering Intern (Summer 2027) (San Jose)
+- Muonspace — Harness Design Intern (Summer 2027) (San Jose)
+- Attentive — Product Management Intern, Agentic Integrations (United States)
+- Davenport &amp; Company LLC — 2027 Public Finance Summer Internship - Atlanta, GA (Atlanta, GA)
+- Northrop Grumman — 2027 Software Digital Intern - Rolling Meadows IL (Rolling Meadows, IL)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Vertiv — Design Engineering Intern (Summer 2027) (Fort Lauderdale, FL)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- United States Attorneys' Offices — Budget Analyst (Pathways Recent Graduate) (Columbia, SC)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Thermo Fisher Scientific — 2027 Human Resources Graduate Leadership Development Program (Waltham, MA)
+- Crowe — AI Functional Intern - WINTER 2027 (Los Angeles, CA)
+- HNI Corporation — Internship - IT Business Analyst Summer 2027 (Muscatine, IA)
+- TotalEnergies — 2027 Tax Graduate Program - JD Law Track (Houston, TX)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Morgantown, PA)
+- Berkeley Industrial Engineering &amp; Operations Research — Visa Early Careers New College Grad roles at Visa, Inc. (College Station, TX)
+- GALLO — Finance and Accounting Leadership Development Program 2027 (Modesto, CA)
+- Aprio — Aprio 2028 Internship Application - Tax/Audit - San Antonio, TX (San Antonio, TX)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Sacramento, CA)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Boston) (Boston, MA)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- Cencora — Intern, Business Analyst (Conshohocken, PA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (San Antonio, TX)
+- Seven Corners, Inc. — Summer Business Analyst Intern (Carmel, IN)
+- Cencora — Java Web Applications &amp; Business Services Intern (United, PA)
+- Avient Corporation — Marketing Associate - 2027 Leadership Development Program (Avon Lake, OH)
+- Macquarie Group — 2027 Commodities and Global Markets Graduate Program - Commodities, Structuring (Greater Houston)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Billerica, MA)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Wells Fargo — 2027 Wealth &amp; Investment Management Analyst Program - Early Careers (St Louis, MO)
+- Wells Fargo — 2027 Investment Banking Associate Program - Early Careers (Washington, DC)
+- ICF — 2027 Summer Intern, Business Analyst (Reston, VA; Remote) (Fairfax, VA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+
+Closed 3:
+
+- SpaceX — Apprentice Controls Technician - 2nd Shift 5 Aug
+- Pinterest — University Grad Software Engineer (Toronto) 1 Oct
+- Pinterest — University Grad Machine Learning Engineer 2027 (Toronto) 1 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-01
 
 Added 88:
