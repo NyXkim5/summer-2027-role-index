@@ -1,5 +1,89 @@
 # Changelog
 
+## 2026-10-05
+
+Added 67:
+
+- Rocket Lab — RF Engineering Intern Summer 2027 (Long Beach, CA)
+- Nuro — New Grad Software Engineer, Routing (Mountain View, California (HQ))
+- Mercor — Research Intern (San Francisco)
+- Figma — PhD Intern, AI Applied Scientist (2027) (San Francisco, CA • New York, NY)
+- General Matter — Financial Analyst (New Grad) (Los Angeles, CA)
+- General Matter — Summer 2027 Internship - Information Technology (Los Angeles, CA)
+- Duolingo — Illustrator, Intern (Detroit, MI)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- Westcove Partners — Investment Banking Analyst Summer Intern (Los Angeles, CA)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- GALLO — Finance and Accounting Leadership Development Program 2027 (Modesto, CA)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Morgantown, PA)
+- State Farm — Summer 2027 Intern - Agency Channel Performance - Business Analyst - Agency (Tempe, AZ)
+- Federal Reserve Bank of San Francisco — 2027 SF Fed Summer Internship - BUSINESS ANALYST Intern (San Francisco, CA)
+- Lighthouse Electric Company, Inc. — IT Systems Analyst Intern (Canonsburg, PA)
+- TD — 2027 Summer Internship Program - Global Technology Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Labcorp — Intern - IT Business Analyst (Durham, NC)
+- Axos Bank — Business Analyst Intern (San Diego, CA)
+- Northrop Grumman — 2027 Software Digital Intern - Rolling Meadows IL (Rolling Meadows, IL)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- United States Attorneys' Offices — Budget Analyst (Pathways Recent Graduate) (Columbia, SC)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Thermo Fisher Scientific — 2027 Human Resources Graduate Leadership Development Program (Waltham, MA)
+- Crowe — AI Functional Intern - WINTER 2027 (Los Angeles, CA)
+- HNI Corporation — Internship - IT Business Analyst Summer 2027 (Muscatine, IA)
+- TotalEnergies — 2027 Tax Graduate Program - JD Law Track (Houston, TX)
+- Societe Generale — Research Associate (Campus) (New York, NY)
+- Kerry — Human Resources Leadership Development Program (Beloit, WI)
+- Stephens — Private Wealth Management Intern (Summer 2027) (Memphis, TN)
+- Entegris — Entegris Leadership Development Program - Engineering (Aurora, IL)
+- Aprio — Aprio 2028 Internship Application - Tax/Audit - San Antonio, TX (San Antonio, TX)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Sacramento, CA)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- RSM US LLP — International Tax Mergers &amp; Acquisitions Intern - Summer 2027 (New York, NY)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Boston) (Boston, MA)
+- Caterpillar Inc. — 2027 Entry Level Finance Analyst in Finance Leadership Development Program (Irving, TX)
+- Cencora — Intern, Business Analyst (Conshohocken, PA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (San Antonio, TX)
+- Seven Corners, Inc. — Summer Business Analyst Intern (Carmel, IN)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+
+Closed 7:
+
+- Zipline — SWE Intern, Summer 2027 Aug 21
+- Rocket Lab — CAD Data Intern Aug 25
+- Rocket Lab — RF Engineering Intern Summer 2027 16 Sep
+- Appian — Marketing Associate, 2027 Graduates
+- Schonfeld — Entry Level Quantitative Researcher 28 Sep
+- True Anomaly — Associate Ground &amp; Flight Test Engineer
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-04
 
 Added 60:
