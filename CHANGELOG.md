@@ -1,5 +1,89 @@
 # Changelog
 
+## 2026-10-06
+
+Added 72:
+
+- Lyft — PhD Software Engineer Intern, Machine Learning (Summer 2027) (San Francisco, CA)
+- Affirm — Software Engineer I (New Grad 2027) (NYC) (New York, New York, United States)
+- Affirm — Software Engineer I (New Grad 2027) (SF) (San Francisco, California, United States)
+- Cloudflare — Software Engineer Intern (2027) (In-Office)
+- Cloudflare — Software Engineer Intern (2027) (In-Office)
+- DV Trading — Database Engineer Intern - Summer 2027 (Chicago)
+- Rocket Lab — Supply Chain Intern (Long Beach, CA)
+- Anduril — 2027 Quality & Test Engineer Intern (Ashville, Ohio, United States; Costa Mes)
+- Anduril — 2027 Reliability Engineer Intern (Costa Mesa, California, United States)
+- Anduril — 2027 Systems Engineer Intern (Boston, Massachusetts, United States; Co)
+- Anduril — Winter 2027 Quality & Test Engineer Co-op (Ashville, Ohio, United States; Santa Ana)
+- Anduril — Winter 2027 Reliability Engineer Co-op (Costa Mesa, California, United States)
+- PKF O'Connor Davies — Transaction Advisory Services Intern (Summer 2027) - New York City (New York, NY)
+- MIT Lincoln Laboratory — Summer Research Program Intern 2027, Secure Resilient Systems and Technology (Group 05-53) (Lexington, MA)
+- DENSO — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- Baker Tilly US — Summer 2027 Compliance Advisory Intern (Albuquerque, NM)
+- NXP Semiconductors — Field Applications Engineer (FAE) Intern - Summer 2027 (Austin, TX)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Vylor — R&amp;D Business Requirements Analyst Intern (Johnston, IA)
+- Xcel Energy — Business Transformation Intern - MN, CO (Denver Metropolitan Area)
+- Vylor — AI Business Analyst Intern (Johnston, IA)
+- Shell — Shell Graduate Program 2027 - United States (Norco, LA)
+- RSM US LLP — State and Local Tax - Sales and Use Intern - Summer 2027 (Phoenix, AZ)
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Johnson Financial Group — Wealth Fiduciary Summer Internship 2027 (Milwaukee, WI)
+- Baker Tilly US — Summer 2027/Winter 2028 Tax or Audit Internship (Cochise, AZ)
+- Deutsche Bank — Deutsche Bank Graduate Program - Investment Bank &amp; Capital Markets: Investment Bank Coverage - Jacksonville 2027 (Jacksonville, FL)
+- Health Care Service Corporation — Early Careers New Grad - Leadership Development Program (HYBRID) (Chicago, IL)
+- Zions Bancorporation — Intern- Business Systems Analyst (Enterprise Portfolio Management Office) (Midvale, UT)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Downers Grove) (Chicago, IL)
+- CACI International Inc — Business Analyst Intern - Summer 2027 (Ashburn, VA)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (DE, TX, FL) (Newark, DE)
+- Wells Fargo — 2027 Wealth &amp; Investment Management Analyst Program - Early Careers (St Louis, MO)
+- Crowe — AI Functional Intern - WINTER 2027 (Costa Mesa, CA)
+- ACCA Careers — IT Business Analyst Intern (Spring 2027) (Greenville, SC)
+- Alvarez &amp; Marsal — Intern, Global Transaction Tax - Summer 2027 (Miami, FL)
+- Cohen &amp; Co — Family Office Tax Intern, Spring or Summer 2028 (Cleveland, OH)
+- Momentive — Summer 2027 Intern – Agriculture (Technology/R&amp;D) (Pearl River, NY)
+- Momentive — Summer 2027 Intern-Analytical Intern (Pearl River, NY)
+- FIS — Financial Analyst I, FIS University Program (Jacksonville, FL)
+- Pentair — 2027 Engineering Leadership Development Program - Computer Science / Computer Engineering (Golden Valley, MN)
+- Axon — Leadership Development Program 2027 (Scottsdale, AZ)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (Detroit, MI)
+- LexisNexis Risk Solutions — Project Analyst Intern (Alpharetta, GA)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Nashville, TN)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+
+Closed 2:
+
+- True Anomaly — DevOps Engineer I, New Grad Aug 21
+- Pinterest — UX Engineering Intern (San Francisco) 1 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-05
 
 Added 67:
