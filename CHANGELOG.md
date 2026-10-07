@@ -1,5 +1,83 @@
 # Changelog
 
+## 2026-10-07
+
+Added 61:
+
+- Figma — Early Career, Associate Product Manager (2027) (San Francisco, CA)
+- Prosperity Partners — M&amp;A Transaction Advisory Intern (Vienna, VA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- Metis Strategy — Summer '27 Undergraduate Internship - Strategy &amp; Mgmt. Consultant (Alpharetta, GA)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- NOV — Software Engineering Intern (Houston, TX)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- Macquarie Group — 2027 Financial Management Graduate Program (Jacksonville, FL)
+- Macquarie Group — 2027 Macquarie Asset Management Graduate Program - Client Solutions Group, Wealth (New York City Metropolitan Area)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- Figma — Early Career, Associate Product Manager (2027) (San Francisco, CA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Nichols Cauley — Summer 2027 Tax Internship (Coral Gables, FL) (Coral Gables, FL)
+- Nichols Cauley — Summer 2028 Tax Internship (Coral Gables, FL) (Coral Gables, FL)
+- Momentive — Summer 2027 Intern-Intern for Product Development Lab (Chemistry) (Waterford, NY)
+- Otis Elevator Co. — Sales &amp; CRM Technology Business Analyst Intern (Farmington, CT)
+- nVent — Digital Leadership Development Program 2027 (St Louis Park, MN)
+- Wei, Wei &amp; Co., LLP — Junior Auditor (Entry-Level) (Queens, NY)
+- Guidehouse — Consultant - Life Sciences Advisory, Health Segment - Campus 2027 (New York, United States)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Sturgis, MI)
+- Terracon — 2027 Summer Intern for Environmental Department - Site Investigation and Remediation (Raleigh, NC)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- Labcorp — Intern - IT Business Analyst (Burlington, NC)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Chicago, IL)
+- Johnson Financial Group — Wealth Rotational Summer Internship 2027 (Milwaukee, WI)
+- MaineHealth — HR Leadership Development Program (Portland, ME)
+- Columbia, SC Be an early applicant 5 days ago — Budget Analyst (Pathways Recent Graduate) (Columbia, SC)
+- Clemens Food Group — Sales Leadership Development Program (Hatfield, PA)
+- AECOM — Entry-Level Environmental Scientist - Hiring Event with AECOM - Atlanta, GA (Atlanta, GA)
+- D.A. Davidson Companies — Technology Group, Investment Banking – Summer Analyst – 2028 Grads (Portland, OR)
+- Plante Moran — 2027 Summer Transfer Pricing Intern (Denver, CO)
+- Ryan — Summer 2027 Intern, Transaction Tax Compliance (Downers Grove, IL)
+- Ryan — Summer 2027 Intern, State Income/Franchise Tax (Sacramento, CA)
+- Peraton — Summer 2027 Business Analyst Intern (San Diego, CA)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Tulsa, OK)
+- Kerry — RD&amp;A Leadership Development Program (Beloit, WI)
+- Ankura — University Associate, Strategic Finance, Transaction Advisory Services (Chicago, IL)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+
+Closed 7:
+
+- Rocket Lab — Business Analyst Intern, Supply Chain
+- Anduril — 2027 Manufacturing Optimization Engineer Intern 14 Sep
+- SpaceX — Legal Analyst, Product, Starlink
+- Perplexity — Public Policy Associate Aug 27
+- Cursor — Full Stack Analyst, GTM
+- Figma — SWE Intern, Winter 2027
+- Robinhood — Offensive Security Intern (Summer 2027) 18 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-06
 
 Added 72:
