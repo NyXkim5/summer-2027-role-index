@@ -1,5 +1,92 @@
 # Changelog
 
+## 2026-10-08
+
+Added 70:
+
+- Roblox — [2027] Applied Scientist - PhD Intern (San Mateo, CA, United States)
+- Roblox — [2027] Data Scientist - PhD Intern (San Mateo, CA, United States)
+- Charles River Associates — (2028 Bachelor's/Master's graduates) Data Analytics Consulting Analyst/Associate Intern (Summer 2027) (New York, NY, United States)
+- Replit — Software Engineering Intern – Winter 2027 (U.S. Based) (Foster City, CA)
+- IXL Learning — Software Engineer, Intern (San Mateo, CA)
+- IXL Learning — Software Engineer, New Grad (San Mateo, CA)
+- IXL Learning — Software Engineer, New Grad (Raleigh, NC)
+- Pinterest — Solutions Engineer Intern 2027 (USA) (San Francisco, CA, US; Remote, US)
+- IMC Trading — Machine Learning Engineer Intern - Summer 2027 (New York, United States)
+- Epic Games — SDET Intern (Cary,North Carolina,United States)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Pensacola, FL)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- IBM — Entry Level Product Manager 2027 - LOWELL (Lowell, MA)
+- Kearney — PERLab Summer Business Analyst Intern 2027 (Greater Chicago Area)
+- Garmin — Business Analyst Intern (Olathe, KS)
+- Enterprise Mobility — Intern - IT Business Analyst, Summer 2027 (St Louis, MO)
+- Mercy — Emergency Dept. Residency June 2027 - Mercy St. Louis (St Louis, MO)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Atlanta, GA)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- Marvell Technology — Business Process Mining &amp; Intelligence Analyst Intern, BS - Summer 2027 (Santa Clara, CA)
+- State Farm — Summer 2027 Intern - Agency Channel Performance - Business Analyst - Agency (Tempe, AZ)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- Ryan — Summer 2027 Intern, Real Property Tax (El Paso, TX)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Morgantown, PA)
+- GALLO — Finance and Accounting Leadership Development Program 2027 (Modesto, CA)
+- Federal Reserve Bank of San Francisco — 2027 SF Fed Summer Internship - BUSINESS ANALYST Intern (San Francisco, CA)
+- Lighthouse Electric Company, Inc. — IT Systems Analyst Intern (Canonsburg, PA)
+- TD — 2027 Summer Internship Program - Global Technology Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Labcorp — Intern - IT Business Analyst (Durham, NC)
+- Axos Bank — Business Analyst Intern (San Diego, CA)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- United States Attorneys' Offices — Budget Analyst (Pathways Recent Graduate) (Columbia, SC)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Thermo Fisher Scientific — 2027 Human Resources Graduate Leadership Development Program (Waltham, MA)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Round Rock, TX)
+- PPG — 2027 Finance Leadership Development Program (Pittsburgh, PA)
+- Crowe — AI Functional Intern - WINTER 2027 (Los Angeles, CA)
+- HNI Corporation — Internship - IT Business Analyst Summer 2027 (Muscatine, IA)
+- TotalEnergies — 2027 Tax Graduate Program - JD Law Track (Houston, TX)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+
+Closed 7:
+
+- Anduril — Entry Level Systems Engineer, C2 Networking 21 Sep
+- IXL Learning — Associate Product Manager, New Grad
+- OpenAI — Trust &amp; Safety Ads Operations Analyst, Data Aug 28
+- Datadog — GTM Strategy &amp; Operations Associate
+- IXL Learning — SWE Intern Aug 31
+- IXL Learning — Software Engineer, New Grad 31 Aug
+- IXL Learning — Software Engineer, New Grad Aug 31
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-07
 
 Added 61:
