@@ -1,5 +1,88 @@
 # Changelog
 
+## 2026-10-09
+
+Added 69:
+
+- SpaceX — New Graduate Engineer, Automation - '26/'27 (Starlink) (Bastrop, TX)
+- SpaceX — New Graduate Engineer, Manufacturing - '26/'27 (Starlink) (Bastrop, TX)
+- Zipline — Corporate Tax Intern (Summer 2027) (South San Francisco, California, USA)
+- Schonfeld — 2027 Quantitative Developer Intern (Austin, Texas, United States)
+- Schonfeld — 2027 Quantitative Research Intern (Austin, Texas, United States)
+- Coinbase — Forward Deployed Engineer Intern (HR Technology) (Hybrid - New York, NY)
+- Anduril — 2027 Early Career Quality Engineer (Ashville, Ohio, United States; Costa Mes)
+- Anduril — 2027 Early Career Systems Engineer (Boston, Massachusetts, United States; Bo)
+- DoorDash — Software Engineer, Intern - Labs (Summer 2027) (San Francisco, CA; Sunnyvale, CA)
+- Baker Tilly US — Summer 2027 Tax Credits &amp; Incentives Intern (Madison, WI)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- Northrop Grumman — 2027 Software Developer Intern- Chantilly VA (Chantilly, VA)
+- Amazon — Tax Leadership Development Program (TLDP) - 2027, TLDP (Arlington, VA)
+- Force Factor — Leadership Development Program - MBA Associate (Boston, MA)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- Mariner Finance — Business Analyst/Project Coordinator Intern (Nottingham, MD)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- FIS — Consulting &amp; Implementations Intern Pipeline (Jacksonville, FL)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- GM Financial — Intern - Business Systems Analyst (Arlington, TX)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- J.S. Held LLC — Consultant, Economic Damages &amp; Valuations - Summer 2027 (New Grad) (San Francisco, CA)
+- Alvarez &amp; Marsal — Summer Analyst, Restructuring &amp; Turnaround (Houston, TX)
+- Citi — Wealth - LATAM, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- Premier Inc. — Advisory Services Intern (United States)
+- Brown and Caldwell — Entry Level Geologist (Atlanta, GA)
+- PKF O'Connor Davies — Transaction Advisory Services Intern (Summer 2027) - New York City (New York, NY)
+- MIT Lincoln Laboratory — Summer Research Program Intern 2027, Secure Resilient Systems and Technology (Group 05-53) (Lexington, MA)
+- DENSO — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Vylor — R&amp;D Business Requirements Analyst Intern (Johnston, IA)
+- Xcel Energy — Business Transformation Intern - MN, CO (Denver Metropolitan Area)
+- Vylor — AI Business Analyst Intern (Johnston, IA)
+- Shell — Shell Graduate Program 2027 - United States (Norco, LA)
+- RSM US LLP — State and Local Tax - Sales and Use Intern - Summer 2027 (Phoenix, AZ)
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Deutsche Bank — Deutsche Bank Graduate Program - Investment Bank &amp; Capital Markets: Investment Bank Coverage - Jacksonville 2027 (Jacksonville, FL)
+- Health Care Service Corporation — Early Careers New Grad - Leadership Development Program (HYBRID) (Chicago, IL)
+- Zions Bancorporation — Intern- Business Systems Analyst (Enterprise Portfolio Management Office) (Midvale, UT)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Downers Grove) (Chicago, IL)
+- CACI International Inc — Business Analyst Intern - Summer 2027 (Ashburn, VA)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (DE, TX, FL) (Newark, DE)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+
+Closed 4:
+
+- Zipline — Embedded Software Engineer Intern (Spring 2027) 25 Aug
+- Zipline — Aerodynamics Intern (Summer 2027) 21 Aug
+- Coinbase — Product Manager (HR Technology) Intern 8 Sep
+- Accenture Federal Services — Summer Analyst (Technology &amp; AI Exploration) 8 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-08
 
 Added 70:
