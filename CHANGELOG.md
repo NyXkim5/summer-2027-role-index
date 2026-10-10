@@ -1,5 +1,81 @@
 # Changelog
 
+## 2026-10-10
+
+Added 65:
+
+- Zipline — Firmware Engineer Intern (Spring 2027) (South San Francisco, California, USA)
+- Zipline — Firmware Engineer Intern (Summer 2027) (South San Francisco, California, USA)
+- Databricks — Product Design Intern (2027 Start) (San Francisco, California; Seattle, Wash)
+- Databricks — Product Design New Grad (2027 Start) (San Francisco, California; Seattle, Wash)
+- Affirm — IT Engineer Intern (Early Careers Summer 2027) (San Francisco, California, United States)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- Metis Strategy — Summer '27 Undergraduate Internship - Strategy &amp; Mgmt. Consultant (Chevy Chase, MD)
+- Terracon — 2027 Summer Intern for Environmental Department - Site Investigation and Remediation (Raleigh, NC)
+- Financial Technology Partners / FT Partners — 2027 January IBD Full Time Analyst (San Francisco) (San Francisco, CA)
+- Electrical Reliability Services, Inc. — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- McKesson — Business Analyst Intern, Product Performance – Summer 2027 (Irving, TX)
+- Baker Tilly US — Summer 2027 Tax Credits &amp; Incentives Intern (Portland, OR)
+- Momentive — Summer 2027 Intern-Intern for Product Development Lab (Chemistry) (Waterford, NY)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (United States)
+- Prosperity Partners — M&amp;A Transaction Advisory Intern (Vienna, VA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- NOV — Software Engineering Intern (Houston, TX)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- Macquarie Group — 2027 Macquarie Asset Management Graduate Program - Client Solutions Group, Wealth (New York City Metropolitan Area)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Nichols Cauley — Summer 2027 Tax Internship (Coral Gables, FL) (Coral Gables, FL)
+- Nichols Cauley — Summer 2028 Tax Internship (Coral Gables, FL) (Coral Gables, FL)
+- Otis Elevator Co. — Sales &amp; CRM Technology Business Analyst Intern (Farmington, CT)
+- nVent — Digital Leadership Development Program 2027 (St Louis Park, MN)
+- J.B. Poindexter &amp; Co — MBA Leadership Development Program (Sturgis, MI)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+
+Closed 1:
+
+- Rocket Lab — Structural Analysis Intern Spring 2027 11 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-09
 
 Added 69:
