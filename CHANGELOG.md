@@ -1,5 +1,89 @@
 # Changelog
 
+## 2026-10-13
+
+Added 65:
+
+- Skydio — Embedded Software Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Muonspace — Spacecraft Test Engineering Intern (Summer 2027) (San Jose, CA)
+- Rocket Lab — Ground Systems Engineering Intern Spring 2027 (Stennis Space Center, MS)
+- Gusto — Finance Intern (Summer 2027) (New York, NY - Hybrid)
+- Figma — PhD Intern, Software Engineer - Graphics (2027) (San Francisco, CA • New York, NY)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Cohen &amp; Co — Tax Intern, Summer 2028 (Youngstown, OH)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Mahoney Placement – Dallas - 2027 (Dallas, TX)
+- American Express — Campus Graduate Masters Summer Internship Program - 2027 Product Management, Global Merchant &amp; Network Services - Phoenix, AZ (Phoenix, AZ)
+- D.A. Davidson Companies — 2027 Wealth Management Summer Internship Program (Colorado Springs, CO)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Metis Strategy — Summer '27 Undergraduate Internship - Strategy &amp; Mgmt. Consultant (Chevy Chase, MD)
+- Metis Strategy — Summer '27 Graduate Internship - Strategy &amp; Mgmt. Consultant (Chevy Chase, MD)
+- JPMorganChase — 2027 Trust Management Internship - Emerging Talent Summer Experience Program (Jackson, WY)
+- Financial Technology Partners / FT Partners — 2027 January IBD Full Time Analyst (San Francisco) (San Francisco, CA)
+- Electrical Reliability Services, Inc. — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- Baker Tilly US — Summer 2027 Tax Credits &amp; Incentives Intern (Portland, OR)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (US Person Required) (United States)
+- Zipline — Corporate Tax Intern (Summer 2027) (South San Francisco, CA)
+- Prosperity Partners — M&amp;A Transaction Advisory Intern (Vienna, VA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- Avient Corporation — Technology Leadership Associate - 2027 Leadership Development Program Ph.D. (Avon Lake, OH)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Nichols Cauley — Summer 2028 Tax Internship (Coral Gables, FL) (Coral Gables, FL)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+
+Closed 9:
+
+- Zipline — Embedded Firmware Intern, Summer 2027
+- Rocket Lab — Propulsion Intern Summer 2027 10 Sep
+- Anduril — Financial Analyst I, Air Dominance &amp; Strike Aug 18
+- Schonfeld — 2027 Quantitative Developer Intern 9 Oct
+- Schonfeld — 2027 Quantitative Research Intern 9 Oct
+- Together AI — Software Engineer Intern (Summer 2027) 18 Sep
+- Together AI — Software Engineer Intern (Winter 2027) 18 Sep
+- Together AI — Software Engineer, New Grad (2027) 18 Sep
+- Together AI — Software Development In Test Intern (Summer 2027) 18 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-12
 
 Added 67:
