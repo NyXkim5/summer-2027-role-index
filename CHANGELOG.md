@@ -1,5 +1,110 @@
 # Changelog
 
+## 2026-10-14
+
+Added 69:
+
+- Skydio — Manufacturing Software Engineer Intern - Winter 2027 (San Mateo, California, United States)
+- Anduril — 2027 Flight Test Engineer Intern (Costa Mesa, California, United States)
+- Skydio — Software Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Anduril — 2027 Firmware Engineer Intern (Costa Mesa, California, United States)
+- Anduril — 2027 Early Career Division Operations (Reston, Virginia, United States)
+- SpaceX — Apprentice Welder (McGregor, TX)
+- Kikoff — Recruiting Coordination Intern (San Francisco, California)
+- Anduril — 2027 Early Career Associate Product Designer (Costa Mesa, California, United States)
+- Anduril — 2027 Product Designer Intern (Costa Mesa, California, United States)
+- Entergy — Student Intern, Environmental Project Services, Summer 2027 (Little Rock, AR)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- D.A. Davidson Companies — Class of 2028 Financial Institutions Group, Investment Banking - Summer Analyst (Chicago, IL)
+- Geosyntec Consultants — Intern – Environmental Engineer or Geologist (Charlotte, NC)
+- Lockton — Reinsurance Broker Intern (Minneapolis Summer 2027) (Minneapolis, MN)
+- Enlighten — Summer 2027 Internship - Software Engineer (Hybrid) - 30267 (San Antonio, TX)
+- AIG — 2027 Early Careers: Analyst, Actuarial – United States, New York City (New York, NY)
+- AIG — 2027 Early Careers: Analyst, CUO (Commercial Underwriting Office) – United States, Multiple Locations (New York, NY)
+- Merck KGaA, Darmstadt, Germany — Associate, GOglobal Graduate Program (Burlington, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Investment Bank: Fixed Income &amp; Currencies - New York 2027 (New York, NY)
+- ofi North America (Olam Food Ingredients) — 2027 North America Business Leadership Development Program (Full-Time MBA) - Join our MBA Talent Network (Chicago, IL)
+- Johnson &amp; Johnson — 2027 MBA Finance Leadership Development Program (MBA FLDP) - Full Time (New Brunswick, NJ)
+- Ciena — Finance Leadership Development Program (Baltimore, MD)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- A Igreja de Jesus Cristo dos Santos dos Últimos Dias — Business and Data Analyst (Full time, Paid Intern) - Special Projects Department (Salt Lake City, UT)
+- Belvedere Trading, LLC — Early Career Talent Partner - Trading (Chicago, IL)
+- AECOM — Entry-Level Geologist - Hiring Event with AECOM - Raleigh (Raleigh, NC)
+- RubinBrown LLP — Summer 2028 State and Local Tax Intern (St Louis, MO)
+- Wipfli — Audit Internship - Summer 2027 (South Portland, ME)
+- PwC — Philadelphia - Tax JD - Intern - Summer 2027 (Philadelphia, PA)
+- PwC — Tax - Japanese Business Network (JBN) - Intern - Summer 2028 - Destination CPA (Detroit, MI)
+- AstraZeneca — Operations Global Graduate Associates Programme - US (Wilmington, DE)
+- The Church of Jesus Christ of Latter-day Saints — Business and Data Analyst (Full time, Paid Intern) - Special Projects Department (Salt Lake City, UT)
+- Pepsi Bottling Ventures — Business Systems Analyst Intern (Raleigh, NC)
+- Mansfield Energy Corp — Intern, Business Systems (Houston, TX)
+- ADT — IT Strategy, Business Analysis &amp; Project Delivery Internship (Boca Raton, FL)
+- Collins Aerospace — Business Systems and Transformation Intern (Summer 2027) (Cedar Rapids, IA)
+- BAE Systems, Inc. — Finance Leadership Development Program - AMS - New Hampshire (Onsite) (Nashua, NH)
+- SAP — SAP iXp Intern - SAP Business Network Supplier Enablement &amp; Transformation Specialist (Pittsburgh, PA)
+- Terracon — 2027 Summer Intern for Environmental Department - Site Investigation and Remediation (Raleigh, NC)
+- UL Solutions — 2027 Campus Full Time: Finance Development Program Associate (Northbrook, IL)
+- Siemens — Energy Business Advisory Intern (Houston, TX)
+- Momentive — Summer 2027 Intern-Intern for Product Development Lab (Chemistry) (Waterford, NY)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- Honeywell Technologies — Future IT Leaders - Summer 2027 Intern (United States)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- IBM — Entry Level Product Manager 2027 - LOWELL (Lowell, MA)
+- LyondellBasell — 2027 Digital Technology Intern (Houston, TX)
+- Marvell Technology — Business Process Mining &amp; Intelligence Analyst Intern, BS - Summer 2027 (Santa Clara, CA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+
+Closed 26:
+
+- Anduril — Entry Level Systems Engineer, C2 Integration 21 Sep
+- Anduril — New Grad Systems Engineer, C2 Integration 21 Sep
+- Rocket Lab — Logistics Intern Spring 2027 11 Sep
+- Astranis — Reliability Test Intern (Summer 2027) 22 Sep
+- Astranis — Reliability Test Intern (Winter 2027) 22 Sep
+- Robinhood — Associate Product Manager (New Grad) 14 Sep
+- Attentive — Product Management Intern, Agentic Integrations 1 Oct
+- Robinhood — Accounting Intern (Summer 2027) 14 Sep
+- Robinhood — Brokerage Operations Intern (Summer 2027) 14 Sep
+- Robinhood — Business Analyst Intern (Summer 2027) 14 Sep
+- Robinhood — Crypto Operations Intern (Summer 2027) 14 Sep
+- Robinhood — Crypto Partnership Intern (Summer 2027) 14 Sep
+- Robinhood — Fraud Operations Intern (Summer 2027) 14 Sep
+- Robinhood — Futures &amp; Prediction Market Operations Intern (Summer 2027) 14 Sep
+- Robinhood — Growth Marketing Intern (Summer 2027) 14 Sep
+- Robinhood — People Partner Intern (Summer 2027) 14 Sep
+- Robinhood — Finance and Strategy Intern (Summer 2027) 15 Sep
+- Robinhood — Brokerage Risk Analyst Intern (Summer 2027) 14 Sep
+- Robinhood — PeopleX Insights &amp; Analytics Intern (Summer 2027) 14 Sep
+- Robinhood — Security Risk Management Intern (Summer 2027) 16 Sep
+- Robinhood — Software Engineering Intern, Android (Summer 2027) 14 Sep
+- Robinhood — Software Engineering Intern, Backend (Summer 2027) 14 Sep
+- Robinhood — Software Engineering Intern, iOS (Summer 2027) 14 Sep
+- Robinhood — Software Engineering Intern, Web (Summer 2027) 14 Sep
+- Robinhood — Special Projects Intern (Summer 2027) 14 Sep
+- Robinhood — Vendor Management Intern (Summer 2027) 14 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-13
 
 Added 65:
