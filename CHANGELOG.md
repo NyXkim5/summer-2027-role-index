@@ -1,5 +1,84 @@
 # Changelog
 
+## 2026-10-15
+
+Added 65:
+
+- Skydio — Product Design Engineer (Early Career) (San Mateo, California, United States)
+- Muonspace — Ground Software Engineering Intern (Summer 2027) (San Jose, CA)
+- General Matter — Summer 2027 Internship - Information Security Engineer (Los Angeles, CA)
+- Skydio — Process Engineering Intern - Summer 2027 (San Mateo, California, United States)
+- Anduril — Winter 2027 Research Engineer Co-op (Santa Ana, California, United States)
+- Insmed Incorporated — Summer Intern - Gene Editing Discovery (Bridgewater, NJ)
+- Motiva Enterprises LLC — Motiva Summer Internship Position: Chemist Degree (Port Arthur, TX)
+- Edward Jones — Financial Advisor Branch Intern (Greenville, SC)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Billerica, MA)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- PepsiCo — 2027 Summer Intern: Technology Business Analyst &amp; Project Coordination (Plano, TX)
+- CACI International Inc — Business Analyst Intern - Summer 2027 (Ashburn, VA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- L3Harris Technologies — IT Business Analysis Intern (Melbourne, FL)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- Ascension — Supply Chain Integration Intern (Novi, MI)
+- General Motors — Entry-Level Finance Controllership Rotational Program (Warren, MI)
+- GlobalFoundries — Finance Project Management &amp; Financial Systems Analyst Intern (Summer 2027) (Malta, NY)
+- Rivian — Business and Administrative Intern - Strategy Analyst, CCO Strategy and Program Management (Palo Alto, CA)
+- Plante Moran — 2027 Family Office - Estate Planning Advisor Entry Level (East Lansing, MI)
+- Piper Sandler — 2027 Investment Banking Summer Analyst - Financial Sponsors (New York, NY)
+- D.A. Davidson Companies — Technology Group, Investment Banking – Summer Analyst – 2028 Grads (New York, NY)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- CapTech — Consulting Internship: Business Systems Analyst (Summer 2027) (Richmond, VA)
+- WebstaurantStore — 2027 Technical Business Analyst Summer Internship (Lititz, PA)
+- TD — 2027 Spring Co-op - Global Technology &amp; Solutions - Business Systems Analyst (BSA) (Mount Laurel, NJ)
+- Novant Health — RN New Grad Residency- Summer 2027 Cohort (Charlotte, AR)
+- GM Financial — Intern - Business Systems Analyst (Arlington, TX)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Seattle, WA)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- Baker Tilly US — Summer 2027 Tax Credits &amp; Incentives Intern (Madison, WI)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- Force Factor — Leadership Development Program - MBA Associate (Boston, MA)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Premier Inc. — Advisory Services Intern (United States)
+- Citi — Wealth - LATAM, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- Merck — 2027 Future Talent Program - International Pricing Analytics - Intern (Upper Gwynedd, PA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+
+Closed 4:
+
+- Base Power — Factory Construction Intern 11 Sep
+- Palantir — Operations Analyst, US Government
+- Okta — Technical Account Manager Analyst (New Grad) 8 Sep
+- Replit — Software Engineer - New Grad (Summer 2027) 9 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-14
 
 Added 69:
