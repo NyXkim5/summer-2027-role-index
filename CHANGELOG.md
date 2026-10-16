@@ -1,5 +1,86 @@
 # Changelog
 
+## 2026-10-16
+
+Added 67:
+
+- Together AI — Hardware Security Engineer Intern (Summer 2027) (San Francisco)
+- Together AI — Hardware Security Engineer, New Grad (2027) (San Francisco)
+- DoorDash — Electrical Engineer, Intern - Labs (Summer 2027) (Oakland, CA)
+- SpaceX — New Graduate Engineer, Infrastructure (Starbase, TX)
+- Saronic — University Recruiter (Austin, TX)
+- Duolingo — Data Scientist, Intern (New York, NY; Pittsburgh, PA)
+- Duolingo — Data Scientist, Intern (PhD) (New York, NY; Pittsburgh, PA)
+- Cornerstone Advisors — 2027 Consultant Intern (19514) (Scottsdale, AZ)
+- Carr, Riggs &amp; Ingram — Transaction Advisory Services Intern - Summer 2027 (Atlanta, GA) (Atlanta, GA)
+- PwC — Rochester - Tax - Intern - Summer 2027 (Rochester, NY)
+- Johnson &amp; Johnson MedTech — Associate Clinical Account Specialist (ACAS) Intern (Summer 2027) (Toledo, OH)
+- GALLO — Finance and Accounting Leadership Development Program (Modesto, CA)
+- Stripe — Product Manager: New Grad Accelerator (New York, United States)
+- TSP Talent — Intern - Business Analyst (Conshohocken, PA)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Chicago, IL)
+- US Foods — Intern – Data Advisory Analyst (Hybrid: Onsite &amp; Remote) (Rosemont, IL)
+- CarMax — Business Analyst Intern - Atlanta, GA (Kennesaw, GA)
+- LewisGale Regional Health System — New Grad RN Residency (Pulaski, VA)
+- Northrop Grumman — 2027 S/W Embedded Engineering Intern – Annapolis MD (Annapolis, MD)
+- Nissan Motor Corporation — Aftersales Business Planning Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Plante Moran — 2027 Summer Trust Advisor Intern (Grand Rapids, MI)
+- Catalent — 2027 Intern - Process Development, Downstream (Madison, WI)
+- IBM — Entry-Level Product Manager | Infrastructure Growth &amp; Innovation - Poughkeepsie, NY - 2027 (Poughkeepsie, AR)
+- D.A. Davidson Companies — 2027 Wealth Management Summer Internship Program (Lincoln, NE)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Cohen &amp; Co — Tax Intern, Summer 2028 (Youngstown, OH)
+- American Express — Campus Graduate Masters Summer Internship Program - 2027 Product Management, Global Merchant &amp; Network Services - Phoenix, AZ (Phoenix, AZ)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Metis Strategy — Summer '27 Undergraduate Internship - Strategy &amp; Mgmt. Consultant (Chevy Chase, MD)
+- Metis Strategy — Summer '27 Graduate Internship - Strategy &amp; Mgmt. Consultant (Chevy Chase, MD)
+- JPMorganChase — 2027 Trust Management Internship - Emerging Talent Summer Experience Program (Jackson, WY)
+- Electrical Reliability Services, Inc. — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- Financial Technology Partners / FT Partners — 2027 January IBD Full Time Analyst (San Francisco) (San Francisco, CA)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+
+Closed 4:
+
+- Skydio — Electrical Engineer Intern 28 Jul
+- Muonspace — Applied Science Intern (Summer 2027) 23 Sep
+- Sentry — Revenue Operations Analyst
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-15
 
 Added 65:
