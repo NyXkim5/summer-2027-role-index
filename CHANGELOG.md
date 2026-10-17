@@ -1,5 +1,84 @@
 # Changelog
 
+## 2026-10-17
+
+Added 64:
+
+- Together AI — Research Intern, Frontier Speculative Decoding (Summer 2027) (San Francisco)
+- Together AI — Research Intern, Frontier Speculative Decoding (Winter 2027) (San Francisco)
+- SpaceX — Entry Level Production Technician (Starlink Aviation) (Woodinville, WA)
+- Rocket Lab — Supply Chain Intern Summer 2027 (Silver Spring, MD)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Boise, ID)
+- Winchester Ammunition — Winchester Electrical Engineer Intern - Summer 2027 (Independence, MO)
+- Macquarie Group — 2027 Commodities and Global Markets Graduate Program - Commodities, Structuring (Greater Houston)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- Alfa Laval — Career Pathways Program Associate (2027-2028 Cohort) (Kenosha, WI)
+- Spectrum — 2027 Summer Intern: Associate Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Transamerica — Financial Reporting Intern (Spring 2027) (Cedar Rapids, IA)
+- Crowe — MSFT AI Business Solutions Implementation Intern (Atlanta, GA)
+- Honeywell Aerospace — Intern (Bachelor's) - Fall Co-Op (Phoenix, AZ)
+- Edward Jones — Financial Advisor Intern (Greenville, SC)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Alternative Risk Transfer (ART)– NY - 2027 (New York, NY)
+- Momentum — 2027 Launch Graduate Program: Procurement Analyst (Dallas, TX)
+- Phillips 66 — 2027 University New Hire-Lubricants (Houston, TX)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- PepsiCo — 2027 Summer Intern: Technology Cyber Security (Plano, TX)
+- BMW Group — Intern, Ownership Services Analyst - Spring 2027 (Woodcliff Lake, NJ)
+- L3Harris Technologies — IT Business Analysis Intern (Rochester, NY)
+- Day One Partners — Talent Partner (New Grad) - January Start Date (Los Angeles, CA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- ofi North America (Olam Food Ingredients) — 2027 North America Business Leadership Development Program (Full-Time MBA) - Join our MBA Talent Community (New York, NY)
+- Entergy — Student Intern, Environmental Project Services, Summer 2027 (Little Rock, AR)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Plante Moran — 2027 Summer Trust Advisor Intern (Southfield, MI)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- AIG — 2027 Early Careers: Analyst, Actuarial – United States, New York City (New York, NY)
+- AIG — 2027 Early Careers: Analyst, CUO (Commercial Underwriting Office) – United States, Multiple Locations (New York, NY)
+- Merck KGaA, Darmstadt, Germany — Associate, GOglobal Graduate Program (Burlington, MA)
+- Ciena — Finance Leadership Development Program (Baltimore, MD)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- RubinBrown LLP — Summer 2028 State and Local Tax Intern (St Louis, MO)
+- Wipfli — Audit Internship - Summer 2027 (South Portland, ME)
+- Medtronic — Summer 2027 Corporate Development Intern (MBA) (Minneapolis, MN)
+- Frazier &amp; Deeter — Campus 2028 Summer Assurance Intern (Huntsville, AL)
+- Pepsi Bottling Ventures — Business Systems Analyst Intern (Raleigh, NC)
+- The Church of Jesus Christ of Latter-day Saints — Business and Data Analyst (Full time, Paid Intern) - Special Projects Department (Salt Lake City, UT)
+- Raymond James — 2027 Investment Banking Summer Analyst Consumer Charlotte, NC (Charlotte, NC)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+
+Closed 5:
+
+- Zipline — Perception Intern, Summer 2027 Aug 21
+- Zipline — Applications Engineer Intern (Summer 2027) 20 Aug
+- Zipline — Applications Engineer Intern (Spring 2027) 19 Aug
+- Zipline — Commercial Implementation Intern (Summer 2027) 21 Sep
+- Base Power — Business Operations Intern, Commercial Partnerships 8 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-16
 
 Added 67:
