@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-10-18
+
+Added 60:
+
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Westborough, MA)
+- Sanofi — Manager Commercial Graduate Program Vaccines (Cambridge, MA)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Wolverine Trading — Entry Level C++ Software Engineer (December 2026 Graduates) (Chicago, IL)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- Phillips 66 — 2027 University New Hire- Information Technology (Houston, TX)
+- Motiva Enterprises LLC — Motiva Summer Internship Position: Chemist Degree (Port Arthur, TX)
+- Edward Jones — Financial Advisor Branch Intern (Greenville, SC)
+- Insmed Incorporated — Summer Intern - Gene Editing Discovery (Bridgewater, NJ)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Bedford, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- PepsiCo — 2027 Summer Intern: Technology Business Analyst &amp; Project Coordination (Plano, TX)
+- West Monroe — 2027 CFO Advisory Consulting Intern (Minneapolis, MN)
+- CACI International Inc — Business Analyst Intern - Summer 2027 (Ashburn, VA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- Johnson &amp; Johnson — 2027 MBA Finance Leadership Development Program (MBA FLDP) - Full Time (New Brunswick, NJ)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- Ascension — Supply Chain Integration Intern (Novi, MI)
+- A Igreja de Jesus Cristo dos Santos dos Últimos Dias — Business and Data Analyst (Full time, Paid Intern) - Special Projects Department (Salt Lake City, UT)
+- IBM — Quote to Cash Intern 2027 (Armonk, NY)
+- Belvedere Trading, LLC — Early Career Talent Partner - Trading (Chicago, IL)
+- Deutsche Bank — Deutsche Bank Graduate Program - Investment Bank: Fixed Income &amp; Currencies - New York 2027 (New York, NY)
+- AECOM — Entry-Level Geologist - Hiring Event with AECOM - Raleigh (Raleigh, NC)
+- GlobalFoundries — Finance Project Management &amp; Financial Systems Analyst Intern (Summer 2027) (Malta, NY)
+- Rivian — Business and Administrative Intern - Strategy Analyst, CCO Strategy and Program Management (Palo Alto, CA)
+- Plante Moran — 2027 Family Office - Estate Planning Advisor Entry Level (East Lansing, MI)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- CapTech — Consulting Internship: Business Systems Analyst (Summer 2027) (Richmond, VA)
+- WebstaurantStore — 2027 Technical Business Analyst Summer Internship (Lititz, PA)
+- Novant Health — RN New Grad Residency- Summer 2027 Cohort (Charlotte, AR)
+- Aurora Energy Research — 2027 Graduate Analyst Program (Austin) (Austin, TX)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+
+Closed 1:
+
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-17
 
 Added 64:
