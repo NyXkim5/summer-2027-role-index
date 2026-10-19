@@ -1,5 +1,100 @@
 # Changelog
 
+## 2026-10-19
+
+Added 80:
+
+- Scale AI — Machine Learning Research Intern (Summer 2027) (New York, NY; San Francisco, CA)
+- Nintendo — Intern - Business Intelligence (Redmond, WA)
+- Nintendo — Intern - Localization Systems Analyst (Redmond, WA)
+- Nintendo — Intern - E-Commerce Merchandising & Strategy (Redmond, WA)
+- Nintendo — Intern - Supply Chain Planning (Redmond, WA)
+- Anduril — 2027 Early Career Supply Chain Engineer (Costa Mesa, California, United States)
+- Nintendo — Intern - IT Microsoft 365 Systems Engineer (Redmond, WA)
+- Nintendo — Intern – IT Platform Engineer (Redmond, WA)
+- Nintendo — Intern - IT Project Manager (Redmond, WA)
+- Nintendo — Intern - Manufacturing Engineer (Redmond, WA)
+- Nintendo — Intern – Product Public Relations (Redmond, WA)
+- Nintendo — Intern - Project Manager (Redmond, WA)
+- Nintendo — Intern - Retail Category Management (Redmond, WA)
+- Nintendo — Intern - Sustainability (Redmond, WA)
+- Nintendo — Intern - User Experience (Redmond, WA)
+- Nintendo — Intern - IT Software Engineer (Redmond, WA)
+- Anduril — 2027 Early Career Warhead Engineer (Costa Mesa, California, United States)
+- Anduril — 2027 Field Test Engineer Intern (Costa Mesa, California, United States; Q)
+- Anduril — 2027 Guidance, Navigation, & Control Engineer Intern (Costa Mesa, California, United States)
+- Anduril — 2027 Low Observables Engineer Intern (Costa Mesa, California, United States)
+- Ann &amp; Robert H. Lurie Children's Hospital of Chicago — New Graduate RN Resident March 2027 Cohort (Streeterville, IL)
+- Sanofi — Manager Commercial Graduate Program Specialty Care (Cambridge, MA)
+- Xcel Energy — Business Analyst Intern - TX, WI (Eau Claire, WI)
+- Four Hands — Business Operations Analyst Intern (Austin, TX)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Oracle — GDI Business Analyst Intern - OVIP (Reston, VA)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- Johnson &amp; Johnson MedTech — Associate Clinical Account Specialist (ACAS) Intern (Summer 2027) (Cleveland, OH)
+- CarMax — Business Analyst Intern - Atlanta, GA (Kennesaw, GA)
+- LewisGale Regional Health System — New Grad RN Residency (Pulaski, VA)
+- Nissan Motor Corporation — Aftersales Business Planning Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Enlighten — Summer 2027 Internship - Software Engineer (Hybrid) - 30267 (San Antonio, TX)
+- Nexora Solutions — Professional Services Leadership Development Program (Mayfield Heights, OH)
+- Busey — Commercial Banking &amp; Wealth Management Leadership Development Program (Champaign, IL)
+- PwC — Tax - Japanese Business Network (JBN) - Intern - Summer 2028 - Destination CPA (Detroit, MI)
+- AstraZeneca — Operations Global Graduate Associates Programme - US (Wilmington, DE)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- ASM — Software Engineering Intern (Spring 2027) ()
+- TikTok — Applied Scientist Intern, Business Integrity (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization GenAI (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization Technology (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Research Scientist Intern, E-commerce Recommendation LLM (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- Citi — Services Summer Analyst (2027, grad Dec 2027 – May 2028) 🛂 (New York, NY)
+
+Closed 5:
+
+- Palantir — Forward Deployed SWE, Internship, Intel
+- Applied Intuition — Scenario Engineer - New Grad (2027) 14 Aug
+- Rocket Lab — Integration &amp; Test Intern Spring 2027 9 Sep
+- Coinbase — Finance Operations Intern 8 Sep
+- Charles River Associates — (2028 Bachelor's/Master's graduates) Data Analytics Consulting Analyst/Associate Intern (Summer 2027) 8 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-18
 
 Added 60:
