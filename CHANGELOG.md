@@ -1,5 +1,87 @@
 # Changelog
 
+## 2026-10-20
+
+Added 69:
+
+- Skydio — Embedded Software Engineer Intern - Winer 2027 (San Mateo, California, United States)
+- Palantir — Software Engineer, Internship - Query Engines (New York, NY)
+- Palantir — Software Engineer, New Grad - Query Engines (New York, NY)
+- SpaceX — New Graduate Engineer, Electrical (Starshield) (Hawthorne, CA)
+- Rocket Lab — Ground Systems Engineering Intern Summer 2027 (Stennis Space Center, MS)
+- General Matter — Process Engineer (New Grad) (Los Angeles, CA)
+- Braze — Intern, Software Engineering (New York City)
+- Anduril — 2027 Early Career Technical Program Manager (Costa Mesa, California, United States; S)
+- Anduril — 2027 Technical Program Manager Intern (Costa Mesa, California, United States; H)
+- Aprio — Aprio 2028 Internship Application - Tax/Audit - Topeka, KS (Topeka, KS)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Summer Analyst - Restructuring (New York, NY)
+- NVIDIA — Product Manager MBA Intern, Enterprise AI - Summer 2027 (Santa Clara, CA)
+- American Express — Campus Graduate Masters Summer Internship Program - 2027 Product Management, Global Merchant &amp; Network Services - Phoenix, AZ (Phoenix, AZ)
+- Peraton — Summer 2027 Business Analyst Intern (San Diego, CA)
+- Patriot Industrial Partners — Business Analyst Intern (United States)
+- BMW Group — Intern, Ownership Services Analyst - Spring 2027 (Woodcliff Lake, NJ)
+- Indiana Farm Bureau Insurance — Life Business Analyst Intern - Summer 2027 (Indianapolis, IN)
+- Grainger — GTG Intern - Business Systems Analyst (Chicago, IL)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Summer 2027) (Robinson, IL)
+- Corteva Agriscience — Business Intelligence Intern (Indianapolis, IN)
+- Vertex Pharmaceuticals — Spring Co-Op 2027, Commercial Analytics (Boston, MA)
+- AllianceBernstein — Business Analyst Summer Intern (Nashville, TN)
+- Northrop Grumman — 2027 Materials/Chemical Engineer Intern - Baltimore MD (Baltimore, MD)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Boise, ID)
+- Winchester Ammunition — Winchester Electrical Engineer Intern - Summer 2027 (Independence, MO)
+- Macquarie Group — 2027 Commodities and Global Markets Graduate Program - Commodities, Structuring (Greater Houston)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- Spectrum — 2027 Summer Intern: Associate Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Transamerica — Financial Reporting Intern (Spring 2027) (Cedar Rapids, IA)
+- Crowe — MSFT AI Business Solutions Implementation Intern (Atlanta, GA)
+- Honeywell Aerospace — Intern (Bachelor's) - Fall Co-Op (Phoenix, AZ)
+- Cornerstone Advisors — 2027 Consultant Intern (19514) (Scottsdale, AZ)
+- Carr, Riggs &amp; Ingram — Transaction Advisory Services Intern - Summer 2027 (Atlanta, GA) (Atlanta, GA)
+- PwC — Rochester - Tax - Intern - Summer 2027 (Rochester, NY)
+- Edward Jones — Financial Advisor Intern (Greenville, SC)
+- BRG — 2027 Summer Associate (Intern) - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN (Nashville, TN)
+- BDO USA — Tax Intern, International Tax Services - Summer 2027 (Houston) (Houston, TX)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Alternative Risk Transfer (ART)– NY - 2027 (New York, NY)
+- Stripe — Product Manager: New Grad Accelerator (San Francisco, CA)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Chicago, IL)
+- PepsiCo — 2027 Summer Intern: Technology Cyber Security (Plano, TX)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- ofi North America (Olam Food Ingredients) — 2027 North America Business Leadership Development Program (Full-Time MBA) - Join our MBA Talent Community (Chicago, IL)
+- Entergy — Student Intern, Environmental Project Services, Summer 2027 (Little Rock, AR)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Plante Moran — 2027 Summer Trust Advisor Intern (Grand Rapids, MI)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Catalent — 2027 Intern - Process Development, Downstream (Madison, WI)
+- Cohen &amp; Co — Assurance Intern, Summer 2028 (Youngstown, OH)
+- D.A. Davidson Companies — Class of 2028 Financial Institutions Group, Investment Banking - Summer Analyst (Chicago, IL)
+- AIG — 2027 Early Careers: Analyst, Actuarial – United States, New York City (New York, NY)
+- AIG — 2027 Early Careers: Analyst, CUO (Commercial Underwriting Office) – United States, Multiple Locations (New York, NY)
+- WTW — Early Careers: Compensation Analyst (Work and Rewards) - New York - 2027 (New York, NY)
+- Merck KGaA, Darmstadt, Germany — Associate, GOglobal Graduate Program (Burlington, MA)
+- Ciena — Finance Leadership Development Program (Baltimore, MD)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+
+Closed 3:
+
+- General Matter — Financial Analyst (New Grad) 5 Oct
+- Databricks — SWE Intern, Winter 2027 start Aug 20
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-19
 
 Added 80:
