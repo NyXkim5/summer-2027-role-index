@@ -1,5 +1,82 @@
 # Changelog
 
+## 2026-10-21
+
+Added 65:
+
+- Anduril — 2027 Product Sourcing Engineer Intern (Costa Mesa, California, United States; I)
+- Robinhood — Campus Operations Manager (Menlo Park, CA)
+- Anduril — 2027 Finance Data Analyst Intern (Costa Mesa, California, United States)
+- Skydio — Wireless Hardware Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Skydio — Mobile Software Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Cohen &amp; Co — Family Office Tax Intern, Spring or Summer 2028 (Cleveland, OH)
+- Wipfli — Audit Internship- Summer 2027 (South Portland, ME)
+- Alvarez &amp; Marsal — Intern, Global Transaction Tax - Summer 2027 (Boston, MA)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Nashville, TN)
+- Duke Energy Corporation — Waste &amp; Groundwater Programs Summer Engineering Internship 2027 (Charlotte, NC)
+- Ericsson — Technology Strategy Intern (Plano, TX)
+- Collins Aerospace — Electrical Design Intern (Summer 2027) (Windsor Locks, CT)
+- MassMutual — Actuarial Analyst - Actuarial Leadership Development Program (Boston, MA)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Structured Credit (Political Risk)– United States, New York, NY (New York, NY)
+- Pentair — 2027 Engineering Leadership Development Program - Computer Science / Computer Engineering (Golden Valley, MN)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Force Factor — Leadership Development Program 2027 (Boston, MA)
+- Electrical Reliability Services, Inc. — Finance Leadership Development Program (Westerville, OH)
+- Meridien Labs — Professional Services Leadership Development Program (Mayfield Heights, OH)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (San Antonio, TX)
+- Nasdaq — Business Analyst Intern - 2027 Summer Internship (New York, United States)
+- Intuit — Summer 2027: Intelligent Automation Business Systems Analyst Intern (Mountain View, CA)
+- Spectrum — 2027 Summer Intern: Business Analyst (Greenwood Village, CO)
+- Red Hat — Finance Business Analyst Intern (Raleigh, NC)
+- Valley Health System — New Graduate RN Residency, Spring 2027 (Paramus, NJ)
+- Medtronic — Summer 2027 Corporate Development Intern (MBA) (Minneapolis, MN)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Avient Corporation — Marketing Associate - 2027 Leadership Development Program (Avon Lake, OH)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Westborough, MA)
+- Sanofi — Manager Commercial Graduate Program Vaccines (Cambridge, MA)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Wolverine Trading — Entry Level C++ Software Engineer (December 2026 Graduates) (Chicago, IL)
+- Plante Moran — 2027 Summer Real Estate Valuation Intern (Chicago, IL)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Energy – United States, Houston, TX (Houston, TX)
+- Momentum — 2027 Launch Graduate Program: Procurement Analyst (Dallas, TX)
+- Phillips 66 — 2027 University New Hire-Lubricants (Houston, TX)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- Phillips 66 — 2027 University New Hire- Information Technology (Houston, TX)
+- Day One Partners — Talent Partner (New Grad) - January Start Date (Los Angeles, CA)
+- GZA GeoEnvironmental, Inc. — Entry Level Geotechnical Engineer (May 2027 Graduates) (Norwood, MA)
+- Motiva Enterprises LLC — Motiva Summer Internship Position: Chemist Degree (Port Arthur, TX)
+- Edward Jones — Financial Advisor Branch Intern (Greenville, SC)
+- Plante Moran — 2027 Summer Trust Advisor Intern (Chicago, IL)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Bedford, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - New York 2027 (New York, NY)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Denver, CO)
+- PepsiCo — 2027 Summer Intern: Technology Business Analyst &amp; Project Coordination (Plano, TX)
+- West Monroe — 2027 CFO Advisory Consulting Intern (Minneapolis, MN)
+- Plante Moran — 2027 Business Analytics Consulting Intern (Southfield, MI)
+- CACI International Inc — Business Analyst Intern - Summer 2027 (Ashburn, VA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+
+Closed 2:
+
+- Skydio — Hardware Test &amp; Reliability Intern 5 Aug
+- Rocket Lab — Structural Analysis Intern Summer 2027 11 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-20
 
 Added 69:
