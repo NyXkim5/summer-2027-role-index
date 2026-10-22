@@ -1,5 +1,97 @@
 # Changelog
 
+## 2026-10-22
+
+Added 74:
+
+- Twitch — Undergrad Software Engineering Intern (Grad Year: Spring 2028) (San Francisco, CA)
+- Twitch — Undergrad Software Engineering Intern (Grad Year: Winter 2027) (San Francisco, CA)
+- Together AI — Growth Marketing Intern (Summer 2027) (San Francisco)
+- DoorDash — Drone Operations, Intern - Labs (Summer 2027) (San Francisco, CA)
+- Anduril — 2027 Business Operations Engineer Intern (Ashville, Ohio, United States; Costa Mes)
+- Anduril — 2027 Business Operations Intern (Costa Mesa, California, United States; S)
+- Anduril — 2027 Early Career Business Operations Associate (Costa Mesa, California, United States; S)
+- Anduril — Winter 2027 Business Operations Engineer Co-op (Ashville, Ohio, United States; Costa Mes)
+- Schonfeld — 2027 PhD Centralized Research Intern (New York, New York, United States)
+- DoorDash — Mechanical Engineering, Intern - Labs (Summer 2027) (Oakland, CA)
+- True Anomaly — Propulsion Engineer I (New Grad) (Denver, CO)
+- Anduril — Winter 2027 Robotics Engineer Co-op (Quincy, Massachusetts, United States)
+- Skydio — Hardware Test and Reliability Intern - Summer 2027 (San Mateo, California, United States)
+- Affirm — Analyst, Early Career (Full Stack) (New York, New York, United States; San F)
+- Alvarez &amp; Marsal — Intern, Federal Tax (Private Client Services) - Summer 2027 (Miami, FL)
+- Larson Gross — 2027 Tax Internship - Bellingham (Bellingham, WA)
+- CLA (CliftonLarsonAllen) — Deal Services Intern - Summer 2027 - Minneapolis, MN / Chicago, IL (Minneapolis, MN)
+- Cargill — Corporate Strategy Analyst Intern 2027 (Wayzata, MN)
+- Plante Moran — 2027 Summer Transfer Pricing Intern (Chicago, IL)
+- FIS — Financial Analyst I, FIS University Program (Jacksonville, FL)
+- Shell — Shell Graduate Program 2027 - United States (Houston, TX)
+- Whirlpool Corporation — Global Supply Chain Leadership Development Program (GSCLDP) - Full Time (Benton Harbor, MI)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- Evonik — Evonik Rotation Program - Early Career Engineers (Lafayette, IN)
+- Electrical Reliability Services, Inc. — Finance Leadership Development Program (Westerville, OH)
+- BAE Systems, Inc. — Engineering Leadership Development (ELDP), AMS Defense (Manchester, NH)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Tulsa, OK)
+- SouthState Bank — Summer 2027 Core Banking Intern (Remote) (Winter Haven, FL)
+- SouthState Bank — Summer 2027 Digital Banking Intern (Remote) (Winter Haven, FL)
+- TikTok — Seller Strategy Business Analyst Project Intern (TikTok Shop - US Operation) - 2025 Start (BS/MS) (Seattle, WA)
+- Navy Federal Credit Union — Summer Associate Internship (Product Strategist/Business Analyst) (Pensacola, FL)
+- Kerry — Human Resources Leadership Development Program (Beloit, WI)
+- PEPL — Talent Acquisition &amp; Early Career Programs Manager (Smyrna, GA)
+- Deutsche Bank — Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – Cary 2027 (Cary, NC)
+- Stifel Financial Corp. — Compliance-Regulatory Affairs Intern- Summer 2027 (St Louis, MO)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Sacramento, CA)
+- Western Alliance Bank — Summer 2027 Internship - Phoenix, AZ - Appraisals (Phoenix, AZ)
+- Catalent — 2027 Intern - Engineering, Equipment (Madison, WI)
+- Citi — Banking, Investment Banking, Full Time Analyst, San Francisco Technology – USA, 2027 (San Francisco, CA)
+- Ashby — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- Ann &amp; Robert H. Lurie Children's Hospital of Chicago — New Graduate RN Resident March 2027 Cohort (Streeterville, IL)
+- WSFS Bank — 2027 Summer Internship - Business Systems Analyst (Philadelphia, PA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (Detroit, MI)
+- Stifel Financial Corp. — Tech Product Development Analyst Intern- Summer 2027 (St Louis, MO)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Sanofi — Manager Commercial Graduate Program Specialty Care (Cambridge, MA)
+- Four Hands — Business Operations Analyst Intern (Austin, TX)
+- Oracle — GDI Business Analyst Intern - OVIP (Reston, VA)
+- Johnson &amp; Johnson MedTech — Associate Clinical Account Specialist (ACAS) Intern (Summer 2027) (Toledo, OH)
+- Plante Moran — 2027 State and Local Tax (SALT) Intern (Columbus, OH)
+- Plante Moran — 2027 Digital Transformation Services Consulting Intern (Columbus, OH)
+- LewisGale Regional Health System — New Grad RN Residency (Pulaski, VA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+
+Closed 8:
+
+- Zipline — Maintenance Tool Engineering Intern (Spring 2027) 20 Aug
+- Zipline — Technical Writer Intern 16 Sep
+- Figma — Early Career, Associate Product Manager (2027) 7 Oct
+- Pinterest — UX Quantitative Research Intern (USA)  *Remote 1 Oct
+- Flexport — Area Manager - New Grad 20 Aug
+- Coinbase — FP&amp;A Intern 8 Sep
+- Schonfeld — 2027 Platform Engineering Intern 10 Sep
+- Flexport — Area Manager - New Grad 18 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-21
 
 Added 65:
