@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-10-23
+
+Added 70:
+
+- MongoDB — 2027 - Software Engineering Intern, AMER (Austin; New York City; Palo Alto; San Fr)
+- Epic Games — Tools Programmer Intern (Graphics) (Cary,North Carolina,United States)
+- ID.me — Summer Intern 2027 - Analytics Engineer Intern (Mountain View, CA)
+- True Anomaly — Software Engineer I, QA (New Grad) (Denver, CO; Long Beach, CA)
+- Skydio — Frontend Software Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Palantir — Deployment Strategist, Internship - Warp Speed (New York, NY)
+- Palantir — Deployment Strategist, New Grad - Warp Speed (New York, NY)
+- Palantir — Forward Deployed Software Engineer, Internship - Warp Speed (New York, NY)
+- Palantir — Forward Deployed Software Engineer, New Grad - Warp Speed (New York, NY)
+- DoorDash — Operations Research Intern (PhD), Summer 2027 (Sunnyvale, CA)
+- Plante Moran — 2027 Summer Transfer Pricing Intern (Denver, CO)
+- D.A. Davidson Companies — Technology Group, Investment Banking – Summer Analyst – 2028 Grads (Portland, OR)
+- Parsons Corporation — Process Engineer Intern, Summer 2027 (Lexington, KY)
+- Enterprise — Sales Management Trainee Intern (Charlottesville, VA)
+- Cargill — Corporate Strategy Analyst Intern 2027 (Wayzata, MN)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Crowe — AI Functional Intern - WINTER 2027 (South Bend, IN)
+- Spectrum — 2027 Summer Intern: Business Systems Analyst (Customer Operations) (Stamford, CT)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- Micron Technology — Intern – Business Process Analyst (Boise, ID)
+- Societe Generale — Research Associate (Campus) (New York, NY)
+- Archer — Banking Associate Graduate Program 2027 New York City – Real Estate, Gaming and Lodging (New York, NY)
+- Saint Luke's — RN Residency - Saint Luke's South - Spring 2027 Graduates (Overland Park, KS)
+- Axon — Leadership Development Program 2027 (Scottsdale, AZ)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- ACCA Careers — GDI Business Analyst Intern - OVIP (Austin, TX)
+- Philips — Intern - AI &amp; Analytics Analyst - Nashville, TN - Spring 2027 (Nashville, TN)
+- Aprio — Aprio 2028 Internship Application - Tax/Audit - San Antonio, TX (San Antonio, TX)
+- Baker Tilly US — Summer 2027 Affordable Housing Intern (Madison, WI)
+- Merck — 2027 Future Talent Program - Sterile Product Development - Intern (Rahway, NJ)
+- Piper Sandler — Campus Recruiting - 2027 Investment Banking Summer Analyst - Restructuring (New York, NY)
+- NVIDIA — Product Manager MBA Intern, Enterprise AI - Summer 2027 (Santa Clara, CA)
+- American Express — Campus Graduate Masters Summer Internship Program - 2027 Product Management, Global Merchant &amp; Network Services - Phoenix, AZ (Phoenix, AZ)
+- Peraton — Summer 2027 Business Analyst Intern (San Diego, CA)
+- BMW Group — Intern, Ownership Services Analyst - Spring 2027 (Woodcliff Lake, NJ)
+- Indiana Farm Bureau Insurance — Life Business Analyst Intern - Summer 2027 (Indianapolis, IN)
+- Grainger — GTG Intern - Business Systems Analyst (Chicago, IL)
+- AllianceBernstein — Business Analyst Summer Intern (Nashville, TN)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Boise, ID)
+- Winchester Ammunition — Winchester Electrical Engineer Intern - Summer 2027 (Independence, MO)
+- nVent — Finance Leadership Development Program 2027 (St Louis Park, MN)
+- Spectrum — 2027 Summer Intern: Associate Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Transamerica — Financial Reporting Intern (Spring 2027) (Cedar Rapids, IA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+
+Closed 5:
+
+- Zipline — Long Range Platform Hardware Intern, Summer 2027
+- Rocket Lab — Propulsion Intern Spring 2027 10 Sep
+- Harvey — Analyst, Customer Trust legal AI
+- DoorDash — Drone Operations, Intern - Labs (Summer 2027) 22 Oct
+- Epic Games — Game Design Intern 25 Aug
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-22
 
 Added 74:
