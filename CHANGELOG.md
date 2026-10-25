@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-10-25
+
+Added 60:
+
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Health Care Service Corporation — Early Careers New Grad - Leadership Development Program (HYBRID) (Chicago, IL)
+- The Voleon Group — Operations Associate (University Hire) (New York, NY)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Evonik — Evonik Rotation Program - Early Career Engineers (Mobile, AL)
+- ACCA Careers — Audit Internship- Summer 2027 (South Portland, ME)
+- GZA GeoEnvironmental, Inc. — Entry Level Geotechnical Engineer (May 2027 Graduates) (Norwood, MA)
+- Alvarez &amp; Marsal — Intern, Federal Tax (Private Client Services) - Summer 2027 (Miami, FL)
+- Larson Gross — 2027 Tax Internship - Bellingham (Bellingham, WA)
+- CLA (CliftonLarsonAllen) — Deal Services Intern - Summer 2027 - Minneapolis, MN / Chicago, IL (Minneapolis, MN)
+- Plante Moran — 2027 Summer Transfer Pricing Intern (Chicago, IL)
+- FIS — Financial Analyst I, FIS University Program (Jacksonville, FL)
+- Shell — Shell Graduate Program 2027 - United States (Houston, TX)
+- Whirlpool Corporation — Global Supply Chain Leadership Development Program (GSCLDP) - Full Time (Benton Harbor, MI)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- BAE Systems, Inc. — Engineering Leadership Development (ELDP), AMS Defense (Manchester, NH)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Tulsa, OK)
+- SouthState Bank — Summer 2027 Core Banking Intern (Remote) (Winter Haven, FL)
+- SouthState Bank — Summer 2027 Digital Banking Intern (Remote) (Winter Haven, FL)
+- Kerry — Human Resources Leadership Development Program (Beloit, WI)
+- PEPL — Talent Acquisition &amp; Early Career Programs Manager (Smyrna, GA)
+- Deutsche Bank — Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – Cary 2027 (Cary, NC)
+- Stifel Financial Corp. — Compliance-Regulatory Affairs Intern- Summer 2027 (St Louis, MO)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Sacramento, CA)
+- Western Alliance Bank — Summer 2027 Internship - Phoenix, AZ - Appraisals (Phoenix, AZ)
+- Ashby — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- WSFS Bank — 2027 Summer Internship - Business Systems Analyst (Philadelphia, PA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (Detroit, MI)
+- Stifel Financial Corp. — Tech Product Development Analyst Intern- Summer 2027 (St Louis, MO)
+- Ann &amp; Robert H. Lurie Children's Hospital of Chicago — New Graduate RN Resident March 2027 Cohort (Streeterville, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+
+Closed 1:
+
+- SpaceX — Financial Analyst
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-24
 
 Added 63:
