@@ -1,5 +1,86 @@
 # Changelog
 
+## 2026-10-27
+
+Added 61:
+
+- Normal Computing — AI Research Resident (Algorithms Codesign) (New York)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- The Toro Company — Embedded Software Engineering Intern - The Toro Company (Hennepin County, MN)
+- Martin Marietta — Intern, Corporate Tax Group (Summer 2027) (Raleigh, NC)
+- DENSO in North America — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- The Toro Company — Tax Department Intern - The Toro Company (Hennepin County, MN)
+- Santander Consumer (UK) plc — 2027 Investment Banking NY Full Time Analyst-16 (Madison, WI)
+- AIG — 2027 Early Careers: Analyst, CUO (Commercial Underwriting Office) – United States, Multiple Locations (New York, NY)
+- Waters Corporation — Operations Leadership Development Program (OLDP) Associate (Milpitas, CA)
+- Eaton — Aerospace Sales Leadership Development Program (Irvine, CA)
+- MechNova — Professional Services Leadership Development Program (Mayfield Heights, OH)
+- Visa — Business Planning Intern - 2027, Austin, TX (Austin, TX)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Structured Credit (Political Risk)– United States, New York, NY (New York, NY)
+- TÜV SÜD — Intern - Business Analyst (Woodbridge, NJ)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (DE, TX, FL) (Newark, DE)
+- RSM US LLP — State and Local Tax - Sales and Use Intern - Summer 2027 (Phoenix, AZ)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- Citi — Wealth - Full Time Analyst, Dallas - USA, 2027 (Dallas, TX)
+- Restaurant Brands International — RBI Leadership Development Program – Full-Time – Miami, FL (Miami, FL)
+- Delta Dental of Missouri — Business Analyst Intern (Fenton, MO)
+- Crowe — AI Functional Intern - WINTER 2027 (Fort Wayne, IN)
+- ICE — Summer Internship Program 2027 - Professional Services Intern (Jacksonville, FL)
+- Lazard — 2028 Summer Analyst - Charlotte Technology (Charlotte, NC)
+- WTW — Early Careers: Intern Conversion Only - Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (New York, NY)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (Atlanta, GA)
+- Bristol Myers Squibb — 2027 Full-time Procurement Leadership Development Program (Princeton, NJ)
+- Spectrum — 2027 Summer Intern: Business Systems Analyst (Customer Operations) (Stamford, CT)
+- Heli America — IT Business Analyst Intern (Atlanta, GA)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- Intuit — Summer 2027: Intelligent Automation Business Systems Analyst Intern (San Diego, CA)
+- Micron Technology — Intern – Business Process Analyst (Boise, ID)
+- NAPA Auto Parts — Transformation Intern - Summer 2027 (Atlanta, GA)
+- Saint Luke's — RN Residency - Saint Luke's South - Spring 2027 Graduates (Overland Park, KS)
+- Saint Luke's — RN Residency - Saint Luke's Plaza - Spring 2027 Graduates (Kansas City, MO)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- ACCA Careers — GDI Business Analyst Intern - OVIP (Austin, TX)
+- Philips — Intern - AI &amp; Analytics Analyst - Nashville, TN - Spring 2027 (Nashville, TN)
+- TikTok — Seller Strategy Business Analyst Project Intern (TikTok Shop - US Operation) - 2025 Start (BS/MS) (Seattle, WA)
+- Rivian — Business and Administrative Intern - Strategy Analyst (Palo Alto, CA)
+- Cohen &amp; Co — Family Office Tax Intern, Spring or Summer 2028 (Cleveland, OH)
+- Wipfli — Audit Internship- Summer 2027 (South Portland, ME)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Nashville, TN)
+- Duke Energy Corporation — Waste &amp; Groundwater Programs Summer Engineering Internship 2027 (Charlotte, NC)
+- Ericsson — Technology Strategy Intern (Plano, TX)
+- MassMutual — Actuarial Analyst - Actuarial Leadership Development Program (Boston, MA)
+- Pentair — 2027 Engineering Leadership Development Program - Computer Science / Computer Engineering (Golden Valley, MN)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Force Factor — Leadership Development Program 2027 (Boston, MA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+
+Closed 10:
+
+- Anduril — Winter 2027 Test &amp; Evaluation Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Warhead Engineer Co-op 15 Sep
+- Anduril — Early Career Software Engineer, Battlespace Awareness 26 Oct
+- Base Power — Apprentice Electrician (Chicagoland) 12 Jun
+- Rocket Lab — Systems Engineering Intern Spring 2027 9 Sep
+- Zipline — Flight Test Engineer Intern (Summer 2027) 21 Sep
+- Datadog — Product Management Intern, Winter + Summer 2027
+- Gusto — Finance Intern (Summer 2027) 13 Oct
+- Harvey — Software Engineering Intern (Summer 2027) 2 Oct
+- Harvey — Software Engineering Intern (Summer 2027) 2 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-26
 
 Added 75:
