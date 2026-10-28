@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-10-28
+
+Added 67:
+
+- Schonfeld — 2027 DMFI Intern (New York, New York, United States)
+- Schonfeld — 2027 Enterprise AI Intern (New York, New York, United States)
+- Mercor — Research Engineer Intern - Environments, Data and Post-Training (San Francisco)
+- Mercor — Research Engineer, Intern – Benchmarking (San Francisco)
+- IXL Learning — Associate University Recruiter (San Mateo, CA)
+- Relativity — Apprentice Launch Pad Technician (Cape Canaveral, Florida, United States)
+- Anthropic — Anthropic Research Resident (San Francisco, CA | New York City, NY)
+- Baker Tilly US — Summer 2027 Transaction Advisory Services Intern - BPB Conversion (Boca Raton, FL)
+- Ryan — Summer 2027 Severance Tax Consulting Intern - Houston, TX (Houston, TX)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- Peraton — Summer 2027 Electrical Engineering Intern- Topeka, KS (Topeka, KS)
+- NXP Semiconductors — Field Applications Engineer (FAE) Intern - Summer 2027 (San Jose, CA)
+- Regeneron — 2027 Summer Intern Quality Control - Laboratory Sciences (IOPS) (Rensselaer, NY)
+- JPMorganChase — 2027 Commercial &amp; Investment Bank Global Payments Full Time Analyst Program (Jersey City, NJ)
+- Old Mission — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Macquarie Group — 2027 Financial Management Graduate Program (Jacksonville, FL)
+- Health Care Service Corporation — Early Careers - Customer Service Business Analyst Intern (Chicago, IL)
+- Axos Bank — Business Analyst Intern (San Diego, CA)
+- Blue Cross &amp; Blue Shield of Rhode Island — Intern - Business Systems Analyst (Providence, RI)
+- Old Mission — Floor Trader - 2027 Graduate Program (August Start) (Chicago, IL)
+- Novant Health — RN New Grad Residency- Spring 2027 Cohort (South Carolina) (Hilton Head Island, SC)
+- Skyworks Solutions, Inc. — Sourcing Business Analyst Intern (Greensboro, NC)
+- Shell — Shell Graduate Program 2027 - United States (Norco, LA)
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Health Care Service Corporation — Early Careers New Grad - Leadership Development Program (HYBRID) (Chicago, IL)
+- The Voleon Group — Operations Associate (University Hire) (New York, NY)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Evonik — Evonik Rotation Program - Early Career Engineers (Mobile, AL)
+- ACCA Careers — Audit Internship- Summer 2027 (South Portland, ME)
+- Crowe — AI Functional Intern - WINTER 2027 (South Bend, IN)
+- GZA GeoEnvironmental, Inc. — Entry Level Geotechnical Engineer (May 2027 Graduates) (Norwood, MA)
+- Ryan — Summer 2027 Intern, Transaction Tax Compliance (Downers Grove, IL)
+- Larson Gross — 2027 Tax Internship - Bellingham (Bellingham, WA)
+- FIS — Financial Analyst I, FIS University Program (Jacksonville, FL)
+- Whirlpool Corporation — Global Supply Chain Leadership Development Program (GSCLDP) - Full Time (Benton Harbor, MI)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- BAE Systems, Inc. — Engineering Leadership Development (ELDP), AMS Defense (Manchester, NH)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Spring 2027) (Canonsburg, PA)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Wichita, KS)
+- SouthState Bank — Summer 2027 Core Banking Intern (Remote) (Winter Haven, FL)
+- SouthState Bank — Summer 2027 Digital Banking Intern (Remote) (Winter Haven, FL)
+- Kerry — Human Resources Leadership Development Program (Beloit, WI)
+- PEPL — Talent Acquisition &amp; Early Career Programs Manager (Smyrna, GA)
+- Deutsche Bank — Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – Cary 2027 (Cary, NC)
+- WSFS Bank — 2027 Summer Internship - Business Systems Analyst (Philadelphia, PA)
+- Stifel Financial Corp. — Tech Product Development Analyst Intern- Summer 2027 (St Louis, MO)
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+
+Closed 8:
+
+- Base Power — Content Intern 15 Sep
+- Rocket Lab — Test Engineering Intern Summer 2027 24 Sep
+- SpaceX — New Graduate Engineer, Automation - '26/'27 (Starlink) 9 Oct
+- SpaceX — New Graduate Engineer, Manufacturing - '26/'27 (Starlink) 9 Oct
+- Zipline — Operations Experience Intern (Spring 2027) 20 Aug
+- Epic Games — Gameplay Programmer Intern Aug 25
+- True Anomaly — Data Engineer I Aug 27
+- Ramp — University Grad | Customer Experience Associate 9 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-27
 
 Added 61:
