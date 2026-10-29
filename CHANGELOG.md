@@ -1,5 +1,99 @@
 # Changelog
 
+## 2026-10-29
+
+Added 77:
+
+- Skydio — Key Account Leader, Campus (US Remote)
+- Anduril — 2027 New Grad GNC Engineer (Costa Mesa, California, United States)
+- Anduril — Winter 2027 Library Science Co-op (Santa Ana, California, United States)
+- Rocket Lab — Quality Engineering Intern Spring 2027 (Long Beach, CA)
+- Base Power — Power Systems Engineering Intern (Austin, TX)
+- Nintendo — Intern - Software Engineer, Connectivity (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, Audio (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, CPU Debugger (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, CPU Profiler (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, DevOps (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, Multimedia (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, Platform Security (NTD) (Redmond, WA)
+- Cloudflare — Product Manager Intern (2027) - Austin, TX (In-Office)
+- Cloudflare — Product Manager Intern (2027) - Lisbon, PT (In-Office)
+- Cloudflare — Product Manager Intern (2027) - London, UK (In-Office)
+- Astranis — Procurement Intern (Winter 2027) (San Francisco)
+- Figma — PhD Intern, Security Engineer (2027) (San Francisco, CA • New York, NY)
+- PwC — Audit - Korean Business Network (KBN) - Intern - Summer 2027 (Irvine, CA)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- Boston Scientific — Software Engineering Intern (Arden Hills, MN)
+- nVent — Operations Leadership Development Program 2027 (Solon, OH)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Phoenix, AZ)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- LSEG — Business Analyst Graduate Programme (New York, NY)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Detroit) (Detroit, MI)
+- Crown Equipment Corporation — Software Developer Co-Op - Summer 2027 - Indefinite Work Authorization Required (New Bremen, OH)
+- Parsons Corporation — Process Engineer Intern, Summer 2027 (Lexington, KY)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- Plante Moran — 2027 Summer Transfer Pricing Intern (Denver, CO)
+- D.A. Davidson Companies — Technology Group, Investment Banking – Summer Analyst – 2028 Grads (Portland, OR)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+
+Closed 7:
+
+- Zipline — Embedded Systems Intern, Summer 2027 Aug 27
+- Zipline — Materials Engineer Intern (Spring &amp; Summer 2027) 21 Aug
+- Astranis — Production Quality Intern (Summer 2027) 18 Sep
+- Stripe — GTM Strategy &amp; Operations Analyst Aug 20
+- Voloridge — Quantitative Trading Intern 2027 24 Sep
+- True Anomaly — SWE I, Perception, New Grad Aug 25
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-28
 
 Added 67:
