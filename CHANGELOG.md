@@ -1,5 +1,88 @@
 # Changelog
 
+## 2026-10-30
+
+Added 68:
+
+- Stripe — Master's Machine Learning Engineer, Intern (San Francisco, New York City, Seattle)
+- Stripe — PhD Machine Learning Engineer, Intern (San Francisco, New York City, Seattle)
+- Nintendo — Intern - Software Engineer, Graphics (NTD) (Redmond, WA)
+- Nintendo — Intern - Software Engineer, Performance Tools (NTD) (Redmond, WA)
+- Base Power — Manufacturing Test Engineering Intern (Austin, TX)
+- Zipline — Manufacturing Engineer, Early Career (South San Francisco, California, USA)
+- Base Power — Video Content Intern (Austin, TX)
+- Anduril — Fall 2027 Manufacturing Engineer Co-op (Ashville, Ohio, United States; Quincy, M)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- Zipline — Corporate Tax Intern (Summer 2027) (South San Francisco, CA)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- Flowserve Corporation — IGNITE Leadership Development Program (Irving, TX)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Fall 2027) (Catlettsburg, KY)
+- Health Care Service Corporation — Early Careers - Systems Analyst Intern (Chicago, IL)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Merck — 2027 Future Talent Program - International Pricing Analytics - Intern (Upper Gwynedd, PA)
+- Sandhills Global — Business Analyst Intern (Lincoln, NE)
+- Archer — Banking Associate Graduate Program 2027 San Francisco (San Francisco, CA)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- Alvarez &amp; Marsal — Intern, Disputes and Investigations - Denver Summer 2027 (Greenwood Village, CO)
+- Waters Corporation — Operations Leadership Development Program (OLDP) Associate (Milpitas, CA)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Nissan Motor Corporation — Finance Transformation Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Eide Bailly — ERP Intern - Microsoft (Spring 2027) (Lehi, UT)
+- Day One Partners — Talent Partner (New Grad) - January Start Date (Los Angeles, CA)
+- Eaton — Early Career Leadership Development Program: Information Technology (Beachwood, OH)
+- Eastdil Secured Savills — 2027 U.S. Summer Internship Program – M&amp;A/Corporate Advisory (San Francisco, CA)
+- Avient Corporation — Technology Leadership Associate - 2027 Leadership Development Program Ph.D. (Avon Lake, OH)
+- Mercury Systems — 2027 Information &amp; Engineering Systems Intern (Andover, MA)
+- Colgate-Palmolive — University Recruitment Specialist (New York, NY)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- Martin Marietta — Intern, Corporate Tax Group (Summer 2027) (Raleigh, NC)
+- DENSO in North America — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- The Toro Company — Tax Department Intern - The Toro Company (Hennepin County, MN)
+- AIG — 2027 Early Careers: Analyst, CUO (Commercial Underwriting Office) – United States, Multiple Locations (New York, NY)
+- Eaton — Aerospace Sales Leadership Development Program (Irvine, CA)
+- MechNova — Professional Services Leadership Development Program (Mayfield Heights, OH)
+- Visa — Business Planning Intern - 2027, Austin, TX (Austin, TX)
+- JPMorganChase — 2027 Global Private Bank Advisor Program - Global Families Group Asia - Full Time Analyst (New York, NY)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- AIG — 2027 Early Careers: Analyst, Underwriting – Structured Credit (Political Risk)– United States, New York, NY (New York, NY)
+- TÜV SÜD — Intern - Business Analyst (Woodbridge, NJ)
+- DLA Piper — Private Equity Entry Level Attorney (Professional Track) (Atlanta Metropolitan Area)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (DE, TX, FL) (Newark, DE)
+- RSM US LLP — State and Local Tax - Sales and Use Intern - Summer 2027 (Phoenix, AZ)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- Citi — Wealth - Full Time Analyst, Dallas - USA, 2027 (Dallas, TX)
+- Crowe — AI Functional Intern - WINTER 2027 (Fort Wayne, IN)
+- ICE — Summer Internship Program 2027 - Professional Services Intern (Jacksonville, FL)
+- Lazard — 2028 Summer Analyst - Charlotte Technology (Charlotte, NC)
+- WTW — Early Careers: Intern Conversion Only - Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (New York, NY)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (Atlanta, GA)
+- Bristol Myers Squibb — 2027 Full-time Procurement Leadership Development Program (Princeton, NJ)
+- Heli America — IT Business Analyst Intern (Atlanta, GA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+
+Closed 5:
+
+- Muonspace — Quality Engineering Intern (Summer 2027) 30 Sep
+- Rocket Lab — RF Engineering Intern Summer 2027 5 Oct
+- Relativity — Apprentice Launch Pad Technician 28 Oct
+- Epic Games — Tools Programmer Intern (Graphics) 23 Oct
+- True Anomaly — SWE I, Data Science, New Grad Aug 25
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-29
 
 Added 77:
