@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-11-01
+
+Added 60:
+
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- JPMorganChase — 2027 Trust Management Internship - Emerging Talent Summer Experience Program (Jackson, WY)
+- Vertiv — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- Molina Healthcare — Customer Experience &amp; Analytics Internship (Remote) – Summer 2027 (Undergraduate) (United States)
+- Avient Corporation — Operational Excellence Specialist - 2027 Leadership Development Program (Avon Lake, OH)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- NVIDIA — University Recruiting Manager - Programs and Engagement (Santa Clara, CA)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- PwC — Audit - Korean Business Network (KBN) - Intern - Summer 2027 (Irvine, CA)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Phoenix, AZ)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- Crown Equipment Corporation — Software Developer Co-Op - Summer 2027 - Indefinite Work Authorization Required (New Bremen, OH)
+- Parsons Corporation — Process Engineer Intern, Summer 2027 (Lexington, KY)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- ASM — Software Engineering Intern (Spring 2027) ()
+
+Closed 1:
+
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-10-31
 
 Added 62:
