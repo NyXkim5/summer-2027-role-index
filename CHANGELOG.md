@@ -1,5 +1,96 @@
 # Changelog
 
+## 2026-11-03
+
+Added 73:
+
+- Schonfeld — 2027 Legal  Summer Intern (New York, New York, United States)
+- Regent — Commercial Business Development, Data Intern (North Kingstown, Rhode Island, USA)
+- Regent — Human Factors (Winter Co-Op) (North Kingstown, Rhode Island, USA)
+- Regent — Mechanical Engineering Co-Op (North Kingstown, Rhode Island, USA)
+- Mercor — Early Career & University Recruiter (New York City)
+- Affirm — Leadership Development Manager (Remote Canada)
+- Affirm — Leadership Development Manager (Remote US)
+- Lincoln International — 2028 Summer Analyst Intern | CAG (Chicago, IL; New York, NY; Los Angeles, )
+- Lincoln International — 2028 Summer Analyst Intern | M&A (Chicago, IL; New York, NY; Los Angeles, )
+- Lincoln International — 2028 Summer Analyst Intern | PFA (New York, NY)
+- SpaceX — Apprentice Weld Support Technician (McGregor, TX)
+- Rocket Lab — Ground Systems Engineering Intern Spring 2027 (Middle River, MD)
+- Rocket Lab — Ground Systems Engineering Intern Summer 2027 (Middle River, MD)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Chicago, IL)
+- Tax Executives Institute (TEI) - Cincinnati/Columbus Chapter — Corporate Tax Intern (Summer 2027) (Milwaukee, WI)
+- Ryan — Summer 2027 Intern, Personal Property Tax (Nashville, TN)
+- BNP Paribas — 2028 - Summer Analyst Internship - Global Markets, Sales (Miami, FL)
+- Cohen &amp; Co — Tax Intern, Summer 2028 (Youngstown, OH)
+- JPMorganChase — 2027 Global Finance &amp; Business Management Analyst Program - Full Time Analyst Corporate Controllers Track (DE) (Newark, DE)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Mahoney Placement – Dallas - 2027 (Dallas, TX)
+- Trinzic — Future Leadership Development Program - Corporate Finance/Accounting (Houston, TX)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- CapTech — Consulting Internship: Business Systems Analyst (Summer 2027) (Richmond, VA)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- Savannah River Mission Completion — 2027 Summer Intern-Chemical, Biochemical, or Nuclear Engineering (Aiken, SC)
+- Commerce Bank — Intern - IT (Summer 2027) (Kansas City, MO)
+- UL Solutions — 2027 Campus Full Time: Finance Development Program Associate (Northbrook, IL)
+- Force Factor — Leadership Development Program - MBA Associate (Boston, MA)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- Zipline — Corporate Tax Intern (Summer 2027) (South San Francisco, CA)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Ryan — Summer 2027 Severance Tax Consulting Intern - Houston, TX (Houston, TX)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- Peraton — Summer 2027 Electrical Engineering Intern- Topeka, KS (Topeka, KS)
+- NXP Semiconductors — Field Applications Engineer (FAE) Intern - Summer 2027 (San Jose, CA)
+- Regeneron — 2027 Summer Intern Quality Control - Laboratory Sciences (IOPS) (Rensselaer, NY)
+- Old Mission — Fundamental Research Analyst - 2027 Graduate Program - (August Start) (Chicago, IL)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Macquarie Group — 2027 Financial Management Graduate Program (Jacksonville, FL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Applied Scientist Intern, Business Integrity (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization GenAI (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization Technology (PhD, 2027 Start) (San Jose, CA)
+
+Closed 8:
+
+- Zipline — Aircraft Software Integration Intern (Spring 2027) 4 Sep
+- SpaceX — Entry Level Production Technician (Starlink Aviation) 16 Oct
+- Base Power — Finance - Analytics Intern 14 Sep
+- Figma — Data Science Intern (2027) 14 Sep
+- Notion — SWE Intern, Winter 2027
+- Harvey — Software Engineer, New Grad (2027) 2 Oct
+- Harvey — Software Engineer, New Grad (2027) 2 Oct
+- Epic Games — Tools Programmer Intern (Graphics) 30 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-02
 
 Added 63:
