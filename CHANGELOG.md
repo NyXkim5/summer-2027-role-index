@@ -1,5 +1,85 @@
 # Changelog
 
+## 2026-11-04
+
+Added 65:
+
+- SpaceX — Starlink Aviation Production Technician (Entry Level, Temporary) (Woodinville, WA)
+- Pinterest — Content Enablement Intern 2027 (USA) (San Francisco, CA, US; Remote, US)
+- IMC Trading — Research Analyst Intern - Summer 2027 (Chicago, United States)
+- Figma — PhD Intern, Software Engineer - Interaction Design (2027) (San Francisco, CA • New York, NY)
+- PolicyMe — Business Development Representative (Queen's University) (Remote in Toronto)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- D.A. Davidson Companies — Class of 2028 Financial Institutions Group, Investment Banking - Summer Analyst (Chicago, IL)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Frazier &amp; Deeter — Campus 2028 Summer Assurance Intern (Huntsville, AL)
+- Busey — Commercial Banking &amp; Wealth Management Leadership Development Program (Champaign, IL)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- Plante Moran — 2027 Business Analytics Consulting Intern (Denver, CO)
+- Mission Pet Health — 2027 New Graduate Veterinarian (Hoffman Estates, IL)
+- Plante Moran — 2027 Family Office - Estate Planning Advisor Entry Level (East Lansing, MI)
+- LPL Financial — New Grad January 2027 - Financial Service Professional (Fort Mill) (Fort Mill, SC)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Richmond, VA)
+- D.A. Davidson Companies — Technology Group, Investment Banking – Summer Analyst – 2028 Grads (New York, NY)
+- Guardian — 2027 Early Career Program for Guardian 2026 Intern Graduates (New York, NY)
+- Citi — Early Career Program Management Lead (New York, NY)
+- Vertiv — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- West Monroe — 2027 Mergers &amp; Acquisitions Consulting Intern (Minneapolis, MN)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- Molina Healthcare — Customer Experience &amp; Analytics Internship (Remote) – Summer 2027 (Undergraduate) (United States)
+- Avient Corporation — Operational Excellence Specialist - 2027 Leadership Development Program (Avon Lake, OH)
+- Savannah River Mission Completion — 2027 Summer Intern- Chemical or Electrical Engineering (OT Systems) (Aiken, SC)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- Siemens — Energy Business Advisory Intern (Houston, TX)
+- NVIDIA — University Recruiting Manager - Programs and Engagement (Santa Clara, CA)
+- J.S. Held LLC — Consultant, Economic Damages &amp; Valuations - Summer 2027 (New Grad) (San Francisco, CA)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Houston, TX)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- Hunt Consolidated, Inc. — IT Business Analyst Intern - Summer 2027 (Dallas, TX)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Fall 2027) (Findlay, OH)
+- Garmin — Business Analyst Intern (Olathe, KS)
+- PwC — Audit - Korean Business Network (KBN) - Intern - Summer 2027 (Irvine, CA)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- Alvarez &amp; Marsal — Intern, Disputes and Investigations - Denver Summer 2027 (Greenwood Village, CO)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+
+Closed 5:
+
+- Zipline — Real Estate Intern (Spring 2027) 8 Sep
+- Applied Intuition — Mechanical Engineer - New Grad 9 Sep
+- IMC Trading — Performance Engineer Intern Aug 28
+- Together AI — Hardware Security Engineer Intern (Summer 2027) 16 Oct
+- Together AI — Hardware Security Engineer, New Grad (2027) 16 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-03
 
 Added 73:
