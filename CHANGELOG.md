@@ -1,5 +1,88 @@
 # Changelog
 
+## 2026-11-05
+
+Added 68:
+
+- SpaceX — New Graduate Engineer, Electrical - Satellites (Starlink) (Redmond, WA)
+- SpaceX — New Graduate Engineer, Mechanical - Satellites (Starlink) (Redmond, WA)
+- SpaceX — New Graduate Engineer, Mechanical - '26/'27 (Starlink/Starmind) (Bastrop, TX)
+- Skydio — Solutions Engineer – State, Local, Educational (SLED) Campus Security (US CA San Mateo)
+- Palantir — Software Engineer, Internship - Sovereign AI Systems (New York, NY)
+- Anduril — Leadership Development Designer & Facilitator (Manufacturing) (Ashville, Ohio, United States)
+- Perplexity — University Recruiter (San Francisco)
+- General Matter — Summer 2027 Internship - Field Engineer (Paducah, Kentucky, United States)
+- Phillips 66 — 2027 University Intern - ERI Analytical Solutions (Bartlesville, OK)
+- Savannah River Nuclear Solutions — Environmental Engineer/Scientist Summer Intern (Aiken, SC)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Catalent — 2027 Intern - Process Development, Downstream (Madison, WI)
+- Cohen &amp; Co — Assurance Intern, Summer 2028 (Youngstown, OH)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Bedford, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - Jacksonville 2027 (Jacksonville, FL)
+- Marsh Agency — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Republic Airways — Republic Leadership Development Program - 2027 (Carmel, IN)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- Savannah River Nuclear Solutions — Program Analyst Summer Intern (Aiken, SC)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- Belvedere Trading, LLC — Early Career Talent Partner - Trading (Chicago, IL)
+- Plante Moran — 2027 State and Local Tax (SALT) Intern (Cleveland, OH)
+- BMW Group — Intern, Business Analyst Eastern Region - Spring 2027 (Woodcliff Lake, NJ)
+- Blue Cross &amp; Blue Shield of Rhode Island — Intern - Business Systems Analyst (Providence, RI)
+- Delta Air Lines — Intern, Reservations (Spring 2027) (Atlanta, GA)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- Spire — Intern, Regulatory (St Louis, MO)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- BAE Systems, Inc. — Contracts Leadership Development Program (San Diego, CA)
+- Bank of America — Global Technology Summer Analyst 2027 - Business Analyst (Greater Phoenix Area)
+- WebstaurantStore — 2027 Technical Business Analyst Summer Internship (Lititz, PA)
+- IMA Financial Group, Inc. — IMA Advisors Intern - Summer 2027 (Denver, CO)
+- Rockland Trust — Business Analyst Intern (Rockland, MA)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Nissan Motor Corporation — Purchasing Critical Minerals Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- Brown Edwards — 2027 Intern (Bristol, TN)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- Flowserve Corporation — IGNITE Leadership Development Program (Irving, TX)
+- QTS Data Centers — Summer 2027 Internship: Oracle Functional Business Analyst (Duluth, GA)
+- Marathon Petroleum Corporation — Intern/Co-Op - Supply Chain (Fall 2027) (Catlettsburg, KY)
+- Health Care Service Corporation — Early Careers - Systems Analyst Intern (Chicago, IL)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Merck — 2027 Future Talent Program - International Pricing Analytics - Intern (Upper Gwynedd, PA)
+- Sandhills Global — Business Analyst Intern (Lincoln, NE)
+- Archer — Banking Associate Graduate Program 2027 San Francisco (San Francisco, CA)
+- Eide Bailly — ERP Intern - Microsoft (Spring 2027) (Lehi, UT)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+
+Closed 5:
+
+- Rocket Lab — Additive Manufacturing Intern Spring 2027 9 Sep
+- Rocket Lab — Mechanical Engineering Intern Spring 2027 13 Sep
+- Astranis — Guidance, Navigation, and Control Intern (Summer 2027) 22 Sep
+- Palantir — Site Reliability Operations Analyst, US Government
+- Schonfeld — 2027 Enterprise AI Intern 28 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-04
 
 Added 65:
