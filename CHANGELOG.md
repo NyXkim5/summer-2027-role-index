@@ -1,5 +1,107 @@
 # Changelog
 
+## 2026-11-06
+
+Added 77:
+
+- Stripe — Controllership Intern (Seattle, WA)
+- Regent — Electric Propulsion Unit (EPU) Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Energy Storage System (ESS) Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Actuation Engineering Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Skydio — UX Product Design Intern - Winter 2027 (San Mateo, California, United States)
+- Stripe — Product Design Intern (San Francisco, Seattle, New York City)
+- Samsara — Software Engineering Internship - San Francisco (San Francisco - SF9)
+- Notion — Software Engineering Intern, Frontend (Summer 2027) (New York, New York)
+- Notion — Software Engineering Intern, iOS (Summer 2027) (New York, New York)
+- Pinterest — Strategy & Operations Intern 2027 (USA) (San Francisco, CA, US; Remote, CA, US)
+- Cloudflare — People Team Intern, HR Transformation (Winter 2027) (In-Office)
+- Zoox — Hardware Engineer Intern, Manufacturing Operations [Summer 2027] (Foster City, CA)
+- Lincoln International — 2027 Summer Analyst Intern, Valuations & Opinions Group (Atlanta, GA; Dallas, TX; New York, NY)
+- Duolingo — AI Research Intern (PhD) (New York, NY; Pittsburgh, PA)
+- Zoox — Hardware Engineer Intern, Vehicle Development [Summer 2027] (Foster City, CA)
+- Zoox — Hardware Engineer Intern, Vehicle Systems [Summer 2027] (Foster City, CA)
+- Zoox — Information Technology & Applications Intern [Summer 2027] (Foster City, CA)
+- Northrop Grumman — 2027 S/W Embedded Engineering Intern – Sykesville MD (Sykesville, MD)
+- Northrop Grumman — 2027 Software Engineering Intern - Roy UT (Roy, UT)
+- Vizient — 2027 Summer Internship - Cross-Business-Unit Proposal Development (Chicago, IL)
+- Martin Marietta — Intern, Geology (Summer 2027) (Raleigh, NC)
+- Solomon Partners — 2027 Investment Banking Full Time Analyst - Business Services (Chicago) (Chicago, IL)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Vizient — 2027 Summer Internship - Pharmacy Aggregation (Alpharetta, GA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- Penn Medicine, University of Pennsylvania Health System — Strategic Decision Support Summer Intern (Philadelphia, PA)
+- Carle Health — RN - New Grad Residency Program (May 2027 Grads) - Bloomington/Normal (Normal, IL)
+- BerryDunn — Assurance, Tax and Consulting — Summer 2027 Business Valuation Internship (Portland, ME)
+- Regions Bank — 2027 BlackArch Investment Banking Summer Analyst/ Associate (Charlotte, NC)
+- Citi — Functions - Risk Management, Full Time Analyst, Buffalo - USA, 2027 (Getzville, NY)
+- Nissan Motor Corporation — Aftersales Business Planning Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- LPL Financial — New Grad Summer 2027 - Financial Service Professional (Tempe) (Tempe, AZ)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- ACCA Careers — Audit Internship - Summer 2028 (Madison, WI)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Client Advocacy, Personal Lines Placement – NY - 2027 (New York, NY)
+- ACCA Careers — Intern, Business Analyst Eastern Region - Spring 2027 (Woodcliff Lake, NJ)
+- Ascension — Supply Chain Integration Intern (Novi, MI)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Chicago, IL)
+- Ryan — Summer 2027 Intern, Personal Property Tax (Nashville, TN)
+- BNP Paribas — 2028 - Summer Analyst Internship - Global Markets, Sales (Miami, FL)
+- Cohen &amp; Co — Tax Intern, Summer 2028 (Youngstown, OH)
+- JPMorganChase — 2027 Global Finance &amp; Business Management Analyst Program - Full Time Analyst Corporate Controllers Track (DE) (Newark, DE)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- CapTech — Consulting Internship: Business Systems Analyst (Summer 2027) (Richmond, VA)
+- Barclays — Chief Client Office - Client Data &amp; Engineering Group Summer Internship Program 2027 New York City (New York, NY)
+- Rivian — Business and Administrative Intern - Strategy Analyst, CCO Strategy and Program Management (Palo Alto, CA)
+- Citrin Cooperman — Summer 2027 | Forensic Advisory Services Internship (52373) (Miami, FL)
+- Savannah River Mission Completion — 2027 Summer Intern-Chemical, Biochemical, or Nuclear Engineering (Aiken, SC)
+- Commerce Bank — Intern - IT (Summer 2027) (Kansas City, MO)
+- UL Solutions — 2027 Campus Full Time: Finance Development Program Associate (Northbrook, IL)
+- Force Factor — Leadership Development Program - MBA Associate (Boston, MA)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+
+Closed 15:
+
+- Rocket Lab — Combustion Devices Intern Spring 2027 10 Sep
+- Rocket Lab — Propulsion Design Intern Summer 2027 10 Sep
+- Zipline — Electrical Project Engineer Intern (Summer 2027) 15 Sep
+- Coinbase — User Research Intern 8 Sep
+- Together AI — Research Intern, Frontier Agents (Winter 2027) 18 Sep
+- Together AI — Research Intern, Inference (Winter 2027) 18 Sep
+- Together AI — Research Intern, Model Shaping (Winter 2027) 18 Sep
+- Together AI — Research Intern, Frontier Speculative Decoding (Winter 2027) 16 Oct
+- Flatiron Health — Point of Care Growth &amp; Partnerships Associate oncology data
+- Rocket Lab — Talent Acquisition Intern Summer 2027 17 Sep
+- Epic Games — Frontend Programmer Intern Aug 31
+- Samsara — Software Engineering Internship - San Francisco 3 Aug
+- Epic Games — Tools Programmer Intern 18 Sep
+- Together AI — Systems Research Engineer Intern - GPU Programming (Winter 2027) 18 Sep
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-05
 
 Added 68:
