@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-11-08
+
+Added 60:
+
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Westborough, MA)
+- Winchester Ammunition — Winchester Electrical Engineer Intern - Summer 2027 (Independence, MO)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Hewlett Packard Enterprise — Campus Switching Product Manager Graduate (San Jose, CA)
+- Archer — S&amp;T - Securitized Products Origination Analyst Graduate Program 2027 New York (New York, NY)
+- West Monroe — 2027 CFO Advisory Consulting Intern (Minneapolis, MN)
+- Savannah River Nuclear Solutions — Environmental Engineer/Scientist Summer Intern (Aiken, SC)
+- Catalent — 2027 Intern - Process Development, Downstream (Madison, WI)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Cohen &amp; Co — Assurance Intern, Summer 2028 (Youngstown, OH)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Bedford, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - Jacksonville 2027 (Jacksonville, FL)
+- Republic Airways — Republic Leadership Development Program - 2027 (Carmel, IN)
+- Adobe — 2027 MBA University Graduate - Product Manager (San Jose, CA)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- Withum — Valuation Consulting Summer Internship 2027 (Boston, MA)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Plante Moran — 2027 State and Local Tax (SALT) Intern (Cleveland, OH)
+- Spire — Intern, Regulatory (St Louis, MO)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- BAE Systems, Inc. — Contracts Leadership Development Program (San Diego, CA)
+- WebstaurantStore — 2027 Technical Business Analyst Summer Internship (Lititz, PA)
+- IMA Financial Group, Inc. — IMA Advisors Intern - Summer 2027 (Denver, CO)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+
+Closed 1:
+
+- Voloridge Investment Management — Quantitative Developer Intern (2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-07
 
 Added 67:
