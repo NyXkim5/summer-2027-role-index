@@ -1,5 +1,104 @@
 # Changelog
 
+## 2026-11-09
+
+Added 77:
+
+- Skydio — Systems Engineering Intern - Summer 2027 (San Mateo, California, United States)
+- Scoutmotors — Intern, Brand & Strategy (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Finance (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Legal (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Procurement (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Sales & Marketing (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Design (Novi, Michigan, United States)
+- Scoutmotors — Intern, Digital Products (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Engineering (Blythewood, SC; Charlotte, NC; Novi, Mic)
+- Scoutmotors — Intern, Human Resources (Charlotte, NC; Blythewood, SC)
+- Scoutmotors — Intern, IT (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Production (Blythewood, South Carolina, United State)
+- Scoutmotors — Intern, Products (Charlotte, North Carolina, United States)
+- Scoutmotors — Intern, Quality (Novi, Michigan, United States)
+- Epic Games — AI Programmer Intern (Cary,North Carolina,United States)
+- Duolingo — Product Designer, Thrive Intern (Pittsburgh, PA)
+- Zoox — Program Manager Intern [Summer 2027] (Foster City, CA)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Xylem — Engineering Leadership Development Program (Morrisville, NC)
+- Piedmont HealthCare — RN Residency Spring 2027 - Piedmont Augusta (Augusta, GA)
+- Zoetis — ZTD Finance Business Partner Intern (Troy Hills, NJ)
+- NBCUniversal — Universal Television Entertainment Finance Transformation Internships – Summer 2027 (Universal City, CA)
+- Vizient — 2027 Summer Internship – Strategic Program Partner (Irving, TX)
+- Oracle — GDI Business Analyst Intern - OVIP (Reston, VA)
+- Honeywell Aerospace — Intern (Bachelor's) - Fall Co-Op (Phoenix, AZ)
+- Crowe — MSFT AI Business Solutions Implementation Intern (Atlanta, GA)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Wolverine Trading — Entry Level C++ Software Engineer (December 2026 Graduates) (Chicago, IL)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Alternative Risk Transfer (ART)– NY - 2027 (New York, NY)
+- Northrop Grumman — 2027 Software Engineering Intern - Roy UT (Roy, UT)
+- Vizient — 2027 Summer Internship - Cross-Business-Unit Proposal Development (Chicago, IL)
+- Martin Marietta — Intern, Geology (Summer 2027) (Raleigh, NC)
+- Plante Moran — 2027 State and Local Tax (SALT) Intern (Columbus, OH)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Centene Corporation — ServiceNow Business Systems Analyst Intern (Undergraduate Summer 2027) (Missouri, United States)
+- Vizient — 2027 Summer Internship - Pharmacy Aggregation (Alpharetta, GA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- Penn Medicine, University of Pennsylvania Health System — Strategic Decision Support Summer Intern (Philadelphia, PA)
+- Carle Health — RN - New Grad Residency Program (May 2027 Grads) - Bloomington/Normal (Normal, IL)
+- BerryDunn — Assurance, Tax and Consulting — Summer 2027 Business Valuation Internship (Portland, ME)
+- Regions Bank — 2027 BlackArch Investment Banking Summer Analyst/ Associate (Charlotte, NC)
+- Savannah River Nuclear Solutions — Program Analyst Summer Intern (Aiken, SC)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- Nissan Motor Corporation — Aftersales Business Planning Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Belvedere Trading, LLC — Early Career Talent Partner - Trading (Chicago, IL)
+- LPL Financial — New Grad Summer 2027 - Financial Service Professional (Tempe) (Tempe, AZ)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- PwC — Tax - Japanese Business Network (JBN) - Intern - Summer 2028 - Destination CPA (Detroit, MI)
+- Regal Rexnord — Enterprise Leadership Development Program (Milwaukee, WI)
+- BMW Group — Intern, Business Analyst Eastern Region - Spring 2027 (Woodcliff Lake, NJ)
+- Blue Cross &amp; Blue Shield of Rhode Island — Intern - Business Systems Analyst (Providence, RI)
+- ACCA Careers — Intern, Business Analyst Eastern Region - Spring 2027 (Woodcliff Lake, NJ)
+- Ascension — Supply Chain Integration Intern (Novi, MI)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Chicago, IL)
+- Ryan — Summer 2027 Intern, Personal Property Tax (Nashville, TN)
+- BNP Paribas — 2028 - Summer Analyst Internship - Global Markets, Sales (Miami, FL)
+- Cohen &amp; Co — Tax Intern, Summer 2028 (Youngstown, OH)
+- JPMorganChase — 2027 Global Finance &amp; Business Management Analyst Program - Full Time Analyst Corporate Controllers Track (DE) (Newark, DE)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- CapTech — Consulting Internship: Business Systems Analyst (Summer 2027) (Richmond, VA)
+- Barclays — Chief Client Office - Client Data &amp; Engineering Group Summer Internship Program 2027 New York City (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+
+Closed 12:
+
+- Rocket Lab — Fluid Systems Intern Spring 2027 9 Sep
+- Astranis — Software Developer, Network Software Intern (Summer 2027) 24 Sep
+- Planet Labs — Data Analyst Aug 27
+- Planet Labs — Data Analyst
+- Mercor — GTM Associate Aug 20
+- Zipline — Commercial Strategy &amp; Operations Intern, Spring 2027 Aug 31
+- Zipline — Sales Operations Analyst Intern (Spring 2027) 21 Aug
+- Rocket Lab — Security Analyst Intern Spring 2027 16 Sep
+- Stripe — PhD Data Scientist, Intern 1 Oct
+- Epic Games — Engine Programmer Intern Aug 20
+- Neros — Business Development Associate, CENTCOM defense BD
+- Kikoff — Recruiting Coordination Intern 13 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-08
 
 Added 60:
