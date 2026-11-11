@@ -1,5 +1,110 @@
 # Changelog
 
+## 2026-11-11
+
+Added 86:
+
+- StepStone Group — 2027 AI Quant Summer Analyst (La Jolla)
+- Riotgames — Insights Analyst Intern, League of Legends - Summer 2027 (Los Angeles, USA)
+- Riotgames — Data Engineering Intern - Summer 2027 (Los Angeles, USA)
+- Riotgames — Anti-Cheat Engineering Intern (Masters/PhD) - Summer 2027 (Los Angeles, USA)
+- Riotgames — Game Producer Intern, Teamfight Tactics (Masters/PhD) - Summer 2027 (Los Angeles, USA)
+- Riotgames — Machine Learning Engineering Intern (Masters/PhD) - Summer 2027 (Los Angeles, USA)
+- Riotgames — Rendering Technical Art Intern, League of Legends - Summer 2027 (Los Angeles, USA)
+- Riotgames — Rendering Technical Art Intern (Lighting), League of Legends - Summer 2027 (Los Angeles, USA)
+- Riotgames — Technical Game Design Intern, League of Legends and Teamfight Tactics - Summer 2027 (Los Angeles, USA)
+- Regent — State Estimation Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Radar Signal Processing Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Test Engineering Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Composite Structures Engineering Intern (North Kingstown, Rhode Island, USA)
+- Riotgames — Animation Art Intern - Summer 2027 (Los Angeles, USA)
+- Riotgames — Community Manager Intern - Summer 2027 (Los Angeles, USA)
+- Riotgames — Concept Art Intern, Teamfight Tactics - Summer 2027 (Los Angeles, USA)
+- Riotgames — Motion Graphics Art Intern - Summer 2027 (Los Angeles, USA)
+- Riotgames — Social Media Manager Intern - Summer 2027 (Los Angeles, USA)
+- Regent — Aerodynamics Engineering Intern (Summer) (North Kingstown, Rhode Island, USA)
+- Regent — Cybersecurity & IT Operations Intern (Summer) (North Kingstown, Rhode Island, USA)
+- AlphaSights — Talent Operations Intern, 2027 (New York)
+- Coinbase — Strategic Sourcing Intern (Hybrid - New York, NY)
+- Anduril — 2027 Early Career Finance Emerging Leadership Rotational Program (Costa Mesa, California, United States)
+- Skydio — Middleware Software Engineer Intern - Summer 2027 (San Mateo, California, United States)
+- Anduril — 2027 Optical Payload Engineer Intern (Costa Mesa, California, United States)
+- Astranis — Embedded Software Developer, Network/Payload Intern (Summer 2027) (San Francisco)
+- BDO USA — Tax Intern, Business Incentives Group - Summer 2027 (Atlanta) (Atlanta, GA)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Orange County) (Costa Mesa, CA)
+- Ryan — Summer 2027 Intern, State Income/Franchise Tax (Austin, TX)
+- Ericsson — Technology and AI Intern (Plano, TX)
+- Nestlé Purina North America — Chemistry Intern (Summer 2027) (St Louis, MO)
+- Ryan — Summer 2027 Intern, Real Property Tax (Sacramento, CA)
+- Anduril Industries — 2027 Early Career Finance Emerging Leadership Rotational Program (Costa Mesa, CA)
+- MassMutual — Actuarial Analyst - Actuarial Leadership Development Program (Boston, MA)
+- WTW — Early Careers: Intern Conversion: Health and Benefits Analyst - Recent College Graduate Program (RCGP) - 2027 (Arlington, VA)
+- Pentair — 2027 Engineering Leadership Development Program - Computer Science / Computer Engineering (Golden Valley, MN)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- Vizient — 2027 Summer Internship - Consulting Intern, Spend Insights &amp; Services (Irving, TX)
+- Northrop Grumman — 2027 Strategic Growth Intern - Elkridge MD (Elkridge, MD)
+- Vertex Pharmaceuticals — Spring Co-Op 2027, Commercial Analytics (Boston, MA)
+- Metro Vein Centers — Early-Career Physician Apprentice Program — Outpatient Vein Care (Full Paid Training Provided) (Detroit, MI)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- EisnerAmper — 2027 Legal Sector Services Summer Intern (Baton Rouge, LA)
+- EisnerAmper — 2027 Tax Summer Intern - Private Client Services (PCS) (La Jolla, CA)
+- Renesas Electronics — Applications Engineering Intern (Morrisville, NC)
+- Motorola Solutions — IT M&amp;A Integration Analyst - 2027 Summer Internship (Chicago Hybrid) (Chicago, IL)
+- Charles Schwab — 2027 Charles Schwab Workplace Services Internship - Omaha 1 (Omaha, NE)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Westborough, MA)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Cornerstone Advisors — 2027 Consultant Intern (19514) (Scottsdale, AZ)
+- Micron Technology — Intern - Corporate Development (Boise, ID)
+- West Monroe — 2027 CFO Advisory Consulting Intern (Minneapolis, MN)
+- Savannah River Nuclear Solutions — Environmental Engineer/Scientist Summer Intern (Aiken, SC)
+- Principal Financial Group — Sales Internship - Retirement &amp; Income Solutions (Summer 2027) (Des Moines, IA)
+- Catalent — 2027 Intern - Process Development, Downstream (Madison, WI)
+- Nestlé — 2027 Science &amp; Analytical Internship (Marysville, OH)
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Bedford, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Chief Risk Office - New York 2027 (New York, NY)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - Jacksonville 2027 (Jacksonville, FL)
+- Republic Airways — Republic Leadership Development Program - 2027 (Carmel, IN)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+
+Closed 9:
+
+- Palantir — Deployment Strategist, Internship - Warp Speed 22 Oct
+- Palantir — Deployment Strategist, New Grad - Warp Speed 22 Oct
+- Rocket Lab — Test Engineering Intern - Avionics Summer 2027 10 Sep
+- Astranis — Power Electronics Intern (Summer 2027) 22 Sep
+- Astranis — Power Electronics Intern (Winter 2027) 22 Sep
+- Astranis — Software Defined Radio Hardware Intern (Summer 2027) 23 Sep
+- MongoDB — Product Pricing &amp; Monetization Strategy Associate
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-10
 
 Added 81:
