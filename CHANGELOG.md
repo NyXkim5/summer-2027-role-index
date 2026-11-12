@@ -1,5 +1,85 @@
 # Changelog
 
+## 2026-11-12
+
+Added 63:
+
+- SpaceX — New Graduate Engineer, Aerospace Software (Starfall) (Hawthorne, CA)
+- Pinterest — Sales Analytics Intern 2027 (USA) (San Francisco, CA, US; Remote, US)
+- Nuro — Systems Engineering, New Grad 2027 (Mountain View, California (HQ))
+- Wipfli — Audit Internship- Summer 2027 (South Portland, ME)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Nashville, TN)
+- BNP Paribas — 2027 - Summer Associate Internship – Global Banking, Corporate Finance (New York, NY)
+- Catalent — 2027 Intern - Engineering, Equipment (Madison, WI)
+- Vizient — 2027 Summer Internship – Pharmacy Commit (Alpharetta, GA)
+- Whirlpool Corporation — Global Supply Chain Leadership Development Program (GSCLDP) - Full Time (Benton Harbor, MI)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- Force Factor — Leadership Development Program 2027 (Boston, MA)
+- BAE Systems, Inc. — Engineering Leadership Development (ELDP), AMS Defense (Manchester, NH)
+- Medpace — Business Systems Analyst Internship - Summer 2027 (Cincinnati, OH)
+- WSFS Bank — 2027 Summer Internship - Business Systems Analyst (Philadelphia, PA)
+- LyondellBasell — National Society of Black Engineers - Digital Technology Intern 2027 (Houston, TX)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Wichita, KS)
+- Credera — Credera Management Consulting Intern (Atlanta, GA)
+- TikTok — Seller Strategy Business Analyst Project Intern (TikTok Shop - US Operation) - 2025 Start (BS/MS) (Seattle, WA)
+- Navy Federal Credit Union — Summer Associate Internship (Product Strategist/Business Analyst) (Pensacola, FL)
+- Deutsche Bank — Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – Cary 2027 (Cary, NC)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Marsh Agency — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- American Express — Campus Undergraduate Summer Internship Program - 2027 Product &amp; Capabilities, Enterprise Shared Services- Phoenix, AZ (Phoenix, AZ)
+- Xylem — Engineering Leadership Development Program (Morrisville, NC)
+- Merck — 2027 Future Talent Program - Global Site Agreements - Intern (North Wales, PA)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- NBCUniversal — Universal Television Entertainment Finance Transformation Internships – Summer 2027 (Universal City, CA)
+- Oracle — GDI Business Analyst Intern - OVIP (Reston, VA)
+- Honeywell Aerospace — Intern (Bachelor's) - Fall Co-Op (Phoenix, AZ)
+- Crowe — MSFT AI Business Solutions Implementation Intern (Atlanta, GA)
+- Wolverine Trading — Entry Level C++ Software Engineer (Spring 2027 Graduates) (Chicago, IL)
+- Wolverine Trading — Entry Level C++ Software Engineer (December 2026 Graduates) (Chicago, IL)
+- BDO USA — Tax Intern, State and Local Tax - Winter or Summer 2028 (Houston) (Houston, TX)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Alternative Risk Transfer (ART)– NY - 2027 (New York, NY)
+- Vizient — 2027 Summer Internship - Cross-Business-Unit Proposal Development (Chicago, IL)
+- Martin Marietta — Intern, Geology (Summer 2027) (Raleigh, NC)
+- Plante Moran — 2027 State and Local Tax (SALT) Intern (Columbus, OH)
+- Sensata Technologies — Electrical Engineer Intern (Dynapower) - Summer 2027 (South Burlington, VT)
+- LSEG — Business Graduate Programme (FTSE Russell) (New York, NY)
+- Marsh — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Midlothian, TX)
+- Plante Moran — 2027 Business Analytics Consulting Intern (Southfield, MI)
+- Vizient — 2027 Summer Internship - Pharmacy Aggregation (Alpharetta, GA)
+- The Toro Company — IT Business Analyst Intern - Ditch Witch (Noble County, OK)
+- Penn Medicine, University of Pennsylvania Health System — Strategic Decision Support Summer Intern (Philadelphia, PA)
+- EY — Audit Graduate Programme - September 2027 intake (Newcastle, CA)
+- Carle Health — RN - New Grad Residency Program (May 2027 Grads) - Bloomington/Normal (Normal, IL)
+- BerryDunn — Assurance, Tax and Consulting — Summer 2027 Business Valuation Internship (Portland, ME)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+
+Closed 7:
+
+- Zipline — Electrical Engineer Intern (Spring 2027) 19 Aug
+- The Nuclear Company — Spring 2027 Software Engineering Intern 7 Aug
+- Rocket Lab — Integration &amp; Test Intern Summer 2027 9 Sep
+- Astranis — Electrical Reliability Intern (Winter 2027) 22 Sep
+- Astranis — RF Hardware Intern (Summer 2027) 30 Sep
+- Muonspace — Harness Design Intern (Summer 2027) 1 Oct
+- Base Power — Business Operations Intern, Commercial Partnerships 14 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-11
 
 Added 86:
