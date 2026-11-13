@@ -1,5 +1,95 @@
 # Changelog
 
+## 2026-11-13
+
+Added 68:
+
+- Schonfeld — 2027 Fund Accounting Intern (New York, New York, United States)
+- Robinhood — Corporate Finance Intern (Summer 2027) (New York, NY)
+- Ramp — Risk Strategy Intern (New York, NY (HQ))
+- Anduril — 2027 Brand Marketing Intern (Costa Mesa, California, United States)
+- Zoox — Data Scientist Intern [Summer 2027] (Foster City, CA)
+- Zoox — Systems & Safety Engineering Intern [Summer 2027] (Foster City, CA)
+- Muonspace — Security Engineering Intern (Summer 2027) (Mountain View, CA)
+- Muonspace — Software Engineering Intern-Information Systems (Summer 2027) (San Jose, CA)
+- Alvarez &amp; Marsal — Intern, Global Transaction Tax - Summer 2027 (Miami, FL)
+- Vertex Pharmaceuticals — Summer Intern 2027, Process Chemistry (Boston, MA)
+- Larson Gross — 2027 Tax Internship - Bellingham (Bellingham, WA)
+- Enterprise — Sales Management Trainee Intern (Charlottesville, VA)
+- Constellation — 2027 IT Development Intern - San Diego, CA (San Diego, CA)
+- Aon — Early Careers: Investment Banking Trainee (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (Houston, TX)
+- Evonik — Evonik Rotation Program - Early Career Engineers (Lafayette, IN)
+- PathQuest — Operations Leadership Development Program (Concord, NC)
+- SouthState Bank — Summer 2027 Core Banking Intern (Remote) (Winter Haven, FL)
+- SouthState Bank — Summer 2027 Digital Banking Intern (Remote) (Winter Haven, FL)
+- Rivian — Business and Administrative Intern - Strategy Analyst (Palo Alto, CA)
+- Garmin — Business Analyst Intern (Olathe, KS)
+- JPMorganChase — 2027 Global Finance &amp; Business Management - Summer Analyst (OH, IL, DE, TX) (Columbus, OH)
+- Kerry — RD&amp;A Leadership Development Program (Beloit, WI)
+- Saint Luke's — RN Residency - Saint Luke's South - Spring 2027 Graduates (Overland Park, KS)
+- Ryan — Summer 2027 Intern, Transaction Tax Compliance (Downers Grove, IL)
+- Entegris — CMP Pad R&amp;D Summer Intern - Summer 2027 (Hillsboro, OR)
+- Axon — Leadership Development Program 2027 (Scottsdale, AZ)
+- Gentex Corporation — Business Systems Summer Intern 2027 (Holland, MI)
+- enGen — Summer 2027 Business Analysis and AI enGen Undergraduate Intern (Pittsburgh, PA)
+- Valley Health System — New Graduate RN Residency, Spring 2027 (Paramus, NJ)
+- WTW — Early Careers: Multinational Client Management Analyst- 2027 (New York, NY)
+- Sandisk — Bachelors - Finance &amp; Accounting Rotation Program (2027 New College Graduates) (Milpitas, CA)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- BDO USA — Tax Intern, Core Tax Services - Summer 2027 (Atlanta) (Atlanta, GA)
+- Venus Aerospace — Summer 2027 Internship (Houston, TX)
+- GlobalFoundries — Finance Rotational Accelerator Program (2027 New College Graduate) (Austin, TX)
+- Avient Corporation — Marketing Associate - 2027 Leadership Development Program (Avon Lake, OH)
+- NVIDIA — Product Manager MBA Intern, Enterprise AI - Summer 2027 (Santa Clara, CA)
+- Vizient — 2027 Summer Internship – Strategic Program Partner (Irving, TX)
+- Amazon — FY27 Pathways FTE MIT-LGO (Seattle, WA)
+- Marvell Technology — Design for Test Intern, BS - Summer 2027 (Boise, ID)
+- BRG — 2027 Summer Associate (Intern) - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN (Nashville, TN)
+- Citi — Banking - Investment Banking Shareholder Advisory Group, Full Time Analyst, New York - USA, 2027 (New York, NY)
+- Momentum — 2027 Launch Graduate Program: Procurement Analyst (Dallas, TX)
+- Spectrum — 2027 Summer Intern: Associate Billing Solutions Analyst (Customer Operations) (Charlotte, NC)
+- Plante Moran — 2027 Digital Transformation Services Consulting Intern (Columbus, OH)
+- LewisGale Regional Health System — New Grad RN Residency (Pulaski, VA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+
+Closed 12:
+
+- Zipline — Maintenance Tool Engineering Intern (Summer 2027) 20 Aug
+- Zipline — Change Management Intern (Spring 2027) 10 Sep
+- Zipline — Change Management Intern (Summer 2027) 10 Sep
+- Rocket Lab — Turbomachinery Intern Spring 2027 9 Sep
+- Together AI — Associate, Infrastructure Strategy &amp; Operations
+- Coinbase — Data Engineer Intern 8 Sep
+- Coinbase — Data Science Intern 8 Sep
+- Vercel — Software Engineering Intern - Summer '27 8 Sep
+- Affirm — Software Engineer (Machine Learning) Intern (Summer 2027) 2 Oct
+- Vast — Mechanical Engineering, Avionics (New Grad) 12 Oct
+- Vast — Mechanical Engineering, Structures (New Grad) 12 Oct
+- Vast — Mechanical Engineering, Thermal Control Systems (New Grad) 12 Oct
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-12
 
 Added 63:
