@@ -1,5 +1,81 @@
 # Changelog
 
+## 2026-11-15
+
+Added 61:
+
+- Samsara — Product Design (Mechanical Engineering) Co-Op (San Francisco - SF9)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Sterling Bridge — Professional Services Leadership Development Program (Mayfield Heights, OH)
+- JPMorganChase — 2027 Corporate Analyst Development Program - Summer Analyst (DE, TX, FL) (Newark, DE)
+- VoltEdge Pro Systems — Business Analyst Intern (New York, United States)
+- Lazard — 2028 Summer Analyst - New York M&amp;A / Restructuring Generalist (New York, United States)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- Cone Health — Open to New Graduates | Family Nurse Practitioner or Physician Assistant | Orthocare Greensboro (Greensboro, NC)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (Nashville, TN)
+- BNP Paribas — 2027 - Summer Associate Internship – Global Banking, Corporate Finance (New York, NY)
+- Catalent — 2027 Intern - Engineering, Equipment (Madison, WI)
+- Vizient — 2027 Summer Internship – Pharmacy Commit (Alpharetta, GA)
+- Whirlpool Corporation — Global Supply Chain Leadership Development Program (GSCLDP) - Full Time (Benton Harbor, MI)
+- Axon — Leadership Development Program 2027 (Boston, MA)
+- Force Factor — Leadership Development Program 2027 (Boston, MA)
+- BAE Systems, Inc. — Engineering Leadership Development (ELDP), AMS Defense (Manchester, NH)
+- Medpace — Business Systems Analyst Internship - Summer 2027 (Cincinnati, OH)
+- WSFS Bank — 2027 Summer Internship - Business Systems Analyst (Philadelphia, PA)
+- LyondellBasell — National Society of Black Engineers - Digital Technology Intern 2027 (Houston, TX)
+- Koch — Summer 2027 - Business Systems Analyst Intern (Wichita, KS)
+- TikTok — Seller Strategy Business Analyst Project Intern (TikTok Shop - US Operation) - 2025 Start (BS/MS) (Seattle, WA)
+- Deutsche Bank — Deutsche Bank Graduate Programme - Technology, Data and Innovation (TDI) – Cary 2027 (Cary, NC)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Marsh Agency — Finance Leadership Development Program (FLDP) Associate, New York- 2027 (New York, NY)
+- American Express — Campus Undergraduate Summer Internship Program - 2027 Product &amp; Capabilities, Enterprise Shared Services- Phoenix, AZ (Phoenix, AZ)
+- Merck — 2027 Future Talent Program - Global Site Agreements - Intern (North Wales, PA)
+- American Bankers Association — Intern, Salesforce Business Analyst (Washington DC-Baltimore Area)
+- NBCUniversal — Universal Television Entertainment Finance Transformation Internships – Summer 2027 (Universal City, CA)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+
+Closed 5:
+
+- SpaceX — New Graduate Engineer, GNC- '26/'27 (Starlink) 14 Aug
+- Rocket Lab — Flight Software Intern Spring 2027 9 Sep
+- Samsara — Firmware Engineer Co-Op 24 Sep
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+- Voloridge Investment Management — Quantitative Developer Intern (2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-14
 
 Added 62:
