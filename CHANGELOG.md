@@ -1,5 +1,97 @@
 # Changelog
 
+## 2026-11-17
+
+Added 69:
+
+- Zoox — UX Designer Intern [Summer 2027] (Foster City, CA)
+- Regent — Guidance, Navigation and Control (GNC) Intern (North Kingstown, Rhode Island, USA)
+- General Matter — Automation & Controls Engineer, New Grads (Los Angeles, CA)
+- General Matter — Mechanical Process Engineer (New Grad) (Los Angeles)
+- Dark Wolf Solutions — University of South Florida College Fair - Internship (Tampa, FL)
+- Cloudflare — AI & Automation Intern, Communications (Winter 2027) (In-Office)
+- Cloudflare — People Team Intern, EMEA Employment Compliance & Manager Enablement (Spring 2027) (In-Office)
+- Anduril — 2027 Machine Learning Engineer Intern (Santa Ana, California, United States)
+- Anduril — 2027 Product Data Quality Co-op (Santa Ana, California, United States)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- Integration Innovation, Inc. — Program Finance Summer Internship with Security Clearance (Huntsville, AL)
+- Motorola Solutions — Summer 2027 Internship - RFIC Design Engineer (Plantation, FL)
+- NXP Semiconductors — Field Applications Engineer (FAE) Intern - Summer 2027 (Austin, TX)
+- LSEG — Business Analyst Graduate Programme (New York, NY)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- AstraZeneca — Commercial IT Intern, Undergraduate (Wilmington, DE)
+- TÜV SÜD — Intern - Business Analyst (Woodbridge, NJ)
+- Vizient — 2027 Summer Internship - Consulting Intern, Spend Insights &amp; Services (Irving, TX)
+- Martin Marietta — Intern, Business Process Improvement (Summer 2027) (Raleigh, NC)
+- Attain Partners — Summer 2027 Consulting Intern (McLean, VA)
+- Medpace — Strategy and Insights Intern - Summer 2027 (Cincinnati, OH)
+- NYSERDA — Intern (New York, NY)
+- Baker Tilly US — Summer 2027 International Tax Intern (Washington, DC)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Dallas) (Dallas, TX)
+- BDO USA — Tax Intern, Transfer Pricing - Summer 2027 (Atlanta) (Atlanta, GA)
+- Lazard — 2028 Summer Analyst - Charlotte Technology (Charlotte, NC)
+- Cargill — Corporate Strategy Analyst Intern 2027 (Wayzata, MN)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- Spectrum — 2027 Summer Intern: Business Systems Analyst (Customer Operations) (Stamford, CT)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- ICE — Summer Internship Program 2027 - Professional Services Intern (Jacksonville, FL)
+- Societe Generale — Research Associate (Campus) (New York, NY)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Berwyn, PA) (Berwyn, PA)
+- Ryan — Summer 2027 Intern, Sales and Use Tax (The Woodlands, TX)
+- Ericsson — Technology and AI Intern (Plano, TX)
+- Anduril Industries — 2027 Early Career Finance Emerging Leadership Rotational Program (Costa Mesa, CA)
+- MassMutual — Actuarial Analyst - Actuarial Leadership Development Program (Boston, MA)
+- Pentair — 2027 Engineering Leadership Development Program - Computer Science / Computer Engineering (Golden Valley, MN)
+- Vizient — 2027 Summer Internship – Spend Management Insights (Irving, TX)
+- The Campbell's Company — Business Analyst (Co-op), DA&amp;AI (United States)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+
+Closed 13:
+
+- True Anomaly — Software Engineer I, QA (New Grad) 22 Oct
+- Rocket Lab — Test Engineering Intern Spring 2027 17 Sep
+- Rocket Lab — Test Engineering Intern Summer 2027 17 Sep
+- Together AI — Research Intern, Frontier Agents (Summer 2027) 18 Sep
+- Together AI — Research Intern, Inference (Summer 2027) 18 Sep
+- Together AI — Research Intern, Model Shaping (Summer 2027) 18 Sep
+- Together AI — Research Intern, Frontier Speculative Decoding (Summer 2027) 16 Oct
+- Rocket Lab — Indirect Procurement Intern Spring 2027 11 Sep
+- Coinbase — Learning &amp; Development Intern 8 Sep
+- Together AI — Systems Research Engineer Intern - GPU Programming (Summer 2027) 18 Sep
+- General Matter — Process Engineer (New Grad) 19 Oct
+- General Matter — Integrated Safety Analysis Engineer (New Grad) 26 Oct
+- Stripe — Controllership Intern 6 Nov
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-16
 
 Added 68:
