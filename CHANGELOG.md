@@ -1,5 +1,93 @@
 # Changelog
 
+## 2026-11-19
+
+Added 69:
+
+- MongoDB — 2027 - AI and People Transformation Intern, NYC (New York City)
+- MongoDB — 2027 - Tax Intern, New York City (New York City)
+- Affirm — Capital Markets Specialist I (2027 Early Career Program) (New York, New York, United States)
+- Affirm — Internal Auditor I (2027 Early Career Program) (New York, New York, United States)
+- Lincoln International — 2027 Summer Analyst Intern, Valuations & Opinions Group (Atlanta, GA; Dallas, TX; New York, NY)
+- IXL Learning — Associate Customer Support Analyst, New Grad (Raleigh, NC)
+- IXL Learning — Associate Customer Support Analyst, New Grad (San Mateo, CA)
+- Anduril — 2027 Engineering Systems Intern (Costa Mesa, California, United States)
+- Zoox — Process Improvement Intern [Summer 2027] (Foster City, CA)
+- EisnerAmper — 2027 Financial Advisory Services Summer Intern – Bankruptcy and Restructuring (Philadelphia, PA)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Phoenix, AZ)
+- EisnerAmper — 2027 Assurance Summer Intern (Baton Rouge, LA)
+- Idaho National Laboratory — Software Engineering Intern - Summer 2027 — Java/API Development for Neutronics Code (Idaho Falls, ID)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Health Care Service Corporation — Early Careers - Customer Service Business Analyst Intern (Chicago, IL)
+- Highmark Health — Summer 2027 Risk &amp; Compliance Solutions Analyst Undergraduate Intern (Pittsburgh, PA)
+- Carnival Cruise Line — Intern, Business Analyst / UX Analyst (CCL) (Miami, FL)
+- Nissan Motor Corporation — Finance Transformation Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Colgate-Palmolive — University Recruitment Specialist (New York, NY)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Constellation — 2027 IT Development Intern - San Diego, CA (San Diego, CA)
+- T-Mobile — Summer 2027 Corporate Development Internship (Bellevue, WA)
+- Carnival Cruise Line — Intern, Business Analyst (CCL) (Miami, FL)
+- Shell — Shell Graduate Program 2027 - United States (Norco, LA)
+- DLA Piper — Private Equity Entry Level Attorney (Professional Track) (Atlanta Metropolitan Area)
+- Hart &amp; Hickman, PC — Entry Level Environmental Professional (Raleigh, NC)
+- Momentive — Summer 2027 Intern – Agriculture (Technology/R&amp;D) (Pearl River, NY)
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Savannah River Nuclear Solutions — Summer Intern - PPOP Analytical Laboratories (Aiken, SC)
+- Vertex Pharmaceuticals — Summer Intern 2027, Process Chemistry - San Diego (San Diego, CA)
+- The Voleon Group — Operations Associate (University Hire) (New York, NY)
+- Zoetis — Commercial Operations Business Analyst Intern (Troy Hills, NJ)
+- Zoetis — ZTD Finance Business Partner Intern (Troy Hills, NJ)
+- LPL Financial — New Grad Summer 2027 - Financial Service Professional (Fort Mill) (Fort Mill, SC)
+- Carle Health — RN - New Grad Residency Program (May 2027 Grads) - Peoria Region (Peoria, IL)
+- Carle Health — RN - New Grad Residency Program (May 2027- August 2027 Grads) - Urbana (Urbana, IL)
+- Baker Tilly US — Summer 2027 International Tax Intern (Portland, OR)
+- Evonik — Evonik Rotation Program - Early Career Engineers (Mobile, AL)
+- WTW — Early Careers: Corporate Risk and Broking (CRB) Graduate Development Program Analyst – Broking Placement – Multiple Locations - 2027 (Atlanta, GA)
+- LewisGale Regional Health System — New Grad RN Residency (Pulaski, VA)
+- Alvarez &amp; Marsal — Intern, Global Transaction Tax - Summer 2027 (Miami, FL)
+- Vertex Pharmaceuticals — Summer Intern 2027, Process Chemistry (Boston, MA)
+- Ryan — Summer 2027 Intern, Real Property Tax (Minneapolis, MN)
+- SouthState Bank — Summer 2027 Core Banking Intern (Remote) (Winter Haven, FL)
+- SouthState Bank — Summer 2027 Digital Banking Intern (Remote) (Winter Haven, FL)
+- Rivian — Business and Administrative Intern - Strategy Analyst (Palo Alto, CA)
+- Saint Luke's — RN Residency - Saint Luke's South - Spring 2027 Graduates (Overland Park, KS)
+- Nominal — Mission Dev Engineer - New Grad (Summer 2027) (New York, NY)
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+
+Closed 9:
+
+- Astranis — Mechanical Engineer Intern (Summer 2027) 14 Aug
+- Astranis — Mechanical Engineer Intern (Winter 2027) 14 Aug
+- Astranis — Antenna Intern (Summer 2027) 23 Sep
+- Zipline — Manufacturing Engineer, Early Career 29 Oct
+- Zoox — Contract Student Worker, Analyst
+- Rocket Lab — Security Analyst Intern Spring 2027 16 Sep
+- Hermeus — Build Reliability Engineering Intern - Spring/Summer 2027 22 Sep
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+- Voloridge Investment Management — Quantitative Developer Intern (2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-18
 
 Added 64:
