@@ -1,5 +1,112 @@
 # Changelog
 
+## 2026-11-20
+
+Added 82:
+
+- MongoDB — 2027 - Finance Intern, San Francisco (San Francisco)
+- Lucidmotors — Intern, AI/ML, Vehicle Infotainment, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Vehicle Motion Controls Engineer, Summer 2027 (Newark, CA)
+- Lucidmotors — Power Electronics Control Engineer Intern, Summer 2027 (Newark, CA)
+- Gusto — Gusto Insights Intern (San Francisco, CA - Hybrid)
+- Lucidmotors — Intern, ADAS Systems, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, AI & Data (Applied AI/Machine Learning), Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Infotainment Software, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Infotainment SW Validation Automation, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Motor Control Software Development and Validation Engineer, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, OTA Test and Validation Automation, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Simulation & Virtualization Engineer, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Software QA Engineer, Infotainment, Summer 2027 (Newark, CA)
+- Lucidmotors — Product Security Engineering Intern, Summer 2027 (Newark, CA)
+- Anduril — Mission Systems Engineer, Early Career (Costa Mesa, California, United States)
+- Anduril — Radar Systems Engineer, Early Career (Costa Mesa, California, United States)
+- Anduril — RF Integration Systems Engineer, Early Career (Costa Mesa, California, United States)
+- True Anomaly — Internships (Summer 2027) - General Interest (Colorado Springs, CO; Denver, CO; Long B)
+- Rocket Lab — Total Rewards Intern Summer 2027 (Long Beach, CA)
+- Lucidmotors — Intern, Embedded Software – BSP/Platform (ADAS/Autonomous Driving), Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Embedded Software, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Software Engineer, SDET, Summer 2027 (Newark, CA)
+- Lawrence Livermore National Laboratory — Nuclear and Chemical Sciences Division Graduate Intern - Summer 2027 (Livermore, CA)
+- Visteon Corporation — Financial Analyst – Finance Leadership Development Program (FLDP) (Van Buren, MI)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- nVent — Operations Leadership Development Program 2027 (Anoka, MN)
+- StratosNex — Integrated Supply Chain Leadership Development Program (Mayfield Heights, OH)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- State Street Investment Management — State Street Investment Management - Business Architecture - 2027 Summer Internship (Boston, MA)
+- State Street — State Street Product Management Team - Business Analyst - Summer Internship 2027 (Boston, MA)
+- Hewlett Packard Enterprise — HPE Labs – Business Analyst Intern – AI and Data Science (Milpitas, CA)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Health Care Service Corporation — Early Careers - Systems Analyst Intern (Chicago, IL)
+- Hart &amp; Hickman, PC — Entry Level Environmental Professional (Raleigh, NC)
+- Avient Corporation — Technology Leadership Associate - 2027 Leadership Development Program Ph.D. (Avon Lake, OH)
+- TÜV SÜD — Intern - Business Analyst (Woodbridge, NJ)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- GlobalFoundries — Finance Rotational Accelerator Program (2027 New College Graduate) (Austin, TX)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Pittsburgh, PA) (Pittsburgh, PA)
+- LSEG — Business Analyst Graduate Programme (New York, NY)
+- AstraZeneca — Commercial IT Intern, Undergraduate (Wilmington, DE)
+- Vizient — 2027 Summer Internship - Consulting Intern, Spend Insights &amp; Services (Irving, TX)
+- Force Factor — Leadership Development Program - MBA Associate (Boston, MA)
+- Lazard — 2028 Summer Analyst - Charlotte Technology (Charlotte, NC)
+- Momentum — 2027 Launch Graduate Program: FP&amp;A Analyst (Dallas, TX)
+- Autoliv — Business Analyst / PMO Intern (Auburn Hills, MI)
+- ICE — Summer Internship Program 2027 - Professional Services Intern (Jacksonville, FL)
+- LewisGale Regional Health System — New Grad RN Residency (Blacksburg, VA)
+- Cone Health — Open to New Graduates | Family Nurse Practitioner or Physician Assistant | Orthocare Greensboro (Greensboro, NC)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+
+Closed 15:
+
+- True Anomaly — Software Engineer I, Elixir (New Grad) 8 Sep
+- Anduril — Early Career RF Mission Systems Engineer, Air Dominance &amp; Strike 9 Nov
+- Zipline — Aircraft Software Integration Intern (Summer 2027) 4 Sep
+- Zipline — Real Estate Intern (Summer 2027) 8 Sep
+- Astranis — Technical Project Management Intern (Winter 2027) 23 Sep
+- Zipline — Supply Chain Business Operations Intern (Spring 2027) 18 Aug
+- Anduril — 2027 Early Career Finance Emerging Leadership Rotational Program 10 Nov
+- Rocket Lab — Security Analyst Intern Summer 2027 16 Sep
+- Epic Games — Data Science Intern 21 Sep
+- Epic Games — UI Programmer Intern 9 Sep
+- Stripe — University Recruiter 23 Sep
+- DV Trading — Data Center Engineer Intern - Summer 2027 12 Oct
+- Cloudflare — AI &amp; Automation Intern, Communications (Winter 2027) 17 Nov
+- Affirm — Capital Markets Specialist I (2027 Early Career Program) 19 Nov
+- Affirm — Internal Auditor I (2027 Early Career Program) 19 Nov
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-19
 
 Added 69:
