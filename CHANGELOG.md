@@ -1,5 +1,92 @@
 # Changelog
 
+## 2026-11-21
+
+Added 67:
+
+- SpaceX — New Graduate Engineer, Electrical (Starfall) (Hawthorne, CA)
+- SpaceX — New Graduate Engineer, Propulsion (Raptor) (Hawthorne, CA)
+- Muonspace — Harness Design Co-Op (San Jose, CA)
+- Regent — Program Management Intern (North Kingstown, Rhode Island, USA)
+- Regent — Quality Intern (North Kingstown, Rhode Island, USA)
+- Lucidmotors — Intern, ADAS Platform Tools, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, Exterior Design, Summer 2027 (Newark, CA)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- BDO USA — Assurance Intern - Summer 2027 (Omaha) (Omaha, NE)
+- Ryan — Summer 2027 Intern, Tax Operations (Austin, Texas Metropolitan Area)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- EisnerAmper — 2027 Assurance Summer Intern (New Orleans, LA)
+- Ryan — Summer 2027 Severance Tax Consulting Intern - Houston, TX (Houston, TX)
+- BDO USA — Tax Intern, State and Local Tax - Summer 2027 (Akron) (Cleveland, OH)
+- Lockton — Summer 2027 Transaction Liability Internship (New York, NY)
+- Martin Marietta — Intern, Corporate Tax Group (Summer 2027) (Raleigh, NC)
+- DENSO in North America — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- Federal Reserve Bank of Minneapolis — Summer 2027 Graduate Internship - Consumer Affairs Examiner (Minneapolis, MN)
+- The Toro Company — Tax Department Intern - The Toro Company (Hennepin County, MN)
+- Howden — Early Careers Program - Korean Practice (New York, NY)
+- Piper Sandler — 2027 Campus Recruiting - Investment Banking Summer Associate - Charlotte (Charlotte, NC)
+- Motorola Solutions — Summer 2027 Internship - RFIC Design Engineer (Plantation, FL)
+- Constellation — 2027 IT Development Intern - San Diego, CA (San Diego, CA)
+- Patrick Industries, Inc. — Leadership Development Program, Impact (Elkhart, IN)
+- Stripe — Product Manager: New Grad Accelerator (Seattle, WA)
+- Baker Tilly US — Summer 2027 International Tax Intern (Washington, DC)
+- Nevada Gold Mines — Nevada Gold Mines - 2027 Summer Intern Program (Elko, NV)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- ASM — Software Engineering Intern (Spring 2027) ()
+
+Closed 10:
+
+- Skydio — Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) 26 Oct
+- Skydio — Autonomy Engineer Intern, Simulation &amp; Robotics, 2027 (HQ) 26 Oct
+- Skydio — Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) 26 Oct
+- Zipline — Computational Physics Intern (Spring 2027) 21 Aug
+- Zipline — Computational Physics Intern (Summer 2027) 19 Aug
+- Astranis — Technical Project Management Intern (Summer 2027) 23 Sep
+- Roblox — [2027] Associate Product Designer, Early Career 2 Sep
+- Zipline — Strategic Finance Intern, Summer 2027 Aug 31
+- Rocket Lab — Supply Chain Intern Spring 2027 17 Sep
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-20
 
 Added 82:
