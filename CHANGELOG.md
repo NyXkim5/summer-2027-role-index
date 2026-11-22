@@ -1,5 +1,80 @@
 # Changelog
 
+## 2026-11-22
+
+Added 64:
+
+- Neros — Autonomy Intern - Summer 2027 (Torrance, California, United States)
+- Neros — Electrical Engineering Intern - Summer 2027 (Torrance, California, United States)
+- Neros — Firmware/Embedded Software Engineer Intern - Summer 2027 (Torrance, California, United States)
+- Neros — Mechanical Engineer Intern - Summer 2027 (Torrance, California, United States)
+- BDO USA — Summer Analyst, Investment Banking, BDO Capital Advisors - Summer 2027 (Richmond) (Richmond, VA)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- UL Solutions — 2027 Campus Full Time: Finance Development Program Associate (Northbrook, IL)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Dallas, TX)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Chicago, IL)
+- Hunt Consolidated, Inc. — IT Business Analyst Intern - Summer 2027 (Dallas, TX)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Summit Rec2Rec — Entry Level Recruitment - August 2027 (New York City Metropolitan Area)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Phoenix, AZ)
+- Idaho National Laboratory — Software Engineering Intern - Summer 2027 — Java/API Development for Neutronics Code (Idaho Falls, ID)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Health Care Service Corporation — Early Careers - Customer Service Business Analyst Intern (Chicago, IL)
+- Highmark Health — Summer 2027 Risk &amp; Compliance Solutions Analyst Undergraduate Intern (Pittsburgh, PA)
+- Colgate-Palmolive — University Recruitment Specialist (New York, NY)
+- Constellation — 2027 IT Development Intern - San Diego, CA (San Diego, CA)
+- LSEG — Business Management and Sales Graduate Programme (New York, NY)
+- Shell — Shell Graduate Program 2027 - United States (Norco, LA)
+- DLA Piper — Private Equity Entry Level Attorney (Professional Track) (Atlanta Metropolitan Area)
+- Momentive — Summer 2027 Intern – Agriculture (Technology/R&amp;D) (Pearl River, NY)
+- JPMorganChase — 2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ) (Tempe, AZ)
+- Vertex Pharmaceuticals — Summer Intern 2027, Process Chemistry - San Diego (San Diego, CA)
+- The Voleon Group — Operations Associate (University Hire) (New York, NY)
+- Zoetis — Commercial Operations Business Analyst Intern (Troy Hills, NJ)
+- Zoetis — ZTD Finance Business Partner Intern (Troy Hills, NJ)
+- Carle Health — RN - New Grad Residency Program (May 2027 Grads) - Peoria Region (Peoria, IL)
+- Baker Tilly US — Summer 2027 International Tax Intern (Portland, OR)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+
+Closed 1:
+
+- Zipline — Supplier Industrialization Engineering Intern (Spring 2027) 18 Aug
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-21
 
 Added 67:
