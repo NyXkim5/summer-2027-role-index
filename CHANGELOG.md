@@ -1,5 +1,101 @@
 # Changelog
 
+## 2026-11-24
+
+Added 65:
+
+- Regent — Supply Chain Intern (North Kingstown, Rhode Island, USA)
+- Cloudflare — People Operations Intern (2026/2027 Batch Only) (In-Office)
+- Lucidmotors — Intern, Automotive Interior Design, Summer 2027 (Newark, CA)
+- Lucidmotors — Intern, IT Help Desk Level 3, Summer 2027 (Casa Grande, AZ)
+- General Matter — Design Reliability Engineer (New Grad) (Los Angeles, CA)
+- Oceaneering — 2027 Business Systems Intern (Hanover, MD)
+- Seagate Technology — DNA Data Storage Research Intern - Summer 2027 (Shakopee, MN)
+- Cantor Fitzgerald — 2028 Internship Program: Investment Banking (Industrials) (New York, NY)
+- BAE Systems, Inc. — Contracts Leadership Development Program - AMS (Endicott, NY)
+- Vertiv — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- Lewoint — Integrated Supply Chain Leadership Development Program (Mayfield Heights, OH)
+- Enervexa PowerLabs — Commercial Engineering Leadership Development Program (Mayfield Heights, OH)
+- Savannah River Nuclear Solutions — Summer Intern - Software Business Analyst (Aiken, SC)
+- Centene Corporation — Business Analyst Graduate Summer Intern (Missouri, United States)
+- CGI — Business Analyst Intern -- Summer Internship Program (Los Angeles, CA)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (New York, NY)
+- Avient Corporation — Operational Excellence Specialist - 2027 Leadership Development Program (Avon Lake, OH)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- Hewlett Packard Enterprise — HPE Labs – Business Analyst Intern – AI and Data Science (Milpitas, CA)
+- Parker Hannifin — IT Intern - Summer 2027 (Woburn, MA)
+- Lawrence Livermore National Laboratory — Nuclear and Chemical Sciences Division Graduate Intern - Summer 2027 (Livermore, CA)
+- T-Mobile — Summer 2027 Corporate Development Internship (Bellevue, WA)
+- Visteon Corporation — Financial Analyst – Finance Leadership Development Program (FLDP) (Van Buren, MI)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- State Street Investment Management — State Street Investment Management - Business Architecture - 2027 Summer Internship (Boston, MA)
+- State Street — State Street Product Management Team - Business Analyst - Summer Internship 2027 (Boston, MA)
+- Honeywell Aerospace — Intern (Bachelor's) - Spring Co-Op (Phoenix, AZ)
+- Enterprise Mobility — Intern - IT Business Analyst, Summer 2027 (St Louis, MO)
+- Hart &amp; Hickman, PC — Entry Level Environmental Professional (Raleigh, NC)
+- EisnerAmper — 2027 Financial Advisory Services Summer Intern – Bankruptcy and Restructuring (New York, NY)
+- Avient Corporation — Technology Leadership Associate - 2027 Leadership Development Program Ph.D. (Avon Lake, OH)
+- TÜV SÜD — Intern - Business Analyst (Woodbridge, NJ)
+- Carnival Cruise Line — Intern, Business Analyst / UX Analyst (CCL) (Miami, FL)
+- Nissan Motor Corporation — Finance Transformation Intern - Summer 2027 - Franklin, TN (Franklin, TN)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- BNY — 2027 BNY Summer Internship Program – Client Coverage (Lake Mary, FL) (Lake Mary, FL)
+- GlobalFoundries — Finance Rotational Accelerator Program (2027 New College Graduate) (Austin, TX)
+- Carnival Cruise Line — Intern, Business Analyst (CCL) (Miami, FL)
+- Mercury Systems — 2027 Information &amp; Engineering Systems Intern (Andover, MA)
+- iCapital — Fund Finance - Summer 2027 Intern (New York, NY)
+- The Voleon Group — Operations Associate (University Hire) (Berkeley, CA)
+- AstraZeneca — Commercial IT Intern, Undergraduate (Wilmington, DE)
+- Vizient — 2027 Summer Internship - Consulting Intern, Spend Insights &amp; Services (Irving, TX)
+- Attain Partners — Summer 2027 Consulting Intern (McLean, VA)
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+
+Closed 21:
+
+- Palantir — Forward Deployed SWE, Internship, Commercial
+- Anduril — Winter 2027 EWIS Harness Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Mechanical Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Propulsion Engineer Co-op 15 Sep
+- Anduril — Winter 2027 Robotics Engineer Co-op 21 Oct
+- Rocket Lab — Systems Engineering Intern Summer 2027 9 Sep
+- Rocket Lab — R&amp;D Engineering Intern Spring 2027 17 Sep
+- Astranis — Propulsion Engineer Intern (Summer 2027) 23 Sep
+- Muonspace — Ground Software Engineering Intern (Summer 2027) 15 Oct
+- Anthropic — Anthropic Research Resident 28 Oct
+- Roblox — Business Operations Associate
+- Ramp — Associate, Strategic Finance
+- Schonfeld — 2027 Legal  Summer Intern 3 Nov
+- Base Power — Quantitative Developer Intern 14 Sep
+- Roblox — SWE Intern, Summer 2027
+- DV Trading — Client Platforms Engineer Intern - Summer 2027 10 Sep
+- Schonfeld — 2027 DMFI Intern 28 Oct
+- Affirm — Leadership Development Manager 3 Nov
+- Affirm — Leadership Development Manager 3 Nov
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+- Voloridge Investment Management — Quantitative Developer Intern (2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-22
 
 Added 64:
