@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-11-25
+
+Added 68:
+
+- Relativity — New Grad 2027 - Aerodynamics Engineer I (Long Beach, California, United States)
+- Relativity — New Grad 2027 - Certification Engineer I (Long Beach, California, United States)
+- Relativity — New Grad 2027 - GNC Mission Design Engineer I (Long Beach, California, United States)
+- Relativity — New Grad 2027 - Mission Reliability Engineer I (Long Beach, California, United States)
+- Relativity — New Grad 2027 - NDE Engineer I (Long Beach, California, United States)
+- Relativity — New Grad 2027 - Thermal Engineer I (Long Beach, California, United States)
+- Regent — Design Co-Op (Spring) (North Kingstown, Rhode Island, USA)
+- Accenture Federal Services — Recruiting Research Analyst (Entry Level) (Baltimore, MD; San Antonio, TX)
+- FIS — Commercial Product Manager I, FIS University Program (Jacksonville, FL)
+- Ryan — Summer 2027 Intern, Personal Property Tax (Nashville, TN)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Chicago, IL)
+- Spire — Intern, Regulatory (St Louis, MO)
+- BNP Paribas — 2028 - Summer Analyst Internship - Global Markets, Sales (Miami, FL)
+- Nichols Cauley — Summer 2027 Tax Intern (Coral Gables, FL) (Coral Gables, FL)
+- Molex — 2027 Molex OCG Global Leadership Development Program (Lisle, IL)
+- Dow — 2026-2027 Campus Graduate - Commercial Development Program (Midland, MI)
+- International — Finance/Accounting Leadership Development Program Associate (Lisle, IL)
+- LSEG — AI Product &amp; Business Graduate Associate (New York, NY)
+- WPS—A health solutions company — Business Analyst Intern-Summer 2027 (Georgia, United States)
+- IMA Financial Group, Inc. — IMA Advisors Intern - Summer 2027 (Denver, CO)
+- Constellation — 2027 IT Development Intern - San Diego, CA (San Diego, CA)
+- Nissan Motor Corporation — Treasury Intern - Summer 2027 - Franklin, HQ (Franklin, TN)
+- Alvarez &amp; Marsal — Intern, Corporate Transaction Tax &amp; Advisory (CTTA) - Summer 2027 (New York, NY)
+- BDO USA — Assurance Intern - Summer 2027 (Omaha) (Omaha, NE)
+- Plante Moran — 2028 PMCF Investment Banking Summer Analyst (Grand Rapids, MI)
+- EisnerAmper — 2027 Assurance Summer Intern (New Orleans, LA)
+- Ryan — Summer 2027 Severance Tax Consulting Intern - Houston, TX (Houston, TX)
+- Lockton — Summer 2027 Transaction Liability Internship (New York, NY)
+- Martin Marietta — Intern, Corporate Tax Group (Summer 2027) (Raleigh, NC)
+- DENSO in North America — DENSO Summer 2027 Internship Opportunities (Southfield, MI)
+- Federal Reserve Bank of Minneapolis — Summer 2027 Graduate Internship - Consumer Affairs Examiner (Minneapolis, MN)
+- Howden — Early Careers Program - Korean Practice (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Netic — Software Engineer Intern, Agent Platform / Full Stack (2026-2027) (San Francisco, CA)
+- Neuralink — Software Engineer Intern, BCI Applications ⏳ (Fremont, CA)
+- Western Digital — Software Engineering Co-op (Winter 2027) (Milpitas, CA)
+- Point72 — Quantitative Research Intern (Summer 2027) (New York, NY)
+- Capital One — Product Development Internship Program (Summer 2027) (McLean, VA / Plano, TX)
+- Solar Turbines (Caterpillar) — IT Intern (2027) (San Diego, CA)
+- Solar Turbines (Caterpillar) — Business Analyst Intern (2027) (San Diego, CA)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Palantir — Software Engineer Intern, Production Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Defense Tech (Summer 2027, grad 2028) (Washington, DC (multiple US))
+- Palantir — Year at Palantir, Forward Deployed Software Engineer Intern ⏳ (New York, NY (multiple US))
+- LA-Tech.org — Technical Intern, Software / Cyber / AI (Spring 2027, remote) (Los Angeles, CA / Remote (US))
+- JPMorganChase — Corporate Analyst Development Program Summer Analyst (2027) 🛂 (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Medpace — Feasibility Informatics Intern / Co-op (Spring 2027) (Cincinnati, OH)
+- Amazon — Operations Finance Rotational Program Intern 🛂 (Seattle, WA / Arlington, VA)
+- Delta Air Lines — Reservations Co-op (Spring 2027, data analytics / process improvement) (Atlanta, GA)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Aerospace — Engines Engineering Co-op, Computer/Software Engineering (Spring 2027, Returning Students) 🛂 🇺🇸 (Cincinnati, OH / Lynn, MA)
+- Solar Turbines (Caterpillar) — Gas Compressor Data Analyst Intern 🛂 (San Diego, CA)
+
+Closed 7:
+
+- Zipline — Material Planning Intern (Spring 2027) 18 Aug
+- Zipline — Material Planning Intern (Summer 2027) 18 Aug
+- SpaceX — Business Operations Analyst Aug 31
+- Rocket Lab — Supply Chain Intern Spring 2027 17 Sep
+- PolicyMe — Business Development Representative (Queen's University) 3 Nov
+- Rocket Lab — Security Analyst Intern Summer 2027 16 Sep
+- Stripe — Software Engineer, Early Career — Immediate Start 17 Sep
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-24
 
 Added 65:
