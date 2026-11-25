@@ -2,6 +2,85 @@
 
 ## 2026-11-25
 
+Added 64:
+
+- SpaceX — Bastrop Campus Planning Manager (Bastrop, TX)
+- SpaceX — Campus Infrastructure Project Manager (Bastrop, TX)
+- IXL Learning — Software Engineer, Intern (San Mateo, CA)
+- Coinbase — Security Engineer Intern (Hybrid - New York, NY)
+- Baker Tilly US — Summer 2027 State &amp; Local Tax Intern (Portland, OR)
+- Frazier &amp; Deeter — Campus 2028 Summer Tax Intern (Huntsville, AL)
+- Central Bank — Retail Banking Intern - Summer 2027 (Lees Summit, MO)
+- JPMorganChase — 2027 Latin American Debt Capital Markets Analyst Internship - Emerging Talent Summer Experience Program (New York, NY)
+- JPMorganChase — 2027 Global Finance &amp; Business Management Analyst Program - Full Time Analyst Corporate Controllers Track (DE) (Newark, DE)
+- SAP — SAP iXp Intern - Business Transformation (Newtown Square, PA)
+- JPMorganChase — 2027 Chase Leadership Development Program — Full-Time Analyst (Winter Cohort) Consumer &amp; Community Banking Communications Focused - (NY Metro &amp; Columbus) (New York, NY)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- LPL Financial — New Grad January 2027 - Financial Service Professional (Fort Mill) (Fort Mill, SC)
+- Ryan — Summer 2027 Intern, Personal Property Tax (Atlanta, GA)
+- Voya Investment Management — IM Entry Level Analyst Program - Insurance Portfolio Management Associate (Atlanta, GA)
+- Voya Investment Management — IM Entry Level Analyst Program - Product Management Analyst (New York, NY)
+- Gerdau North America — 2027 Engineering Leadership Development Program (Petersburg, VA)
+- WPS—A health solutions company — Business Analyst Intern-Summer 2027 (Texas, United States)
+- NLP Logix — Technical Business Analyst Intern (Jacksonville, FL)
+- Tokio Marine HCC — Associate Business Systems Analyst Intern (Wakefield, MA)
+- State Street — Global End User Experience - Workplace Technology Analyst, Full-time Internship (Jan - June 2027) (Quincy, MA)
+- IBM — Delivery Consultant Intern - Entry Level Sales Program 2027 (Boston, KY)
+- Rivian — Business and Administrative Intern - Strategy Analyst, CCO Strategy and Program Management (Palo Alto, CA)
+- Voya Investment Management — IM Entry Level Analyst Program - Equity Research Associate (New York, NY)
+- BDO USA — Summer Analyst, Investment Banking, BDO Capital Advisors - Summer 2027 (Richmond) (Richmond, VA)
+- Qualcomm — RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 (Tempe, AZ)
+- UL Solutions — 2027 Campus Full Time: Finance Development Program Associate (Northbrook, IL)
+- The Options Clearing Corporation (OCC) — Year-Round Intern - Business Systems Analysis (Dallas-Fort Worth Metroplex)
+- JM Test Systems, LLC. — Leadership Development Analyst (Baton Rouge, LA)
+- Johnson &amp; Johnson — 2027 Finance Leadership Development Program (FLDP) - Full Time – El Paso, TX / Juarez, MX (El Paso, TX)
+- West Monroe — 2027 Platforms &amp; Business Consulting Intern (Chicago, IL)
+- Health Care Service Corporation — Early Careers - Business Analyst Intern (Chicago, IL)
+- Hunt Consolidated, Inc. — IT Business Analyst Intern - Summer 2027 (Dallas, TX)
+- Federal Reserve Bank of Richmond — Federal Reserve Summer Business 2027 Internship (Richmond, VA)
+- Weatherford — MBA Internship- GOLD Program (Houston, TX)
+- Zipline — Corporate Tax Intern (Summer 2027) (South San Francisco, CA)
+- JM Test Systems, LLC. — Leadership Development Associate (Baton Rouge, LA)
+- Summit Rec2Rec — Entry Level Recruitment - August 2027 (New York City Metropolitan Area)
+- Nissan Motor Corporation — Treasury Capital Markets Intern - Summer 2027 - Frankin, TN (Franklin, TN)
+- DMA - DuCharme, McMillen &amp; Associates, Inc. — Transaction Tax Intern - Summer 2027 (Phoenix, AZ)
+- Idaho National Laboratory — Software Engineering Intern - Summer 2027 — Java/API Development for Neutronics Code (Idaho Falls, ID)
+- Alvarez &amp; Marsal — Intern, Disputes and Investigations - Denver Summer 2027 (Greenwood Village, CO)
+- Thermo Fisher Scientific — General Management Graduate Leadership Development Program (Waltham, MA)
+- Mercury Systems — 2027 IT Business Systems Intern (Andover, MA)
+- Health Care Service Corporation — Early Careers - Customer Service Business Analyst Intern (Chicago, IL)
+- Highmark Health — Summer 2027 Risk &amp; Compliance Solutions Analyst Undergraduate Intern (Pittsburgh, PA)
+- Colgate-Palmolive — University Recruitment Specialist (New York, NY)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Unison (GE Aerospace) — Engineering Intern (Summer 2027) 🛂 🇺🇸 (Jacksonville, FL)
+- Five Rings — Software Developer Intern (Summer 2027) (New York, NY)
+- Five Rings — Quantitative Trader Intern (Summer 2027) (New York, NY)
+- Old Mission — Software Engineer Intern (Summer 2027, June Start) (Chicago, IL)
+- BAE Systems — Software Engineering Intern I (Summer 2027) 🇺🇸 (Nashua, NH)
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- DTCC — Information Technology Intern (2027 Summer) 🛂 (Jersey City, NJ (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Tower Research Capital — Quantitative Trader Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Tower Research Capital — Quantitative Developer Intern (Summer 2027) (New York, NY / Chicago, IL)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Optiver — Quantitative Research Intern (PhD, Chicago) (Chicago, IL)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+
+Closed 5:
+
+- Anduril — Winter 2027 Research Engineer Co-op 14 Oct
+- Cloudflare — People Team Intern, HR Transformation (Winter 2027) 6 Nov
+- IXL Learning — Software Engineer, Intern 7 Oct
+- Coinbase — Real Estate &amp; Builds Intern (EWX) 8 Sep
+- Mach Industries — University Recruiter 25 Oct
+
+Trimmed 60 stale wide-net rows.
+
+## 2026-11-25
+
 Added 68:
 
 - Relativity — New Grad 2027 - Aerodynamics Engineer I (Long Beach, California, United States)
