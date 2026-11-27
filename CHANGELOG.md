@@ -1,5 +1,89 @@
 # Changelog
 
+## 2026-11-27
+
+Added 71:
+
+- Lucidmotors — Business Analyst Intern (Amsterdam, NH)
+- Lucidmotors — Financial Planning & Analysis Intern (Amsterdam, NH)
+- Lucidmotors — Financial Services Operations Intern (Amsterdam, NH)
+- Lucidmotors — Fleet Operations Intern (Amsterdam, NH)
+- Lucidmotors — Marketing Operations, Retail & Experiential Intern (Amsterdam, NH)
+- Lucidmotors — Sales Strategy, Planning & Analytics Intern (Amsterdam, NH)
+- Lucidmotors — HR & Internal Communications Intern (Amsterdam, NH)
+- Lucidmotors — Instructional Designer Intern (Amsterdam, NH)
+- Lucidmotors — Logistics Operation Intern (Amsterdam, NH)
+- Lucidmotors — Salesforce Engineer Intern (Amsterdam, NH)
+- Lucidmotors — Network Analytics & Reporting Intern (Amsterdam, NH)
+- Savannah River Nuclear Solutions — Summer Intern - Environmental Engineer/Scientist (Aiken, SC)
+- Frazier &amp; Deeter — Campus 2028 Summer Assurance Intern (Huntsville, AL)
+- Entegris — Entegris Leadership Development Program - Supply Chain (Billerica, MA)
+- Watts Water Technologies — Commercial Leadership Development Program - Watts Applied Solutions (Blauvelt, NY)
+- Regal Rexnord — Enterprise Leadership Development Program (Milwaukee, WI)
+- Plante Moran — 2027 Business Technology Advisory Consulting Intern (Southfield, MI)
+- Plante Moran — 2027 Family Office - Estate Planning Advisor Entry Level (East Lansing, MI)
+- Baker Tilly US — Summer 2027 State &amp; Local Tax Intern (Frisco, TX)
+- Cantor Fitzgerald — 2028 Internship Program: Investment Banking (Industrials) - Chicago (Chicago, IL)
+- Lincoln International — 2028 Summer Analyst Intern | M&amp;A (Richmond, VA)
+- BAE Systems, Inc. — Contracts Leadership Development Program (San Diego, CA)
+- Seagate Technology — DNA Data Storage Research Intern - Summer 2027 (Shakopee, MN)
+- Vertiv — Human Resources Leadership Development Program (2027) (Westerville, OH)
+- Savannah River Nuclear Solutions — Summer Intern - Software Business Analyst (Aiken, SC)
+- Avient Corporation — Operational Excellence Specialist - 2027 Leadership Development Program (Avon Lake, OH)
+- WTW — Early Careers: Pharmacy Benefits Consulting Internship - Chicago - Summer 2027 (Chicago, IL)
+- Lawrence Livermore National Laboratory — Nuclear and Chemical Sciences Division Graduate Intern - Summer 2027 (Livermore, CA)
+- Visteon Corporation — Financial Analyst – Finance Leadership Development Program (FLDP) (Van Buren, MI)
+- Light &amp; Wonder — Leadership Development Program (LDP) (Las Vegas, NV)
+- Lawrence Livermore National Laboratory — Business Systems Analyst Undergraduate Intern - 2027 (Livermore, CA)
+- State Street Investment Management — State Street Investment Management - Business Architecture - 2027 Summer Internship (Boston, MA)
+- Financial Technology Partners / FT Partners — 2027 July Strategic Insights Full Time Analyst (San Francisco) (San Francisco, CA)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- IMC Trading — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Research Intern (Summer 2027, BS / MS) (Chicago, IL)
+- IMC Trading — Machine Learning Research Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Hardware Engineer Intern (Summer 2027) (Chicago, IL)
+- IMC Trading — Quantitative Trader Intern (Summer 2027) (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Dedalus Labs — Systems Engineer / Product Manager Intern (Summer 2027) (San Francisco, CA)
+- Rippling — Software Engineer Intern, Backend / Full Stack / ML (Winter 2027) (San Francisco, CA / New York, NY / Seatt)
+- CTGT — Software Engineering Intern / Research Intern, Interpretability (Summer 2027) (San Francisco, CA)
+- Virtu Financial — Quantitative Researcher Intern (2027, Undergrad) (New York, NY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- JPMorganChase — Markets Summer Analyst (2027, Sales / Trading / Structuring / Digital Markets) 🛂 (New York, NY (multiple US))
+- JPMorganChase — Commercial & Investment Bank Innovation Development Summer Analyst, Product Track (2027) 🛂 (Chicago, IL (multiple US))
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- StepStone Group — Private Equity Infrastructure & Real Assets Summer Analyst 🛂 (New York, NY)
+- Voloridge Investment Management — Quantitative Developer Intern (2027) (Jupiter, FL)
+- Voloridge Investment Management — Quantitative Research Intern (2027) (Jupiter, FL)
+- TSMC Arizona — Engineering Intern (12 roles: process, equipment, CIM / software) (Phoenix, AZ)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) (San Mateo, CA)
+- Stoke Space — Software Engineer Intern 🇺🇸 (Kent, WA)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Research Scientist Intern, TikTok Recommendation NextGen LLM (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Trust & Safety Multimodal Foundation Model (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- ASM — Software Engineering Intern (Spring 2027) ()
+
+Closed 3:
+
+- Astranis — Propulsion Engineer Intern (Winter 2027) 23 Sep
+- Decagon — Revenue Operations Associate
+- Cloudflare — People Operations Intern (2026/2027 Batch Only) 23 Nov
+
+Trimmed 60 stale wide-net rows.
+
 ## 2026-11-25
 
 Added 64:
