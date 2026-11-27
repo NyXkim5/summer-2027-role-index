@@ -2,6 +2,79 @@
 
 ## 2026-11-27
 
+Added 60:
+
+- Watts Water Technologies — Finance Leadership Development Program (North Andover, MA)
+- Deutsche Bank — Deutsche Bank Graduate Program - Group Audit - Jacksonville 2027 (Jacksonville, FL)
+- Engtal — Sales Executive (2027 Graduate Program) (Chicago, IL)
+- LPL Financial — New Grad Summer 2027 - Financial Service Professional (Tempe) (Tempe, AZ)
+- FIS — Commercial Product Manager I, FIS University Program (Jacksonville, FL)
+- Phillips 66 — 2027 University New Hire - Commercial (Houston, TX)
+- Molex — 2027 Molex OCG Global Leadership Development Program (Lisle, IL)
+- LSEG — AI Product &amp; Business Graduate Associate (New York, NY)
+- WPS—A health solutions company — Business Analyst Intern-Summer 2027 (Georgia, United States)
+- IMA Financial Group, Inc. — IMA Advisors Intern - Summer 2027 (Denver, CO)
+- Oceaneering — 2027 Business Systems Intern (Hanover, MD)
+- Dow — 2026-2027 Campus Graduate - Commercial Development Program (Midland, MI)
+- Hewlett Packard Enterprise — HPE Labs – Business Analyst Intern – AI and Data Science (Milpitas, CA)
+- Saint Luke's — Registered Nurse Residency Program- Spring 2027 Graduates (Kansas City, MO)
+- Susquehanna — Quantitative Systematic Trading Intern (PhD, Summer 2027) (New York, NY)
+- Susquehanna — Quantitative Systematic Trading Intern (Master's, Summer 2027) (New York, NY)
+- Google — Software Engineering Intern, BS (Summer 2027) (Mountain View, CA (multiple US))
+- Uber — Software Engineering Intern (Summer 2027, Uber Career Prep) (San Francisco, CA / Seattle, WA / Sunnyv)
+- Western Digital — Software Engineering Intern (Summer 2027) (San Jose, CA)
+- Chicago Trading Company — Quant Trading Intern (Summer 2027) (Chicago, IL)
+- Kearney & Company — IT Audit Intern (Summer 2027) 🇺🇸 (Alexandria, VA (remote))
+- Second Order Effects — Electrical Engineering Intern (Summer 2027) (El Segundo, CA / Redmond, WA)
+- The Trade Desk — Software Engineering Intern (North America, Summer 2027) (Denver, CO (multiple US))
+- Akuna Capital — Software Engineer Intern (Summer 2027, Python / C++ / Full Stack / C# .NET) (Chicago, IL)
+- Hudson River Trading — Software Engineering Intern (Summer 2027, C++ / Python) (New York, NY (multiple))
+- Arrowstreet Capital — Quantitative Researcher Intern (Boston, MA)
+- Arrowstreet Capital — Quantitative Developer Intern (Boston, MA)
+- Flow Traders — Quantitative Trading Intern (Summer 2027) (New York, NY)
+- Palantir — Software Engineer Intern (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Palantir — Software Engineer Intern, Infrastructure (Summer 2027, grad 2028) (New York, NY (multiple US))
+- Two Sigma — AI Research Scientist Intern (MS / PhD) (New York, NY)
+- Optiver — Quantitative Research Intern (PhD, Austin) (Austin, TX)
+- Two Sigma — Quantitative Researcher Intern (New York, NY)
+- Optiver — Software Engineer Intern (Austin) (Austin, TX)
+- Optiver — Software Engineer Intern (Chicago) (Chicago, IL)
+- Optiver — Quantitative Intern (Chicago, IL)
+- Susquehanna — Operations Intern (Summer 2027, June start) (Bala Cynwyd, PA)
+- GE Appliances — Software Engineering Co-op (Spring 2027) (Louisville, KY)
+- Midmark — Firmware Engineering Co-op (Spring 2027) (Versailles, OH)
+- Affinius Capital — Data Scientist Intern (San Antonio, TX)
+- Circleback — Software Engineering Intern (Summer 2027) 🛂 (San Francisco, CA)
+- GE Appliances — Digital Technology Intern (Spring 2027) (Louisville, KY)
+- D. E. Shaw — Software Developer Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (New York, NY)
+- D. E. Shaw — Quantitative Analyst Intern (PhD) (New York, NY)
+- TikTok — Applied Scientist Intern, Business Integrity (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization GenAI (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Applied Scientist Intern, Monetization Technology (PhD, 2027 Start) (San Jose, CA)
+- TikTok — Research Scientist Intern, E-commerce Recommendation LLM (PhD, 2027 Start) (San Jose, CA / Seattle, WA)
+- Citi — Services Summer Analyst (2027, grad Dec 2027 – May 2028) 🛂 (New York, NY)
+- Aquatic Capital — Software Engineer Intern (Summer 2027) (Chicago, IL)
+- Aquatic Capital — Quantitative Researcher Intern (Summer 2027) (Chicago, IL)
+- Ellipsis Labs — Software Engineer Intern (Summer 2027) (New York, NY)
+- BlackRock — Summer Internship Program, AMERS (all tracks) (New York, NY (multiple US))
+- JPMorganChase — Asset & Wealth Management Risk Summer Analyst (2027) 🛂 (Columbus, OH (multiple US))
+- D. E. Shaw — Systems Engineering Intern (New York, NY)
+- Susquehanna — Macro Analyst Intern (Summer 2027, June start) 🛂 (New York, NY)
+- Baird — Equity Research Analyst Intern 🛂 (Milwaukee, WI)
+- LufCo — Summer Intern (CS / Software / Engineering) 🇺🇸 (Aberdeen, MD)
+- CloudFit Software — Future Intern, Early Interest (Summer 2027, Software / AI/ML / Cyber) 🇺🇸 (Lynchburg, VA)
+
+Closed 3:
+
+- IMC Trading — Hardware Engineer Intern (Summer 2027) via tracker: sndsh404
+- Voloridge Investment Management — Quantitative Developer Intern (2027) via tracker: sndsh404
+- Skydio — Software Engineer Intern (Fall 2026 / Winter 2027) via tracker: sndsh404
+
+Trimmed 60 stale wide-net rows.
+
+## 2026-11-27
+
 Added 71:
 
 - Lucidmotors — Business Analyst Intern (Amsterdam, NH)
